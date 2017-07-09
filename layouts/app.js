@@ -5,11 +5,20 @@ import Cards from './cards';
 import Groups from './groups';
 
 export default class App extends React.Component {
+  state = {
+    currentGroup: "general"
+  };
+
+  onGroupChanged(newGroupString){
+    console.log(newGroupString);
+    this.setState({currentGroup: newGroupString});
+  }
+
   render() {
     return (
       <View style={styles.carrier}>
-        <Cards />
-        <Groups />
+        <Cards group={this.state.currentGroup}/>
+        <Groups changeGroup={this.onGroupChanged.bind(this)}/>
       </View>
     );
   }

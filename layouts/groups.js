@@ -2,18 +2,31 @@ import React from 'react';
 import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 import Card from '../components/card';
+import CardData from '../data/card.json';
 
 export default class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.groupCards = this.getGroupCards(CardData);
+  }
+
+  getGroupCards(cardData){
+    return cardData.filter(c => c.type === 'group');
+  }
+
+  changeGroup(toSlugString){
+    this.props.changeGroup(toSlugString);
+  }
+
   render() {
     return (
       <View style={styles.groupCarrier}>
         <ScrollView style={styles.groupScrollView}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {
+            this.groupCards.map((card, i) => (
+              <Card data={card} key={i} onPressFunc={this.changeGroup.bind(this)}/>
+            ))
+          }
         </ScrollView>
       </View>
     );
