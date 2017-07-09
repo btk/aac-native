@@ -1,0 +1,165 @@
+[
+  {
+    "type": "group",
+    "title": "General",
+    "slug": "general",
+    "parents": []
+  },
+  {
+    "type": "group",
+    "title": "Feelings",
+    "slug": "feelings",
+    "parents": []
+  },
+  {
+    "type": "group",
+    "title": "Chat",
+    "slug": "chat",
+    "parents": []
+  },
+  {
+    "type": "group",
+    "title": "Foods",
+    "slug": "foods",
+    "parents": []
+  },
+  {
+    "type": "group",
+    "title": "People",
+    "slug": "people",
+    "parents": []
+  },
+  {
+    "type": "group",
+    "title": "Activities",
+    "slug": "activities",
+    "parents": []
+  },
+  {
+    "type": "group",
+    "title": "School",
+    "slug": "school",
+    "parents": []
+  },
+  { "type": "card", "title": "I feel...", "slug": "boy", "parents": ["feelings"] },
+  { "type": "card", "title": "I want to eat...", "slug": "iwanttoeat", "parents": ["foods"] },
+  {
+    "type": "card",
+    "title": "Help Me",
+    "slug": "help",
+    "parents": ["general"]
+  },
+  {
+    "type": "card",
+    "title": "Hungry",
+    "slug": "hungry",
+    "parents": ["general", "foods"]
+  },
+  {
+    "type": "card",
+    "title": "Thirsty",
+    "slug": "thirsty",
+    "parents": ["general", "foods"]
+  },
+  {
+    "type": "card",
+    "title": "Toilet",
+    "slug": "toilet",
+    "parents": ["general"]
+  },
+  {
+    "type": "card",
+    "title": "What?",
+    "slug": "what",
+    "parents": ["general"]
+  },
+  {
+    "type": "card",
+    "title": "Yes",
+    "slug": "yes",
+    "parents": ["general"]
+  },
+  {
+    "type": "card",
+    "title": "No",
+    "slug": "no",
+    "parents": ["general"]
+  },
+  {
+    "type": "card",
+    "title": "Sleep",
+    "slug": "sleep",
+    "parents": ["general"]
+  },
+  {
+    "type": "card",
+    "title": "Bath",
+    "slug": "bath",
+    "parents": ["general"]
+  },
+  { "type": "card", "title": "Happy", "slug": "happy", "parents": ["feelings"] },
+  { "type": "card", "title": "Sad", "slug": "sad", "parents": ["feelings"] },
+  { "type": "card", "title": "Relaxed", "slug": "relaxed", "parents": ["feelings"] },
+  { "type": "card", "title": "In Love", "slug": "inlove", "parents": ["feelings"] },
+  { "type": "card", "title": "Stressed", "slug": "stressed", "parents": ["feelings"] },
+  { "type": "card", "title": "Thankful", "slug": "thankful", "parents": ["feelings"] },
+  { "type": "card", "title": "Confused", "slug": "confused", "parents": ["feelings"] },
+  { "type": "card", "title": "Joyful", "slug": "joyful", "parents": ["feelings"] },
+  { "type": "card", "title": "Angry", "slug": "angry", "parents": ["feelings"] },
+  { "type": "card", "title": "Smart", "slug": "smart", "parents": ["feelings"] },
+  { "type": "card", "title": "Afraid", "slug": "afraid", "parents": ["feelings"] },
+  { "type": "card", "title": "Ashamed", "slug": "ashamed", "parents": ["feelings"] },
+  { "type": "card", "title": "Shocked", "slug": "shocked", "parents": ["feelings"] },
+  { "type": "card", "title": "Sick", "slug": "sick", "parents": ["feelings"] },
+  { "type": "card", "title": "Frustrated", "slug": "frustrated", "parents": ["feelings"] },
+  { "type": "card", "title": "Apple", "slug": "apple", "parents": ["foods"] },
+  { "type": "card", "title": "Orange", "slug": "orange", "parents": ["foods"] },
+  { "type": "card", "title": "Utensils", "slug": "utensils", "parents": ["foods"] },
+  { "type": "card", "title": "Water", "slug": "water", "parents": ["foods"] },
+  { "type": "card", "title": "Tomato", "slug": "tomato", "parents": ["foods"] },
+  { "type": "card", "title": "Potato", "slug": "potato", "parents": ["foods"] },
+  { "type": "card", "title": "Steak", "slug": "steak", "parents": ["foods"] },
+  { "type": "card", "title": "Pizza", "slug": "pizza", "parents": ["foods"] },
+  { "type": "card", "title": "Hamburger", "slug": "hamburger", "parents": ["foods"] },
+  { "type": "card", "title": "Fries", "slug": "fries", "parents": ["foods"] },
+  { "type": "card", "title": "Ice Cream", "slug": "icecream", "parents": ["foods"] },
+  { "type": "card", "title": "Cookie", "slug": "cookie", "parents": ["foods"] },
+  { "type": "card", "title": "Cereal", "slug": "cereal", "parents": ["foods"] },
+  { "type": "card", "title": "Fried Egg", "slug": "friedegg", "parents": ["foods"] },
+  { "type": "card", "title": "Boiled Egg", "slug": "boiledegg", "parents": ["foods"] },
+  { "type": "card", "title": "Cheese", "slug": "cheese", "parents": ["foods"] },
+  { "type": "card", "title": "Chicken", "slug": "chicken", "parents": ["foods"] },
+  { "type": "card", "title": "Sandwich", "slug": "sandwich", "parents": ["foods"] },
+  { "type": "card", "title": "Salad", "slug": "salad", "parents": ["foods"] },
+  { "type": "card", "title": "Bread", "slug": "bread", "parents": ["foods"] },
+  { "type": "card", "title": "Carrot", "slug": "carrot", "parents": ["foods"] },
+  { "type": "card", "title": "Candy", "slug": "candy", "parents": ["foods"] },
+  { "type": "card", "title": "Cake", "slug": "cake", "parents": ["foods"] },
+  { "type": "card", "title": "Broccoli", "slug": "broccoli", "parents": ["foods"] },
+  { "type": "card", "title": "Cherries", "slug": "cherries", "parents": ["foods"] },
+  { "type": "card", "title": "Beans", "slug": "beans", "parents": ["foods"] },
+  { "type": "card", "title": "Banana", "slug": "banana", "parents": ["foods"] },
+  { "type": "card", "title": "Chocolate", "slug": "chocolate", "parents": ["foods"] },
+  { "type": "card", "title": "Coke", "slug": "coke", "parents": ["foods"] },
+  { "type": "card", "title": "Cupcake", "slug": "cupcake", "parents": ["foods"] },
+  { "type": "card", "title": "Doughnut", "slug": "doughnut", "parents": ["foods"] },
+  { "type": "card", "title": "Fish", "slug": "fish", "parents": ["foods"] },
+  { "type": "card", "title": "Sushi", "slug": "sushi", "parents": ["foods"] },
+  { "type": "card", "title": "Corn", "slug": "corn", "parents": ["foods"] },
+  { "type": "card", "title": "Lemon", "slug": "lemon", "parents": ["foods"] },
+  { "type": "card", "title": "Mustard", "slug": "mustard", "parents": ["foods"] },
+  { "type": "card", "title": "Peach", "slug": "peach", "parents": ["foods"] },
+  { "type": "card", "title": "Pineapple", "slug": "pineapple", "parents": ["foods"] },
+  { "type": "card", "title": "Raspberry", "slug": "raspberry", "parents": ["foods"] },
+  { "type": "card", "title": "Strawberry", "slug": "strawberry", "parents": ["foods"] },
+  { "type": "card", "title": "Watermelon", "slug": "watermelon", "parents": ["foods"] },
+  { "type": "card", "title": "Grapes", "slug": "grapes", "parents": ["foods"] },
+  { "type": "card", "title": "Avocado", "slug": "avocado", "parents": ["foods"] },
+  { "type": "card", "title": "Rice", "slug": "rice", "parents": ["foods"] },
+  { "type": "card", "title": "Spaguetti", "slug": "spaguetti", "parents": ["foods"] },
+  { "type": "card", "title": "Milk", "slug": "milk", "parents": ["foods"] },
+  { "type": "card", "title": "Tea", "slug": "tea", "parents": ["foods"] },
+  { "type": "card", "title": "Honey", "slug": "honey", "parents": ["foods"] },
+  { "type": "card", "title": "Kebab", "slug": "kebab", "parents": ["foods"] },
+  { "type": "card", "title": "Taco", "slug": "taco", "parents": ["foods"] },
+]
