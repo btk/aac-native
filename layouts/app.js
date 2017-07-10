@@ -1,13 +1,28 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, Dimensions } from 'react-native';
 
 import Cards from './cards';
 import Groups from './groups';
+import Announcer from '../components/announcer';
 
 export default class App extends React.Component {
-  state = {
-    currentGroup: "general"
-  };
+  constructor(props){
+    super(props);
+    this.state = {
+      currentGroup: "general",
+      gridSize: this.getGridSizeRelativeToDimension()
+    };
+    Dimensions.addEventListener("change", () => {
+      this.setState({
+        gridSize: this.getGridSizeRelativeToDimension()
+      });
+    });
+  }
+
+  getGridSizeRelativeToDimension(){
+    let { height, width } = Dimensions.get('window');
+    return (height > width)?3:5;
+  }
 
   onGroupChanged(newGroupString){
     console.log(newGroupString);
@@ -17,8 +32,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.carrier}>
-        <Cards group={this.state.currentGroup}/>
-        <Groups changeGroup={this.onGroupChanged.bind(this)}/>
+        <Cards group={this.state.currentGroup} gridSize={this.state.gridSize}/>
+        <Groups changeGroup={this.onGroupChanged.bind(this)} gridSize={this.state.gridSize}/>
+        <Announcer/>
       </View>
     );
   }

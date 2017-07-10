@@ -41,8 +41,6 @@
     "slug": "school",
     "parents": []
   },
-  { "type": "card", "title": "I feel...", "slug": "boy", "parents": ["feelings"] },
-  { "type": "card", "title": "I want to eat...", "slug": "iwanttoeat", "parents": ["foods"] },
   {
     "type": "card",
     "title": "Help Me",
