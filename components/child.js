@@ -20,7 +20,7 @@ export default class App extends React.Component {
   render() {
     return(
       <View style={styles.child}>
-        <Svg height={200} width={200} viewBox="0 0 465 465">
+        <Svg height={this.props.height} width={this.props.width} viewBox="0 0 465 465">
         	<Svg.Path fill={this.color.tanOpen} d="M388.628,437.023l-10.126-81.012c-1.529-12.228-9.943-22.492-21.633-26.389l-39.047-13.016
         		c-5.362-1.788-11.244-0.649-15.379,2.874l-11.502-3.834c-6.533-2.178-10.94-8.292-10.94-15.179v-25.802l34.461-14.359
         		C332.349,252.855,344,235.378,344,216v-8c13.255,0,24-10.745,24-24c0-5.979-2.191-11.443-5.808-15.645
@@ -63,6 +63,5 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   child: {
-    flex: 1
   }
 });
