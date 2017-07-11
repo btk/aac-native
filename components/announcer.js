@@ -4,6 +4,7 @@ let { height, width } = Dimensions.get('window');
 import Event from "../js/event";
 
 import Child from './child';
+import Card from './card';
 
 export default class App extends React.Component {
   constructor(props){
@@ -42,6 +43,28 @@ export default class App extends React.Component {
     ).start();
   }
 
+  renderInnerSpeech(data){
+    if(data.phrases){
+      let altArray = [];
+      let altData = data;
+      data.phrases.forEach((p, i) => {
+        altData.title = p.phrase;
+        altArray.push(<Card data={JSON.parse(JSON.stringify(altData))} key={i} size="big"/>);
+      });
+      return (
+        <View style={styles.speechInner}>
+          {altArray}
+        </View>
+      );
+    } else {
+      return (
+        <View style={styles.speechInner}>
+          <Card data={this.state.data} size="big"/>
+        </View>
+      )
+    }
+  }
+
   render() {
     const animationStyle = {
       transform: [{
@@ -75,9 +98,7 @@ export default class App extends React.Component {
                      />
             </View>
             <View style={[styles.speechCarrier, portraitStyle.speechCarrier]}>
-              <View style={styles.speechInner}>
-                <Text>{`I want to eat ${this.state.data.title}`}</Text>
-              </View>
+              {this.renderInnerSpeech(this.state.data)}
             </View>
           </Animated.View>
         </Animated.View>
@@ -95,7 +116,7 @@ const styles = StyleSheet.create({
     left: 0,
     height: "100%",
     width: "100%",
-    backgroundColor: "rgba(108,189,200,0.5)",
+    backgroundColor: "rgba(108,189,200,0.75)",
   },
   announcerInner: {
     flex: 1,
@@ -116,11 +137,13 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   speechInner: {
-    borderWidth: 1,
-    borderColor: "#ddd",
     borderRadius: 10,
     width: "90%",
     height: "90%",
-    backgroundColor: "#fff"
+    alignItems: "center",
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    backgroundColor: "#fafafa"
   }
 });

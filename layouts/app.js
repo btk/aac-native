@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Dimensions } from 'react-native';
+import { StyleSheet, View, Dimensions, Image } from 'react-native';
 
 import Cards from './cards';
 import Groups from './groups';
@@ -44,5 +44,5 @@ const styles = StyleSheet.create({
   carrier: {
     flex: 1,
     flexDirection: 'row'
-  },
+  }
 });

@@ -47,7 +47,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   groupCarrier: {
     height: "100%",
-    backgroundColor: "#fafafa",
+    backgroundColor: "#fff",
     borderLeftWidth: 1,
     borderLeftColor: "#f1f1f1"
   },

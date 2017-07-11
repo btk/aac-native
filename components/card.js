@@ -32,8 +32,10 @@ export default class App extends React.Component {
       let { height, width } = Dimensions.get('window');
       let gridSize = (height > width)?3:5;
 
+      let ordinaryStyle = {width: width / gridSize, height: width / (gridSize + 1.5)};
+      let bigStyle = { width: "50%", height: "50%"};
       return (
-        <View style={styles.card} style={{width: width / gridSize, height: width / (gridSize + 1.5)}}>
+        <View style={styles.card} style={(this.props.size == "big")?bigStyle:ordinaryStyle}>
           <TouchableOpacity style={styles.toStyle} onPress={this.cardPressed.bind(this)}>
             <View style={styles.cardInner}>
               <View style={styles.cardImageCarrier}>
@@ -64,7 +66,7 @@ const styles = StyleSheet.create({
   cardInner: {
     height: "95%",
     width: "95%",
-    backgroundColor: "#fafafa",
+    backgroundColor: "#fff",
     borderRadius: 10,
     borderWidth: 1,
     borderColor: "#eee",

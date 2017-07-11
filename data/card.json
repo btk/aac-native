@@ -45,55 +45,100 @@
     "type": "card",
     "title": "Help Me",
     "slug": "help",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "Can you help me?"},
+      {"symbol": "hand", "phrase": "Can I help you?"}
+    ]
   },
   {
     "type": "card",
     "title": "Hungry",
     "slug": "hungry",
-    "parents": ["general", "foods"]
+    "parents": ["general", "foods"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "I'm hungry!"},
+      {"symbol": "hand", "phrase": "Are you hungry?"},
+      {"symbol": "hand", "phrase": "Can you prepare me food?"}
+    ]
   },
   {
     "type": "card",
     "title": "Thirsty",
     "slug": "thirsty",
-    "parents": ["general", "foods"]
+    "parents": ["general", "foods"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "I'm thirsty!"},
+      {"symbol": "hand", "phrase": "Are you thirsty?"},
+      {"symbol": "hand", "phrase": "Can you give me water?"},
+      {"symbol": "hand", "phrase": "I want something to drink!"}
+    ]
   },
   {
     "type": "card",
     "title": "Toilet",
     "slug": "toilet",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "I need to use the toilet!"},
+      {"symbol": "hand", "phrase": "Can you take me to toilet"},
+      {"symbol": "hand", "phrase": "I need to poo"},
+      {"symbol": "hand", "phrase": "I need to pee"}
+    ]
   },
   {
     "type": "card",
     "title": "What?",
     "slug": "what",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "What do you mean?"},
+      {"symbol": "hand", "phrase": "Whot does that mean?"}
+    ]
   },
   {
     "type": "card",
     "title": "Yes",
     "slug": "yes",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "OK!"},
+      {"symbol": "hand", "phrase": "Alright"},
+      {"symbol": "hand", "phrase": "I agree!"},
+      {"symbol": "hand", "phrase": "Right"}
+    ]
   },
   {
     "type": "card",
     "title": "No",
     "slug": "no",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "Nope!"},
+      {"symbol": "hand", "phrase": "Negative"},
+      {"symbol": "hand", "phrase": "I don't agree!"},
+      {"symbol": "hand", "phrase": "Wrong"}
+    ]
   },
   {
     "type": "card",
     "title": "Sleep",
     "slug": "sleep",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "I need to sleep"},
+      {"symbol": "hand", "phrase": "I want to sleep"}
+    ]
   },
   {
     "type": "card",
     "title": "Bath",
     "slug": "bath",
-    "parents": ["general"]
+    "parents": ["general"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "I want to take a bath"},
+      {"symbol": "hand", "phrase": "Help me take a shower"}
+    ]
   },
   { "type": "card", "title": "Happy", "slug": "happy", "parents": ["feelings"] },
   { "type": "card", "title": "Sad", "slug": "sad", "parents": ["feelings"] },
