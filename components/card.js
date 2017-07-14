@@ -32,7 +32,7 @@ export default class App extends React.Component {
       let { height, width } = Dimensions.get('window');
       let gridSize = (height > width)?3:5;
 
-      let ordinaryStyle = {width: width / gridSize, height: width / (gridSize + 1)};
+      let ordinaryStyle = { width: width / gridSize, height: width / (gridSize + 1) };
       let bigStyle = { width: "50%", height: "50%"};
       let xxlStyle = { width: "100%", height: "100%"};
       let innerStyle = {};

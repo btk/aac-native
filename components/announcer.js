@@ -57,10 +57,10 @@ export default class App extends React.Component {
     }
     if(data.phrases.length > 1){
       let altArray = [];
-      let altData = data;
+      let altData = JSON.parse(JSON.stringify(data));
       data.phrases.forEach((p, i) => {
         altData.title = p.phrase;
-        altArray.push(<Card data={JSON.parse(JSON.stringify(altData))} key={i} size="big"/>);
+        altArray.push(<Card data={JSON.parse(JSON.stringify(altData))} key={i + altData.title + "big"} size="big"/>);
       });
       return (
         <View style={styles.speechInner}>
@@ -71,7 +71,7 @@ export default class App extends React.Component {
         </View>
       );
     } else {
-      let altData = this.state.data;
+      let altData = JSON.parse(JSON.stringify(data));
       if(altData.phrases[0]){
         altData.title = altData.phrases[0].phrase;
       }
