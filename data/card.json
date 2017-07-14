@@ -3,43 +3,50 @@
     "type": "group",
     "title": "General",
     "slug": "general",
-    "parents": []
-  },
-  {
-    "type": "group",
-    "title": "Feelings",
-    "slug": "feelings",
-    "parents": []
+    "parents": [],
+    "color": "#93B4DB"
   },
   {
     "type": "group",
     "title": "Chat",
     "slug": "chat",
-    "parents": []
+    "parents": [],
+    "color": "#8CC7D9"
   },
   {
     "type": "group",
     "title": "Foods",
     "slug": "foods",
-    "parents": []
+    "parents": [],
+    "color": "#9B8EC3"
+  },
+  {
+    "type": "group",
+    "title": "Feelings",
+    "slug": "feelings",
+    "parents": [],
+    "color": "#CC99C4"
   },
   {
     "type": "group",
     "title": "People",
     "slug": "people",
-    "parents": []
+    "parents": [],
+    "color": "#C7CC99"
   },
   {
     "type": "group",
     "title": "Activities",
     "slug": "activities",
-    "parents": []
+    "parents": [],
+    "color": "#99CCA1"
   },
   {
     "type": "group",
     "title": "School",
     "slug": "school",
-    "parents": []
+    "parents": [],
+    "color": "#99CBCC"
   },
   {
     "type": "card",
@@ -140,7 +147,11 @@
       {"symbol": "hand", "phrase": "Help me take a shower"}
     ]
   },
-  { "type": "card", "title": "Happy", "slug": "happy", "parents": ["feelings"] },
+  { "type": "card", "title": "Happy", "slug": "happy", "parents": ["feelings"],
+    "phrases": [
+      {"symbol": "hand", "phrase": "I feel happy"}
+    ]
+  },
   { "type": "card", "title": "Sad", "slug": "sad", "parents": ["feelings"] },
   { "type": "card", "title": "Relaxed", "slug": "relaxed", "parents": ["feelings"] },
   { "type": "card", "title": "In Love", "slug": "inlove", "parents": ["feelings"] },

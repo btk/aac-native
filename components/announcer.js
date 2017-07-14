@@ -44,7 +44,10 @@ export default class App extends React.Component {
   }
 
   renderInnerSpeech(data){
-    if(data.phrases){
+    if(!data.phrases){
+      data.phrases = [];
+    }
+    if(data.phrases.length > 1){
       let altArray = [];
       let altData = data;
       data.phrases.forEach((p, i) => {
@@ -53,13 +56,20 @@ export default class App extends React.Component {
       });
       return (
         <View style={styles.speechInner}>
-          {altArray}
+          <Text style={styles.speechInnerText}>Choose One!</Text>
+          <View style={styles.speechInnerInner}>
+            {altArray}
+          </View>
         </View>
       );
     } else {
+      let altData = this.state.data;
+      if(altData.phrases[0]){
+        altData.title = altData.phrases[0].phrase;
+      }
       return (
         <View style={styles.speechInner}>
-          <Card data={this.state.data} size="big"/>
+          <Card data={altData} size="xxl"/>
         </View>
       )
     }
@@ -140,10 +150,20 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: "90%",
     height: "90%",
+    backgroundColor: "#fafafa"
+  },
+  speechInnerText: {
+    margin:10,
+    textAlign: "center",
+    fontSize: 25,
+    color: "#666"
+  },
+  speechInnerInner: {
+    flex: 1,
+    backgroundColor: "transparent",
     alignItems: "center",
     flexDirection: "row",
     flexWrap: "wrap",
-    justifyContent: "center",
-    backgroundColor: "#fafafa"
+    justifyContent: "center"
   }
 });

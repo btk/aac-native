@@ -32,19 +32,26 @@ export default class App extends React.Component {
       let { height, width } = Dimensions.get('window');
       let gridSize = (height > width)?3:5;
 
-      let ordinaryStyle = {width: width / gridSize, height: width / (gridSize + 1.5)};
+      let ordinaryStyle = {width: width / gridSize, height: width / (gridSize + 1)};
       let bigStyle = { width: "50%", height: "50%"};
+      let xxlStyle = { width: "100%", height: "100%"};
+      let innerStyle = {};
+      let innerStyleText = {};
+      if(this.data.color){
+        innerStyle = { backgroundColor: this.data.color, borderWidth: 0 };
+        innerStyleText = { color: "#fff", fontWeight: "bold" };
+      }
       return (
-        <View style={styles.card} style={(this.props.size == "big")?bigStyle:ordinaryStyle}>
+        <View style={(this.props.size == "big")?bigStyle:(this.props.size == "xxl")?xxlStyle:ordinaryStyle}>
           <TouchableOpacity style={styles.toStyle} onPress={this.cardPressed.bind(this)}>
-            <View style={styles.cardInner}>
+            <View style={[styles.cardInner, innerStyle]}>
               <View style={styles.cardImageCarrier}>
                 { !this.state.loading &&
                   <Image source={Assets[this.data.slug]} style={styles.cardImage}/>
                 }
               </View>
               <View style={styles.cardTextCarrier}>
-                <Text style={styles.cardText}>{this.data.title}</Text>
+                <Text style={[styles.cardText, innerStyleText]}>{this.data.title}</Text>
               </View>
             </View>
           </TouchableOpacity>
@@ -80,7 +87,7 @@ const styles = StyleSheet.create({
   },
   cardText: {
     textAlign: "center",
-    color: "#555",
+    color: "#555"
   },
   cardImageCarrier: {
     width: "100%",
