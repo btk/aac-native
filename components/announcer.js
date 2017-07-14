@@ -4,6 +4,7 @@ let { height, width } = Dimensions.get('window');
 import Event from "../js/event";
 
 import Child from './child';
+import AnnouncerButton from './announcerButton';
 import Card from './card';
 
 export default class App extends React.Component {
@@ -29,6 +30,13 @@ export default class App extends React.Component {
   getOrientation(){
     let { height, width } = Dimensions.get('window');
     return (height > width)?"portrait":"landscape";
+  }
+
+  back(){
+    this.animateAnnouncer(0);
+    setTimeout(() => {
+      this.setState({data: null});
+    }, 300);
   }
 
   animateAnnouncer(toVal){
@@ -89,7 +97,7 @@ export default class App extends React.Component {
     if(this.state.orientation == "portrait"){
       portraitStyle = {
         inner: { flexDirection: "column-reverse" },
-        childCarrier: { width: "100%", height: "30%"},
+        childCarrier: { width: "100%", height: "30%", flexDirection: "row"},
         speechCarrier: { width: "100%", height: "70%"}
       };
     }
@@ -99,13 +107,15 @@ export default class App extends React.Component {
         <Animated.View style={[styles.announcer, {opacity: this.state.animation}]}>
           <Animated.View style={[styles.announcerInner, animationStyle, portraitStyle.inner]}>
             <View style={[styles.childCarrier, portraitStyle.childCarrier]}>
-              <Child width={((width<height)?width:height) * 0.5}
-                     height={((width<height)?width:height) * 0.5}
+              <AnnouncerButton type="back" onPressFunc={this.back.bind(this)}/>
+              <Child width={((width<height)?width:height) * 0.4}
+                     height={((width<height)?width:height) * 0.4}
                      tan="#FFE1B2"
                      hair="#734A3E"
                      eye="#623F33"
                      shirt="#a94f4f"
                      />
+               <AnnouncerButton type="settings" onPressFunc={this.back.bind(this)}/>
             </View>
             <View style={[styles.speechCarrier, portraitStyle.speechCarrier]}>
               {this.renderInnerSpeech(this.state.data)}
@@ -137,8 +147,9 @@ const styles = StyleSheet.create({
   childCarrier: {
     height: "100%",
     width: "30%",
+    flexDirection: "column",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "space-around"
   },
   speechCarrier: {
     height: "100%",
