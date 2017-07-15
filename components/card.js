@@ -23,6 +23,9 @@ export default class App extends React.Component {
     if(this.props.onPressFunc){
       this.props.onPressFunc(this.data.slug);
     }else{
+      if(this.props.size == "big"){
+        this.data.phrases = this.data.phrases.filter(p => (p.phrase == this.data.title));
+      }
       Event.emit("announce", this.data);
     }
   }
@@ -74,7 +77,7 @@ const styles = StyleSheet.create({
     height: "95%",
     width: "95%",
     backgroundColor: "#fff",
-    borderRadius: 10,
+    borderRadius: 5,
     borderWidth: 1,
     borderColor: "#eee",
     alignItems: "center",

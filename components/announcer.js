@@ -5,6 +5,7 @@ import Event from "../js/event";
 
 import Child from './child';
 import AnnouncerButton from './announcerButton';
+import Speaking from './speaking';
 import Card from './card';
 
 export default class App extends React.Component {
@@ -77,7 +78,7 @@ export default class App extends React.Component {
       }
       return (
         <View style={styles.speechInner}>
-          <Card data={altData} size="xxl"/>
+          <Speaking data={altData} key={altData.slug}/>
         </View>
       )
     }
