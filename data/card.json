@@ -1809,5 +1809,229 @@
 				"phrase": "I like eating taco"
 			}
 		]
+	},
+	{
+		"type": "card",
+		"title": "Mother",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my mother"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my mother"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Father",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my father"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my father"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Parents",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my parents"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my parents"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Grandparents",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my grandparents"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my grandparents"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brother",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my brother"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my brother"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sister",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my sister"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my sister"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Uncle",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my uncle"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my uncle"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Aunt",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my aunt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my aunt"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Teacher",
+		"slug": "teacher",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my teacher"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my teacher"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Therapist",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my therapist"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my therapist"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doctor",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my doctor"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my doctor"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Friends",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I love my friends"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I don't like my friends"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to see my friends"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to talk to my friends"
+			}
+		]
 	}
 ]

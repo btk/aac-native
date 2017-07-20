@@ -13,7 +13,7 @@ export default class App extends React.Component {
       return (
         <View style={styles.speaking}>
           <Image source={Assets[this.props.data.slug]} style={styles.cardImage}/>
-          <Text>{this.props.data.title}</Text>
+          <Text style={styles.cardText}>{this.props.data.title}</Text>
         </View>
       );
     }else{
@@ -24,11 +24,19 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   speaking: {
-    flex: 1
+    flex: 1,
+    flexDirection: "column",
+    justifyContent: "space-around",
+    alignItems: "center"
   },
   cardImage: {
-    width: "50%",
-    height: "50%",
-    resizeMode: 'contain'
+    width: "70%",
+    height: "70%",
+    resizeMode: 'contain',
+    padding: "5%"
+  },
+  cardText: {
+    fontSize: 25,
+    color: "#555"
   }
 });
