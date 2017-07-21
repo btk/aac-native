@@ -2220,5 +2220,133 @@
 				"phrase": "Can you help my homework"
 			}
 		]
+	},
+	{
+		"type": "card",
+		"title": "Walking",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Running",
+		"slug": "running",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Talking",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Reading",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fooball",
+		"slug": "football",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Basketball",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Swimming",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tennis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cycling",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Skating",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sightseeing",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tidying",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toys",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puzzle",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Comics",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chess",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		]
 	}
 ]
