@@ -1959,7 +1959,8 @@
 		"title": "Teacher",
 		"slug": "teacher",
 		"parents": [
-			"people"
+			"people",
+			"school"
 		],
 		"phrases": [
 			{
@@ -2031,6 +2032,192 @@
 			{
 				"symbol": "hand",
 				"phrase": "I want to talk to my friends"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hello",
+		"slug": "hello",
+		"parents": [
+			"chat"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Book",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I'm reading my book"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you give my book"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Notebook",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I'm taking notes to my notebook"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you give my notebook"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pencil",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I'm writing with my pencil"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you give my pencil"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Blackboard",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lesson",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Quiet",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I need to be quiet in lesson"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "You need to be quiet in lesson"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mathematics",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like mathematics"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to learn mathematics"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Literature",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like literature"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I want to learn literature"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Question",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I have a question"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can I ask a question"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Understand",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I don't understand"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you explain it?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Homework",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I need to do my homework"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you help my homework"
 			}
 		]
 	}
