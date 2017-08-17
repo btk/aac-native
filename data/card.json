@@ -286,6 +286,24 @@
 	},
 	{
 		"type": "card",
+		"title": "Exhausted",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I feel exhausted"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Do you feel exhausted"
+			}
+		]
+	},
+	{
+		"type": "card",
 		"title": "Relaxed",
 		"slug": "relaxed",
 		"parents": [
@@ -2227,6 +2245,16 @@
 		"slug": "walking",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Let's walk around"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can we go to walking?"
+			}
 		]
 	},
 	{
@@ -2235,6 +2263,16 @@
 		"slug": "running",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like running"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you go to running"
+			}
 		]
 	},
 	{
@@ -2243,6 +2281,16 @@
 		"slug": "talking",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like talking"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you talk?"
+			}
 		]
 	},
 	{
@@ -2251,6 +2299,16 @@
 		"slug": "reading",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like reading."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you like reading?"
+			}
 		]
 	},
 	{
@@ -2259,6 +2317,16 @@
 		"slug": "football",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like playing football"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Let's play football"
+			}
 		]
 	},
 	{
@@ -2267,14 +2335,34 @@
 		"slug": "basketball",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like playing basketball"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Let's play basketball"
+			}
 		]
-	},,
+	},
 	{
 		"type": "card",
 		"title": "Swimming",
 		"slug": "swimming",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like swimming"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you go to swimming"
+			}
 		]
 	},
 	{
@@ -2283,6 +2371,16 @@
 		"slug": "tennis",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like playing tennis"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can we play tennis together?"
+			}
 		]
 	},
 	{
@@ -2291,6 +2389,16 @@
 		"slug": "cycling",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like cycling"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can we cycle bike together?"
+			}
 		]
 	},
 	{
@@ -2299,6 +2407,16 @@
 		"slug": "skating",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like skating"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Do you want to skate with me?"
+			}
 		]
 	},
 	{
@@ -2307,6 +2425,16 @@
 		"slug": "sightseeing",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like sightseeing"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can we go sightseeing together"
+			}
 		]
 	},
 	{
@@ -2315,6 +2443,16 @@
 		"slug": "tidying",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like tidying my room"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you help me tidy my room"
+			}
 		]
 	},
 	{
@@ -2323,6 +2461,16 @@
 		"slug": "toys",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like playing with my toys"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you help my homework"
+			}
 		]
 	},
 	{
@@ -2331,6 +2479,16 @@
 		"slug": "puzzle",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like solving puzzles"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Do you want to solve puzzle together?"
+			}
 		]
 	},
 	{
@@ -2339,6 +2497,16 @@
 		"slug": "comics",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like reading comic books"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Do you want to read comics with me?"
+			}
 		]
 	},
 	{
@@ -2347,6 +2515,16 @@
 		"slug": "chess",
 		"parents": [
 			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like reading playing chess"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Do you want to play chess with me?"
+			}
 		]
 	}
 ]
