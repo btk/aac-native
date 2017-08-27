@@ -19,8 +19,9 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^18.0.3",
+    "expo": "^20.0.0",
     "react": "16.0.0-alpha.12",
-    "react-native": "^0.45.1"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-20.0.0.tar.gz",
+    "react-native-sync-storage": "^1.0.0"
   }
 }

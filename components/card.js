@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity } from 'rea
 import Event from "../js/event";
 
 import Assets from '../js/assets';
+import Settings from '../js/settings';
+import { Speech } from 'expo';
 
 export default class App extends React.Component {
   constructor(props){
@@ -19,13 +21,18 @@ export default class App extends React.Component {
     }, 100);
   }
 
-  cardPressed(){
+  async cardPressed(){
     if(this.props.onPressFunc){
       this.props.onPressFunc(this.data.slug);
     }else{
       if(this.props.size == "big"){
         this.data.phrases = this.data.phrases.filter(p => (p.phrase == this.data.title));
       }
+      let language = await Settings.getOption("language");
+      let country = await Settings.getOption("country");
+      let speechCode = language +"-"+ country;
+      console.log(speechCode);
+      Speech.speak(this.data.title, {language: speechCode});
       Event.emit("announce", this.data);
     }
   }
