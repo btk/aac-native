@@ -1,5 +1,13 @@
 {
   "expo": {
-    "sdkVersion": "20.0.0"
+    "name": "Leeloo AAC",
+    "slug": "leeloo",
+    "sdkVersion": "20.0.0",
+    "privacy": "public",
+    "version": "1.0.0",
+    "loading": {
+      "icon": "assets/splash.png",
+      "backgroundColor": "#ffffff"
+    }
   }
 }
