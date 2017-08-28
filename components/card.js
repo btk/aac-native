@@ -40,16 +40,18 @@ export default class App extends React.Component {
   render() {
     if(this.data){
       let { height, width } = Dimensions.get('window');
+      let wideDimention = (height > width)?height:width;
       let gridSize = (height > width)?3:5;
+      let cardFontSize = wideDimention * 0.022;
 
       let ordinaryStyle = { width: width / gridSize, height: width / (gridSize + 1) };
       let bigStyle = { width: "50%", height: "50%"};
       let xxlStyle = { width: "100%", height: "100%"};
       let innerStyle = {};
-      let innerStyleText = {};
+      let innerStyleText = { fontSize: cardFontSize };
       if(this.data.color){
         innerStyle = { backgroundColor: this.data.color, borderWidth: 0 };
-        innerStyleText = { color: "#fff", fontWeight: "bold" };
+        innerStyleText = { fontSize: cardFontSize, color: "#fff", fontWeight: "bold" };
       }
       return (
         <View style={(this.props.size == "big")?bigStyle:(this.props.size == "xxl")?xxlStyle:ordinaryStyle}>

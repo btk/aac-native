@@ -8,8 +8,8 @@
 	},
 	{
 		"type": "group",
-		"title": "Chat",
-		"slug": "chat",
+		"title": "People",
+		"slug": "people",
 		"parents": [],
 		"color": "#8CC7D9"
 	},
@@ -29,13 +29,6 @@
 	},
 	{
 		"type": "group",
-		"title": "People",
-		"slug": "people",
-		"parents": [],
-		"color": "#C7CC99"
-	},
-	{
-		"type": "group",
 		"title": "Activities",
 		"slug": "activities",
 		"parents": [],
@@ -47,6 +40,13 @@
 		"slug": "school",
 		"parents": [],
 		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Numbers",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
 	},
 	{
 		"type": "card",
@@ -214,6 +214,14 @@
 	},
 	{
 		"type": "card",
+		"title": "Hello",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
 		"title": "Sleep",
 		"slug": "sleep",
 		"parents": [
@@ -245,6 +253,122 @@
 			{
 				"symbol": "hand",
 				"phrase": "Help me take a shower"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Morning",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Good morning"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "In the morning"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Night",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Good night"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "At night"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Listen",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Listen to me"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I'm listening to you"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Outside",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I want to go outside"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you take me outside?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Clothes",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Wearing clothes"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "My clothes are dirty"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you give me clothes to wear?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can you help me wear clothes?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Home",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I want to go home"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I love my home"
 			}
 		]
 	},
@@ -2055,14 +2179,6 @@
 	},
 	{
 		"type": "card",
-		"title": "Hello",
-		"slug": "hello",
-		"parents": [
-			"chat"
-		]
-	},
-	{
-		"type": "card",
 		"title": "Book",
 		"slug": "book",
 		"parents": [
@@ -2439,6 +2555,24 @@
 	},
 	{
 		"type": "card",
+		"title": "Video Games",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I like playing video games"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Can I play video games?"
+			}
+		]
+	},
+	{
+		"type": "card",
 		"title": "Tidying",
 		"slug": "tidying",
 		"parents": [
@@ -2525,6 +2659,158 @@
 				"symbol": "hand",
 				"phrase": "Do you want to play chess with me?"
 			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "One",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Two",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Three",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Four",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Five",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Six",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Seven",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Eight",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nine",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ten",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Twenty",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thirty",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Forty",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fifty",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sixty",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Seventy",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ninety",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hundred",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Calculator",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
 		]
 	}
 ]
