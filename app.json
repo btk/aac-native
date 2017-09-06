@@ -6,10 +6,16 @@
     "version": "1.0.3",
     "sdkVersion": "20.0.0",
     "privacy": "public",
-    "version": "1.0.0",
     "loading": {
       "icon": "assets/splash.png",
       "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "org.dreamoriented.leeloo"
+    },
+    "android": {
+      "package": "org.dreamoriented.leeloo",
+      "permissions": ["READ_EXTERNAL_STORAGE", "READ_INTERNAL_STORAGE", "WAKE_LOCK", "WRITE_EXTERNAL_STORAGE"]
     }
   }
 }
