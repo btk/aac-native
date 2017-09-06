@@ -870,19 +870,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat hamburgerfries"
+				"phrase": "I want to eat hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat hamburgerfries"
+				"phrase": "I don't want to eat hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat hamburgerfries"
+				"phrase": "Do you want to eat hamburger"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating hamburgerfries"
+				"phrase": "I like eating hamburger"
 			}
 		]
 	},
@@ -1390,19 +1390,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat coke"
+				"phrase": "I want to drink coke"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat coke"
+				"phrase": "I don't want to drink coke"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat coke"
+				"phrase": "Do you want to drink coke"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating coke"
+				"phrase": "I like drinking coke"
 			}
 		]
 	},
@@ -1844,7 +1844,7 @@
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drink milk"
+				"phrase": "I like drinking milk"
 			}
 		]
 	},
@@ -2603,7 +2603,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help my homework"
+				"phrase": "Do you want to play with my toys"
 			}
 		]
 	},

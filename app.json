@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "Leeloo AAC",
+    "name": "Leeloo",
     "slug": "leeloo",
+    "icon": "./assets/app-icon.png",
+    "version": "1.0.3",
     "sdkVersion": "20.0.0",
     "privacy": "public",
     "version": "1.0.0",
