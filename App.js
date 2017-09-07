@@ -8,7 +8,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.generalContainer}>
         <StatusBar hidden={true}/>
-        <Layout language={"en"}/>
+        <Layout language={"tr"}/>
       </View>
     );
   }

@@ -2,12 +2,11 @@ import React from 'react';
 import { StyleSheet, View, ScrollView, Dimensions } from 'react-native';
 
 import Card from '../components/card';
-import CardData from '../data/card.json';
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
-    this.groupCards = this.getGroupCards(CardData);
+    this.groupCards = this.getGroupCards(props.localizedCardData);
     this.state = {
       gridSize: this.props.gridSize
     };

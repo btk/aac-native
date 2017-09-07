@@ -3,14 +3,12 @@ import { StyleSheet, Text, View, ScrollView, Dimensions } from 'react-native';
 
 import Card from '../components/card';
 
-import CardData from '../data/card.json';
-
 export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
       group: this.props.group,
-      cardData: CardData.filter(c => c.parents.includes(this.props.group)),
+      cardData: props.localizedCardData.filter(c => c.parents.includes(this.props.group)),
       gridSize: this.props.gridSize,
       loading: true,
     }
@@ -20,7 +18,7 @@ export default class App extends React.Component {
     if(newProps.group != this.state.group){
       this.setState({
         group: newProps.group,
-        cardData: CardData.filter(c => c.parents.includes(newProps.group)),
+        cardData: newProps.localizedCardData.filter(c => c.parents.includes(newProps.group)),
         loading: true
       });
       setTimeout(() => {

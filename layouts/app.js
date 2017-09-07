@@ -4,19 +4,31 @@ import { StyleSheet, View, Dimensions, Image } from 'react-native';
 import Cards from './cards';
 import Groups from './groups';
 import Announcer from '../components/announcer';
+import CardArrayLanguage from '../js/language';
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
       currentGroup: "general",
-      gridSize: this.getGridSizeRelativeToDimension()
+      gridSize: this.getGridSizeRelativeToDimension(),
+      localizedCardData: this.getLocalizedCardData(props.language)
     };
     Dimensions.addEventListener("change", () => {
       this.setState({
         gridSize: this.getGridSizeRelativeToDimension()
       });
     });
+  }
+
+  componentWillReceiveProps(newProp){
+    this.setState({
+      localizedCardData: this.getLocalizedCardData(newProp.language)
+    });
+  }
+
+  getLocalizedCardData(lang){
+    return CardArrayLanguage[lang];
   }
 
   getGridSizeRelativeToDimension(){
@@ -32,8 +44,14 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.carrier}>
-        <Cards group={this.state.currentGroup} gridSize={this.state.gridSize}/>
-        <Groups changeGroup={this.onGroupChanged.bind(this)} gridSize={this.state.gridSize}/>
+        <Cards
+          group={this.state.currentGroup}
+          gridSize={this.state.gridSize}
+          localizedCardData={this.state.localizedCardData}/>
+        <Groups
+          changeGroup={this.onGroupChanged.bind(this)}
+          gridSize={this.state.gridSize}
+          localizedCardData={this.state.localizedCardData}/>
         <Announcer/>
       </View>
     );
