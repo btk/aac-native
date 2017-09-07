@@ -1,56 +1,56 @@
 [
 	{
 		"type": "group",
-		"title": "General",
+		"title": "Genel",
 		"slug": "general",
 		"parents": [],
 		"color": "#93B4DB"
 	},
 	{
 		"type": "group",
-		"title": "People",
+		"title": "İnsanlar",
 		"slug": "people",
 		"parents": [],
 		"color": "#8CC7D9"
 	},
 	{
 		"type": "group",
-		"title": "Foods",
+		"title": "Yiyecekler",
 		"slug": "foods",
 		"parents": [],
 		"color": "#9B8EC3"
 	},
 	{
 		"type": "group",
-		"title": "Feelings",
+		"title": "Duygular",
 		"slug": "feelings",
 		"parents": [],
 		"color": "#CC99C4"
 	},
 	{
 		"type": "group",
-		"title": "Activities",
+		"title": "Aktiviteler",
 		"slug": "activities",
 		"parents": [],
 		"color": "#99CCA1"
 	},
 	{
 		"type": "group",
-		"title": "School",
+		"title": "Okul",
 		"slug": "school",
 		"parents": [],
 		"color": "#99CBCC"
 	},
 	{
 		"type": "group",
-		"title": "Numbers",
+		"title": "Numaralar",
 		"slug": "numbers",
 		"parents": [],
 		"color": "#ccc899"
 	},
 	{
 		"type": "card",
-		"title": "Help Me",
+		"title": "Yardım",
 		"slug": "help",
 		"parents": [
 			"general"
@@ -58,17 +58,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me?"
+				"phrase": "Bana yardım eder misin?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I help you?"
+				"phrase": "Sana yardım edebilir miyim?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hungry",
+		"title": "Aç",
 		"slug": "hungry",
 		"parents": [
 			"general",
@@ -77,21 +77,21 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm hungry!"
+				"phrase": "Acıktım!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Are you hungry?"
+				"phrase": "Aç mısın?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you prepare me food?"
+				"phrase": "Bana yemek hazırlayabilir misin?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Thirsty",
+		"title": "Susadım",
 		"slug": "thirsty",
 		"parents": [
 			"general",
@@ -100,25 +100,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm thirsty!"
+				"phrase": "Susadım!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Are you thirsty?"
+				"phrase": "Susadın mı?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me water?"
+				"phrase": "Bana su verebilir misin?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want something to drink!"
+				"phrase": "İçecek bir şeyler istiyorum!"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Toilet",
+		"title": "Tuvalet",
 		"slug": "toilet",
 		"parents": [
 			"general"
@@ -126,25 +126,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to use the toilet!"
+				"phrase": "Tuvalete gitmem gerekiyor!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me to toilet"
+				"phrase": "Tuvaletimi yapmama yardım eder misin?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need to poo"
+				"phrase": "Kaka yapmam lazım"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need to pee"
+				"phrase": "Çiş yapmam lazım"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "What?",
+		"title": "Ne?",
 		"slug": "what",
 		"parents": [
 			"general"
@@ -152,17 +152,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "What do you mean?"
+				"phrase": "Ne demeye çalışıyorsun?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "What does that mean?"
+				"phrase": "O ne demek?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Yes",
+		"title": "Evet",
 		"slug": "yes",
 		"parents": [
 			"general"
@@ -170,25 +170,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "OK!"
+				"phrase": "Tamam!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Alright"
+				"phrase": "Peki"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I agree!"
+				"phrase": "Olur!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Right"
+				"phrase": "Doğru"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "No",
+		"title": "Hayır",
 		"slug": "no",
 		"parents": [
 			"general"
@@ -196,25 +196,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Nope!"
+				"phrase": "Hayır!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Negative"
+				"phrase": "Negatif"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't agree!"
+				"phrase": "Onaylamıyorum!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Wrong"
+				"phrase": "Yanlış"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hello",
+		"title": "Merhaba",
 		"slug": "hello",
 		"parents": [
 			"general"
@@ -222,7 +222,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sleep",
+		"title": "Uyku",
 		"slug": "sleep",
 		"parents": [
 			"general"
@@ -230,17 +230,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to sleep"
+				"phrase": "Uyumam lazım"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to sleep"
+				"phrase": "Uyumak istiyorum"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Bath",
+		"title": "Banyo",
 		"slug": "bath",
 		"parents": [
 			"general"
@@ -248,17 +248,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to take a bath"
+				"phrase": "Banyo yapmak istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Help me take a shower"
+				"phrase": "Banyo yapmama yardım eder misin?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Morning",
+		"title": "Sabah",
 		"slug": "morning",
 		"parents": [
 			"general"
@@ -266,17 +266,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Good morning"
+				"phrase": "Günaydın!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "In the morning"
+				"phrase": "Sabah olunca"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Night",
+		"title": "Gece",
 		"slug": "night",
 		"parents": [
 			"general"
@@ -284,17 +284,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Good night"
+				"phrase": "İyi geceler"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "At night"
+				"phrase": "Gece olunca"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Listen",
+		"title": "Dinle",
 		"slug": "listen",
 		"parents": [
 			"general"
@@ -302,17 +302,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Listen to me"
+				"phrase": "Beni dinle"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I'm listening to you"
+				"phrase": "Seni dinliyorum"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Outside",
+		"title": "Dışarı",
 		"slug": "outside",
 		"parents": [
 			"general"
@@ -320,17 +320,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go outside"
+				"phrase": "Dışarı çıkmak istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me outside?"
+				"phrase": "Beni dışarı çıkarır mısın?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Clothes",
+		"title": "Kıyafet",
 		"slug": "clothes",
 		"parents": [
 			"general"
@@ -338,25 +338,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Wearing clothes"
+				"phrase": "Kıyafetlerimi giyiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "My clothes are dirty"
+				"phrase": "Kıyafetlerim kirli"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me clothes to wear?"
+				"phrase": "Giyeceğim kıyafetlerimi verir misin?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me wear clothes?"
+				"phrase": "Kıyafetlerimi giymeme yardım eder misin?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Home",
+		"title": "Evim",
 		"slug": "home",
 		"parents": [
 			"general"
@@ -364,17 +364,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go home"
+				"phrase": "Evime gitmek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I love my home"
+				"phrase": "Evimi seviyorum!"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Happy",
+		"title": "Mutlu",
 		"slug": "happy",
 		"parents": [
 			"feelings"
@@ -382,17 +382,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel happy"
+				"phrase": "Mutlu hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel happy"
+				"phrase": "Mutlu hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sad",
+		"title": "Üzgün",
 		"slug": "sad",
 		"parents": [
 			"feelings"
@@ -400,17 +400,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sad"
+				"phrase": "Üzgün hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sad"
+				"phrase": "Üzgün hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Exhausted",
+		"title": "Yorgun",
 		"slug": "exhausted",
 		"parents": [
 			"feelings"
@@ -418,17 +418,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel exhausted"
+				"phrase": "Yorgun hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel exhausted"
+				"phrase": "Yorgun hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Relaxed",
+		"title": "Rahat",
 		"slug": "relaxed",
 		"parents": [
 			"feelings"
@@ -436,17 +436,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel relaxed"
+				"phrase": "Rahat hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel relaxed"
+				"phrase": "Rahat hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "In Love",
+		"title": "Aşık",
 		"slug": "inlove",
 		"parents": [
 			"feelings"
@@ -454,17 +454,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel in love"
+				"phrase": "Aşık hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel in love"
+				"phrase": "Aşık hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Stressed",
+		"title": "Stressli",
 		"slug": "stressed",
 		"parents": [
 			"feelings"
@@ -472,17 +472,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel stressed"
+				"phrase": "Stresli hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel stressed"
+				"phrase": "Stresli hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Thankful",
+		"title": "Minnettar",
 		"slug": "thankful",
 		"parents": [
 			"feelings"
@@ -490,17 +490,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel thankful"
+				"phrase": "Minnettar hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel thankful"
+				"phrase": "Minnettar hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Confused",
+		"title": "Şaşkın",
 		"slug": "confused",
 		"parents": [
 			"feelings"
@@ -508,17 +508,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel confused"
+				"phrase": "Şaşkın hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel confused"
+				"phrase": "Şaşkın hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Joyful",
+		"title": "Sevinçli",
 		"slug": "joyful",
 		"parents": [
 			"feelings"
@@ -526,17 +526,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel joyful"
+				"phrase": "Sevinçli hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel joyful"
+				"phrase": "Sevinçli hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Angry",
+		"title": "Kızgın",
 		"slug": "angry",
 		"parents": [
 			"feelings"
@@ -544,17 +544,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel angry"
+				"phrase": "Kızgın hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel angry"
+				"phrase": "Kızgın hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Smart",
+		"title": "Zeki",
 		"slug": "smart",
 		"parents": [
 			"feelings"
@@ -562,17 +562,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel smart"
+				"phrase": "Zeki hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel smart"
+				"phrase": "Zeki hissediyor musun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Afraid",
+		"title": "Korkmuş",
 		"slug": "afraid",
 		"parents": [
 			"feelings"
@@ -580,17 +580,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel afraid"
+				"phrase": "Korkmuş hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel afraid"
+				"phrase": "Korkmuş mu hissediyorsun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Ashamed",
+		"title": "Mahçup",
 		"slug": "ashamed",
 		"parents": [
 			"feelings"
@@ -598,17 +598,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel ashamed"
+				"phrase": "Mahçup hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel ashamed"
+				"phrase": "Mahçup mu hissediyorsun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Shocked",
+		"title": "Şaşırmış",
 		"slug": "shocked",
 		"parents": [
 			"feelings"
@@ -616,17 +616,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel shocked"
+				"phrase": "Şaşırmış hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel shocked"
+				"phrase": "Şaşırmış mı hissediyorsun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sick",
+		"title": "Hasta",
 		"slug": "sick",
 		"parents": [
 			"feelings"
@@ -634,17 +634,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sick"
+				"phrase": "Kendimi hasta hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sick"
+				"phrase": "Kendini hasta mı hissediyorsun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Frustrated",
+		"title": "Yılmış",
 		"slug": "frustrated",
 		"parents": [
 			"feelings"
@@ -652,17 +652,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel frustrated"
+				"phrase": "Yılmış hissediyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel frustrated"
+				"phrase": "Yılmış mı hissediyorsun?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Apple",
+		"title": "Elma",
 		"slug": "apple",
 		"parents": [
 			"foods"
@@ -688,7 +688,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Orange",
+		"title": "Portakal",
 		"slug": "orange",
 		"parents": [
 			"foods"
@@ -714,7 +714,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Utensils",
+		"title": "Çatal ve Kaşık",
 		"slug": "utensils",
 		"parents": [
 			"foods"
@@ -732,7 +732,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Water",
+		"title": "Su",
 		"slug": "water",
 		"parents": [
 			"foods"
@@ -758,7 +758,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Tomato",
+		"title": "Domates",
 		"slug": "tomato",
 		"parents": [
 			"foods"
@@ -784,7 +784,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Potato",
+		"title": "Patates",
 		"slug": "potato",
 		"parents": [
 			"foods"
@@ -810,7 +810,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Steak",
+		"title": "Biftek",
 		"slug": "steak",
 		"parents": [
 			"foods"
@@ -888,7 +888,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fries",
+		"title": "Patates Kızartması",
 		"slug": "fries",
 		"parents": [
 			"foods"
@@ -914,7 +914,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ice Cream",
+		"title": "Dondurma",
 		"slug": "icecream",
 		"parents": [
 			"foods"
@@ -940,7 +940,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cookie",
+		"title": "Kurabiye",
 		"slug": "cookie",
 		"parents": [
 			"foods"
@@ -966,7 +966,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cereal",
+		"title": "Kahvaltı Gevreği",
 		"slug": "cereal",
 		"parents": [
 			"foods"
@@ -992,7 +992,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fried Egg",
+		"title": "Yağda Yumurta",
 		"slug": "friedegg",
 		"parents": [
 			"foods"
@@ -1018,7 +1018,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Boiled Egg",
+		"title": "Haşlanmış Yumurta",
 		"slug": "boiledegg",
 		"parents": [
 			"foods"
@@ -1044,7 +1044,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cheese",
+		"title": "Peynir",
 		"slug": "cheese",
 		"parents": [
 			"foods"
@@ -1070,7 +1070,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Chicken",
+		"title": "Tavuk",
 		"slug": "chicken",
 		"parents": [
 			"foods"
@@ -1096,7 +1096,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sandwich",
+		"title": "Sandviç",
 		"slug": "sandwich",
 		"parents": [
 			"foods"
@@ -1122,7 +1122,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Salad",
+		"title": "Salata",
 		"slug": "salad",
 		"parents": [
 			"foods"
@@ -1148,7 +1148,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Bread",
+		"title": "Ekmek",
 		"slug": "bread",
 		"parents": [
 			"foods"
@@ -1174,7 +1174,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Carrot",
+		"title": "Havuç",
 		"slug": "carrot",
 		"parents": [
 			"foods"
@@ -1200,7 +1200,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Candy",
+		"title": "Şekerleme",
 		"slug": "candy",
 		"parents": [
 			"foods"
@@ -1226,7 +1226,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cake",
+		"title": "Kek",
 		"slug": "cake",
 		"parents": [
 			"foods"
@@ -1252,7 +1252,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Broccoli",
+		"title": "Brokoli",
 		"slug": "broccoli",
 		"parents": [
 			"foods"
@@ -1278,7 +1278,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cherries",
+		"title": "Kiraz",
 		"slug": "cherries",
 		"parents": [
 			"foods"
@@ -1304,7 +1304,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Beans",
+		"title": "Fasülye",
 		"slug": "beans",
 		"parents": [
 			"foods"
@@ -1330,7 +1330,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Banana",
+		"title": "Muz",
 		"slug": "banana",
 		"parents": [
 			"foods"
@@ -1356,7 +1356,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Chocolate",
+		"title": "Çikolata",
 		"slug": "chocolate",
 		"parents": [
 			"foods"
@@ -1382,7 +1382,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Coke",
+		"title": "Kola",
 		"slug": "coke",
 		"parents": [
 			"foods"
@@ -1408,7 +1408,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cupcake",
+		"title": "Kapkek",
 		"slug": "cupcake",
 		"parents": [
 			"foods"
@@ -1434,7 +1434,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Doughnut",
+		"title": "Tatlı Çörek",
 		"slug": "doughnut",
 		"parents": [
 			"foods"
@@ -1460,7 +1460,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fish",
+		"title": "Balık",
 		"slug": "fish",
 		"parents": [
 			"foods"
@@ -1486,7 +1486,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sushi",
+		"title": "Suşi",
 		"slug": "sushi",
 		"parents": [
 			"foods"
@@ -1512,7 +1512,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Corn",
+		"title": "Mısır",
 		"slug": "corn",
 		"parents": [
 			"foods"
@@ -1538,7 +1538,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Lemon",
+		"title": "Limon",
 		"slug": "lemon",
 		"parents": [
 			"foods"
@@ -1564,7 +1564,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Mustard",
+		"title": "Hardal",
 		"slug": "mustard",
 		"parents": [
 			"foods"
@@ -1590,7 +1590,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Peach",
+		"title": "Şeftali",
 		"slug": "peach",
 		"parents": [
 			"foods"
@@ -1616,7 +1616,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Pineapple",
+		"title": "Ananas",
 		"slug": "pineapple",
 		"parents": [
 			"foods"
@@ -1642,7 +1642,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Raspberry",
+		"title": "Ahududu",
 		"slug": "raspberry",
 		"parents": [
 			"foods"
@@ -1668,7 +1668,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Strawberry",
+		"title": "Çilek",
 		"slug": "strawberry",
 		"parents": [
 			"foods"
@@ -1694,7 +1694,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Watermelon",
+		"title": "Karpuz",
 		"slug": "watermelon",
 		"parents": [
 			"foods"
@@ -1720,7 +1720,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Grapes",
+		"title": "Üzüm",
 		"slug": "grapes",
 		"parents": [
 			"foods"
@@ -1746,7 +1746,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Avocado",
+		"title": "Avakado",
 		"slug": "avocado",
 		"parents": [
 			"foods"
@@ -1772,7 +1772,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Rice",
+		"title": "Pilav",
 		"slug": "rice",
 		"parents": [
 			"foods"
@@ -1798,7 +1798,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Spaguetti",
+		"title": "Makarna",
 		"slug": "spaguetti",
 		"parents": [
 			"foods"
@@ -1824,7 +1824,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Milk",
+		"title": "Süt",
 		"slug": "milk",
 		"parents": [
 			"foods"
@@ -1850,7 +1850,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Tea",
+		"title": "Çay",
 		"slug": "tea",
 		"parents": [
 			"foods"
@@ -1876,7 +1876,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Honey",
+		"title": "Bal",
 		"slug": "honey",
 		"parents": [
 			"foods"
@@ -1902,7 +1902,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Kebab",
+		"title": "Kebap",
 		"slug": "kebab",
 		"parents": [
 			"foods"
@@ -1928,7 +1928,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Taco",
+		"title": "Tako",
 		"slug": "taco",
 		"parents": [
 			"foods"
@@ -1954,7 +1954,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Mother",
+		"title": "Anne",
 		"slug": "mother",
 		"parents": [
 			"people"
@@ -1972,7 +1972,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Father",
+		"title": "Baba",
 		"slug": "father",
 		"parents": [
 			"people"
@@ -1990,7 +1990,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Parents",
+		"title": "Ebeveynler",
 		"slug": "parents",
 		"parents": [
 			"people"
@@ -2008,7 +2008,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Grandparents",
+		"title": "Büyük Ebeveynler",
 		"slug": "grandparents",
 		"parents": [
 			"people"
@@ -2026,7 +2026,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Brother",
+		"title": "Abi",
 		"slug": "brother",
 		"parents": [
 			"people"
@@ -2044,7 +2044,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sister",
+		"title": "Abla",
 		"slug": "sister",
 		"parents": [
 			"people"
@@ -2062,7 +2062,7 @@
 	},,
 	{
 		"type": "card",
-		"title": "Uncle",
+		"title": "Dayı",
 		"slug": "uncle",
 		"parents": [
 			"people"
@@ -2080,7 +2080,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Aunt",
+		"title": "Teyze",
 		"slug": "aunt",
 		"parents": [
 			"people"
@@ -2098,7 +2098,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Teacher",
+		"title": "Öğretmen",
 		"slug": "teacher",
 		"parents": [
 			"people",
@@ -2117,7 +2117,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Therapist",
+		"title": "Terapist",
 		"slug": "therapist",
 		"parents": [
 			"people"
@@ -2135,7 +2135,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Doctor",
+		"title": "Doktor",
 		"slug": "doctor",
 		"parents": [
 			"people"
@@ -2153,7 +2153,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Friends",
+		"title": "Arkadaşlarım",
 		"slug": "friends",
 		"parents": [
 			"people"
@@ -2179,7 +2179,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Book",
+		"title": "Kitap",
 		"slug": "book",
 		"parents": [
 			"school"
@@ -2197,7 +2197,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Notebook",
+		"title": "Defter",
 		"slug": "notebook",
 		"parents": [
 			"school"
@@ -2215,7 +2215,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Pencil",
+		"title": "Kalem",
 		"slug": "pencil",
 		"parents": [
 			"school"
@@ -2233,7 +2233,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Blackboard",
+		"title": "Yazı Tahtası",
 		"slug": "blackboard",
 		"parents": [
 			"school"
@@ -2241,7 +2241,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Lesson",
+		"title": "Ders",
 		"slug": "lesson",
 		"parents": [
 			"school"
@@ -2249,7 +2249,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Quiet",
+		"title": "Sessiz",
 		"slug": "quiet",
 		"parents": [
 			"school"
@@ -2267,7 +2267,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Mathematics",
+		"title": "Matematik",
 		"slug": "mathematics",
 		"parents": [
 			"school"
@@ -2285,7 +2285,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Literature",
+		"title": "Edebiyat",
 		"slug": "literature",
 		"parents": [
 			"school"
@@ -2303,7 +2303,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Question",
+		"title": "Soru",
 		"slug": "question",
 		"parents": [
 			"school"
@@ -2321,7 +2321,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Understand",
+		"title": "Anlamak",
 		"slug": "understand",
 		"parents": [
 			"school"
@@ -2339,7 +2339,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Homework",
+		"title": "Ödev",
 		"slug": "homework",
 		"parents": [
 			"school"
@@ -2357,7 +2357,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Walking",
+		"title": "Yürümek",
 		"slug": "walking",
 		"parents": [
 			"activities"
@@ -2375,7 +2375,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Running",
+		"title": "Koşmak",
 		"slug": "running",
 		"parents": [
 			"activities"
@@ -2393,7 +2393,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Talking",
+		"title": "Konuşmak",
 		"slug": "talking",
 		"parents": [
 			"activities"
@@ -2411,7 +2411,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Reading",
+		"title": "Okumak",
 		"slug": "reading",
 		"parents": [
 			"activities"
@@ -2429,7 +2429,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fooball",
+		"title": "Futbol",
 		"slug": "football",
 		"parents": [
 			"activities"
@@ -2447,7 +2447,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Basketball",
+		"title": "Basketbol",
 		"slug": "basketball",
 		"parents": [
 			"activities"
@@ -2465,7 +2465,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Swimming",
+		"title": "Yüzmek",
 		"slug": "swimming",
 		"parents": [
 			"activities"
@@ -2483,7 +2483,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Tennis",
+		"title": "Tenis",
 		"slug": "tennis",
 		"parents": [
 			"activities"
@@ -2501,7 +2501,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cycling",
+		"title": "Bisiklet",
 		"slug": "cycling",
 		"parents": [
 			"activities"
@@ -2519,7 +2519,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Skating",
+		"title": "Kay Kay",
 		"slug": "skating",
 		"parents": [
 			"activities"
@@ -2537,7 +2537,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sightseeing",
+		"title": "Dolaşmak",
 		"slug": "sightseeing",
 		"parents": [
 			"activities"
@@ -2555,7 +2555,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Video Games",
+		"title": "Video Oyunları",
 		"slug": "videogames",
 		"parents": [
 			"activities"
@@ -2573,7 +2573,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Tidying",
+		"title": "Toplama",
 		"slug": "tidying",
 		"parents": [
 			"activities"
@@ -2591,7 +2591,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Toys",
+		"title": "Oyuncaklar",
 		"slug": "toys",
 		"parents": [
 			"activities"
@@ -2609,7 +2609,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Puzzle",
+		"title": "Yap-boz",
 		"slug": "puzzle",
 		"parents": [
 			"activities"
@@ -2627,7 +2627,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Comics",
+		"title": "Karikatür",
 		"slug": "comics",
 		"parents": [
 			"activities"
@@ -2645,7 +2645,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Chess",
+		"title": "Satranç",
 		"slug": "chess",
 		"parents": [
 			"activities"
@@ -2663,7 +2663,7 @@
 	},
 	{
 		"type": "card",
-		"title": "One",
+		"title": "Bir",
 		"slug": "one",
 		"parents": [
 			"numbers"
@@ -2671,7 +2671,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Two",
+		"title": "İki",
 		"slug": "two",
 		"parents": [
 			"numbers"
@@ -2679,7 +2679,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Three",
+		"title": "Üç",
 		"slug": "three",
 		"parents": [
 			"numbers"
@@ -2687,7 +2687,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Four",
+		"title": "Dört",
 		"slug": "four",
 		"parents": [
 			"numbers"
@@ -2695,7 +2695,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Five",
+		"title": "Beş",
 		"slug": "five",
 		"parents": [
 			"numbers"
@@ -2703,7 +2703,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Six",
+		"title": "Altı",
 		"slug": "six",
 		"parents": [
 			"numbers"
@@ -2711,7 +2711,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seven",
+		"title": "Yedi",
 		"slug": "seven",
 		"parents": [
 			"numbers"
@@ -2719,7 +2719,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eight",
+		"title": "Sekiz",
 		"slug": "eight",
 		"parents": [
 			"numbers"
@@ -2727,7 +2727,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Nine",
+		"title": "Dokuz",
 		"slug": "nine",
 		"parents": [
 			"numbers"
@@ -2735,7 +2735,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ten",
+		"title": "On",
 		"slug": "ten",
 		"parents": [
 			"numbers"
@@ -2743,7 +2743,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Twenty",
+		"title": "On bir",
 		"slug": "twenty",
 		"parents": [
 			"numbers"
@@ -2751,7 +2751,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Thirty",
+		"title": "On iki",
 		"slug": "thirty",
 		"parents": [
 			"numbers"
@@ -2759,7 +2759,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Forty",
+		"title": "Kırk",
 		"slug": "forty",
 		"parents": [
 			"numbers"
@@ -2767,7 +2767,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fifty",
+		"title": "Elli",
 		"slug": "fifty",
 		"parents": [
 			"numbers"
@@ -2775,7 +2775,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sixty",
+		"title": "Atmış",
 		"slug": "sixty",
 		"parents": [
 			"numbers"
@@ -2783,7 +2783,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seventy",
+		"title": "Yetmiş",
 		"slug": "seventy",
 		"parents": [
 			"numbers"
@@ -2791,7 +2791,15 @@
 	},
 	{
 		"type": "card",
-		"title": "Ninety",
+		"title": "Seksen",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doksan",
 		"slug": "ninety",
 		"parents": [
 			"numbers"
@@ -2799,7 +2807,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Hundred",
+		"title": "Yüz",
 		"slug": "hundred",
 		"parents": [
 			"numbers"
@@ -2807,7 +2815,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Calculator",
+		"title": "Hesap Makinesi",
 		"slug": "calculator",
 		"parents": [
 			"numbers"
