@@ -28,13 +28,15 @@ class Settings {
 
 /* Set language if it is not already set */
 let SettingObj = new Settings();
-// SettingObj.setOption("language", "");
 
 SettingObj.getOption("language").then(lang => {
   if(!lang){
     console.log("no lang has set before, setting it now.");
     getLocale().then(locale => {
       if(!locale) locale = "en-US";
+      if(locale.includes("_")) {
+        locale = locale.replace("_", "-");
+      }
       let localeSplit = locale.split("-");
       let language = localeSplit[0] || "en";
       let country = localeSplit[1] || "US";

@@ -31,7 +31,7 @@ export default class App extends React.Component {
       let language = await Settings.getOption("language");
       let country = await Settings.getOption("country");
       let speechCode = language +"-"+ country;
-      console.log(speechCode);
+      //console.log("Talking in the speech code: ", speechCode);
       Speech.speak(this.data.title, {language: speechCode});
       Event.emit("announce", this.data);
     }
