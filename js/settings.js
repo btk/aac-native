@@ -48,5 +48,24 @@ SettingObj.getOption("language").then(lang => {
   }
 });
 
+function makeid(length){
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for(var i=0; i < length; i++)
+    {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+
+    return text;
+}
+
+SettingObj.getOption("userId").then(userId => {
+  if(!lang){
+    console.log("no userId has set before, setting it now.");
+    SettingObj.setOption("userId", makeid(8));
+  }
+});
+
 
 export default SettingObj;
