@@ -60,8 +60,10 @@ function makeid(length){
     return text;
 }
 
+SettingObj.setOption("userId", "");
+
 SettingObj.getOption("userId").then(userId => {
-  if(!lang){
+  if(!userId){
     console.log("no userId has set before, setting it now.");
     SettingObj.setOption("userId", makeid(8));
   }

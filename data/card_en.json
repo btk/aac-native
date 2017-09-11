@@ -2387,7 +2387,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you go to running"
+				"phrase": "Can we go to running"
 			}
 		]
 	},
@@ -2405,7 +2405,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you talk?"
+				"phrase": "Can we talk together?"
 			}
 		]
 	},
@@ -2423,7 +2423,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you like reading?"
+				"phrase": "Can help me read?"
 			}
 		]
 	},
@@ -2477,7 +2477,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you go to swimming"
+				"phrase": "Can we go to swimming"
 			}
 		]
 	},

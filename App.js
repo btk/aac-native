@@ -5,9 +5,9 @@ import Layout from './layouts/app';
 import Settings from './js/settings';
 import { Segment } from 'expo';
 const writeKey = "82jwihpKRSGXypMEnce3qKV1elkCq9zt";
-
-Segment.initializeAndroid(writeKey);
-Segment.initializeIOS(writeKey);
+const STATISTIC_STATUS = true;
+// Expo does not support test app stats, so turn it off
+// in the development
 
 const LANGUAGE_FLUSH = false;
 // LANGUAGE_FLUSH is a constant variable for development tests
@@ -21,11 +21,6 @@ export default class App extends React.Component {
       currentLang: ""
     }
 
-    SettingObj.getOption("userId").then(userId => {
-      console.log("User session started: ", userId);
-      Segment.identify(userId);
-    });
-
     if(LANGUAGE_FLUSH && !(this.state.currentLang)){
       Settings.setOption("language", "").then((flushed) => {
         console.log("Timeout start");
@@ -37,14 +32,21 @@ export default class App extends React.Component {
     }else{
       this.setLanguageAsState();
     }
-
   }
 
   setLanguageAsState(){
     Settings.getOption("language").then(lang => {
       console.log("App is loading in language: ", lang);
       this.setState({currentLang: lang});
-      Segment.trackWithProperties("app:start", lang);
+      if(STATISTIC_STATUS){
+        Settings.getOption("userId").then(userId => {
+          console.log("User session started: ", userId);
+          Segment.initializeAndroid(writeKey);
+          Segment.initializeiOS(writeKey);
+          Segment.identify(userId);
+        });
+        Segment.trackWithProperties("app:start", lang);
+      }
     });
   }
 

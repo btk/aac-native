@@ -670,19 +670,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat apple"
+				"phrase": "Elma yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat apple"
+				"phrase": "Elma yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat apple"
+				"phrase": "Elma yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating apple"
+				"phrase": "Elma yemeyi severim"
 			}
 		]
 	},
@@ -696,19 +696,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat orange"
+				"phrase": "Portakal yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat orange"
+				"phrase": "Portakal yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat orange"
+				"phrase": "Portakal yemek istiyor musun?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating orange"
+				"phrase": "Portakal yemeyi severim"
 			}
 		]
 	},
@@ -722,11 +722,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me use my utensils"
+				"phrase": "Çatal ve kaşık kullanmama yardım eder misin?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me utensils"
+				"phrase": "Bana Çatal ve kaşık verir misin?"
 			}
 		]
 	},
@@ -740,19 +740,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink water"
+				"phrase": "Su içmek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink water"
+				"phrase": "Su içmek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink water"
+				"phrase": "Su içmek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking water"
+				"phrase": "Su içmeyi severim"
 			}
 		]
 	},
@@ -766,19 +766,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat tomato"
+				"phrase": "Domates yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat tomato"
+				"phrase": "Domates yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat tomato"
+				"phrase": "Domates yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating tomato"
+				"phrase": "Domates yemeyi severim"
 			}
 		]
 	},
@@ -792,19 +792,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat potato"
+				"phrase": "Patates yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat potato"
+				"phrase": "Patates yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat potato"
+				"phrase": "Patates yemek istiyor musun?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating potato"
+				"phrase": "Patates yemeyi severim"
 			}
 		]
 	},
@@ -818,19 +818,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat steak"
+				"phrase": "Biftek yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat steak"
+				"phrase": "Biftek yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat steak"
+				"phrase": "Biftek yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating steak"
+				"phrase": "Biftek yemeyi severim"
 			}
 		]
 	},
@@ -844,19 +844,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pizza"
+				"phrase": "Pizza yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pizza"
+				"phrase": "Pizza yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pizza"
+				"phrase": "Pizza yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pizza"
+				"phrase": "Pizza yemeyi severim"
 			}
 		]
 	},
@@ -870,19 +870,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat hamburger"
+				"phrase": "Hamburger yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat hamburger"
+				"phrase": "Hamburger yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat hamburger"
+				"phrase": "Hamburger yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating hamburger"
+				"phrase": "Hamburger yemeyi severim"
 			}
 		]
 	},
@@ -896,19 +896,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fries"
+				"phrase": "Patates Kızartması yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fries"
+				"phrase": "Patates Kızartması yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fries"
+				"phrase": "Patates Kızartması yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fries"
+				"phrase": "Patates Kızartması yemeyi seviyorum"
 			}
 		]
 	},
@@ -922,19 +922,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat ice cream"
+				"phrase": "Dondurma yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat ice cream"
+				"phrase": "Dondurma yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat ice cream"
+				"phrase": "Dondurma yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating ice cream"
+				"phrase": "Dondurma yemeyi severim"
 			}
 		]
 	},
@@ -948,19 +948,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cookie"
+				"phrase": "Kurabiye yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cookie"
+				"phrase": "Kurabiye yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cookie"
+				"phrase": "Kurabiye yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cookie"
+				"phrase": "Kurabiye yemeyi severim"
 			}
 		]
 	},
@@ -974,19 +974,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cereal"
+				"phrase": "Kahvaltı Gevreği yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cereal"
+				"phrase": "Kahvaltı Gevreği yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cereal"
+				"phrase": "Kahvaltı Gevreği yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cereal"
+				"phrase": "Kahvaltı Gevreği yemeyi severim"
 			}
 		]
 	},
@@ -1000,19 +1000,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fried egg"
+				"phrase": "Yağda Yumurta yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fried egg"
+				"phrase": "Yağda Yumurta yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fried egg"
+				"phrase": "Yağda Yumurta yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fried egg"
+				"phrase": "Yağda Yumurta yemeyi severim"
 			}
 		]
 	},
@@ -1026,19 +1026,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat boiled egg"
+				"phrase": "Haşlanmış Yumurta yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat boiled egg"
+				"phrase": "Haşlanmış Yumurta yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat boiled egg"
+				"phrase": "Haşlanmış Yumurta yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating boiled egg"
+				"phrase": "Haşlanmış Yumurta yemeyi severim"
 			}
 		]
 	},
@@ -1052,19 +1052,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cheese"
+				"phrase": "Peynir yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cheese"
+				"phrase": "Peynir yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cheese"
+				"phrase": "Peynir yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cheese"
+				"phrase": "Peynir yemeyi severim"
 			}
 		]
 	},
@@ -1078,19 +1078,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat chicken"
+				"phrase": "Tavuk yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat chicken"
+				"phrase": "Tavuk yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chicken"
+				"phrase": "Tavuk yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating chicken"
+				"phrase": "Tavuk yemeyi severim"
 			}
 		]
 	},
@@ -1104,19 +1104,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat sandwich"
+				"phrase": "Sandviç yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat sandwich"
+				"phrase": "Sandviç yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sandwich"
+				"phrase": "Sandviç yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sandwich"
+				"phrase": "Sandviç yemeyi severim"
 			}
 		]
 	},
@@ -1130,19 +1130,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat salad"
+				"phrase": "Salata yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat salad"
+				"phrase": "Salata yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat salad"
+				"phrase": "Salata yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating salad"
+				"phrase": "Salata yemeyi severim"
 			}
 		]
 	},
@@ -1156,19 +1156,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat bread"
+				"phrase": "Ekmek yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat bread"
+				"phrase": "Ekmek yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat bread"
+				"phrase": "Ekmek yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating bread"
+				"phrase": "Ekmek yemeyi severim"
 			}
 		]
 	},
@@ -1182,25 +1182,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat carrot"
+				"phrase": "Havuç yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat carrot"
+				"phrase": "Havuç yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat carrot"
+				"phrase": "Havuç yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating carrot"
+				"phrase": "Havuç yemeyi severim"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Şekerleme",
+		"title": "Şeker",
 		"slug": "candy",
 		"parents": [
 			"foods"
@@ -1208,19 +1208,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat candy"
+				"phrase": "Şeker yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat candy"
+				"phrase": "Şeker yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat candy"
+				"phrase": "Şeker yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating candy"
+				"phrase": "Şeker yemeyi severim"
 			}
 		]
 	},
@@ -1234,19 +1234,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cake"
+				"phrase": "Kek yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cake"
+				"phrase": "Kek yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cake"
+				"phrase": "Kek yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cake"
+				"phrase": "Kek yemeyi severim"
 			}
 		]
 	},
@@ -1260,19 +1260,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat broccoli"
+				"phrase": "Brokoli yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat broccoli"
+				"phrase": "Brokoli yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat broccoli"
+				"phrase": "Brokoli yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating broccoli"
+				"phrase": "Brokoli yemeyi severim"
 			}
 		]
 	},
@@ -1286,19 +1286,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cherries"
+				"phrase": "Kiraz yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cherries"
+				"phrase": "Kiraz yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cherries"
+				"phrase": "Kiraz yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cherries"
+				"phrase": "Kiraz yemeyi severim"
 			}
 		]
 	},
@@ -1312,19 +1312,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat beans"
+				"phrase": "Fasülye yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat beans"
+				"phrase": "Fasülye yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat beans"
+				"phrase": "Fasülye yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating beans"
+				"phrase": "Fasülye yemeyi severim"
 			}
 		]
 	},
@@ -1338,19 +1338,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat banana"
+				"phrase": "Muz yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat banana"
+				"phrase": "Muz yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat banana"
+				"phrase": "Muz yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating banana"
+				"phrase": "Muz yemeyi severim"
 			}
 		]
 	},
@@ -1364,19 +1364,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat chocolate"
+				"phrase": "Çikolata yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat chocolate"
+				"phrase": "Çikolata yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chocolate"
+				"phrase": "Çikolata yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating chocolate"
+				"phrase": "Çikolata yemeyi severim"
 			}
 		]
 	},
@@ -1390,19 +1390,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink coke"
+				"phrase": "Kola içmek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink coke"
+				"phrase": "Kola içmek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink coke"
+				"phrase": "Kola içmek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking coke"
+				"phrase": "Kola içmeyi seviyorum"
 			}
 		]
 	},
@@ -1416,19 +1416,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cupcake"
+				"phrase": "Kapkek yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cupcake"
+				"phrase": "Kapkek yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cupcake"
+				"phrase": "Kapkek yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cupcake"
+				"phrase": "Kapkek yemeyi severim"
 			}
 		]
 	},
@@ -1442,19 +1442,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat doughnut"
+				"phrase": "Tatlı Çörek yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat doughnut"
+				"phrase": "Tatlı Çörek yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat doughnut"
+				"phrase": "Tatlı Çörek yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating doughnut"
+				"phrase": "Tatlı Çörek yemeyi severim"
 			}
 		]
 	},
@@ -1468,19 +1468,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fish"
+				"phrase": "Balık yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fish"
+				"phrase": "Balık yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fish"
+				"phrase": "Balık yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fish"
+				"phrase": "Balık yemeyi severim"
 			}
 		]
 	},
@@ -1494,19 +1494,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat sushi"
+				"phrase": "Suşi yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat sushi"
+				"phrase": "Suşi yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sushi"
+				"phrase": "Suşi yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sushi"
+				"phrase": "Suşi yemeyi severim"
 			}
 		]
 	},
@@ -1520,19 +1520,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat corn"
+				"phrase": "Mısır yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat corn"
+				"phrase": "Mısır yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat corn"
+				"phrase": "Mısır yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating corn"
+				"phrase": "Mısır yemeyi severim"
 			}
 		]
 	},
@@ -1546,19 +1546,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat lemon"
+				"phrase": "Limon yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat lemon"
+				"phrase": "Limon yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat lemon"
+				"phrase": "Limon yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating lemon"
+				"phrase": "Limon yemeyi severim"
 			}
 		]
 	},
@@ -1572,19 +1572,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want mustard with my food"
+				"phrase": "Hardal yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to mustard"
+				"phrase": "Hardal yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want some mustard"
+				"phrase": "Hardal yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like mustard with my food"
+				"phrase": "Hardal yemeyi severim"
 			}
 		]
 	},
@@ -1598,19 +1598,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat peach"
+				"phrase": "Şeftali yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat peach"
+				"phrase": "Şeftali yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat peach"
+				"phrase": "Şeftali yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating peach"
+				"phrase": "Şeftali yemeyi severim"
 			}
 		]
 	},
@@ -1624,19 +1624,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pineapple"
+				"phrase": "Ananas yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pineapple"
+				"phrase": "Ananas yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pineapple"
+				"phrase": "Ananas yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pineapple"
+				"phrase": "Ananas yemeyi severim"
 			}
 		]
 	},
@@ -1650,19 +1650,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat raspberry"
+				"phrase": "Ahududu yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat raspberry"
+				"phrase": "Ahududu yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat raspberry"
+				"phrase": "Ahududu yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating raspberry"
+				"phrase": "Ahududu yemeyi severim"
 			}
 		]
 	},
@@ -1676,19 +1676,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat strawberry"
+				"phrase": "Çilek yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat strawberry"
+				"phrase": "Çilek yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat strawberry"
+				"phrase": "Çilek yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating strawberry"
+				"phrase": "Çilek yemeyi severim"
 			}
 		]
 	},
@@ -1702,19 +1702,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat watermelon"
+				"phrase": "Karpuz yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat watermelon"
+				"phrase": "Karpuz yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat watermelon"
+				"phrase": "Karpuz yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating watermelon"
+				"phrase": "Karpuz yemeyi severim"
 			}
 		]
 	},
@@ -1728,19 +1728,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat grapes"
+				"phrase": "Üzüm yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat grapes"
+				"phrase": "Üzüm yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat grapes"
+				"phrase": "Üzüm yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating grapes"
+				"phrase": "Üzüm yemeyi severim"
 			}
 		]
 	},
@@ -1754,19 +1754,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat avocado"
+				"phrase": "Avakado yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat avocado"
+				"phrase": "Avakado yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat avocado"
+				"phrase": "Avakado yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating avocado"
+				"phrase": "Avakado yemeyi severim"
 			}
 		]
 	},
@@ -1780,19 +1780,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat rice"
+				"phrase": "Pilav yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat rice"
+				"phrase": "Pilav yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat rice"
+				"phrase": "Pilav yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating rice"
+				"phrase": "Pilav yemeyi severim"
 			}
 		]
 	},
@@ -1806,19 +1806,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat spaguetti"
+				"phrase": "Makarna yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat spaguetti"
+				"phrase": "Makarna yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat spaguetti"
+				"phrase": "Makarna yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating spaguetti"
+				"phrase": "Makarna yemeyi severim"
 			}
 		]
 	},
@@ -1832,19 +1832,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink milk"
+				"phrase": "Süt yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink milk"
+				"phrase": "Süt yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink milk"
+				"phrase": "Süt yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking milk"
+				"phrase": "Süt yemeyi severim"
 			}
 		]
 	},
@@ -1858,19 +1858,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink tea"
+				"phrase": "Çay içmek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink tea"
+				"phrase": "Çay içmek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink tea"
+				"phrase": "Çay içmek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking tea"
+				"phrase": "Çay içmeyi severim"
 			}
 		]
 	},
@@ -1884,19 +1884,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat honey"
+				"phrase": "Bal yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat honey"
+				"phrase": "Bal yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat honey"
+				"phrase": "Bal yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating honey"
+				"phrase": "Bal yemeyi severim"
 			}
 		]
 	},
@@ -1910,19 +1910,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat kebab"
+				"phrase": "Kebap yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat kebab"
+				"phrase": "Kebap yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat kebab"
+				"phrase": "Kebap yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating kebab"
+				"phrase": "Kebap yemeyi severim"
 			}
 		]
 	},
@@ -1936,19 +1936,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat taco"
+				"phrase": "Tako yemek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat taco"
+				"phrase": "Tako yemek istemiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat taco"
+				"phrase": "Tako yemek ister misin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating taco"
+				"phrase": "Tako yemeyi severim"
 			}
 		]
 	},
@@ -1962,11 +1962,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my mother"
+				"phrase": "Annemi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my mother"
+				"phrase": "Annemi görmek istiyorum"
 			}
 		]
 	},
@@ -1980,11 +1980,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my father"
+				"phrase": "Babamı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my father"
+				"phrase": "Babamı görmek istiyorum"
 			}
 		]
 	},
@@ -1998,11 +1998,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my parents"
+				"phrase": "Ebeveynlerimi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my parents"
+				"phrase": "Ebeveynlerimi görmek istiyorum"
 			}
 		]
 	},
@@ -2016,11 +2016,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my grandparents"
+				"phrase": "Büyük Ebeveynlerimi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my grandparents"
+				"phrase": "Büyük Ebeveynlerimi görmek istiyorum"
 			}
 		]
 	},
@@ -2034,11 +2034,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my brother"
+				"phrase": "Abimi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my brother"
+				"phrase": "Abimi görmek istiyorum"
 			}
 		]
 	},
@@ -2052,11 +2052,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my sister"
+				"phrase": "Ablamı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my sister"
+				"phrase": "Ablamı görmek istiyorum"
 			}
 		]
 	},,
@@ -2070,11 +2070,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my uncle"
+				"phrase": "Dayımı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my uncle"
+				"phrase": "Dayımı görmek istiyorum"
 			}
 		]
 	},
@@ -2088,11 +2088,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my aunt"
+				"phrase": "Teyzemi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my aunt"
+				"phrase": "Teyzemi görmek istiyorum"
 			}
 		]
 	},
@@ -2107,11 +2107,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my teacher"
+				"phrase": "Öğretmenimi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my teacher"
+				"phrase": "Öğretmenimi görmek istiyorum"
 			}
 		]
 	},
@@ -2125,11 +2125,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my therapist"
+				"phrase": "Terapistimi seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my therapist"
+				"phrase": "Terapistimi görmek istiyorum"
 			}
 		]
 	},
@@ -2143,11 +2143,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my doctor"
+				"phrase": "Doktorumu seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my doctor"
+				"phrase": "Doktora gitmek istiyorum"
 			}
 		]
 	},
@@ -2161,19 +2161,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my friends"
+				"phrase": "Arkadaşlarım seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't like my friends"
+				"phrase": "Arkadaşlarımdan hoşlanmıyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my friends"
+				"phrase": "Arkadaşlarımı görmek istiyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to talk to my friends"
+				"phrase": "Arkadaşlarımla konuşmak istiyorum"
 			}
 		]
 	},
@@ -2187,11 +2187,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm reading my book"
+				"phrase": "Kitap okuyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give my book"
+				"phrase": "Bana kitabımı verir misin?"
 			}
 		]
 	},
@@ -2205,11 +2205,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm taking notes to my notebook"
+				"phrase": "Defterime not alıyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give my notebook"
+				"phrase": "Bana defterimi verebilir misin?"
 			}
 		]
 	},
@@ -2223,11 +2223,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm writing with my pencil"
+				"phrase": "Kalemim ile yazıyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give my pencil"
+				"phrase": "Bana kalemimi verebilir misin?"
 			}
 		]
 	},
@@ -2257,11 +2257,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to be quiet in lesson"
+				"phrase": "Derste sessiz olmalıyım"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "You need to be quiet in lesson"
+				"phrase": "Derste sessiz olmalısın"
 			}
 		]
 	},
@@ -2275,11 +2275,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like mathematics"
+				"phrase": "Matematiği seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to learn mathematics"
+				"phrase": "Matematik öğrenmek istiyorum"
 			}
 		]
 	},
@@ -2293,11 +2293,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like literature"
+				"phrase": "Edebiyatı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to learn literature"
+				"phrase": "Edebiyat öğrenmek istiyorum"
 			}
 		]
 	},
@@ -2311,11 +2311,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I have a question"
+				"phrase": "Bir sorum var"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I ask a question"
+				"phrase": "Bir soru sorabilir miyim?"
 			}
 		]
 	},
@@ -2329,11 +2329,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I don't understand"
+				"phrase": "Anlamadım"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you explain it?"
+				"phrase": "Açıklayabilir misin?"
 			}
 		]
 	},
@@ -2347,11 +2347,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to do my homework"
+				"phrase": "Ödevimi yapmam gerekiyor"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help my homework"
+				"phrase": "Ödevimde bana yardım eder misin?"
 			}
 		]
 	},
@@ -2365,11 +2365,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Let's walk around"
+				"phrase": "Hadi yürüyelim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go to walking?"
+				"phrase": "Yürüyüşe çıkalım mı?"
 			}
 		]
 	},
@@ -2383,11 +2383,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like running"
+				"phrase": "Koşmayı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you go to running"
+				"phrase": "Koşuya çıkalım mı?"
 			}
 		]
 	},
@@ -2401,11 +2401,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like talking"
+				"phrase": "Konuşmayı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you talk?"
+				"phrase": "Konuşalım mı?"
 			}
 		]
 	},
@@ -2419,11 +2419,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading."
+				"phrase": "Okumayı seviyorum"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you like reading?"
+				"phrase": "Okumama yardım eder misin?"
 			}
 		]
 	},
@@ -2437,11 +2437,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing football"
+				"phrase": "Futbol oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Let's play football"
+				"phrase": "Hadi futbol oynayalım"
 			}
 		]
 	},
@@ -2455,11 +2455,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing basketball"
+				"phrase": "Basketbol oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Let's play basketball"
+				"phrase": "Hadi basketbol oynayalım"
 			}
 		]
 	},
@@ -2473,11 +2473,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like swimming"
+				"phrase": "Yüzmeyi severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you go to swimming"
+				"phrase": "Yüzmeye gidelim mi?"
 			}
 		]
 	},
@@ -2491,11 +2491,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing tennis"
+				"phrase": "Tenis oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we play tennis together?"
+				"phrase": "Birlikte tenis oynayalım mı?"
 			}
 		]
 	},
@@ -2509,11 +2509,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like cycling"
+				"phrase": "Bisiklet sürmeyi severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we cycle bike together?"
+				"phrase": "Birlikte bisiklet sürelim mi?"
 			}
 		]
 	},
@@ -2527,11 +2527,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like skating"
+				"phrase": "Kaykay sürmeyi severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to skate with me?"
+				"phrase": "Birlikte kaykay oynayalım mı?"
 			}
 		]
 	},
@@ -2545,11 +2545,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like sightseeing"
+				"phrase": "Dolaşmayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go sightseeing together"
+				"phrase": "Birlikte dolaşmaya gidelim mi?"
 			}
 		]
 	},
@@ -2563,11 +2563,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing video games"
+				"phrase": "Video oyunu oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I play video games?"
+				"phrase": "Video oyunu oynayabilir miyim?"
 			}
 		]
 	},
@@ -2581,11 +2581,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like tidying my room"
+				"phrase": "Odamı toplamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me tidy my room"
+				"phrase": "Odamı toplamama yardım eder misin?"
 			}
 		]
 	},
@@ -2599,11 +2599,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing with my toys"
+				"phrase": "Oyuncaklarımla oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play with my toys"
+				"phrase": "Oyuncaklarımla oynamak ister misin?"
 			}
 		]
 	},
@@ -2617,11 +2617,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like solving puzzles"
+				"phrase": "Yap-boz oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to solve puzzle together?"
+				"phrase": "Birlikte yap-boz oynamak ister misin?"
 			}
 		]
 	},
@@ -2635,11 +2635,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading comic books"
+				"phrase": "Karikatür okumayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to read comics with me?"
+				"phrase": "Birlikte karikatür okumak ister misin?"
 			}
 		]
 	},
@@ -2653,11 +2653,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading playing chess"
+				"phrase": "Satranç oynamayı severim"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play chess with me?"
+				"phrase": "Birlikte satranç oynamak ister misin?"
 			}
 		]
 	},
