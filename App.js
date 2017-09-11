@@ -5,7 +5,7 @@ import Layout from './layouts/app';
 import Settings from './js/settings';
 import { Segment } from 'expo';
 const writeKey = "82jwihpKRSGXypMEnce3qKV1elkCq9zt";
-const STATISTIC_STATUS = true;
+const STATISTIC_STATUS = false;
 // Expo does not support test app stats, so turn it off
 // in the development
 
