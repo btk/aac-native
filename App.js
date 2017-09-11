@@ -3,11 +3,6 @@ import { StyleSheet, Text, View, StatusBar } from 'react-native';
 
 import Layout from './layouts/app';
 import Settings from './js/settings';
-import { Segment } from 'expo';
-const writeKey = "82jwihpKRSGXypMEnce3qKV1elkCq9zt";
-const STATISTIC_STATUS = false;
-// Expo does not support test app stats, so turn it off
-// in the development
 
 const LANGUAGE_FLUSH = false;
 // LANGUAGE_FLUSH is a constant variable for development tests
@@ -36,16 +31,14 @@ export default class App extends React.Component {
 
   setLanguageAsState(){
     Settings.getOption("language").then(lang => {
-      console.log("App is loading in language: ", lang);
-      this.setState({currentLang: lang});
-      if(STATISTIC_STATUS){
-        Settings.getOption("userId").then(userId => {
-          console.log("User session started: ", userId);
-          Segment.initializeAndroid(writeKey);
-          Segment.initializeiOS(writeKey);
-          Segment.identify(userId);
-        });
-        Segment.trackWithProperties("app:start", lang);
+      if(lang){
+        console.log("App is loading in language: ", lang);
+        this.setState({currentLang: lang});
+      }else{
+        console.log("Language not yet set, will try in 1s");
+        setTimeout(() => {
+          this.setLanguageAsState();
+        }, 1000);
       }
     });
   }
@@ -58,7 +51,7 @@ export default class App extends React.Component {
           <Layout language={this.state.currentLang}/>
         </View>
       );
-    }else{
+    } else {
       return null;
     }
   }
