@@ -374,6 +374,28 @@
 	},
 	{
 		"type": "card",
+		"title": "Hurt",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I hurt myself"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I need band aid"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "It hurts"
+			}
+		]
+	},
+	{
+		"type": "card",
 		"title": "Happy",
 		"slug": "happy",
 		"parents": [

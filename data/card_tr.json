@@ -374,6 +374,28 @@
 	},
 	{
 		"type": "card",
+		"title": "Ağrı",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kendimi yaraladım"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Yara bandına ihtiyacım var"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ağrıyor"
+			}
+		]
+	},
+	{
+		"type": "card",
 		"title": "Mutlu",
 		"slug": "happy",
 		"parents": [
