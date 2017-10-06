@@ -1664,7 +1664,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Raspberry",
+		"title": "Framboesa",
 		"slug": "raspberry",
 		"parents": [
 			"foods"
@@ -1672,25 +1672,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer raspberry"
+				"phrase": "Eu quero comer framboesa"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer raspberry"
+				"phrase": "Eu não quero comer framboesa"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer raspberry?"
+				"phrase": "Você quer comer framboesa?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer raspberry"
+				"phrase": "Eu gosto de comer framboesa"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Strawberry",
+		"title": "Morango",
 		"slug": "strawberry",
 		"parents": [
 			"foods"
@@ -1698,25 +1698,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer strawberry"
+				"phrase": "Eu quero comer morango"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer strawberry"
+				"phrase": "Eu não quero comer morango"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer strawberry?"
+				"phrase": "Você quer comer morango?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer strawberry"
+				"phrase": "Eu gosto de comer morango"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Watermelon",
+		"title": "Melancia",
 		"slug": "watermelon",
 		"parents": [
 			"foods"
@@ -1724,25 +1724,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer watermelon"
+				"phrase": "Eu quero comer melancia"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer watermelon"
+				"phrase": "Eu não quero comer melancia"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer watermelon?"
+				"phrase": "Você quer comer melancia?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer watermelon"
+				"phrase": "Eu gosto de comer melancia"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grapes",
+		"title": "Uva",
 		"slug": "grapes",
 		"parents": [
 			"foods"
@@ -1750,25 +1750,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer grapes"
+				"phrase": "Eu quero comer uva"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer grapes"
+				"phrase": "Eu não quero comer uva"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer grapes?"
+				"phrase": "Você quer comer uva?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer grapes"
+				"phrase": "Eu gosto de comer uva"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Avocado",
+		"title": "Abacate",
 		"slug": "avocado",
 		"parents": [
 			"foods"
@@ -1776,25 +1776,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer avocado"
+				"phrase": "Eu quero comer abacate"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer avocado"
+				"phrase": "Eu não quero comer abacate"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer avocado?"
+				"phrase": "Você quer comer abacate?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer avocado"
+				"phrase": "Eu gosto de comer abacate"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Rice",
+		"title": "Arroz",
 		"slug": "rice",
 		"parents": [
 			"foods"
@@ -1802,19 +1802,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer rice"
+				"phrase": "Eu quero comer arroz"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer rice"
+				"phrase": "Eu não quero comer arroz"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer rice?"
+				"phrase": "Você quer comer arroz?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer rice"
+				"phrase": "Eu gosto de comer arroz"
 			}
 		]
 	},
@@ -1846,7 +1846,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Milk",
+		"title": "Leite",
 		"slug": "milk",
 		"parents": [
 			"foods"
@@ -1854,25 +1854,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink milk"
+				"phrase": "Eu quero beber leite"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink milk"
+				"phrase": "Eu não quero beber leite"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink milk"
+				"phrase": "Você quer beber leite?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking milk"
+				"phrase": "Eu gosto de beber leite"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tea",
+		"title": "Chá",
 		"slug": "tea",
 		"parents": [
 			"foods"
@@ -1880,25 +1880,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink tea"
+				"phrase": "Eu quero beber chá"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink tea"
+				"phrase": "Eu não quero beber chá"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink tea"
+				"phrase": "Você quer beber chá?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking tea"
+				"phrase": "Eu gosto de beber chá"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Honey",
+		"title": "Mel",
 		"slug": "honey",
 		"parents": [
 			"foods"
@@ -1906,25 +1906,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer honey"
+				"phrase": "Eu quero comer mel"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer honey"
+				"phrase": "Eu não quero comer mel"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer honey?"
+				"phrase": "Você quer comer mel?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer honey"
+				"phrase": "Eu gosto de comer mel"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Kebab",
+		"title": "Churrasquinho",
 		"slug": "kebab",
 		"parents": [
 			"foods"
@@ -1932,19 +1932,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Eu quero comer kebab"
+				"phrase": "Eu quero comer churrasquinho"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Eu não quero comer kebab"
+				"phrase": "Eu não quero comer churrasquinho"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Você quer comer kebab?"
+				"phrase": "Você quer comer churrasquinho?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Eu gosto de comer kebab"
+				"phrase": "Eu gosto de comer churrasquinho"
 			}
 		]
 	},
@@ -1976,7 +1976,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Mother",
+		"title": "Mãe",
 		"slug": "mother",
 		"parents": [
 			"people"
@@ -1984,17 +1984,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my mother"
+				"phrase": "Eu amo minha mãe"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my mother"
+				"phrase": "Eu quero ver minha mãe"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Father",
+		"title": "Pai",
 		"slug": "father",
 		"parents": [
 			"people"
@@ -2002,17 +2002,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my father"
+				"phrase": "Eu amo meu father"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my father"
+				"phrase": "Eu quero ver meu father"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Parents",
+		"title": "Pais",
 		"slug": "parents",
 		"parents": [
 			"people"
@@ -2020,17 +2020,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my parents"
+				"phrase": "Eu amo meus pais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my parents"
+				"phrase": "Eu quero ver meus pais"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grandparents",
+		"title": "Avós",
 		"slug": "grandparents",
 		"parents": [
 			"people"
@@ -2038,17 +2038,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my grandparents"
+				"phrase": "Eu amo meus avós"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my grandparents"
+				"phrase": "Eu quero ver meus avós"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Brother",
+		"title": "Irmão",
 		"slug": "brother",
 		"parents": [
 			"people"
@@ -2056,11 +2056,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my brother"
+				"phrase": "Eu amo meu irmão"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my brother"
+				"phrase": "Eu quero ver meu irmão"
 			}
 		]
 	},
@@ -2081,7 +2081,7 @@
 				"phrase": "I want to see my sister"
 			}
 		]
-	},,
+	},
 	{
 		"type": "card",
 		"title": "Uncle",
