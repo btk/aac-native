@@ -50,7 +50,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Bantu saya",
+		"title": "Bantuan",
 		"slug": "help",
 		"parents": [
 			"general"
@@ -85,7 +85,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Bisakah kamu menyiapkann makanan untuk saya?"
+				"phrase": "Bisakah kamu menyiapkan makanan untuk saya?"
 			}
 		]
 	},
@@ -306,7 +306,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Saya menyimak apa yang Anda katakan"
+				"phrase": "Saya menyimak apa yang anda katakan"
 			}
 		]
 	},
@@ -408,7 +408,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa bahagia"
+				"phrase": "Apakah kamu merasa bahagia?"
 			}
 		]
 	},
@@ -426,7 +426,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa sedih"
+				"phrase": "Apakah kamu merasa sedih?"
 			}
 		]
 	},
@@ -444,7 +444,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa lelah"
+				"phrase": "Apakah kamu merasa lelah?"
 			}
 		]
 	},
@@ -462,7 +462,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa rileks"
+				"phrase": "Apakah kamu merasa rileks?"
 			}
 		]
 	},
@@ -480,7 +480,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu sedang jatuh cinta"
+				"phrase": "Apakah kamu sedang jatuh cinta?"
 			}
 		]
 	},
@@ -498,7 +498,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa tertekan"
+				"phrase": "Apakah kamu merasa tertekan?"
 			}
 		]
 	},
@@ -516,7 +516,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa bersyukur"
+				"phrase": "Apakah kamu merasa bersyukur?"
 			}
 		]
 	},
@@ -534,7 +534,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa bingung"
+				"phrase": "Apakah kamu merasa bingung?"
 			}
 		]
 	},
@@ -552,7 +552,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa gembira"
+				"phrase": "Apakah kamu merasa gembira?"
 			}
 		]
 	},
@@ -570,7 +570,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu sedang marah"
+				"phrase": "Apakah kamu sedang marah?"
 			}
 		]
 	},
@@ -588,7 +588,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa pintar"
+				"phrase": "Apakah kamu merasa pintar?"
 			}
 		]
 	},
@@ -606,7 +606,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa takut"
+				"phrase": "Apakah kamu merasa takut?"
 			}
 		]
 	},
@@ -624,7 +624,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa malu"
+				"phrase": "Apakah kamu merasa malu?"
 			}
 		]
 	},
@@ -642,7 +642,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu kaget"
+				"phrase": "Apakah kamu kaget?"
 			}
 		]
 	},
@@ -660,7 +660,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa sakit / tidak enak badan"
+				"phrase": "Apakah kamu merasa sakit / tidak enak badan?"
 			}
 		]
 	},
@@ -678,7 +678,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu merasa frustasi"
+				"phrase": "Apakah kamu merasa frustasi?"
 			}
 		]
 	},
@@ -700,7 +700,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan apel"
+				"phrase": "Apakah kamu ingin makan apel?"
 			},
 			{
 				"symbol": "like",
@@ -726,7 +726,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan jeruk"
+				"phrase": "Apakah kamu ingin makan jeruk?"
 			},
 			{
 				"symbol": "like",
@@ -744,11 +744,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa membantu saya menggunakan peralatan saya"
+				"phrase": "Apakah kamu bisa membantu saya menggunakan peralatan saya?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa memberikan peralatan saya"
+				"phrase": "Apakah kamu bisa memberikan peralatan saya?"
 			}
 		]
 	},
@@ -770,7 +770,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin minum air"
+				"phrase": "Apakah kamu ingin minum air?"
 			},
 			{
 				"symbol": "like",
@@ -796,7 +796,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan tomat"
+				"phrase": "Apakah kamu ingin makan tomat?"
 			},
 			{
 				"symbol": "like",
@@ -822,7 +822,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan kentang"
+				"phrase": "Apakah kamu ingin makan kentang?"
 			},
 			{
 				"symbol": "like",
@@ -848,7 +848,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan steak"
+				"phrase": "Apakah kamu ingin makan steak?"
 			},
 			{
 				"symbol": "like",
@@ -874,7 +874,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan pizza"
+				"phrase": "Apakah kamu ingin makan pizza?"
 			},
 			{
 				"symbol": "like",
@@ -900,7 +900,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan hamburger"
+				"phrase": "Apakah kamu ingin makan hamburger?"
 			},
 			{
 				"symbol": "like",
@@ -926,7 +926,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan kentang goreng"
+				"phrase": "Apakah kamu ingin makan kentang goreng?"
 			},
 			{
 				"symbol": "like",
@@ -952,7 +952,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan es krim"
+				"phrase": "Apakah kamu ingin makan es krim?"
 			},
 			{
 				"symbol": "like",
@@ -978,7 +978,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan kue"
+				"phrase": "Apakah kamu ingin makan kue?"
 			},
 			{
 				"symbol": "like",
@@ -1004,7 +1004,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan sereal"
+				"phrase": "Apakah kamu ingin makan sereal?"
 			},
 			{
 				"symbol": "like",
@@ -1030,7 +1030,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan telur goreng"
+				"phrase": "Apakah kamu ingin makan telur goreng?"
 			},
 			{
 				"symbol": "like",
@@ -1056,7 +1056,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan telur rebus"
+				"phrase": "Apakah kamu ingin makan telur rebus?"
 			},
 			{
 				"symbol": "like",
@@ -1082,7 +1082,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan keju"
+				"phrase": "Apakah kamu ingin makan keju?"
 			},
 			{
 				"symbol": "like",
@@ -1108,7 +1108,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan ayam"
+				"phrase": "Apakah kamu ingin makan ayam?"
 			},
 			{
 				"symbol": "like",
@@ -1134,7 +1134,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan sandwich"
+				"phrase": "Apakah kamu ingin makan sandwich?"
 			},
 			{
 				"symbol": "like",
@@ -1160,7 +1160,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan salad"
+				"phrase": "Apakah kamu ingin makan salad?"
 			},
 			{
 				"symbol": "like",
@@ -1186,7 +1186,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan roti"
+				"phrase": "Apakah kamu ingin makan roti?"
 			},
 			{
 				"symbol": "like",
@@ -1212,7 +1212,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan wortel"
+				"phrase": "Apakah kamu ingin makan wortel?"
 			},
 			{
 				"symbol": "like",
@@ -1238,7 +1238,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan permen"
+				"phrase": "Apakah kamu ingin makan permen?"
 			},
 			{
 				"symbol": "like",
@@ -1248,7 +1248,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cake",
+		"title": "cake",
 		"slug": "cake",
 		"parents": [
 			"foods"
@@ -1264,7 +1264,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan cake"
+				"phrase": "Apakah kamu ingin makan cake?"
 			},
 			{
 				"symbol": "like",
@@ -1290,7 +1290,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan brokoli"
+				"phrase": "Apakah kamu ingin makan brokoli?"
 			},
 			{
 				"symbol": "like",
@@ -1300,7 +1300,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cherries",
+		"title": "Ceri",
 		"slug": "cherries",
 		"parents": [
 			"foods"
@@ -1308,19 +1308,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Saya ingin makan cherries"
+				"phrase": "Saya ingin makan ceri"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Saya tidak ingin makan cherries"
+				"phrase": "Saya tidak ingin makan ceri"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan cherries"
+				"phrase": "Apakah kamu ingin makan ceri?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Saya suka makan cherries"
+				"phrase": "Saya suka makan ceri"
 			}
 		]
 	},
@@ -1342,7 +1342,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan kacang"
+				"phrase": "Apakah kamu ingin makan kacang?"
 			},
 			{
 				"symbol": "like",
@@ -1368,7 +1368,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan pisang"
+				"phrase": "Apakah kamu ingin makan pisang?"
 			},
 			{
 				"symbol": "like",
@@ -1394,7 +1394,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan coklat"
+				"phrase": "Apakah kamu ingin makan coklat?"
 			},
 			{
 				"symbol": "like",
@@ -1404,7 +1404,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Coke",
+		"title": "Minuman bersoda",
 		"slug": "coke",
 		"parents": [
 			"foods"
@@ -1412,19 +1412,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Saya ingin minum coke"
+				"phrase": "Saya ingin minum minuman bersoda"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Saya tidak ingin minum coke"
+				"phrase": "Saya tidak ingin minum minuman bersoda"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin minum coke"
+				"phrase": "Apakah kamu ingin minum minuman bersoda?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Saya suka drinking coke"
+				"phrase": "Saya suka drinking minuman bersoda"
 			}
 		]
 	},
@@ -1446,7 +1446,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan cupcake"
+				"phrase": "Apakah kamu ingin makan cupcake?"
 			},
 			{
 				"symbol": "like",
@@ -1472,7 +1472,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan donat"
+				"phrase": "Apakah kamu ingin makan donat?"
 			},
 			{
 				"symbol": "like",
@@ -1498,7 +1498,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan ikan"
+				"phrase": "Apakah kamu ingin makan ikan?"
 			},
 			{
 				"symbol": "like",
@@ -1524,7 +1524,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan sushi"
+				"phrase": "Apakah kamu ingin makan sushi?"
 			},
 			{
 				"symbol": "like",
@@ -1550,7 +1550,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan jagung"
+				"phrase": "Apakah kamu ingin makan jagung?"
 			},
 			{
 				"symbol": "like",
@@ -1576,7 +1576,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan lemon"
+				"phrase": "Apakah kamu ingin makan lemon?"
 			},
 			{
 				"symbol": "like",
@@ -1602,7 +1602,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu mau dengan mustard"
+				"phrase": "Apakah kamu mau dengan mustard?"
 			},
 			{
 				"symbol": "like",
@@ -1612,7 +1612,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Peach",
+		"title": "Persik",
 		"slug": "peach",
 		"parents": [
 			"foods"
@@ -1620,19 +1620,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Saya ingin makan peach"
+				"phrase": "Saya ingin makan persik"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Saya tidak ingin makan peach"
+				"phrase": "Saya tidak ingin makan persik"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan peach"
+				"phrase": "Apakah kamu ingin makan persik?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Saya suka makan peach"
+				"phrase": "Saya suka makan persik"
 			}
 		]
 	},
@@ -1654,7 +1654,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan nanas"
+				"phrase": "Apakah kamu ingin makan nanas?"
 			},
 			{
 				"symbol": "like",
@@ -1680,7 +1680,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan raspberry"
+				"phrase": "Apakah kamu ingin makan raspberry?"
 			},
 			{
 				"symbol": "like",
@@ -1690,7 +1690,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Strawberry",
+		"title": "Stroberi",
 		"slug": "strawberry",
 		"parents": [
 			"foods"
@@ -1698,19 +1698,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Saya ingin makan strawberry"
+				"phrase": "Saya ingin makan stroberi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Saya tidak ingin makan strawberry"
+				"phrase": "Saya tidak ingin makan stroberi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan strawberry"
+				"phrase": "Apakah kamu ingin makan stroberi?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Saya suka makan strawberry"
+				"phrase": "Saya suka makan stroberi"
 			}
 		]
 	},
@@ -1732,7 +1732,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan semangka"
+				"phrase": "Apakah kamu ingin makan semangka?"
 			},
 			{
 				"symbol": "like",
@@ -1758,7 +1758,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan anggur"
+				"phrase": "Apakah kamu ingin makan anggur?"
 			},
 			{
 				"symbol": "like",
@@ -1784,7 +1784,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan alpukat"
+				"phrase": "Apakah kamu ingin makan alpukat?"
 			},
 			{
 				"symbol": "like",
@@ -1810,7 +1810,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan nasi"
+				"phrase": "Apakah kamu ingin makan nasi?"
 			},
 			{
 				"symbol": "like",
@@ -1836,7 +1836,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan spageti"
+				"phrase": "Apakah kamu ingin makan spageti?"
 			},
 			{
 				"symbol": "like",
@@ -1862,7 +1862,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin minum susu"
+				"phrase": "Apakah kamu ingin minum susu?"
 			},
 			{
 				"symbol": "like",
@@ -1888,7 +1888,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin minum teh"
+				"phrase": "Apakah kamu ingin minum teh?"
 			},
 			{
 				"symbol": "like",
@@ -1914,7 +1914,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan madu"
+				"phrase": "Apakah kamu ingin makan madu?"
 			},
 			{
 				"symbol": "like",
@@ -1940,7 +1940,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan kebab"
+				"phrase": "Apakah kamu ingin makan kebab?"
 			},
 			{
 				"symbol": "like",
@@ -1966,7 +1966,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin makan taco"
+				"phrase": "Apakah kamu ingin makan taco?"
 			},
 			{
 				"symbol": "like",
@@ -2213,13 +2213,13 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa mengembalikan buku saya"
+				"phrase": "Apakah kamu bisa mengembalikan buku saya?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Catatan",
+		"title": "Buku catatan",
 		"slug": "notebook",
 		"parents": [
 			"school"
@@ -2231,7 +2231,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa mengembalikan buku catatan saya"
+				"phrase": "Apakah kamu bisa mengembalikan buku catatan saya?"
 			}
 		]
 	},
@@ -2249,7 +2249,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa mengembalikan pensil saya"
+				"phrase": "Apakah kamu bisa mengembalikan pensil saya?"
 			}
 		]
 	},
@@ -2337,7 +2337,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah saya boleh bertanya"
+				"phrase": "Apakah saya boleh bertanya?"
 			}
 		]
 	},
@@ -2373,7 +2373,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa membantu pekerjaan rumah saya"
+				"phrase": "Apakah kamu bisa membantu pekerjaan rumah saya?"
 			}
 		]
 	},
@@ -2409,7 +2409,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Bisakah kita berolahraga lari"
+				"phrase": "Bisakah kita berolahraga lari?"
 			}
 		]
 	},
@@ -2499,7 +2499,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Bisakah kita pergi berenang"
+				"phrase": "Bisakah kita pergi berenang?"
 			}
 		]
 	},
@@ -2571,7 +2571,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Bisakah kita pergi jalan-jalan bersama"
+				"phrase": "Bisakah kita pergi jalan-jalan bersama?"
 			}
 		]
 	},
@@ -2607,7 +2607,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu bisa membantu saya merapikan kamar saya"
+				"phrase": "Apakah kamu bisa membantu saya merapikan kamar saya?"
 			}
 		]
 	},
@@ -2625,7 +2625,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Apakah kamu ingin bermainan dengan mainan saya"
+				"phrase": "Apakah kamu ingin bermain dengan mainan saya?"
 			}
 		]
 	},
