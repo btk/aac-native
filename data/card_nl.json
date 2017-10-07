@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Algemeen",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Mensen",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Voedsel",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Gevoelens",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Activiteiten",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "School",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Getallen",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Help mij",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "kan je mij helpen?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan ik jouw helpen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Honger",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik heb honger!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Heb je honger?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je eten voor mij maken?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dorst",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik heb dorst!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Heb je dorst?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij water geven?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil iets drinken!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toilet",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik moet de gebruik maken van het toilet!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij naar het toilet brengen?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik moet poepen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik moet plassen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wat?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Wat bedoel je?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wat betekend dat?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ja",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Oke!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Goed"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben het ermee eens!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Goed"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nee",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nee!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Negatief"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben het er niet mee eens!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Verkeerd"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hallo",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Slapen",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik moet slapen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil slapen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bad",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een bad nemen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je mij helpen een douche te nemen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Morgen",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Goede morgen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "In de ochtend"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nacht",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Goede nacht"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "'s nachts"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Luisteren",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Luister naar mij"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik luister naar jouw"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Buiten",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil naar buiten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kun je mij naar buiten brengen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kleding",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kleding dragen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mijn kleding is vies"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij kleding geven om te dragen?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij helpen om de kleding aan te trekken?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Huis",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil naar huis"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn huis"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gewond",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik mij verwond"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik heb een pleister nodig"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Het doet pijn"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Blij",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij vrolijk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je blij?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verdrietig",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij verdrietig"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je verdrietig?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Moe",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij moe"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je moe?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ontspannen",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij ontspannen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je ontspannen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verliefd",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben verliefd"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je verliefd?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gestrest",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij gestrest"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je gestrest?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dankbaar",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij dankbaar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je dankbaar?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verward",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij verward"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je verward?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vrolijk",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij vrolijk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je vrolijk?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Boos",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel me boos"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je boos?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Slim",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij slim"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je slim?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bang",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben bang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je bang?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schamen",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik schaam mij"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je schamen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Geschokt",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben geschroken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ben je geschroken?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ziek",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij niet lekker"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je ziek?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gefrustreerd",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik voel mij gefrustreerd"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Voel je je gefrustreerd?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Appel",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een appel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen appel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een appel eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een appel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sinaasappel",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een sinaasappel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen sinaasappel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een sinaasappel eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een sinaasappel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bestek",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij helpen met mijn bestek"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij mijn bestek geven?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Water",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil water drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen water drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je water drinken?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik wil water drinken"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tomaat",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een tomaat eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen tomaat eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een tomaat eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een tomaat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Aardappel",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een aardappel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen aardappel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een aardappel eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een aardappel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Biefstuk",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil biefstuk eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen biefstuk eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je biefstuk eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag biefstuk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een pizza eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen pizza eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je pizza eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een hamburger eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen hamburger eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een hamburger eten"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een hamburger"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Patat",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil patat eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen patat eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je patat eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag patat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ijs",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een ijs eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen ijs eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je ijs eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag ijs"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Koek",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil koek eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen koek eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je koek eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag koek"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cornflakes",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil cornflakes eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen cornflakes eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je cornflakes eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag cornflakes"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gebakken ei",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een gebakken ei eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen gebakken ei eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een gebakken ei eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een gebakken ei"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gekookt ei",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een gekookt ei"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen gekookt ei"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een gekookt ei eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een gekookt ei"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kaas",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil kaas eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen kaas eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je kaas eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag kaas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kip",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil kip eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen kip eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je kip eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag kip"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Broodje",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een broodje eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen broodje eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een broodje eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een broodje"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Salade",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een salade eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen salade eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een salade eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een salade"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brood",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil brood eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen brood eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je brood eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag brood"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wortel",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een wortel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen wortel eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een wortel eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een wortel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Snoep",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil snoep eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen snoep eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je snoep eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag snoep"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cake",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil cake eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen cake eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je cake eten"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag cake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Broccoli",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil broccoli eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen broccoli eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je broccoli eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag broccoli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kersen",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil kersen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen kersen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je kersen eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag kersen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bonen",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil bonen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen bonen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je bonen eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag bonen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Banaan",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een banaan eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen banaan eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een banaan eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een banaan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chocolade",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil chocolade eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen chocolade"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je chocolade eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag chocolade"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cola",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil cola drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen cola drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je cola drinken?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik drink graag cola"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mufin",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een mufin eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen mufin eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een mufin eten"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een mufin"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Donnut",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een donut eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen donut eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een donut eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een donut"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vis",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil vis eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen vis eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je vis eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag vis"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I wil sushi eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen sushi eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je sushi eten"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Maïs",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil maïs eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen maïs eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je maïs eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag maïs"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Citroen",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een citroen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen citroen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een citroen eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een citroen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mosterd",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mosterd bij mijn eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen mosterd"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je wat mosterd?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik uit graag mosterd bij mijn eten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Perzik",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een perzik eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen perzik eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een perzik eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een perzik"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ananas",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een ananas eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen ananas eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een ananas eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een ananas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Framboos",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een framboos eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen framboos eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een framboos eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een framboos"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Aardbei",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een aardbei eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen aardbei eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een aardbei eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een aardbei"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Watermeloen",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een watermeloen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen watermeloen eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een watermeloen eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een watermeloen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Druiven",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil druiven eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen druiven eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je druiven eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag druiven"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Avocado",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I wil een avocado eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen avocado eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een avocado eten"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een avocado"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rijst",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil rijst eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen rijst eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je rijst eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag rijst"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spaghetti",
+		"slug": "spaguetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil spaghetti eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen spaghetti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je spaghetti eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag spaghetti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Melk",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil melk drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen melk drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je melk drinken"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik drink graag melk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thee",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil thee drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen thee drinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je thee drinken?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik drink graag thee"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Honing",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil honing eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen honing eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je honing eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag honing"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil kebab eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen kebab eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je kebab eten"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil een taco eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil geen taco eten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je een taco eten?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ik eet graag een taco"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Moeder",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn moeder"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn moeder zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vader",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn vader"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn vader zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ouders",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn ouders"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn ouders zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Groot ouders",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn groot ouders"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn groot ouders zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Broer",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn broer"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn broer zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zus",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn zus"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn zus zien"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Oom",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn oom"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn oom zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tante",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn tante"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn tante zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Docent",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn docent"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn docent zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Arts",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn arts"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn arts zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dokter",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn dokter"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn dokter zien"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vrienden",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van mijn vrienden"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd niet van mijn vrienden"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil mijn vrienden zien"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil met mijn vrienden praten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Boek",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben een boek aan het lezen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mijn boek geven?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schrift",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik maak notities in mijn schrift"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mijn schrift geven?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Potlood",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik ben aan het schrijven met mijn potlood"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mijn potlood geven?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Blackbord",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Les",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stil",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik moet stil zijn in de les"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Je moet stil zijn in de les"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wiskunde",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van wiskunde"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil wiskunde leren"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Literatuur",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik vind literatuur leuk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ik wil literatuur leren"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vraag",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik heb een vraag"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mag ik een vraag stellen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Begrijpen",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik begrijp het niet"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "kan je het uitleggen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Huiswerk",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik moet mijn huiswerk doen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij helpen met mijn huiswerk?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lopen",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Laten we een rondje gaan lopen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen we gaan lopen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rennen",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van rennen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen we gaan rennen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Praten",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van praten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen we samen praten?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lezen",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van lezen."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je helpen met lezen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Voetbal",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van voetballen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Laten we gaan voetballen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Basketballen",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van basketballen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Laten we gaan basketballen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zwemmen",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van zwemmen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen we gaan zwemmen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tennissen",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I houd van tennissen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen we samen gaan tennissen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fietsen",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van fietsen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen we samen gaan fietsen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schaatsen",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van schaatsen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je met mij schaatsen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bezienswaardigheden bekijken",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd van bezienswaardigheden te bekijken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kunnen samen bezienswaardigheden bekijken?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Computer spellen",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "I vind het leuk om computer spellen te spelen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mag ik computer spellen spelen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schoonmaken",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd ervan om mijn kamer te schoonmaken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan je mij helpen om mijn kamer schoon te maken?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Speelgoed",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd ervan om met mijn speelgoed te spelen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je met mijn speelgoed spelen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puzzel",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd ervan om puzzels op te lossen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je samen een puzzel oplossen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stripboeken",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik houd ervan om stripboeken te lezen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je samen met mij een stripboek lezen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schaken",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ik vind het leuk om te schaken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wil je met mij schaken?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Een",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Twee",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Drie",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vier",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vijf",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zes",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zeven",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Acht",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Negen",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tien",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Twintg",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dertig",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Veertig",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vijftig",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zestig",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zeventig",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tachtig",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Negentig",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Honderd",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rekenmachine",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
