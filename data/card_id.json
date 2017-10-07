@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Umum",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Orang",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Makanan",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Perasaan",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Aktivitas",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Sekolah",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Angka",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Bantu saya",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah ada yang bisa saya bantu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lapar",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya lapar!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu lapar?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu menyiapkann makanan untuk saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Haus",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya haus!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu haus?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu memberikan saya air?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin sesuatu untuk di minum!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toilet",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya perlu pergi ke toilet!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu membawa saya ke toilet"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin buang air besar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin buang air kecil"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Apa?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Apa maksudmu?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apa artinya itu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ya",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ya!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Oke"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya setuju!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Benar"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tidak",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tidak!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Negatif"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak setuju!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Salah"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Halo",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tidur",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya butuh tidur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin tidur"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mandi",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin mandi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tolong bantu saya mengambil shower"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pagi",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Selamat pagi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Di pagi hari"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Malam",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Selamat malam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Di malam hari"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mendengarkan",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dengarkan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya menyimak apa yang Anda katakan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Keluar",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin pergi keluar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu membawa saya pergi keluar?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pakaian",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Memakai pakaian"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pakaianku kotor"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu memberikan pakaian untuk saya pakai?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kamu membantu saya memakai pakaian?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rumah",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin pulang ke rumah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya cinta rumah saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Luka",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya melukai diri saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya butuh perban"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ini sakit"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bahagia",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa bahagia"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa bahagia"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sedih",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa sedih"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa sedih"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lelah",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa lelah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa lelah"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rileks",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa rileks"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa rileks"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jatuh cinta",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya sedang jatuh cinta"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu sedang jatuh cinta"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tertekan",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa tertekan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa tertekan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bersyukur",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa bersyukur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa bersyukur"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bingung",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa bingung"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa bingung"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gembira",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa gembira"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa gembira"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Marah",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya marah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu sedang marah"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pintar",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa pintar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa pintar"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Takut",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa takut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa takut"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Malu",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa malu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa malu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kaget",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya kaget"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu kaget"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sakit",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa sakit / tidak enak badan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa sakit / tidak enak badan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frustasi",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya merasa frustasi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu merasa frustasi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Apel",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan apel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan apel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan apel"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan apel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jeruk",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan jeruk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan jeruk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan jeruk"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan jeruk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Peralatan",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya menggunakan peralatan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa memberikan peralatan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Air",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin minum air"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin minum air"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin minum air"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka minum air"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tomat",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan tomat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan tomat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan tomat"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan tomat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kentang",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan kentang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan kentang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan kentang"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan kentang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Steak",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan steak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan steak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan steak"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan steak"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan pizza"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan hamburger"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan hamburger"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kentang goreng",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan kentang goreng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan kentang goreng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan kentang goreng"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan kentang goreng"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Es krim",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan es krim"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan es krim"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan es krim"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan es krim"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kue",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan kue"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan kue"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan kue"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan kue"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sereal",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan sereal"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan sereal"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan sereal"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan sereal"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Telur goreng",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan telur goreng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak inign makan telur goreng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan telur goreng"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan telur goreng"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Telur rebus",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan telur rebus"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan telur rebus"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan telur rebus"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan telur rebus"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Keju",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan keju"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan keju"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan keju"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan keju"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ayam",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan ayam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan ayam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan ayam"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan ayam"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sandwich",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan sandwich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan sandwich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan sandwich"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan sandwich"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Salad",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan salad"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan salad"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan salad"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan salad"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Roti",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan roti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan roti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan roti"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan roti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wortel",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan wortel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan wortel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan wortel"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan wortel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Permen",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan permen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan permen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan permen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan permen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cake",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan cake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan cake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan cake"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan cake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brokoli",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan brokoli"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan brokoli"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan brokoli"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan brokoli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cherries",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan cherries"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan cherries"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan cherries"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan cherries"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kacang",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan kacang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan kacang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan kacang"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan kacang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pisang",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan pisang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan pisang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan pisang"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan pisang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Coklat",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan coklat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan coklat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan coklat"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan coklat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Coke",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin minum coke"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin minum coke"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin minum coke"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka drinking coke"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cupcake",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan cupcake"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan cupcake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Donat",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan donat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan donat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan donat"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan donat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ikan",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan ikan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan ikan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan ikan"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan ikan"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan sushi"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jagung",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan jagung"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan jagung"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan jagung"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan jagung"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lemon",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan lemon"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan lemon"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan lemon"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan lemon"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mustard",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin mustard di makanan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak mau mustard"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau dengan mustard"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka menggunakan mustard di makanan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Peach",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan peach"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan peach"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan peach"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan peach"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nanas",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan nanas"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan nanas"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan nanas"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan nanas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Raspberry",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan raspberry"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan raspberry"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan raspberry"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan raspberry"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Strawberry",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan strawberry"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan strawberry"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan strawberry"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan strawberry"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Semangka",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan semangka"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan semangka"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan semangka"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan semangka"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Anggur",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan anggur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan anggur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan anggur"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan anggur"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Alpukat",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan alpukat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan alpukat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan alpukat"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan alpukat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nasi",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan nasi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan nasi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan nasi"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan nasi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spageti",
+		"slug": "spaguetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan spageti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan spageti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan spageti"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan spageti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Susu",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin minum susu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin minum susu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin minum susu"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka minum susu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Teh",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin minum teh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin minum teh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin minum teh"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka minum teh"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Madu",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan madu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan madu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan madu"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan madu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan kebab"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin makan taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak ingin makan taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin makan taco"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Saya suka makan taco"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ibu",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai ibu saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu ibu saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ayah",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai ayah saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu ayah saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Orang tua",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai orang tua saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu orang tua saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kakek-nenek",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai kakek-nenek saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu kakek-nenek saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Saudara laki-laki",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai saudara laki-laki saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu saudara laki-laki saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Saudara perempuan",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai saudara perempuan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu saudara perempuan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Paman / Om",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai paman / om saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu paman / om saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bibi / Tante",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya mencintai bibi / tante saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu bibi / tante saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Guru",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya menyukai guru saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu guru saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Terapis",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya menyukai terapis saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu terapis saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dokter",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya menyukai dokter saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu dokter saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Teman",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya menyukai teman saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "saya tidak menyukai teman saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin bertemu teman saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin berbicara dengan teman saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Buku",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya sedang membaca buku saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa mengembalikan buku saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Catatan",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya sedang mencatat di buku catatan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa mengembalikan buku catatan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pensil",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya menulis menggunakan pensil saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa mengembalikan pensil saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Papan tulis",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pelajaran",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Diam",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya harus diam saat pelajaran"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kamu harus diam saat pelajaran"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Matematika",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka matematika"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin mempelajari matematika"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pelajaran bahasa",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka pelajaran bahasa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Saya ingin mempelajari bahasa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pertanyaan",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya punya sebuah pertanyaan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah saya boleh bertanya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mengerti",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya tidak mengerti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa menjelaskan itu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pekerjaan rumah",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya harus mengerjakan pekerjaan rumah saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu pekerjaan rumah saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jalan",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ayo jalan berkeliling"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita jalan?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Olahraga lari",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka olahraga lari"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita berolahraga lari"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Berbicara",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka berbicara"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kita bisa mengobrol bersama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Membaca",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka membaca."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya membaca?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sepak bola",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain sepak bola"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ayo bermain sepak bola"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bola basket",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain bola basket"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ayo bermain bola basket"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Berenang",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka berenang"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita pergi berenang"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tenis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain tenis"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kita bisa bermain tenis bersama-sama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bersepeda",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bersepeda"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kita bisa bersepeda bersama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Skating",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain es/roller skating"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau bermain es/roller skating bersama saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jalan-jalan",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka jalan-jalan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bisakah kita pergi jalan-jalan bersama"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Video Games",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain video games"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bolehkah saya bermain video games?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Merapikan",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka merapikan kamar saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu bisa membantu saya merapikan kamar saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mainan",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain dengan mainan saya"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu ingin bermainan dengan mainan saya"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puzzle",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka menyelesaikan puzzles"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau menyelesaikan puzzle bersama-sama?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Komik",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka membaca komik"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau membaca komik bersama saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Catur",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Saya suka bermain catur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Apakah kamu mau bermain catur dengan saya?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Satu",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dua",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tiga",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Empat",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lima",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Enam",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tujuh",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Delapan",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sembilan",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sepuluh",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dua puluh",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tiga puluh",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Empat puluh",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lima puluh",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Enam puluh",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tujuh puluh",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Delapan puluh",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sembilan puluh",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Seratus",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kalkulator",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
