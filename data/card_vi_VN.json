@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Thông dụng",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Người",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Thức ăn",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Cảm giác",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Hoạt động",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Trường học",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Số",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Giúp đỡ",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể giúp tôi được không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi có thể giúp bạn được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đói",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang đói!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có đói không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể cho tôi chút thức ăn được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Khát",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang khát!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có khát không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể cho tôi chút nước uống được không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn uống một thứ gì đó!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nhà vệ sinh",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần đi nhà vệ sinh!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể dẫn tôi đến chỗ đi vệ sinh được không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần đi đại tiện"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần đi tiểu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Là gì?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn nói ý gì?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Thứ đó nghĩa là gì?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vâng",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "OK!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Được thôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đồng ý!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Đúng vậy"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Không",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Không!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Không được"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không đồng ý!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Sai rồi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Xin chào",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ngủ",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần đi ngủ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn đi ngủ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tắm",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn đi tắm"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Hãy giúp tôi tắm"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Buổi sáng",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Chào buổi sáng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vào buổi sáng"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tối",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Chúc ngủ ngon"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vào buổi tối"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nghe",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Hãy nghe tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang nghe bạn"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bên ngoài",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ra ngoài chơi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể mang tôi ra ngoài được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Quần áo",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mặc quần áo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Quần áo tôi bị bẩn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể cho tôi quần áo để mặc được không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể giúp tôi mặc quần áo được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nhà",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn về nhà"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu nhà của tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đau",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi vừa làm đau chính mình!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần băng y tế"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Đau quá!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hạnh phúc",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cảm thấy hạnh phúc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy hạnh phúc không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Buồn",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thấy buồn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy buồn không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mệt mỏi",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cảm thấy thật mệt mỏi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy mệt không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thư giãn",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy thoải mái"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy thoải mái không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tình yêu",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang yêu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có đang yêu ai không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Căng thẳng",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cảm thấy căng thẳng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có cảm thấy căng thẳng không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Biết ơn",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cảm thấy biết ơn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy biết ơn không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bối rối",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thấy bối rối"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy bối rối không"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vui vẻ",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thấy vui vẻ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy vui vẻ không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tức giận",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cảm thấy tức giận"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy tức giận không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thông minh",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cảm thấy thông minh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy thông minh không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sợ hãi",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thấy sợ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy sợ không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Xấu hổ",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thấy xấu hổ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy xấu hổ không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sốc",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi bị sốc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có bị sốc không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ốm",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi bị ốm"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có bị ốm không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bực bội",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thấy bực bội"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thấy bực bội không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Táo",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn táo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn táo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn táo không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn táo"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cam",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn cam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn cam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn cam không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn cam"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thìa dĩa",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Bạn giúp tôi dùng thìa dĩa được không?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể giúp tôi lấy thìa dĩa được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nước",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn uống nước"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn uống nước"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn uống nước không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích uống nước"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cà chua",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn cà chua"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn cà chua"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn cà chua không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn cà chua"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Khoai",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn khoai"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn khoai"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn khoai không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn khoai"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bít tết",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn bít tết"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn bít tết"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn bít tết không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn bít tết"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn pizza không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn hamburger không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn hamburger"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Khoai tây chiên",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn khoai tây chiên"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn khoai tây chiên"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn khoai tây chiên không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn khoai tây chiên"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kem",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn kem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn kem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn kem không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn kem"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bánh quy",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn bánh quy"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn bánh quy"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn bánh quy không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn bánh quy"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ngũ cốc",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn ngũ cốc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn ngũ cốc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn ngũ cốc không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn ngũ cốc"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trứng chiên",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn trứng chiên"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn trứng chiên"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn trứng chiên không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn trứng chiên"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trứng luộc",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn trứng luộc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn trứng luộc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn trứng luộc không"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn trứng luộc"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Phô mai",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn phô mai"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn phô mai"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn phô mai không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn phô mai"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gà",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn gà"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn gà"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn ăn gà không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn gà"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sandwich",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn sandwich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn sandwich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn sandwich không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn sandwich"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rau trộn",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn rau trộn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn rau trộn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn rau trộn không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn rau trộn"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bánh mì",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn bánh mì"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn bánh mì"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn bánh mì không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn bánh mì"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cà rốt",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn cà rốt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn cà rốt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn cà rốt không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn cà rốt"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kẹo",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn kẹo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn kẹo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn kẹo không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn kẹo"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bánh ngọt",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn bánh ngọt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn bánh ngọt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn bánh ngọt không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn bánh ngọt"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Súp lơ xanh",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn súp lơ xanh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn súp lơ xanh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn súp lơ xanh không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn súp lơ xanh"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Anh đào",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn quả anh đào"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn quả anh đào"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn quả anh đào không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi không thích ăn anh đào"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đậu",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn đậu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn đậu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn đậu không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn đậu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chuối",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn chuối"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn chuối"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn chuối không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn chuối"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sô-cô-la",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn sô-cô-la"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn sô-cô-la"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn sô-cô-la không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn sô-cô-la"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Coca",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn uống coca"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn uống coca"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn uống coca không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích uống coca"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cupcake",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn cupcake không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn cupcake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bánh rán",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn bánh rán"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn bánh rán"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn bánh rán không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn bánh rán"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cá",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn cá"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn cá"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn cá không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn cá"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn sushi không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ngô",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn ngô"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn ngô"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn ngô không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn ngô"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chanh",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn chanh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn chanh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn dùng chanh không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn chanh"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mù tạt",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn có mù tạt đi cùng món ăn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn mù tạt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn một ít mù tạt không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích dùng mù tạt cùng món ăn"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đào",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn đào"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn đào"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn đào không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn đào"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dứa",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn dứa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn dứa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn dứa không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn dứa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mâm xôi",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn mâm xôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn mâm xôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn mâm xôi không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn mâm xôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dâu",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn dâu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn dâu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn dâu không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn dâu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dưa hấu",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn dưa hấu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn dưa hấu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn dưa hấu không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn dưa hấu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nho",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn nho"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn nho"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn nho không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn nho"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Quả bơ",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn quả bơ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn quả bơ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn quả bơ không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn quả bơ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cơm",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn cơm"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn cơm"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn cơm không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn cơm"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mỳ Ý",
+		"slug": "spaguetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn mỳ Ý"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn mỳ Ý"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn mỳ Ý không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn mỳ Ý"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sữa",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn uống sữa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn uống sữa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn uống sữa không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích uống sữa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trà",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn uống trà"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn uống trà"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn uống trà không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích uống trà"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mật ong",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn mật ong"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn mật ong"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn mật ong không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn mật ong"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn kebab không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn ăn taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không muốn ăn taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn muốn ăn taco không?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Tôi thích ăn taco"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mẹ",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu mẹ tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp mẹ tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bố",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu bố tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp bố tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bố mẹ",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu bố mẹ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp bố mẹ tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ông bà",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu ông bà tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp ông bà tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Anh/Em trai",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu anh/em tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp anh/em tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chị/Em gái",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu chị/em tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp chị/em tôi"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Chú/Bác trai",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu chú/bác tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp chú/bác tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cô/Bác gái",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu cô/bác tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp cô/bác tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thầy/Cô giáo",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu thầy/cô giáo của tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp thầy/cô giáo của tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Người trị liệu",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu người trị liệu của tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp người trị liệu của tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bác sỹ",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu bác sỹ của tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp bác sỹ của tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bạn bè",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi yêu bạn bè của tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không thích bạn bè của tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn gặp bạn bè của tôi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn tâm sự với bạn bè của tôi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sách",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang đọc sách"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể đưa tôi quyển sách của tôi được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vở",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang viết ghi chú vào vở"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể đưa tôi quyển vở của tôi được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bút chì",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi đang viết bằng bút chì"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể đưa tôi cái bút chì của tôi được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bảng đen",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tiết học",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Yên tĩnh",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần được yên tĩnh trong tiết học"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn cần phải yên lặng trong tiết học"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toán",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích toán"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn học toán"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Văn",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích văn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn học văn"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hỏi",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi có câu hỏi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi muốn hỏi một câu được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hiểu",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi không hiểu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có thể giải thích nó được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bài tập",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi cần làm bài tập"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn giúp tôi làm những bài tập này được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đi bộ",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta đi dạo một vòng đi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta đi dạo được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chạy",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích chạy"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta đi chạy được không"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nói chuyện",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích nói chuyện"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta nói chuyện cùng nhau được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đọc",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích đọc."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn giúp tôi đọc được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bóng đá",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích đá bóng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta đi chơi đá bóng đi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bóng rổ",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích chơi bóng rổ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta đi chơi bóng rổ đi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bơi lội",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích bơi lội"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta đi bơi được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Quần vợt",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích chơi quần vợt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta chơi quần vọt cùng nhau được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đạp xe",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích đạp xe"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta cùng đạp xe được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trượt băng",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích trượt băng"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn trượt băng với tôi không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ngắm cảnh",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích ngắm cảnh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chúng ta cùng nhau đi ngắm cảnh được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trò chơi điện tử",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích chơi điện tử"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Tôi chơi điện tử được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dọn dẹp",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích dọn dẹp phòng của mình"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn giúp tôi dọn phòng của tôi được không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Đồ chơi",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích chơi đồ chơi của mình"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn chơi đồ chơi của tôi không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Câu đố",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích giải đố"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn giải đố cùng nhau không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Truyện tranh",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích đọc truyện tranh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn đọc truyện tranh với tôi không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cờ vua",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Tôi thích chơi cờ vua"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bạn có muốn chơi cờ vua với tôi không?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Một",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hai",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ba",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bốn",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Năm",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sáu",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bảy",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tám",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chín",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mười",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hai mươi",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ba mươi",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bốn mươi",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Năm mươi",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sáu mươi",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bảy mươi",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tám mươi",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chín mươi",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Một trăm",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Máy tính",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
