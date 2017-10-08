@@ -1,0 +1,2558 @@
+[
+	{
+	  "type": "group",
+	  "title": "सामान्य",
+	  "slug": "general",
+	  "parents": [],
+	  "color": "#93B4DB"
+	},
+	{
+	  "type": "group",
+	  "title": "लोग",
+	  "slug": "people",
+	  "parents": [],
+	  "color": "#8CC7D9"
+	},
+	{
+	  "type": "group",
+	  "title": "फूड्स",
+	  "slug": "foods",
+	  "parents": [],
+	  "color": "#9B8EC3"
+	},
+	{
+	  "type": "group",
+	  "title": "भावना",
+	  "slug": "feelings",
+	  "parents": [],
+	  "color": "#CC99C4"
+	},
+	{
+	  "type": "group",
+	  "title": "क्रियाएँ",
+	  "slug": "activities",
+	  "parents": [],
+	  "color": "#99CCA1"
+	},
+	{
+	  "type": "group",
+	  "title": "विद्यालय",
+	  "slug": "school",
+	  "parents": [],
+	  "color": "#99CBCC"
+	},
+	{
+	  "type": "group",
+	  "title": "नंबर",
+	  "slug": "numbers",
+	  "parents": [],
+	  "color": "#ccc899"
+	},
+	{
+	  "type": "card",
+	  "title": "मेरी मदद करो",
+	  "slug": "help",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मेरी मदद कर सकते हैं?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या मैं आपकी मदद कर सकता हूं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "भूखे पेट",
+	  "slug": "hungry",
+	  "parents": ["general", "foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे भूख लगी है!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप भूखे हैं?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे भोजन तैयार कर सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "प्यासे",
+	  "slug": "thirsty",
+	  "parents": ["general", "foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं प्यासा हूँ!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप प्यासे हैं?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे पानी दे सकते हैं?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे पीने के लिए कुछ चाहिए!"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "शौचालय",
+	  "slug": "toilet",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे शौचालय का उपयोग करने की आवश्यकता है!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे शौचालय ले जा सकते हैं?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे पू की ज़रूरत है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे टॉयलेट जाना है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "क्या?",
+	  "slug": "what",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "आपका क्या अर्थ है?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "इसका क्या मतलब है?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "हाँ",
+	  "slug": "yes",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "ठीक!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "ठीक है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सहमत हूँ!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "सही"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "नहीं",
+	  "slug": "no",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "नहीं!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "नकारात्मक"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सहमत नहीं हूँ!"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "गलत"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "नमस्ते",
+	  "slug": "hello",
+	  "parents": ["general"]
+	},
+	{
+	  "type": "card",
+	  "title": "नींद",
+	  "slug": "sleep",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे सोना है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मै सोना चाहता हूँ"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "स्नान",
+	  "slug": "bath",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्नान करना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे स्नान करने में मदद करें"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सुबह",
+	  "slug": "morning",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "शुभ प्रभात"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "सुबह में"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "रात",
+	  "slug": "night",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "शुभ रात्रि"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "रात को"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बात सुनो",
+	  "slug": "listen",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मेरी बात सुनो"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं तुम्हें सुन रहा हूँ"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बाहर",
+	  "slug": "outside",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं बाहर जाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे बाहर ले जा सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "वस्त्र",
+	  "slug": "clothes",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "कपडे पहनना"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मेरे कपड़े गंदे हैं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे पहनने के लिए कपड़े दे सकते हैं?"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे कपड़े पहनने में मदद कर सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "घर",
+	  "slug": "home",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे घर जाना है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपने घर से प्यार है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चोट",
+	  "slug": "hurt",
+	  "parents": ["general"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने आप को चोट मारी"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे बैंड सहायता की आवश्यकता है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "यह दुखदायक है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "खुश",
+	  "slug": "happy",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे खुशी महसूस हो रही है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आपको खुशी महसूस होती है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "उदास",
+	  "slug": "sad",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे दुख हो रहा है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप दुखी महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "थका",
+	  "slug": "exhausted",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं थक गया"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप थका हुआ महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "आराम",
+	  "slug": "relaxed",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं आराम महसूस करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आपको आराम महसूस होता है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "प्यार में",
+	  "slug": "inlove",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे प्यार हो गया"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप प्यार में महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पर बल दिया",
+	  "slug": "stressed",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अत्यधिक थका हुआ हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आपको तनाव महसूस होता है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "कृतज्ञ",
+	  "slug": "thankful",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे आभारी लगता है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप आभारी महसूस करते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "परेशान",
+	  "slug": "confused",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे उलझन मसहूस हो रही है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप भ्रमित महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "आनंदपूर्ण",
+	  "slug": "joyful",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं खुशहाल ���हसूस करता हूं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आपको खुशी महसूस होती है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "गुस्सा",
+	  "slug": "angry",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे गुस्सा आ रहा है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आपको गुस्सा आता है?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "होशियार",
+	  "slug": "smart",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे स्मार्ट लग रहा है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप स्मार्ट महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "डरा हुआ",
+	  "slug": "afraid",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे डर लग रहा है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आपको डर लग रहा है?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "शर्मिंदा",
+	  "slug": "ashamed",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं शर्मिंदा हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप शर्म महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "हैरान",
+	  "slug": "shocked",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे चौंका हुआ लगता है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप सदमे में महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बीमार",
+	  "slug": "sick",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं बीमार महसूस कर रहा हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप बीमार हो"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "निराश",
+	  "slug": "frustrated",
+	  "parents": ["feelings"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं ऊबाउ अनुभव किया"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप निराश महसूस करते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सेब",
+	  "slug": "apple",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सेब से खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सेब से नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप सेब खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे सेब खाने की तरह"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "नारंगी",
+	  "slug": "orange",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं नारंगी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं नारंगी खाने नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप नारंगी खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे नारंगी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बर्तन",
+	  "slug": "utensils",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे मेरे बर्तन का इस्तेमाल करने में मदद कर सकते हैं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे बर्तन दे सकते हैं I"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पानी",
+	  "slug": "water",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं पानी पीना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं पानी पीना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप पानी पीना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे पीने का पानी पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "टमाटर",
+	  "slug": "tomato",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं टमाटर खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं टमाटर खाने नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप टमाटर खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे टमाटर खाने की तरह"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "आलू",
+	  "slug": "potato",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे आलू खाना चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं आलू खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप आलू खाने चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे आलू खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "स्टेक",
+	  "slug": "steak",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्टेक खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्टेक खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप स्टेक खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे स्टेक खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पिज़्ज़ा",
+	  "slug": "pizza",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं पिज्जा खाना चाहता हूं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं पिज्जा खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप पिज्जा खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे पिज्जा खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "हैमबर्गर",
+	  "slug": "hamburger",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं हैमबर्गर खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं हैमबर्गर नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप हैमबर्गर खाना चाहते हैं?"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे हैमबर्गर खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "आलू",
+	  "slug": "fries",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं फ्राइज़ खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं फ्राइज़ नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप फ्राइज़ खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे फ्राइज़ खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "आइसक्रीम",
+	  "slug": "icecream",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं आइसक्रीम खाना चाहता हूं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं आइसक्रीम नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप आइसक्रीम खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे आइसक्रीम खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "कुकी",
+	  "slug": "cookie",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे कुक खाना चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कुक खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप कुक खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे कुकी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "अनाज",
+	  "slug": "cereal",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अनाज खाने चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अनाज नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप अनाज खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "तला हुआ अंडा",
+	  "slug": "friedegg",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं तला हुआ अंडे खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं तला हुआ अंडे नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप तले हुए अंडा खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे तला हुआ अंडा खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "उबला अंडा",
+	  "slug": "boiledegg",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे उबला हुआ अंडा खाना चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं उबले अंडा खाने नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप उबले अंडा खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे उबला हुआ अंडा खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पनीर",
+	  "slug": "cheese",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं पनीर खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं पनीर नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप पनीर खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे पनीर खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "मुर्गी",
+	  "slug": "chicken",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चिकन खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चिकन नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप चिकन खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे चिकन खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सैंडविच",
+	  "slug": "sandwich",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सैंडविच खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सैंडविच खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप सैंडविच खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे सैंडविच खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सलाद",
+	  "slug": "salad",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सलाद खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सलाद नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप सलाद खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे सलाद खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "रोटी",
+	  "slug": "bread",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं रोटी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं रोटी नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप रोटी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे रोटी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "गाजर",
+	  "slug": "carrot",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं गाजर खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं गाजर नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप गाजर खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे गाजर खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "कैंडी",
+	  "slug": "candy",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कैंडी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कैंडी नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप कैंडी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे कैंडी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "केक",
+	  "slug": "cake",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं केक खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं केक नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप केक खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे केक खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "ब्रोकोली",
+	  "slug": "broccoli",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं ब्रोकोली खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं ब्रोकोली खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप ब्रोकोली खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे ब्रोकोली खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चेरी",
+	  "slug": "cherries",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चेरी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चेरी नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप चेरी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे चेरी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "फलियां",
+	  "slug": "beans",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं बीन्स खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं बीन्स नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप बीन्स खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे बीन्स खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "केला",
+	  "slug": "banana",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं केला खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं केले नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या तुम केला खाना चाहोगे"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे केले खा रहा है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चॉकलेट",
+	  "slug": "chocolate",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चॉकलेट खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चॉकलेट नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप चॉकलेट खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे चॉकलेट खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "कोक",
+	  "slug": "coke",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कोक पीना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कोक पीना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप कोक पीना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे पीने के कोक पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "Cupcake",
+	  "slug": "cupcake",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे कपकेक खाना चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कपकेक नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप कपकेक खाना चाहत�� हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे कपकेक खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "डोनट",
+	  "slug": "doughnut",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं डोनट खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं डोनट नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप डोनट खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे डोनट खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "मछली",
+	  "slug": "fish",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं मछली खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं मछली नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मछली खाते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे मछली खाने पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सुशी",
+	  "slug": "sushi",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सुशी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं सुशी नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप सुशी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे सुशी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "मक्का",
+	  "slug": "corn",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं मकई खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं मकई नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मकई खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे मकई खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "नींबू",
+	  "slug": "lemon",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं नींबू खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं नींबू खाने नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप नींबू खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे नींबू खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सरसों",
+	  "slug": "mustard",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपने भोजन के साथ सरसों चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने भोजन के साथ सरसों को नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप कुछ सरसों चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे अपने भोजन के साथ सरसों की तरह"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "आड़ू",
+	  "slug": "peach",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं आड़ू खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं आड़ू खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप आड़ू खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे आड़ू खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "अनानास",
+	  "slug": "pineapple",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अनानास खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अनानास खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप अनानास खाना चाहते हैं?"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे अनानास खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "रसभरी",
+	  "slug": "raspberry",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं रास्पबेरी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं रास्पबेरी खाने नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप रास्पबेरी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे रास्पबेरी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "स्ट्रॉबेरी",
+	  "slug": "strawberry",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्ट्रॉबेरी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्ट्रॉबेरी नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप स्ट्रॉबेरी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे स्ट्रॉबेरी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "तरबूज",
+	  "slug": "watermelon",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं तरबूज खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं तरबूज नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप तरबूज खाने के लिए चाहते हैं?"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे तरबूज खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "अंगूर",
+	  "slug": "grapes",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अंगूर खाने चाहिए"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अंगूर नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप अंगूर खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे अंगूर खाने से अच्छा लगता है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "एवोकाडो",
+	  "slug": "avocado",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं एवोकैडो खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं एक्वाकाडो खाने नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप एवोकैडो खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे एवोकाडो खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चावल",
+	  "slug": "rice",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चावल खाना चाहता हूं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चावल नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप चावल खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे चावल खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "स्पघेटी",
+	  "slug": "spaghetti",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्पेगेटी खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं स्पेगेटी खाना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप स्पेगेटी खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे स्पेगेटी खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "दूध",
+	  "slug": "milk",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे दूध पीना हे"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं दूध पीना नहीं चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप दूध पीना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे दूध पीने पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चाय",
+	  "slug": "tea",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चाय पीना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं चाय पीना नहीं चाह��ा"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप चाय पीना चाहते हैं?"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे चाय पीना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "शहद",
+	  "slug": "honey",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं शहद खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं शहद नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप शहद खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे शहद खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "कबाब",
+	  "slug": "kebab",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कबाब खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं कबाब नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप कबाब खाने के लिए चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे कबाब खाने की तरह"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "टैको",
+	  "slug": "taco",
+	  "parents": ["foods"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं टैको खाना चाहता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं टैको नहीं खाना चाहता"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप टैको खाना चाहते हैं"
+		},
+		{
+		  "symbol": "like",
+		  "phrase": "मुझे टेको खाना पसंद है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "मां",
+	  "slug": "mother",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी माँ से प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी मां को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पिता",
+	  "slug": "father",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपने पिता से प्यार है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने पिता को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "माता-पिता",
+	  "slug": "parents",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने माता पिता से प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने माता-पिता को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "दादा दादी",
+	  "slug": "grandparents",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने दादा दादी से प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने दादा दादी को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "भाई",
+	  "slug": "brother",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने भाई से प्यार करती हू"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने भाई को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बहन",
+	  "slug": "sister",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी बहन से प्यार करता हूं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी बहन को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चाचा",
+	  "slug": "uncle",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने चाचा को प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने चाचा को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चाची",
+	  "slug": "aunt",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपनी चाची से प्यार है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी चाची देखना चाहता हूँ"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "अध्यापक",
+	  "slug": "teacher",
+	  "parents": ["people", "school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे मेरे शिक्षक से प्यार है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने शिक्षक को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चिकित्सक",
+	  "slug": "therapist",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने चिकित्सक से प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने चिकित्सक को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चिकित्सक",
+	  "slug": "doctor",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने डॉक्टर से प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने डॉक्टर को देखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "दोस्तों",
+	  "slug": "friends",
+	  "parents": ["people"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने दोस्तों से प्यार करता हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपने दोस्तों को पसंद नहीं है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने दोस्तों को देखना चाहता हूं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने दोस्तों से बात करना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "किताब",
+	  "slug": "book",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी किताब पढ़ रहा हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे मेरी किताब दे सकते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "स्मरण पुस्तक",
+	  "slug": "notebook",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपने नोटबुक में नोट ले रहा हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे मेरी नोटबुक दे सकते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पेंसिल",
+	  "slug": "pencil",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं अपनी पेंसिल के साथ लिख रहा हूँ"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मुझे मेरी पेंसिल दे सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "ब्लैकबोर्ड",
+	  "slug": "blackboard",
+	  "parents": ["school"]
+	},
+	{
+	  "type": "card",
+	  "title": "पाठ",
+	  "slug": "lesson",
+	  "parents": ["school"]
+	},
+	{
+	  "type": "card",
+	  "title": "चुप",
+	  "slug": "quiet",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे सबक में चुप रहने की ज़रूरत है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "आपको पाठ में चुप होना चाहिए"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "अंक शास्त्र",
+	  "slug": "mathematics",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे गणित पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं गणित सीखना चाहता हूँ"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "साहित्य",
+	  "slug": "literature",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे साहित्य पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं साहित्य सीखना चाहता हूं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "प्रश्न",
+	  "slug": "question",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मेरा एक सवाल है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या मेरे द्वारा एक सवाल पूछा जा सकता है"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "समझना",
+	  "slug": "understand",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे समझ न��ीं आ रहा है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप इसे समझा सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "घर का पाठ",
+	  "slug": "homework",
+	  "parents": ["school"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपना होमवर्क करने की ज़रूरत है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मेरे होमवर्क की मदद कर सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चलना",
+	  "slug": "walking",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "चलो चलते हैं"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम चलने के लिए जा सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "चल रहा है",
+	  "slug": "running",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे दौड़ना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम चल रहे हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बात कर रहे",
+	  "slug": "talking",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे बात करना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम एक साथ बात कर सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पढ़ना",
+	  "slug": "reading",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे पढ़ना पसंद है।"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "मेरी मदद कर सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "फ़ुटबॉल",
+	  "slug": "football",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे फुटबॉल खेलना अच्छा लगता है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "चलो फुटबॉल खेलें"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "बास्केटबाल",
+	  "slug": "basketball",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे बास्केटबॉल खेलना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "चलो बास्केट बॉल खेलें"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "तैराकी",
+	  "slug": "swimming",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे तैराकी पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम तैरने के लिए जा सकते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "टेनिस",
+	  "slug": "tennis",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे टेनिस खेलना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम एक साथ टेनिस खेल सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "सायक्लिंग",
+	  "slug": "cycling",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे स्यक्लिंग पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम एक साथ बाइक साइकिल कर सकते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "स्केटिंग",
+	  "slug": "skating",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे स्केटिंग पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मेरे साथ स्केट करना चाहते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "दर्शनीय स्थलों की यात्रा",
+	  "slug": "sightseeing",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे दर्शनीय स्थलों की यात्रा पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या हम पर्यटन स्थलों का भ्रमण एक साथ कर सकते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "वीडियो गेम",
+	  "slug": "videogames",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मैं वीडियो गेम खेलना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या मैं वीडियो गेम खेल सकता हूं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "साफ़ कर रही",
+	  "slug": "tidying",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपने कमरे में प्रवेश करना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मेरी मदद कर सकते हैं मेरे कमरे में साफ"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "खिलौने",
+	  "slug": "toys",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे अपने खिलौनों के साथ खेलना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप अपने खिलौनों के साथ खेलना चाहते हैं"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "पहेली",
+	  "slug": "puzzle",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे पहेली हल करना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप एक साथ पहेली हल करना चाहते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "कॉमिक्स",
+	  "slug": "comics",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे कॉमिक किताबें पढ़ना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मेरे साथ कॉमिक्स पढ़ना चाहते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "शतरंज",
+	  "slug": "chess",
+	  "parents": ["activities"],
+	  "phrases": [
+		{
+		  "symbol": "hand",
+		  "phrase": "मुझे शतरंज खेलना पसंद है"
+		},
+		{
+		  "symbol": "hand",
+		  "phrase": "क्या आप मेरे साथ शतरंज खेलना चाहते हैं?"
+		}
+	  ]
+	},
+	{
+	  "type": "card",
+	  "title": "एक",
+	  "slug": "one",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "दो",
+	  "slug": "two",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "तीन",
+	  "slug": "three",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "चार",
+	  "slug": "four",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "पंज",
+	  "slug": "five",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "छह",
+	  "slug": "six",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "सात",
+	  "slug": "seven",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "आठ",
+	  "slug": "eight",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "नौ",
+	  "slug": "nine",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "दस",
+	  "slug": "ten",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "बीस",
+	  "slug": "twenty",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "तीस",
+	  "slug": "thirty",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "चालीस",
+	  "slug": "forty",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "पचास",
+	  "slug": "fifty",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "साठ",
+	  "slug": "sixty",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "सत्तर",
+	  "slug": "seventy",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "अस्सी",
+	  "slug": "eighty",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "नव्वे",
+	  "slug": "ninety",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "सौ",
+	  "slug": "hundred",
+	  "parents": ["numbers"]
+	},
+	{
+	  "type": "card",
+	  "title": "कैलकुलेटर",
+	  "slug": "calculator",
+	  "parents": ["numbers"]
+	}
+  ]
+  
