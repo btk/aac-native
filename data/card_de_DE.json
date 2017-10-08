@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "General",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "People",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Foods",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Feelings",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Activities",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "School",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Numbers",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Hilf mir",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir helfen?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kann ich dir helfen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hunger",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin hungrig!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du hungrig?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir etwas zu Essen machen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Durstig",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin durstig!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du durstig?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir ein Glas Wasser geben?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich würde gerne etwas trinken!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toilette",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich würde gerne auf die Toilette gehen!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mich zum Klo bringen?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich müsste groß aufs Klo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich mus pinkeln"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Was?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Was meinst du?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Was bedeutet das?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ja",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "OK!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ja"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich stimme zu!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Richtig"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nein",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nein"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nein"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich stimme nicht zu!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Falsch"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hallo",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schlafen",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich muss schlafen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich würde gerne schlafen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bad",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich würde gerne baden"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Hilf mir bitte duschen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Morgen",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Guten Morgen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Am morgen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nacht",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Gute Nacht"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Abends/Nachts"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zuhören",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Hör mir zu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich höre dir zu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Außerhalb",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich würde gerne nach draußen gehen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mich nach außen bringen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kleidung",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Trage Kleidung"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Meine Klamotten sind dreckig"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir Klamotten zum anziehen geben?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir helfen die Kleidung zu tragen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zuhause",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte nach Hause"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe mein zuhause"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verletzt",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich habe mich verletzt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich brauche einen Verband"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Es tut weh"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fröhlich",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin fröhlich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du fröhlich?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Traurig",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin traurig"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du traurig?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Erschöpft",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin erschöpft"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du erschöpft?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Entspannt",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin entspannt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du entspannt?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verliebt",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin verliebt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du verliebt?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gestresst",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich fühle mich gestresst"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Fühlst du dich gestresst?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dankbar",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin dankbar"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Fühlst du dich dankbar?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verwirrt",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich fühle mich verwirrt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du verwirrt?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Froh",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin froh"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du froh?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wütend",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin wütend"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du wütend?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Klug",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin klug"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Fühlst du dich klug?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verängstigt",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin verängstigt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du verängstigt"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Scham",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich schäme mich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Schämst du dich"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Geschockt",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin geschockt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du geschockt?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Krank",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich fühle mich krank"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Fühlst du dich krank?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frustriert",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich bin frustriert"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bist du frustriert?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Apfel",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Apfel essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Apfel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Apfel"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Äpfel essen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Orange",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Orange essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Orange"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Orange"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Orangen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zubehör",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir bei meinem Zubehör helfen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir mein Zubehör geben"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wasser",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Wasser trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Wasser trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Wasser trinken?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag trinken"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tomate",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Tomate essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Tomate essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Tomate essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Tomaten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kartoffel",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Kartoffel essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Kartoffel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Kartoffel essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Kartoffeln"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Steak",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Steak essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Steak essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Steak"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Steak"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Pizza essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Pizza essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Pizza essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Hamburger essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Hamburger"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Hamburger"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pommes",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Pommes essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Pommes essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Pommes essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Pommes"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Eiscreme",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte ein Eis essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Eis essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du ein Eis"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Eiscreme"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Keks",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Keks essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Keks essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Keks"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Kekse"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Müsli",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Müsli essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Müsli essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du ein Müsli essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Müsli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spiegelei",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte ein Spiegelei essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Spiegelei essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du ein Spiegelei essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Spiegelei"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gekochtes Ei",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte ein gekochtes Ei"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein gekochtes Ei essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du ein gekochtes Ei"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag gekochte Eier"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Käse",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Käse essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Käse essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Käse essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Käse"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hühnchen",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Hühnchen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Hühnchen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Hühnchen essen?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Hühnchen essen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sandwich",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte ein Sandwich essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Sandwich essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du ein Sandwich"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Sandwiches"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Salat",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Salat essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Salat essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Salat essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Salat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brot",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Brot essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Brot essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Brot essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Brot"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Karotte",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Karotte essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Karotte essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Karotte essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Karotten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Süßigkeit",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Süßigkeit essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Süßigkeit essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Süßigkeit"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Süßigkeiten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kuchen",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Kuchen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Kuchen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Kuchen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Kuchen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brokkoli",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Brokkoli essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Brokkoli essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Brokkoli essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Brokkoli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kirschen",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Kirschen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Kirschen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Kirschen essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Kirschen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bohnen",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Bohnen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Bohnen essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Bohnen essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Bohnen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Banane",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Banane essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Banane essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Banane essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Bananen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schokolade",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Schhokolade essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Schokolade essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Schokolade essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Schokolade"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Coca Cola",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Cola trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Cola trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Cola trinken"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Cola"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Muffin",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Muffin essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Muffin essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Muffin essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Muffins"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doughnut",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Doughnut essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte nicht keinen Doughnut essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Doughnut essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Doughnuts"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fisch",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Fisch essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Fisch essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Fisch essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Fisch"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Sushi essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte kein Sushi essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Sushi essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mais",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Mais essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Mais essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Mais essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Mais"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zitrone",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte eine Zitrone essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Zirone essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du eine Zitrone"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Zitronen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Senf",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Senf zu meinem Essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Senf"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Senf"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Senf zu meinem Essen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pfirsich",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Pfirsich essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Pfirsich essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Pfirsich"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Pfirsiche"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ananas",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Ananas essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Ananas essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Ananas essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Ananas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Himbeere",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Himbeeren essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Himbeeren essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Himbeeren essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Himbeeren"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Erdbeere",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Erdbeeren essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Erdbeeren"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Erdbeeren essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Erdbeeren"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Wassermelone",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Wassermelone essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Wassermelone essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Wassermelone essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Wassermelone"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Weintrauben",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Weintrauben essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Weintrauben essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Weintrauben essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Weintrauben"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Avocado",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Avocado essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Avocado essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Avocado essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Avocado"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Reis",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Reis essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Reis essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Reis essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Reis"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spaghetti",
+		"slug": "spaguetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Spaghetti essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Spaghetti essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Spaghetti essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Spaghetti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Milch",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Milch trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keine Milch trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Milch trinken"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Milch"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tee",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Tee trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Tee trinken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Tee trinken"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Tee"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Honig",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Honig essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Honig essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Honig essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Honig"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte einen Kebab essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Kebab essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du Kebab essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Tacos essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte keinen Taco essen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du einen Taco essen"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Ich mag Tacos"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mutter",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meine Mutter"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meine Mutter sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vater",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meinen Vater"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meinen Vater sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Eltern",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meine Eltern"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meine Eltern sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Großeltern",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meine Großeltern"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meine Großeltern sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bruder",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meinen Bruder"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meinen Bruder sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schwester",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meine Schwester"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meine Schwester sehen"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Onkel",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meinen Onkel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meinen Onkel sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tante",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meine Tante"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meine Tante sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lehrer",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meinen Lehrer"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meinen Lehrer sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Therapeut",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meinen Therapeut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meinen Theraupeuten sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doktor",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meinen Doktor"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meinen Doktor sehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Freunde",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich liebe meine Freunde"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag meine Freunde nicht"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte meine Freunde sehen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte mich mit meinen Freunden unterhalten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Buch",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich lese mein Buch"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir mein Buch geben"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Notizbuch",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mache mir Notizen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir mein Notizbuch geben"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bleistift",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich schreibe mit meinem Bleistift"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir meinen Bleistift geben"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tafel",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Unterricht",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ruhe",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich muss im Unterricht leise sein"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Du musst im Unterricht leise sein"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mathematik",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Mathematik"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Mathe lernen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Literatur",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Literatur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ich möchte Literatur lernen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frage",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich habe eine Frage"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kann ich eine Frage stellen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Verstehen",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich verstehe nicht"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du es erklären?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hausaufgabe",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich muss meine Hausaufgabe machen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir bei meiner Hausaufgabe helfen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spazieren gehen",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Lass uns spazieren gehen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Können wir spazieren gehen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Laufen",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag laufen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Können wir laufen gehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Unterhalten",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag es mich zu unterhalten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Können wir uns unterhalten?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lesen",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag lesen."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir beim lesen helfen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fußball",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Fußball spielen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Lass uns Fußball spielen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Basketball",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Basketball spielen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Lass uns Basketball spielen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schwimmen",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag schwimmen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Können wir schwimmen gehen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tennis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Tennis spielen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Können wir zusammen Tennis spielen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Radfahren",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Radfahren"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Können wir zusammen Radfahren?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Inline-Skating",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Inline-Skating"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Möchtest du mit mir Inline-Skating gehen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Besichtigung",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Besichtigungen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wollen wir zusammen etwas besichtigen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Videospiele",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Videospiele"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kann ich Videospiele spielen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Saubermachen",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag es mein Zimmer sauber zu machen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kannst du mir helfen mein Zimmer sauber zu machen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spielzeug",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag es mit meinem Spielzeug zu spielen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Magst du mit meinem Spielzeug spielen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puzzle",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag es Puzzles zu lösen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Willst du mit mir ein Puzzle lösen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Comics",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag es Comic-Bücher zu lesen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Wilslt du mit mir Comics lesen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Schach",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ich mag Schach spielen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Willst du mit mir Schach spielen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Eins",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zwei",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Drei",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vier",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fünf",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sechs",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sieben",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Acht",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Neun",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zehn",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zwanzig",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dreißig",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vierzig",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fünfzig",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sechzig",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Siebzig",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Achtzig",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Neunzig",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hundert",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taschenrechner",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
