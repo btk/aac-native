@@ -162,7 +162,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Yes",
+		"title": "Oui",
 		"slug": "yes",
 		"parents": [
 			"general"
@@ -174,21 +174,21 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Alright"
+				"phrase": "D'accord"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I agree!"
+				"phrase": "Je suis d'accord!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Right"
+				"phrase": "Vrai"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "No",
+		"title": "Non",
 		"slug": "no",
 		"parents": [
 			"general"
@@ -196,25 +196,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Nope!"
+				"phrase": "Non !"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Negative"
+				"phrase": "Négatif"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't agree!"
+				"phrase": "Je ne suis pas d'accord !"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Wrong"
+				"phrase": "Faux"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hello",
+		"title": "Bonjour",
 		"slug": "hello",
 		"parents": [
 			"general"
@@ -222,7 +222,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sleep",
+		"title": "Sommeil",
 		"slug": "sleep",
 		"parents": [
 			"general"
@@ -230,17 +230,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to sleep"
+				"phrase": "J'ai besoin de dormir"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to sleep"
+				"phrase": "Je veux dormir"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Bath",
+		"title": "Bain",
 		"slug": "bath",
 		"parents": [
 			"general"
@@ -248,17 +248,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to take a bath"
+				"phrase": "Je veux prendre un bain"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Help me take a shower"
+				"phrase": "Aidez-moi à prendre une douche"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Morning",
+		"title": "Matin",
 		"slug": "morning",
 		"parents": [
 			"general"
@@ -266,17 +266,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Good morning"
+				"phrase": "Bonjour"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "In the morning"
+				"phrase": "le matin"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Night",
+		"title": "Nuit",
 		"slug": "night",
 		"parents": [
 			"general"
@@ -284,17 +284,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Good night"
+				"phrase": "Bonne nuit"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "At night"
+				"phrase": "la nuit"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Listen",
+		"title": "Ecouter",
 		"slug": "listen",
 		"parents": [
 			"general"
@@ -302,17 +302,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Listen to me"
+				"phrase": "Ecoutez moi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I'm listening to you"
+				"phrase": "Je vous écoute"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Outside",
+		"title": "Dehors",
 		"slug": "outside",
 		"parents": [
 			"general"
@@ -320,17 +320,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go outside"
+				"phrase": "Je veux aller dehors"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me outside?"
+				"phrase": "Pouvez vous m'ammener dehors ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Clothes",
+		"title": "Vêtements",
 		"slug": "clothes",
 		"parents": [
 			"general"
@@ -338,25 +338,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Wearing clothes"
+				"phrase": "Porter des vêtements"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "My clothes are dirty"
+				"phrase": "Mes habits sont sales"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me clothes to wear?"
+				"phrase": "Pouvez vous me donner des habits à porter ?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me wear clothes?"
+				"phrase": "Pouvez vous m'aider à m'habiller ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Home",
+		"title": "Maison",
 		"slug": "home",
 		"parents": [
 			"general"
@@ -364,17 +364,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go home"
+				"phrase": "Je veux rentrer à la maison"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I love my home"
+				"phrase": "J'aime ma maison"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hurt",
+		"title": "Blessure",
 		"slug": "hurt",
 		"parents": [
 			"general"
@@ -382,21 +382,21 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I hurt myself"
+				"phrase": "Je me suis blessé"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need band aid"
+				"phrase": "J'ai besoin d'un pansement"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "It hurts"
+				"phrase": "Ca me fait mal"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Happy",
+		"title": "Heureux",
 		"slug": "happy",
 		"parents": [
 			"feelings"
@@ -404,17 +404,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel happy"
+				"phrase": "Je suis heureux"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel happy"
+				"phrase": "Etes-vous heureux ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sad",
+		"title": "Triste",
 		"slug": "sad",
 		"parents": [
 			"feelings"
@@ -422,17 +422,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sad"
+				"phrase": "Je me sens triste"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sad"
+				"phrase": "Etes-vous triste ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Exhausted",
+		"title": "Fatigué",
 		"slug": "exhausted",
 		"parents": [
 			"feelings"
@@ -440,17 +440,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel exhausted"
+				"phrase": "Je suis fatigué"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel exhausted"
+				"phrase": "Etes-vous fatigué ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Relaxed",
+		"title": "Détendu",
 		"slug": "relaxed",
 		"parents": [
 			"feelings"
@@ -458,17 +458,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel relaxed"
+				"phrase": "Je me sens détendu"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel relaxed"
+				"phrase": "Vous sentes-vous détendu ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "In Love",
+		"title": "Amoureux",
 		"slug": "inlove",
 		"parents": [
 			"feelings"
@@ -476,17 +476,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel in love"
+				"phrase": "Je suis amoureux"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel in love"
+				"phrase": "Etes vous amoureux ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Stressed",
+		"title": "Stressé",
 		"slug": "stressed",
 		"parents": [
 			"feelings"
@@ -494,17 +494,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel stressed"
+				"phrase": "Je suis stressé"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel stressed"
+				"phrase": "Etes-vous stressé ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Thankful",
+		"title": "Reconaissant",
 		"slug": "thankful",
 		"parents": [
 			"feelings"
@@ -512,17 +512,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel thankful"
+				"phrase": "Je me sens reconaissant"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel thankful"
+				"phrase": "Vous sentez vous reconaissant ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Confused",
+		"title": "Confus",
 		"slug": "confused",
 		"parents": [
 			"feelings"
@@ -530,17 +530,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel confused"
+				"phrase": "Je suis confus"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel confused"
+				"phrase": "Vous sentez-vous confus ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Joyful",
+		"title": "Joyeux",
 		"slug": "joyful",
 		"parents": [
 			"feelings"
@@ -548,17 +548,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel joyful"
+				"phrase": "Je suis joyeux"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel joyful"
+				"phrase": "Vous sentez-vous joyeux ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Angry",
+		"title": "Enervé",
 		"slug": "angry",
 		"parents": [
 			"feelings"
@@ -566,17 +566,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel angry"
+				"phrase": "Je suis énervé"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel angry"
+				"phrase": "Etes-vous énervé"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Smart",
+		"title": "Intelligent",
 		"slug": "smart",
 		"parents": [
 			"feelings"
@@ -584,17 +584,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel smart"
+				"phrase": "Je me sens intelligent"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel smart"
+				"phrase": "Vous sentez-vous intelligent ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Afraid",
+		"title": "Peur",
 		"slug": "afraid",
 		"parents": [
 			"feelings"
@@ -602,17 +602,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel afraid"
+				"phrase": "J'ai peur"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel afraid"
+				"phrase": "Avez-vous peur ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Ashamed",
+		"title": "Honte",
 		"slug": "ashamed",
 		"parents": [
 			"feelings"
@@ -620,17 +620,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel ashamed"
+				"phrase": "J'ai honte"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel ashamed"
+				"phrase": "Avez-vous honte ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Shocked",
+		"title": "Choqué",
 		"slug": "shocked",
 		"parents": [
 			"feelings"
@@ -638,17 +638,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel shocked"
+				"phrase": "Je suis choqué"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel shocked"
+				"phrase": "Vous sentez-vous choqué ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sick",
+		"title": "Malade",
 		"slug": "sick",
 		"parents": [
 			"feelings"
@@ -656,17 +656,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sick"
+				"phrase": "Je suis malade"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sick"
+				"phrase": "Etes-vous malade ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Frustrated",
+		"title": "Frustré",
 		"slug": "frustrated",
 		"parents": [
 			"feelings"
@@ -674,17 +674,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel frustrated"
+				"phrase": "Je me sens frustré"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel frustrated"
+				"phrase": "Etes-vous frustré ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Apple",
+		"title": "Pomme",
 		"slug": "apple",
 		"parents": [
 			"foods"
@@ -692,19 +692,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat apple"
+				"phrase": "Je veux manger une pomme"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat apple"
+				"phrase": "Je ne veux pas manger de pomme"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat apple"
+				"phrase": "Voulez-vous manger une pomme ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating apple"
+				"phrase": "J'aime manger des pommes"
 			}
 		]
 	},
@@ -718,25 +718,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat orange"
+				"phrase": "Je veux manger une orange"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat orange"
+				"phrase": "Je ne veux pas manger d'orange"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat orange"
+				"phrase": "Voulez-vous manger une orange ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating orange"
+				"phrase": "J'aime manger des oranges"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Utensils",
+		"title": "Utensiles",
 		"slug": "utensils",
 		"parents": [
 			"foods"
@@ -744,17 +744,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me use my utensils"
+				"phrase": "Pouvez-vous m'aider à utiliser mes ustensiles ?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me utensils"
+				"phrase": "Pouvez-vous me donner mes utensiles ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Water",
+		"title": "Eau",
 		"slug": "water",
 		"parents": [
 			"foods"
@@ -762,25 +762,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink water"
+				"phrase": "Je veux boire de l'eau"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink water"
+				"phrase": "Je ne veux pas boire d'eau"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink water"
+				"phrase": "Voulez-vous boire de l'eau ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking water"
+				"phrase": "J'aime boire de l'eau"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tomato",
+		"title": "Tomate",
 		"slug": "tomato",
 		"parents": [
 			"foods"
@@ -788,25 +788,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat tomato"
+				"phrase": "Je veux manger une tomate"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat tomato"
+				"phrase": "Je ne veux pas manger de tomates"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat tomato"
+				"phrase": "Voulez-vous manger une tomate ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating tomato"
+				"phrase": "J'aime manger des tomates"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Potato",
+		"title": "Pomme de terre",
 		"slug": "potato",
 		"parents": [
 			"foods"
@@ -814,19 +814,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat potato"
+				"phrase": "Je veux manger des pommes de terre"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat potato"
+				"phrase": "Je ne veux pas manger de pommes de terre"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat potato"
+				"phrase": "Voulez-vous manger des pommes de terre ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating potato"
+				"phrase": "J'aime manger des pommes de terre"
 			}
 		]
 	},
@@ -840,19 +840,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat steak"
+				"phrase": "Je veux manger un steak"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat steak"
+				"phrase": "Je ne veux pas manger de steak"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat steak"
+				"phrase": "Voulez-vous manger un steak ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating steak"
+				"phrase": "J'aime manger des steak"
 			}
 		]
 	},
@@ -866,19 +866,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pizza"
+				"phrase": "Je veux manger une pizza"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pizza"
+				"phrase": "Je ne veux pas manger de pizza"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pizza"
+				"phrase": "Voulez-vous manger une pizza ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pizza"
+				"phrase": "J'aime manger des pizzas"
 			}
 		]
 	},
@@ -892,25 +892,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat hamburger"
+				"phrase": "Je veux manger un hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat hamburger"
+				"phrase": "Je ne veux pas manger de hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat hamburger"
+				"phrase": "Voulez-vous manger un hamburger ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating hamburger"
+				"phrase": "J'aime manger des hamburgers"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Fries",
+		"title": "Frites",
 		"slug": "fries",
 		"parents": [
 			"foods"
@@ -918,25 +918,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fries"
+				"phrase": "Je veux manger des frites"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fries"
+				"phrase": "Je ne veux pas manger de frites"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fries"
+				"phrase": "Voulez-vous manger des frites ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fries"
+				"phrase": "J'aime manger des frites"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Ice Cream",
+		"title": "Glace",
 		"slug": "icecream",
 		"parents": [
 			"foods"
@@ -944,19 +944,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat ice cream"
+				"phrase": "Je veux manger une glace"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat ice cream"
+				"phrase": "Je ne veux pas manger de glace"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat ice cream"
+				"phrase": "Voulez-vous manger une glace ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating ice cream"
+				"phrase": "J'aime manger des glaces"
 			}
 		]
 	},
@@ -970,25 +970,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cookie"
+				"phrase": "Je veux manger un cookie"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cookie"
+				"phrase": "Je ne veux pas manger de cookie"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cookie"
+				"phrase": "Voulez-vous manger un cookie ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cookie"
+				"phrase": "J'aime manger des cookies"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cereal",
+		"title": "Céréales",
 		"slug": "cereal",
 		"parents": [
 			"foods"
@@ -996,25 +996,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cereal"
+				"phrase": "Je veux manger des céréales"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cereal"
+				"phrase": "Je ne veux pas manger de céréales"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cereal"
+				"phrase": "Voulez-vous manger des céréales"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cereal"
+				"phrase": "J'aime manger des céréales"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Fried Egg",
+		"title": "Oeuf au plat",
 		"slug": "friedegg",
 		"parents": [
 			"foods"
@@ -1022,25 +1022,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fried egg"
+				"phrase": "Je veux manger un oeuf au plat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fried egg"
+				"phrase": "Je ne veux pas manger d'oeuf au plat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fried egg"
+				"phrase": "Voulez-vous un oeuf au plat ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fried egg"
+				"phrase": "J'aime manger des oeufs au plat"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Boiled Egg",
+		"title": "Oeuf à la coque",
 		"slug": "boiledegg",
 		"parents": [
 			"foods"
@@ -1048,25 +1048,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat boiled egg"
+				"phrase": "Je veux manger un oeuf à la coque"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat boiled egg"
+				"phrase": "Je ne veux pas manger d'oeuf à la coque"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat boiled egg"
+				"phrase": "Voulez-vous manger un oeuf à la coque ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating boiled egg"
+				"phrase": "J'aime les oeufs à la coque"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cheese",
+		"title": "Fromage",
 		"slug": "cheese",
 		"parents": [
 			"foods"
@@ -1074,25 +1074,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cheese"
+				"phrase": "Je veux manger du fromage"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cheese"
+				"phrase": "Je ne veux pas manger de fromage"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cheese"
+				"phrase": "Voulez-vous manger du fromage ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cheese"
+				"phrase": "J'aime manger du fromage"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Chicken",
+		"title": "Poulet",
 		"slug": "chicken",
 		"parents": [
 			"foods"
@@ -1100,19 +1100,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat chicken"
+				"phrase": "Je veux manger du poulet"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat chicken"
+				"phrase": "Je ne veux pas manger de poulet"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chicken"
+				"phrase": "Voulez-vous manger du poulet ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating chicken"
+				"phrase": "J'aime manger du poulet"
 			}
 		]
 	},
@@ -1126,25 +1126,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat sandwich"
+				"phrase": "Je veux manger un sandwich"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat sandwich"
+				"phrase": "Je ne veux pas manger desandwich"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sandwich"
+				"phrase": "Voulez-vous manger un sandwich ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sandwich"
+				"phrase": "J'aime manger des sandwichs"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Salad",
+		"title": "Salade",
 		"slug": "salad",
 		"parents": [
 			"foods"
@@ -1152,25 +1152,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat salad"
+				"phrase": "Je veux manger de la salade"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat salad"
+				"phrase": "Je ne veux pas manger de salade"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat salad"
+				"phrase": "Voulez-vous manger de la salade ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating salad"
+				"phrase": "J'aime manger de la salade"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Bread",
+		"title": "Pain",
 		"slug": "bread",
 		"parents": [
 			"foods"
@@ -1178,25 +1178,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat bread"
+				"phrase": "Je veux manger du pain"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat bread"
+				"phrase": "Je ne veux pas manger de pain"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat bread"
+				"phrase": "Voulez-vous manger du pain ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating bread"
+				"phrase": "J'aime manger du pain !"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Carrot",
+		"title": "Carotte",
 		"slug": "carrot",
 		"parents": [
 			"foods"
@@ -1204,25 +1204,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat carrot"
+				"phrase": "Je veux manger des carottes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat carrot"
+				"phrase": "Je ne veux pas manger de carottes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat carrot"
+				"phrase": "Voulez-vous manger des carottes ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating carrot"
+				"phrase": "J'aime manger des carottes"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Candy",
+		"title": "Bonbons",
 		"slug": "candy",
 		"parents": [
 			"foods"
@@ -1230,25 +1230,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat candy"
+				"phrase": "Je veux manger des bonbons"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat candy"
+				"phrase": "Je ne veux pas manger de bonbons"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat candy"
+				"phrase": "Voulez-vous manger des bonbons ?y"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating candy"
+				"phrase": "J'aime manger des bonbons"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cake",
+		"title": "Gateau",
 		"slug": "cake",
 		"parents": [
 			"foods"
@@ -1256,25 +1256,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cake"
+				"phrase": "Je veux manger un gateau"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cake"
+				"phrase": "Je ne veux pas manger de gateau"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cake"
+				"phrase": "Voulez-vous manger un gateau ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cake"
+				"phrase": "J'aime manger des gateaux"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Broccoli",
+		"title": "Brocoli",
 		"slug": "broccoli",
 		"parents": [
 			"foods"
@@ -1282,25 +1282,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat broccoli"
+				"phrase": "Je veux manger du brocoli"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat broccoli"
+				"phrase": "Je ne veux pas manger de brocoli"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat broccoli"
+				"phrase": "Voulez-vous manger du brocoli ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating broccoli"
+				"phrase": "J'aime manger du brocoli"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cherries",
+		"title": "Cerises",
 		"slug": "cherries",
 		"parents": [
 			"foods"
@@ -1308,25 +1308,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cherries"
+				"phrase": "Je veux manger des cerises"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cherries"
+				"phrase": "Je ne veux pas manger de cerises"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cherries"
+				"phrase": "Voulez-vous manger des cerises ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cherries"
+				"phrase": "J'aime manger des cerises"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Beans",
+		"title": "Haricots",
 		"slug": "beans",
 		"parents": [
 			"foods"
@@ -1334,25 +1334,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat beans"
+				"phrase": "Je veux manger des harictos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat beans"
+				"phrase": "Je ne veux pas manger de haricots"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat beans"
+				"phrase": "Voulez-vous manger des haricots ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating beans"
+				"phrase": "J'aime manger des haricots"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Banana",
+		"title": "Banane",
 		"slug": "banana",
 		"parents": [
 			"foods"
@@ -1360,25 +1360,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat banana"
+				"phrase": "Je veux manger une banane"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat banana"
+				"phrase": "Je ne veux pas manger de banane"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat banana"
+				"phrase": "Voulez-vous manger une banane ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating banana"
+				"phrase": "J'aime manger des bananes"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Chocolate",
+		"title": "Chocolat",
 		"slug": "chocolate",
 		"parents": [
 			"foods"
@@ -1386,25 +1386,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat chocolate"
+				"phrase": "Je veux manger du chocolat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat chocolate"
+				"phrase": "Je ne veux pas manger de chocolat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chocolate"
+				"phrase": "Voulez-vous manger du chocolat ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating chocolate"
+				"phrase": "J'aime manger du chocolat"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Coke",
+		"title": "Coca",
 		"slug": "coke",
 		"parents": [
 			"foods"
@@ -1412,19 +1412,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink coke"
+				"phrase": "Je veux boire du coca"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink coke"
+				"phrase": "Je ne veux pas boire de coca"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink coke"
+				"phrase": "Voulez-vous boire du coca ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking coke"
+				"phrase": "J'aime boire du coca"
 			}
 		]
 	},
@@ -1438,25 +1438,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cupcake"
+				"phrase": "Je veux manger un cupcake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cupcake"
+				"phrase": "Je ne veux pas manger de cupcake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cupcake"
+				"phrase": "Voulez-vous manger un cupcake ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cupcake"
+				"phrase": "J'aime manger des cupcakes"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Doughnut",
+		"title": "Donut",
 		"slug": "doughnut",
 		"parents": [
 			"foods"
@@ -1464,25 +1464,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat doughnut"
+				"phrase": "Je veux manger un donut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat doughnut"
+				"phrase": "Je ne veux pas manger de donut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat doughnut"
+				"phrase": "Voulez-vous manger un donut ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating doughnut"
+				"phrase": "J'aime manger des donuts"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Fish",
+		"title": "Poisson",
 		"slug": "fish",
 		"parents": [
 			"foods"
@@ -1490,19 +1490,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fish"
+				"phrase": "Je veux manger du poisson"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fish"
+				"phrase": "Je ne veux pas manger de poisson"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fish"
+				"phrase": "Voulez-vous manger du poisson ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fish"
+				"phrase": "J'aime manger du poisson"
 			}
 		]
 	},
@@ -1516,25 +1516,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat sushi"
+				"phrase": "Je veux manger des sushis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat sushi"
+				"phrase": "Je ne veux pas manger de sushis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sushi"
+				"phrase": "Voulez-vous manger des sushis ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sushi"
+				"phrase": "J'aime manger des sushis"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Corn",
+		"title": "Maïs",
 		"slug": "corn",
 		"parents": [
 			"foods"
@@ -1542,25 +1542,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat corn"
+				"phrase": "Je veux manger du maïs"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat corn"
+				"phrase": "Je ne veux pas manger de maïs"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat corn"
+				"phrase": "Voulez-vous manger du maïs"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating corn"
+				"phrase": "J'aime manger du maïs"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Lemon",
+		"title": "Citron",
 		"slug": "lemon",
 		"parents": [
 			"foods"
@@ -1568,25 +1568,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat lemon"
+				"phrase": "Je veux manger du citron"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat lemon"
+				"phrase": "Je ne veux pas manger de citron"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat lemon"
+				"phrase": "Voulez-vous manger du citron ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating lemon"
+				"phrase": "J'aime manger du citron"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Mustard",
+		"title": "Moutarde",
 		"slug": "mustard",
 		"parents": [
 			"foods"
@@ -1594,25 +1594,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want mustard with my food"
+				"phrase": "Je veux manger de la moutarde avec ma nourriture"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to mustard"
+				"phrase": "Je ne veux pas de moutarde"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want some mustard"
+				"phrase": "Voulez-vous de la moutarde ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like mustard with my food"
+				"phrase": "J'aime la moutarde avec ma nourriture"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Peach",
+		"title": "Pêche",
 		"slug": "peach",
 		"parents": [
 			"foods"
@@ -1620,25 +1620,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat peach"
+				"phrase": "Je veux manger une pêche"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat peach"
+				"phrase": "Je ne veux pas manger de pêche"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat peach"
+				"phrase": "Voulez-vous manger une pêche ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating peach"
+				"phrase": "J'aime manger les pêches"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Pineapple",
+		"title": "Ananas",
 		"slug": "pineapple",
 		"parents": [
 			"foods"
@@ -1646,25 +1646,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pineapple"
+				"phrase": "Je veux manger de l'ananas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pineapple"
+				"phrase": "Je ne veux pas manger d'ananas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pineapple"
+				"phrase": "Voulez-vous manger de l'ananas ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pineapple"
+				"phrase": "J'aime manger de l'ananas"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Raspberry",
+		"title": "Framboise",
 		"slug": "raspberry",
 		"parents": [
 			"foods"
@@ -1672,25 +1672,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat raspberry"
+				"phrase": "Je veux manger des framboises"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat raspberry"
+				"phrase": "Je ne veux pas manger de framboises"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat raspberry"
+				"phrase": "Voulez-vous manger des framboises ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating raspberry"
+				"phrase": "J'aime manger des framboises"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Strawberry",
+		"title": "Fraise",
 		"slug": "strawberry",
 		"parents": [
 			"foods"
@@ -1698,25 +1698,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat strawberry"
+				"phrase": "Je veux manger des fraises"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat strawberry"
+				"phrase": "Je ne veux pas manger de fraises"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat strawberry"
+				"phrase": "Voulez-vous manger des fraises ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating strawberry"
+				"phrase": "J'aime manger des fraises"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Watermelon",
+		"title": "Pasteque",
 		"slug": "watermelon",
 		"parents": [
 			"foods"
@@ -1724,25 +1724,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat watermelon"
+				"phrase": "Je veux manger de la pastèque"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat watermelon"
+				"phrase": "Je ne veux pas manger de pastèque"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat watermelon"
+				"phrase": "Voulez-vous manger de la pastèque ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating watermelon"
+				"phrase": "J'aime manger de la pastèque"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grapes",
+		"title": "Raisin",
 		"slug": "grapes",
 		"parents": [
 			"foods"
@@ -1750,25 +1750,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat grapes"
+				"phrase": "Je veux manger du raisin"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat grapes"
+				"phrase": "Je ne veux pas manger de raisin"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat grapes"
+				"phrase": "Voulez-vous manger du raisin ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating grapes"
+				"phrase": "J'aime manger du raisin"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Avocado",
+		"title": "Avocat",
 		"slug": "avocado",
 		"parents": [
 			"foods"
@@ -1776,25 +1776,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat avocado"
+				"phrase": "Je veux manger de l'avocat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat avocado"
+				"phrase": "Je ne veux pas manger d'avocat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat avocado"
+				"phrase": "Voulez-vous manger del'avocat ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating avocado"
+				"phrase": "J'aime manger de l'avocat"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Rice",
+		"title": "Riz",
 		"slug": "rice",
 		"parents": [
 			"foods"
@@ -1802,25 +1802,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat rice"
+				"phrase": "Je veux manger du riz"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat rice"
+				"phrase": "Je ne veux pas manger de riz"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat rice"
+				"phrase": "Voulez-vous manger du riz ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating rice"
+				"phrase": "J'aime manger du riz"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Spaguetti",
+		"title": "Spaghetti",
 		"slug": "spaguetti",
 		"parents": [
 			"foods"
@@ -1828,25 +1828,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat spaguetti"
+				"phrase": "Je veux manger des spaghettis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat spaguetti"
+				"phrase": "Je ne veux pas manger de spaghettis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat spaguetti"
+				"phrase": "Voulez-vous manger des spaghettis ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating spaguetti"
+				"phrase": "J'aime manger des spaghettis"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Milk",
+		"title": "Lait",
 		"slug": "milk",
 		"parents": [
 			"foods"
@@ -1854,25 +1854,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink milk"
+				"phrase": "Je veux boire du lait"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink milk"
+				"phrase": "Je ne veux pas boire de lait"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink milk"
+				"phrase": "Voulez-vous boire du lait ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking milk"
+				"phrase": "J'aime boire du lait"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tea",
+		"title": "Thé",
 		"slug": "tea",
 		"parents": [
 			"foods"
@@ -1880,25 +1880,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink tea"
+				"phrase": "Je veux boire du thé"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink tea"
+				"phrase": "Je ne veux pas boire de thé"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink tea"
+				"phrase": "Voulez-vous boire du thé ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking tea"
+				"phrase": "J'aime boire du thé"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Honey",
+		"title": "Miel",
 		"slug": "honey",
 		"parents": [
 			"foods"
@@ -1906,19 +1906,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat honey"
+				"phrase": "Je veux manger du miel"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat honey"
+				"phrase": "Je ne veux pas manger de miel"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat honey"
+				"phrase": "Voulez-vous manger du miel ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating honey"
+				"phrase": "J'aime manger du miel"
 			}
 		]
 	},
@@ -1932,25 +1932,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat kebab"
+				"phrase": "Je veux manger un kebab"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat kebab"
+				"phrase": "Je ne veux pas manger de kebab"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat kebab"
+				"phrase": "Voulez-vous manger un kebab ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating kebab"
+				"phrase": "J'aime manger des kebabs"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Taco",
+		"title": "Tacos",
 		"slug": "taco",
 		"parents": [
 			"foods"
@@ -1958,25 +1958,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat taco"
+				"phrase": "Je veux manger des tacos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat taco"
+				"phrase": "Je ne veux pas manger de tacos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat taco"
+				"phrase": "Voulez-vous manger des tacos ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating taco"
+				"phrase": "J'aime manger des tacos"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Mother",
+		"title": "Mère",
 		"slug": "mother",
 		"parents": [
 			"people"
@@ -1984,17 +1984,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my mother"
+				"phrase": "J'aime ma mère"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my mother"
+				"phrase": "Je veux voir ma mère "
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Father",
+		"title": "Père",
 		"slug": "father",
 		"parents": [
 			"people"
@@ -2002,11 +2002,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my father"
+				"phrase": "J'aime mon père"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my father"
+				"phrase": "Je veux voir mon père"
 			}
 		]
 	},
@@ -2020,17 +2020,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my parents"
+				"phrase": "J'aime mes parents"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my parents"
+				"phrase": "Je veux voir mes parents"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grandparents",
+		"title": "Grand-parents",
 		"slug": "grandparents",
 		"parents": [
 			"people"
@@ -2038,17 +2038,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my grandparents"
+				"phrase": "J'aime mes grand-parents"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my grandparents"
+				"phrase": "Je veux voir mes grand-parents"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Brother",
+		"title": "Frère",
 		"slug": "brother",
 		"parents": [
 			"people"
@@ -2056,17 +2056,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my brother"
+				"phrase": "J'aime mon frère"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my brother"
+				"phrase": "Je veux voir mon frère"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sister",
+		"title": "Soeur",
 		"slug": "sister",
 		"parents": [
 			"people"
@@ -2074,17 +2074,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my sister"
+				"phrase": "J'aime ma soeur"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my sister"
+				"phrase": "Je veux voir ma soeur"
 			}
 		]
-	},,
+	},
 	{
 		"type": "card",
-		"title": "Uncle",
+		"title": "Oncle",
 		"slug": "uncle",
 		"parents": [
 			"people"
@@ -2092,17 +2092,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my uncle"
+				"phrase": "J'aime mon oncle"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my uncle"
+				"phrase": "Je veux voir mon oncle"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Aunt",
+		"title": "Tante",
 		"slug": "aunt",
 		"parents": [
 			"people"
@@ -2110,17 +2110,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my aunt"
+				"phrase": "J'aime ma tante"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my aunt"
+				"phrase": "Je veux voir ma tante"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Teacher",
+		"title": "Professeur",
 		"slug": "teacher",
 		"parents": [
 			"people",
@@ -2129,17 +2129,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my teacher"
+				"phrase": "J'aime mon professeur"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my teacher"
+				"phrase": "Je veux voir mon professeur"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Therapist",
+		"title": "Thérapeute",
 		"slug": "therapist",
 		"parents": [
 			"people"
@@ -2147,17 +2147,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my therapist"
+				"phrase": "J'aime mon thérapeute"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my therapist"
+				"phrase": "Je veux voir mon thérapeute"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Doctor",
+		"title": "Docteur",
 		"slug": "doctor",
 		"parents": [
 			"people"
@@ -2165,17 +2165,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my doctor"
+				"phrase": "J'aime mon docteur"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my doctor"
+				"phrase": "Je veux voir mon docteur"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Friends",
+		"title": "Amis",
 		"slug": "friends",
 		"parents": [
 			"people"
@@ -2183,25 +2183,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my friends"
+				"phrase": "J'aime mes amis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't like my friends"
+				"phrase": "Je n'aime pas mes amis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my friends"
+				"phrase": "Je veux voir mes amis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to talk to my friends"
+				"phrase": "Je veux parler à mes amis"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Book",
+		"title": "Livre",
 		"slug": "book",
 		"parents": [
 			"school"
@@ -2209,17 +2209,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm reading my book"
+				"phrase": "Je lis mon livre"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give my book"
+				"phrase": "Pouvez-vous me donner mon livre ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Notebook",
+		"title": "Cahier",
 		"slug": "notebook",
 		"parents": [
 			"school"
@@ -2227,17 +2227,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm taking notes to my notebook"
+				"phrase": "Je prends des notes dans mon cahier"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give my notebook"
+				"phrase": "Pouvez-vous me donner mon cahier ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Pencil",
+		"title": "Stylo",
 		"slug": "pencil",
 		"parents": [
 			"school"
@@ -2245,17 +2245,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm writing with my pencil"
+				"phrase": "J'écris avec mon stylo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give my pencil"
+				"phrase": "Pouvez-vous me donner mon stylo ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Blackboard",
+		"title": "Tableau",
 		"slug": "blackboard",
 		"parents": [
 			"school"
@@ -2263,7 +2263,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Lesson",
+		"title": "Leçon",
 		"slug": "lesson",
 		"parents": [
 			"school"
@@ -2271,7 +2271,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Quiet",
+		"title": "Silencieux",
 		"slug": "quiet",
 		"parents": [
 			"school"
@@ -2279,17 +2279,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to be quiet in lesson"
+				"phrase": "J'ai besoin d'être silencieux pendant la leçon"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "You need to be quiet in lesson"
+				"phrase": "Vous avez besoin d'être silencieux pendant la leçon"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Mathematics",
+		"title": "Mathématiques",
 		"slug": "mathematics",
 		"parents": [
 			"school"
@@ -2297,17 +2297,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like mathematics"
+				"phrase": "J'aime les mathématiques"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to learn mathematics"
+				"phrase": "Je veux apprendre les mathématiques"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Literature",
+		"title": "Littérature",
 		"slug": "literature",
 		"parents": [
 			"school"
@@ -2315,11 +2315,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like literature"
+				"phrase": "J'aime la littérature"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to learn literature"
+				"phrase": "Je veux apprendre la littérature"
 			}
 		]
 	},
@@ -2333,17 +2333,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I have a question"
+				"phrase": "J'ai une question"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I ask a question"
+				"phrase": "Puis-je poser une question ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Understand",
+		"title": "Comprendre",
 		"slug": "understand",
 		"parents": [
 			"school"
@@ -2351,17 +2351,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I don't understand"
+				"phrase": "Je ne comprends pas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you explain it?"
+				"phrase": "Pouvez-vous l'expliquer ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Homework",
+		"title": "Devoirs",
 		"slug": "homework",
 		"parents": [
 			"school"
@@ -2369,17 +2369,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to do my homework"
+				"phrase": "Je dois faire mes devoirs"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help my homework"
+				"phrase": "Pouvez-vous m'aider à faire mes devoirs ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Walking",
+		"title": "Marcher",
 		"slug": "walking",
 		"parents": [
 			"activities"
@@ -2387,17 +2387,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Let's walk around"
+				"phrase": "Allons faire un tour"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go to walking?"
+				"phrase": "Est-ce qu'on peut aller marcher ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Running",
+		"title": "Courir",
 		"slug": "running",
 		"parents": [
 			"activities"
@@ -2405,17 +2405,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like running"
+				"phrase": "J'aime courir"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go to running"
+				"phrase": "Peut-on aller courir ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Talking",
+		"title": "Parler",
 		"slug": "talking",
 		"parents": [
 			"activities"
@@ -2423,17 +2423,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like talking"
+				"phrase": "J'aime parler"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we talk together?"
+				"phrase": "Est-ce qu'on peut parler ensemble ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Reading",
+		"title": "Lire",
 		"slug": "reading",
 		"parents": [
 			"activities"
@@ -2441,11 +2441,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading."
+				"phrase": "J'aime lire"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can help me read?"
+				"phrase": "Pouvez-vous m'aider à lire ?"
 			}
 		]
 	},
@@ -2459,11 +2459,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing football"
+				"phrase": "J'aime jouer au football"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Let's play football"
+				"phrase": "Allons jouer au football"
 			}
 		]
 	},
@@ -2477,17 +2477,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing basketball"
+				"phrase": "J'aime jouer au basketball"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Let's play basketball"
+				"phrase": "Allons jouer au basketball"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Swimming",
+		"title": "Nager",
 		"slug": "swimming",
 		"parents": [
 			"activities"
@@ -2495,11 +2495,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like swimming"
+				"phrase": "J'aime nager"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go to swimming"
+				"phrase": "Peut-on aller nager ?"
 			}
 		]
 	},
@@ -2513,17 +2513,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing tennis"
+				"phrase": "J'aime jouer au tennis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we play tennis together?"
+				"phrase": "Peut-on aller jouer au tennis ensemble ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cycling",
+		"title": "Vélo",
 		"slug": "cycling",
 		"parents": [
 			"activities"
@@ -2531,17 +2531,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like cycling"
+				"phrase": "J'aime faire du vélo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we cycle bike together?"
+				"phrase": "Peut-on aller faire du vélo ensemble ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Skating",
+		"title": "Skate",
 		"slug": "skating",
 		"parents": [
 			"activities"
@@ -2549,17 +2549,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like skating"
+				"phrase": "J'aime faire du skate"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to skate with me?"
+				"phrase": "Voulez-vous allez faire du skate avec moi ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sightseeing",
+		"title": "Tourisme",
 		"slug": "sightseeing",
 		"parents": [
 			"activities"
@@ -2567,17 +2567,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like sightseeing"
+				"phrase": "J'aime faire du tourisme"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go sightseeing together"
+				"phrase": "Peut-on aller faire du tourisme ensemble ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Video Games",
+		"title": "Jeux vidéo",
 		"slug": "videogames",
 		"parents": [
 			"activities"
@@ -2585,17 +2585,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing video games"
+				"phrase": "J'aime jouer aux jeux vidéo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I play video games?"
+				"phrase": "Est-ce que je peux jouer aux jeux vidéo ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tidying",
+		"title": "Rangement",
 		"slug": "tidying",
 		"parents": [
 			"activities"
@@ -2603,17 +2603,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like tidying my room"
+				"phrase": "J'aime ranger ma chambre"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me tidy my room"
+				"phrase": "Pouvez-vous m'aider à ranger ma chambre ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Toys",
+		"title": "Jouets",
 		"slug": "toys",
 		"parents": [
 			"activities"
@@ -2621,11 +2621,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing with my toys"
+				"phrase": "J'aime jouer avec mes jouets"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play with my toys"
+				"phrase": "Voulez-vous jouer avec mes jouets ?"
 			}
 		]
 	},
@@ -2639,17 +2639,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like solving puzzles"
+				"phrase": "J'aime résoudre des puzzles"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to solve puzzle together?"
+				"phrase": "Voulez-vous résoudre un puzzle avec moi ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Comics",
+		"title": "BD",
 		"slug": "comics",
 		"parents": [
 			"activities"
@@ -2657,17 +2657,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading comic books"
+				"phrase": "J'aime lire des BD"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to read comics with me?"
+				"phrase": "Voulez-vous lire des BD avec moi ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Chess",
+		"title": "Echecs",
 		"slug": "chess",
 		"parents": [
 			"activities"
@@ -2675,17 +2675,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading playing chess"
+				"phrase": "J'aime jouer aux échecs"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play chess with me?"
+				"phrase": "Voulez-vous jouer aux échecs avec moi ?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "One",
+		"title": "Un",
 		"slug": "one",
 		"parents": [
 			"numbers"
@@ -2693,7 +2693,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Two",
+		"title": "Deux",
 		"slug": "two",
 		"parents": [
 			"numbers"
@@ -2701,7 +2701,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Three",
+		"title": "Trois",
 		"slug": "three",
 		"parents": [
 			"numbers"
@@ -2709,7 +2709,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Four",
+		"title": "Quatre",
 		"slug": "four",
 		"parents": [
 			"numbers"
@@ -2717,7 +2717,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Five",
+		"title": "Cinq",
 		"slug": "five",
 		"parents": [
 			"numbers"
@@ -2733,7 +2733,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seven",
+		"title": "Sept",
 		"slug": "seven",
 		"parents": [
 			"numbers"
@@ -2741,7 +2741,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eight",
+		"title": "Huit",
 		"slug": "eight",
 		"parents": [
 			"numbers"
@@ -2749,7 +2749,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Nine",
+		"title": "Neuf",
 		"slug": "nine",
 		"parents": [
 			"numbers"
@@ -2757,7 +2757,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ten",
+		"title": "Dix",
 		"slug": "ten",
 		"parents": [
 			"numbers"
@@ -2765,7 +2765,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Twenty",
+		"title": "Vingt",
 		"slug": "twenty",
 		"parents": [
 			"numbers"
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Thirty",
+		"title": "Trente",
 		"slug": "thirty",
 		"parents": [
 			"numbers"
@@ -2781,7 +2781,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Forty",
+		"title": "Quarante",
 		"slug": "forty",
 		"parents": [
 			"numbers"
@@ -2789,7 +2789,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fifty",
+		"title": "Cinquante",
 		"slug": "fifty",
 		"parents": [
 			"numbers"
@@ -2797,7 +2797,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sixty",
+		"title": "Soixante",
 		"slug": "sixty",
 		"parents": [
 			"numbers"
@@ -2805,7 +2805,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seventy",
+		"title": "Soixante-dix",
 		"slug": "seventy",
 		"parents": [
 			"numbers"
@@ -2813,7 +2813,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eighty",
+		"title": "Quatre-vingt",
 		"slug": "eighty",
 		"parents": [
 			"numbers"
@@ -2821,7 +2821,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ninety",
+		"title": "Quatre-vingt-dix",
 		"slug": "ninety",
 		"parents": [
 			"numbers"
@@ -2829,7 +2829,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Hundred",
+		"title": "Cent",
 		"slug": "hundred",
 		"parents": [
 			"numbers"
@@ -2837,7 +2837,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Calculator",
+		"title": "Calculatrice",
 		"slug": "calculator",
 		"parents": [
 			"numbers"
