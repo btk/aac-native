@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "ทั่วไป",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "ผู้คน",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "อาหาร",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "ความรู้สึก",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "กิจกรรม",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "โรงเรียน",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "ตัวเลข",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "ช่วยเหลือ",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "คุณช่วยฉันหน่อยได้ไหม?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "มีอะไรให้ฉันช่วยไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "หิว",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันหิว!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณหิวไหม?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณเตรียมอาหารให้ฉันหน่อยได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "หิวน้ำ",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันหิวน้ำ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณหิวน้ำไหม?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ขอน้ำหน่อยได้ไหม?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากดื่มอะไรสักอย่าง!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ห้องน้ำ",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันต้องใช้ห้องน้ำ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "พาฉันไปห้องน้ำหน่อยได้ไหม?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันปวดอึ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันปวดฉี่"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "อะไรหรือ?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "คุณหมายความว่าอย่างไร?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "มันหมายความว่าอะไร?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ใช่",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "โอเค!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ได้"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันเห็นด้วย!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ถูกต้อง"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ไม่ใช่",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ไม่อ่ะ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ไม่ได้"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่เห็นด้วย!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ผิด"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สวัสดี",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "นอน",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันง่วงนอน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันต้องการนอน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "อาบน้ำ",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากอาบน้ำ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ช่วยอาบน้ำฉันที"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ตอนเช้า",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "อรุณสวัสดิ์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ในตอนเช้า"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ตอนกลางคืน",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ราตรีสวัสดิ์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ในตอนกลางคืน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ฟัง",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฟังฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันกำลังฟังคุณอยู่"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ข้างนอก",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากออกไปข้างนอก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "พาฉันออกไปข้างนอกได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เสื้อผ้า",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ใส่เสื้อผ้า"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เสื้อผ้าของฉันสกปรก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "หยิบเสื้อผ้าให้ฉันใส่หน่อยได้ไหม?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ช่วยแต่งตัวให้ฉันหน่อยได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "บ้าน",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกลับบ้าน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักบ้านของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เจ็บ",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันประสบอุบัติเหตุ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากได้ผ้าพันแผล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "มันเจ็บ!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "มีความสุข",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกมีความสุข"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกมีความสุขไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เศร้า",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกเศร้า"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกเศร้าไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เหนื่อย",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกเหนื่อย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกเหนื่อยไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สบาย",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกสบาย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกสบายไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "มีความรัก",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันมีความรัก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณมีความรักไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เครียด",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกเครียด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกเครียดไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ขอบคุณ",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกขอบคุณ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกขอบคุณไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "งง",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันงง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกงงไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สนุก",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกสนุก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกสนุกไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "โกรธ",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกโกรธ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกโกรธไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ฉลาด",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกฉลาด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกฉลาดไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "กลัว",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกกลัว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกกลัวไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "อับอาย",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกอับอาย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกอับอายไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ตกใจ",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันตกใจ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณตกใจไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ป่วย",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกว่าฉันป่วย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกป่วยไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ผิดหวัง",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรู้สึกผิดหวัง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณรู้สึกผิดหวังไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "แอปเปิ้ล",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินแอปเปิ้ล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินแอปเปิ้ล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินแอปเปิ้ลไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินแอปเปิ้ล"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ส้ม",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินส้ม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินส้ม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินส้มไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินส้ม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ของใช้",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ช่วยฉันใช้ของใช้ฉันที"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "หยิบของใช้ให้ฉันหน่อยได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "น้ำ",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากดื่มน้ำ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากดื่มน้ำ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากดื่มน้ำไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบดื่มน้ำ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "มะเขือเทศ",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินมะเขือเทศ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินมะเขือเทศ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินมะเขือเทศไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินมะเขือเทศ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "มันฝรั่ง",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินมันฝรั่ง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินมันฝรั่ง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินมันฝรั่งไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินมันฝรั่ง"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สเต็ก",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินสเต็ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินสเต็ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินสเต็กไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินสเต็ก"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "พิซซ่า",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินพิซซ่า"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินพิซซ่า"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินพิซซ่าไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินพิซซ่า"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "แฮมเบอร์เกอร์",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินแฮมเบอร์เกอร์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินแฮมเบอร์เกอร์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินแฮมเบอร์เกอร์ไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินแฮมเบอร์เกอร์"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เฟรนช์ฟรายส์",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินเฟรนช์ฟรายส์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินเฟรนช์ฟรายส์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินเฟรนช์ฟรายส์ไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินเฟรนช์ฟรายส์"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ไอศกรีม",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินไอศกรีม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินไอศกรีม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินไอศกรีมไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินไอศกรีม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คุกกี้",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินคุกกี้"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินคุกกี้"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินคุกกี้ไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินคุกกี้"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ซีเรียล",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินซีเรียล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินซีเรียล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินซีเรียลไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินซีเรียล"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ไข่ดาว",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินไข่ดาว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินไข่ดาว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินไข่ดาวไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินไข่ดาว"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ไข่ต้ม",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินไข่ต้ม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินไข่ต้ม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินไข่ต้มไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินไข่ต้ม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ชีส",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินชีส"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินชีส"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินชีสไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินชีส"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ไก่",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินไก่"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินไก่"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินไก่ไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินไก่"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "แซนด์วิช",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินแซนด์วิช"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินแซนด์วิช"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินแซนด์วิชไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินแซนด์วิช"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สลัด",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินสลัด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินสลัด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินสลัดไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินสลัด"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ขนมปัง",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินขนมปัง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินขนมปัง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินขนมปังไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินขนมปัง"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "แคร์รอต",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินแคร์รอต"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินแคร์รอต"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินแคร์รอตไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินแคร์รอต"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ลูกอม",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินลูกอม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินลูกอม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินลูกอมไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินลูกอม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เค้ก",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินเค้ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินเค้ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินเค้กไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินเค้ก"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "บรอกโคลี",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินบรอกโคลี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินบรอกโคลี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินบรอกโคลีไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินบรอกโคลี"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เชอร์รี",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินเชอร์รี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินเชอร์รี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินเชอร์รีไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินเชอร์รี"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ถั่ว",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินถั่ว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินถั่ว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินถั่วไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินถั่ว"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "กล้วย",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินกล้วย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินกล้วย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินกล้วยไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินกล้วย"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ช็อกโกแลต",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินช็อกโกแลต"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินช็อกโกแลต"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินช็อกโกแลตไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินช็อกโกแลต"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "โค้ก",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากดื่มโค้ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากดื่มโค้ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากดื่มโค้กไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบดื่มโค้ก"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คัพเค้ก",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินคัพเค้ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินคัพเค้ก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินคัพเค้กไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินคัพเค้ก"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "โดนัท",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินโดนัท"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินโดนัท"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินโดนัทไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินโดนัท"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ปลา",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินปลา"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินปลา"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินปลาไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินปลา"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ซูชิ",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินซูชิ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินซูชิ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินซูชิไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินซูชิ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ข้าวโพด",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินข้าวโพด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินข้าวโพด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินข้าวโพดไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินข้าวโพด"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "มะนาว",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินมะนาว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินมะนาว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินมะนาวไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินมะนาว"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "มัสตาร์ด",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากใส่มัสตาร์ดกับอาหารของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากใส่มัสตาร์ดกับอาหารของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากใส่มัสตาร์ดลงในอาหารบ้างไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบใส่มัสตาร์ดกับอาหารของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ลูกพีช",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินลูกพีช"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินลูกพีช"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินลูกพีชไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินลูกพีช"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สับปะรด",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินสับปะรด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินสับปะรด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินสับปะรดไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินสับปะรด"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ราสเบอร์รี่",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินราสเบอร์รี่"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินราสเบอร์รี่"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินราสเบอร์รี่ไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินราสเบอร์รี่"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สตรอว์เบอร์รี",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินสตรอว์เบอร์รี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินสตรอว์เบอร์รี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินสตรอว์เบอร์รีไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินสตรอว์เบอร์รี"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "แตงโม",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินแตงโม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินแตงโม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินแตงโมไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินแตงโม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "องุ่น",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินองุ่น"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินองุ่น"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินองุ่นไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินองุ่น"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "อะโวคาโด",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินอะโวคาโด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินอะโวคาโด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินอะโวคาโดไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินอะโวคาโด"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ข้าว",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินข้าว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินข้าว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินข้าวไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินข้าว"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สปาเกตตี",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินสปาเกตตี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินสปาเกตตี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินสปาเกตตีไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินสปาเกตตี"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "นม",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากดื่มนม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากดื่มนม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากดื่มนมไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบดื่มนม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ชา",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากดื่มชา"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากดื่มชา"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากดื่มชาไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบดื่มชา"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "น้ำผึ้ง",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินน้ำผึ้ง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินน้ำผึ้ง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินน้ำผึ้งไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินน้ำผึ้ง"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "กะบับ",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินกะบับ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินกะบับ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินกะบับไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินกะบับ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ทาโก้",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากกินทาโก้"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่อยากกินทาโก้"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากกินทาโก้ไหม?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ฉันชอบกินทาโก้"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คุณแม่",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักแม่ของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอแม่ของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คุณพ่อ",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักพ่อของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอพ่อของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "พ่อแม่",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักพ่อแม่ของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอพ่อแม่ของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ปู่ย่าตายาย",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักปู่ย่าตายายของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอปู่ย่าตายายของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "พี่ชาย/น้องชาย",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักพี่ชาย/น้องชายของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอพี่ชาย/น้องชายของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "พี่สาว/น้องสาว",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักพี่สาว/น้องสาวของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอพี่สาว/น้องสาวของฉัน"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "คุณลุง",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักลุงของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอลุงของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คุณป้า",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักป้าของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอป้าของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คุณครู",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักคุณครูของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอคุณครูของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "นักบำบัด",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักนักบำบัดของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอนักบำบัดของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คุณหมอ",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักหมอของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอหมอของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เพื่อนๆ",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันรักเพื่อนๆ ของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่ชอบเพื่อนๆ ของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเจอเพื่อนๆ ของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากคุยกับเพื่อนๆ ของฉัน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "หนังสือ",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันกำลังอ่านหนังสือของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "หยิบหนังสือของฉันให้ฉันหน่อยได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สมุด",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันกำลังจดลงในสมุด"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "หยิบสมุดของฉันให้ฉันหน่อยได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ดินสอ",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันกำลังเขียนด้วยดินสอของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "หยิบดินสอของฉันให้ฉันหน่อยได้ไหม"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "กระดานดำ",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "บทเรียน",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "เงียบ",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันต้องเงียบในชั้นเรียน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณต้องเงียบในชั้นเรียน"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คณิตศาสตร์",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบคณิตศาสตร์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเรียนคณิตศาสตร์"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "วรรณคดี",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบวรรณคดี"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันอยากเรียนวรรณคดี"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "คำถาม",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันมีคำถาม"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันถามคำถามได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เข้าใจ",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันไม่เข้าใจ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "อธิบายให้ฉันฟังหน่อยได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "การบ้าน",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันต้องทำการบ้านของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ช่วยฉันทำการบ้านได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เดินเล่น",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ไปเดินเล่นกัน!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เราไปเดินเล่นได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "วิ่ง",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบวิ่ง"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เราไปวิ่งได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "พูดคุย",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบพูดคุย"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เรามาคุยด้วยกันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "อ่าน",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบอ่าน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ช่วยฉันอ่านได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ฟุตบอล",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นฟุตบอล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ไปเล่นฟุตบอลกัน!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "บาสเกตบอล",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นบาสเกตบอล"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ไปเล่นบาสเกตบอลกัน!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ว่ายน้ำ",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบว่ายน้ำ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เราไปว่ายน้ำได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เทนนิส",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นเทนนิส"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เรามาเล่นเทนนิสกันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ปั่นจักรยาน",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบปั่นจักรยาน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ไปปั่นจักรยานกันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "สเกต",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นสเกต"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากเล่นสเกตกับฉันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ชมวิว",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบไปชมวิว"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "เราไปชมวิวด้วยกันได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "วิดีโอเกมส์",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นวิดีโอเกมส์"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ฉันเล่นวิดีโอเกมส์ได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ทำความสะอาด",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบทำความสะอาดห้องของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณช่วยฉันทำความสะอาดห้องได้ไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ของเล่น",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นของเล่นของฉัน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากเล่นของเล่นของฉันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "เกมส์ปริศนา",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นเกมส์ปริศนา"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากไขปริศนากับฉันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "การ์ตูน",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบอ่านหนังสือการ์ตูน"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากอ่านหนังสือการ์ตูนกับฉันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "หมากรุก",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ฉันชอบเล่นหมากรุก"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "คุณอยากเล่นหมากรุกกับฉันไหม?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "หนึ่ง",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "สอง",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "สาม",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "สี่",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ห้า",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "หก",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "เจ็ด",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "แปด",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "เก้า",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "สิบ",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ยี่สิบ",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "สามสิบ",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "สี่สิบ",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ห้าสิบ",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "หกสิบ",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "เจ็ดสิบ",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "แปดสิบ",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "เก้าสิบ",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "หนึ่งร้อย",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "เครื่องคิดเลข",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
