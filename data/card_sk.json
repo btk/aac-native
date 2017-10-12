@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Všeobecné",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Ľudia",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Jedlo",
+		"slug": "food",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Emócie",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Aktivity",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Škola",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Čísla",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Pomoc",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Môžeš mi pomôcť?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžem Vám pomôcť?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hlad",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mám hlad!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Máš hlad?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Uvaríš mi jedlo?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Smäd",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mám smäd!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Máš smäd?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dáš mi vodu?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem sa niečo napiť!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "WC",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Potrebujem na WC!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžeš mi ukázať na WC?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Potrebujem kakať"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Potrebujem cikať"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Čo?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Čo tým myslíš?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Čo to znamená?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Áno",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "OK!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "V poriadku"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Súhlasím!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Správne"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nie",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nie!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Zamieta sa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nesúhlasím!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Zle"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ahoj",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spánok",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Potrebujem spánok"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem sa vyspať"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kúpeľ",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Potrebujem kúpeľ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pomôž mi osprchovať"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ráno",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dobré ráno"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ráno"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Noc",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dobrú noc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "V noci"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Počúvať",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Počúvaj ma"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Počúvam ťa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Von",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Chcem ísť von"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vezmeš ma von?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Oblečenie",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nosenie oblečenia"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Moje oblečenie je špinavé"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžem ti dať moje oblečenie?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžeš mi pomôcť s oblečením?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Domov",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Chcem ísť domov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Milujem môj domov"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bolesť",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Zranil som sa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Potrebujem náplasť"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Bolí to"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šťastie",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som šťastný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si šťastný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Smútok",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som smutný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si smutný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vyčerpanosť",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som vyčerpaný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si vyšerpaný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pohoda",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Cítim sa v pohode"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Cítiš sa v pohode?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zaľúbenosť",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som zaľúbený"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si zaľúbený?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stres",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som vystresovaný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si vystresovaný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vďačnosť",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som vďačný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si vďačný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zmätenosť",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som zmätený"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si zmätený?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Radosť",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som rád"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si rád?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hnev",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som nahnevaný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si nahnevaný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chytrosť",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Cítim sa chytrý"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Cítiš sa chytrý?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Obavy",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mám obavy"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Máš obavy?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zahanbenosť",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Cítim sa zahanbený"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Cítiš sa zahanbený?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šok",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som šokovaný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si šokovaný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Choroba",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Cítim sa chorý"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Cítiš sa chorý?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frustrácia",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Som frustrovaný"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Si frustrovaný?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jablko",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si jablko"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť jablko"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si jablko?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád jablko"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pomaranč",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si pomaranč"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť pomaranč"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si pomaranč?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád pomaranč"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Náradie",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Pomožeš mi použiť moje náradie?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžes mi podať náradie?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Voda",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si vodu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem piť vodu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš sa napiť vody?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Rád pijem vodu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rajčina",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si rajčinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť rajčinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si rajčinu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád rajčinu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zemiak",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si zemiak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť zemiak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si zemiak?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád zemiak"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Steak",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si steak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť steak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si steak?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád steak"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si pizzu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť pizzu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si pizzu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád pizzu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Burger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si burger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť burger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si burger?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád burger"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hranolky",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si hranolky"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť hranolky"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si hranolky?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád hranolky"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zmrzlina",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si zmrzlinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť zmrzlinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si zmrzlinu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád zmrzlinu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Keks",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si keks"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť keks"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si keks?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád keks"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cereálie",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si cereálie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť cereálie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si cereálie?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád cereálie"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Volské oko",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si volské oko"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť volské oko"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si volské oko?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád volské oko"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Varené vajce",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si varené vajce"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť varené vajce"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si varené vajce?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád varené vajce"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Syr",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si syr"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť syr"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si syr?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád syr"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kuracina",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si kuracinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť kuracinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si kuracinu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád kuracinu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sendvič",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si sendvič"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť sendvič"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si sendvič?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád sendvič"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šalát",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si šalát"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť šalát"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si šalát?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád šalát"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chlieb",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si chlieb"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť chlieb"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si chlieb?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád chlieb"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mrkva",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si mrkvu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť mrkvu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si mrkvu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád mrkvu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cukríky",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si cukríky"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť cukríky"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si cukríky?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád cukríky"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Koláč",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si koláč"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť koláč"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si koláč?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád koláč"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brokolica",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si brokolicu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť brokolicu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si brokolicu"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád brokolicu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Čerešne",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si čerešne"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť čerešne"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si čerešne?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád čerešne"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fazuľa",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si fazuľu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť fazuľu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si fazuľu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád fazuľu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Banán",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si banán"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť banán"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si banán?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád banán"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Čokoláda",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si čokoládu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť čokoládu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si čokoládu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád čokoládu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kola",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si kolu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem piť kolu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš sa napiť kolu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Rád pijem kolu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Košíček",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si košíček"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť košíček"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si košíček?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád košíček"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šiška",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si šišku"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť šišku"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si šišku?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád šišku"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ryba",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si rybu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť rybu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si rybu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád rybu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si sushi?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kukurica",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si kukuricu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť kukuricu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si kukuricu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád kukuricu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Citrón",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si citrón"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť citrón"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si citrón?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád citrón"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Horčica",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Chcem k jedlu horčicu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem k jedlu horčicu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš trocha horčice?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jedlo mám rád s horčicou"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Broskyňa",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si broskyňu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť broskyňu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si broskyňu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád broskyňu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ananás",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si ananás"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť ananás"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si ananás?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád ananás"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Malina",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si malinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť malinu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si malinu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád malinu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jahoda",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si jahodu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť jahodu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si jahodu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád jahodu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Melón",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si melón"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť melón"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si melón?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád melón"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Grep",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si grep"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť grep"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si grep?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád grep"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Avokádo",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si avokádo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť avokádo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si avokádo?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád avokádo"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ryža",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si ryžu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť ryžu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si ryžu?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád ryžu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Špagety",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si špagety"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť špagety"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si špagety?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád špagety"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mlieko",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si mlieko"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem piť mlieko"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš sa napiť mlieko?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Rád pijem mlieko"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Čaj",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si čaj"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem piť čaj"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš sa napiť čaj?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Rád pijem čaj"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Med",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si med"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť med"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si med?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád med"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si kebab?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Dal by som si taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nechcem jesť taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dal by si si taco?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Mám rád taco"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mama",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svoju mamu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť moju mamu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Otec",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojho otca"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť môjho otca"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rodičia",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem mojich rodičov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť mojich rodičov"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Prarodičia",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojich prarodičov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť svojich prarodičov"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brat",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojho brata"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť svojho brara"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sestra",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem moju sestru"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť moju sestru"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Strýko",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojho strýka"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť svojho strýka"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Teta",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem moju tetu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť moju tetu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Učiteľ",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojho učiteľa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť svojho učiteľa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Terapeut",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojho terapeuta"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť svojho terapeuta"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doktor",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem svojho doktora"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť svojho doktora"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Priatelia",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Milujem mojich priateľov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nemám rád mojich priateľov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem vidieť mojich priateľov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem sa rozprávať s priateľmi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kniha",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Čítam svoju knihu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžeš mi dať moju knihu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zošiť",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Robím si poznámky do svojho zošita"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Možeš mi dať môj zošiť"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ceruza",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Píšem so svojou ceruzou"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžeš mi dať moju ceruzu"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tabuľa",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lekcia",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ticho",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Musím byť na hodine ticho"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Musíš byť na hodine ticho"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Matematika",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mám rád matematiku"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem sa naučiť matematiku"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Literatúra",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mám rád literatúru"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chcem sa naučiť literatúru"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Otázka",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mám otázku"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžem položiť otázku?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Chápanie",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nerozumiem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžeš to vysvetliť?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Domáca úloha",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Musím si urobiť domácu úlohu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pomôžeš mi s mojou domácou úlohou?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Prechádzanie",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Poď sa poprechádzať"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mohli by sme sa prejsť?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Behanie",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád behám"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mohli by sme si zabehať"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rozprávanie",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád rozprávam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mohli by sme sa spolu porozprávať?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Čítanie",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád čítam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pomôžeš mi s čítaním?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Futbal",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád hrám futbal"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poď hrať futbal"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Basketball",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád hrám basketball"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poď hrať basketball"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Plávanie",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád plávam"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môhli by sme si ísť zaplávať?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tenis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád hrám tenis"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mohli by sme si zahrať spolu tenis?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bicyklovanie",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád bicyklujem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Mohli by sme si ísť spolu zabicyklovať?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Korčuľovanie",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád korčuľujem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš sa so mnou pokorčuľovať?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Turistika",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád chodím na turistiku"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžeme ísť spolu na turistiku"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Video hry",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád hrám video hry"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Môžem hrať video hry?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Upratovanie",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád upratujem svoju izbu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pomôžeš mi upratať moju izbu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hračky",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád sa hrám s hračkami"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš sa pohrať s mojími hračkami?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hádanka",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád riešim hádanky"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš vyriešiť hádanku spolu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Komiksy",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád čítam komiksy"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš čítať komiksy so mnou?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šach",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Rád hrám šach"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Chceš si zahrať šach so mnou?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jeden",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dva",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tri",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Štyri",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Päť",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šesť",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sedem",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Osem",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Deväť",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Desať",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dvadsať",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Thirty",
+		"slug": "Tridsať",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Štyridsať",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Päťdesiat",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Šesťdesiat",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sedemdesiat",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Osemdesiat",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Devätdesiat",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sto",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kalkulačka",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
