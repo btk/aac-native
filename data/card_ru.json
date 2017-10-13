@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Общее",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Люди",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Еда",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Чувства",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Активности",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Школа",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Числа",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Помощь",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Можешь помочь мне?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я могу тебе помочь?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Голодный",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я голоден!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты голоден?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь приготовить мне еду?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Жажда",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу пить!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь пить?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь дать мне воды?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу что-нибудь выпить!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Туалет",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужно в туалет!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь довести меня до туалета?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужно покакать"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужно пописать"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Что?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Что ты имеешь в виду?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Что это означает?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Да",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Отлично!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Хорошо"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я согласен!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Правильно"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Нет",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Нет!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Отрицательный ответ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не согласен!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Неправильно"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Привет",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сон",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужно поспать"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поспать"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ванна",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу принять душ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Помоги мне принять душ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Утро",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Доброе утро"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Утром"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ночь",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Спокойной ночи"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ночью"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Слушать",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Послушай меня"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я тебя слушаю"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "На улице",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу пойти на улицу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь отвести меня на улицу?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Одежда",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Носить одежду"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Моя одежда грязная"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь дать мне поносить одежду?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь помочь мне одеться?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Дом",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу пойти домой"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю мой дом"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Боль",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я навредил себе"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужен лейкопластырь"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Больно"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Счастливый",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя счастливым"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя счастливым?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Грустный",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя грустным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя грустным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Измученный",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя измученным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя измученным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Расслабленный",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя расслабленным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя расслабленным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Влюбленный",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя влюбленным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя влюбленным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Напряженный",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя напряженным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя напряженным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Благодарный",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя благодарным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя благодарным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Смущенный",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя смущенным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя смущенным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Радостный",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя радостным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя радостным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сердитый",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя сердитым"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя сердитым?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Умный",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя умным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя умным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Испуганный",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя испуганным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя испуганным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Пристыженный",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя пристыженным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя пристыженным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Потрясенный",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя потрясенным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя потрясенным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Больной",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя больным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя больным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Раздраженный",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я чувствую себя раздраженным"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты чувствуешь себя раздраженным?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Яблоко",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть яблоко"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть яблоко"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть яблоко?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть яблоки"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Апельсин",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть апельсин"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть апельсин"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть апельсин?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть апельсины"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Столовые приборы",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Можешь помочь мне воспользоваться приборами?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь дать мне приборы?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Вода",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу пить воду"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу пить воду"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь пить воду?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится пить воду"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Помидор",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть помидор"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть помидор"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть помидор?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть помидоры"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Картофель",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть картофель"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть картофель"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть картофель?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть картофель"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Стейк",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть стейк"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть стейк"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть стейк?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть стейки"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Пицца",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть пиццу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть пиццу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть пиццу?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть пиццу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Гамбургер",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть гамбургер"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть гамбургер"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть гамбургер?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть гамбургеры"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Картофель фри",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть картофель фри"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть картофель фри"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть картофель фри?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть картофель фри"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Мороженое",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть мороженое"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть мороженое"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть мороженое?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть мороженое"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Печенье",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть печенье"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть печенье"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть печенье?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть печенье"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Овсянка",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть овсянку"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть овсянку"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть овсянку?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть овсянку"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Яичница",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть яичницу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть яичницу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть яичницу?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть яичницу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Вареное яйцо",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть вареное яйцо"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть вареное яйцо"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть вареное яйцо?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть вареные яйца"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сыр",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть сыр"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть сыр"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть сыр?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть сыр"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Курица",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть курицу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть курицу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть курицу?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть курицу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сэндвич",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть сэндвич"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть сэндвич"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть сэндвич?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть сэндвич"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Салат",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть салат"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть салат"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть салат?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть салат"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Хлеб",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть хлеб"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть хлеб"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть хлеб?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть хлеб"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Морковь",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть морковь"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть морковь"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть морковь?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть морковь"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Леденец",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть леденец"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть леденец"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть леденец?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть леденцы"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Пирог",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть пирог"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть пирог"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть пирог?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть пироги"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Брокколи",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть брокколи"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть брокколи"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть брокколи?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть брокколи"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Вишня",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть вишни"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть вишню"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть вишни?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть вишню"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Бобы",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть бобы"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть бобы"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть бобы?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть бобы"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Банан",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть банан"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть банан"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть банан?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть бананы"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Шоколат",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть шоколад"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть шоколад"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть шоколад?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть шоколад"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Кока-кола",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу выпить кока-колу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу пить кока-колу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь выпить кока-колу?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится пить кока-колу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Кекс",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть кекс"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть кекс"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть кекс?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть кексы"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Пончик",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть пончик"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть пончик"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть пончик?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть пончики"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Рыба",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть рыбы"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть рыбу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть рыбы?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть рыбу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Суши",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть суши"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть суши"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть суши?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть суши"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Кукуруза",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть кукурузы"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть кукурузу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть кукурузы?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть кукурузу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Лимон",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть лимон"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть лимон"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть лимон?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть лимоны"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Горчица",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу мою еду с горчицей"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу горчицу в моей еде"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь немного горчицы?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится моя еда с горчицей"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Персик",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть персик"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть персик"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть персик?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть персики"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ананас",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть ананас"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть ананас"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть ананас?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть ананасы"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Малина",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть малины"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть малину"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть малины?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть малину"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Клубника",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть клубники"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть клубнику"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть клубники?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть клубнику"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Арбуз",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть арбуз"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть арбуз"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть арбуз?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть арбуз"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Виноград",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть винограда"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть виноград"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть винограда?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть виноград"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Авокадо",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть авокадо"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть авокадо"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть авокадо?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть авокадо"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Рис",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть риса"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть рис"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть риса?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть рис"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Спагетти",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть спагетти"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть спагетти"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть спагетти?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть спагетти"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Молоко",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу выпить молока"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу пить молоко"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь выпить молока?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится пить молоко"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Чай",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу попить чаю"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу пить чай"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь попить чаю?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится пить чай"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Мёд",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поесть мёду"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть мёд"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поесть мёду?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть мёд"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Кебаб",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть кебаб"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть кебаб"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть кебаб?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть кебаб"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Тако",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу съесть тако"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я не хочу есть тако"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь съесть тако?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Мне нравится есть тако"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Мама",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю свою маму"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть мою маму"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Папа",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю своего папу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть своего папу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Родители",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моих родителей"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моих родителей"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Бабушка и дедушка",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю своих бабушек и дедушек"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть своих бабушек и дедушек"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Брат",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моего брата"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моего брата"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сестра",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю мою сестру"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть мою сестру"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Дядя",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моего дядю"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моего дядю"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Тётя",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю мою тётю"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть мою тётю"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Учитель",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моего учителя"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моего учителя"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Терапевт",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моего терапевта"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моего терапевта"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Врач",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моего врача"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моего врача"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Друзья",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я люблю моих друзей"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мне не нравятся мои друзья"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу увидеть моих друзей"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу поговорить с моими друзьями"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Книга",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я читаю мою книгу"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь дать мне мою книгу?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Блокнот",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я делаю записи в моем блокноте"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь дать мне мой блокнот?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Карандаш",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я пишу моим карандашом"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь дать мне мой карандаш?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Доска",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Урок",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Тихий",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужно быть тихим на уроке"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Тебе нужно быть тихим на уроке"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Математика",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится математика"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу изучить математику"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Литература",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится литература"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Я хочу изучить литературу"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Вопрос",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "У меня есть вопрос"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можно спросить?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Понимание",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Я не понимаю"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можете объяснить?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Домашнее задание",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нужно сделать домашнее задание"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь помочь мне с домашним заданием?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ходьба",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Давай походим"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мы можем пойти погулять?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Бег",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится бегать"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мы можем побегать?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Разговор",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится говорить"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мы можем поговорить?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Чтение",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится читать"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь помочь мне прочитать?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Футбол",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится играть в футбол"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Давай поиграем в футбол"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Баскетбол",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится играть в баскетбол"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Давай поиграем в баскетбол"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Плавание",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится плавать"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мы можем пойти поплавать?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Теннис",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится играть в теннис"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мы можем поиграть в теннис?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Езда на велосипеде",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится ездить на велосипеде"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можем мы покататься на велосипеде вместе?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Катание на коньках",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится кататься на коньках"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь покататься на коньках со мной?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Осмотр достопримечательностей",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится смотреть достопримечательности"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Мы можем сходить посмотреть достопримечательности вместе?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Компьютерные игры",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится играть в компьютерные игры"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можно мне поиграть в компьютерные игры?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Уборка",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится прибираться в моей комнате"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Можешь помочь мне убраться в моей комнате?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Игрушки",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится играть с моими игрушками"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь поиграть с моими игрушками?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Головоломка",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится разгадывать головоломки"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Хочешь поразгадываем головоломки вместе?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Комиксы",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится читать комиксы"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ты хочешь почитать комиксы со мной?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Шахматы",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Мне нравится играть в шахматы"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Хочешь поиграть в шахматы со мной?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Один",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Два",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Три",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Четыре",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Пять",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Шесть",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Семь",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Восемь",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Девять",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Десять",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Двадцать",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Тридцать",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сорок",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Пятьдесят",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Шестьдесят",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Семьдесят",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Восемьдесят",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Девяносто",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Сто",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Калькулятор",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
