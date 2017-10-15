@@ -440,11 +440,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Estoy exhausto/a"
+				"phrase": "Estoy exhausto"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Estás exhausto/a?"
+				"phrase": "¿Estás exhausto?"
 			}
 		]
 	},
@@ -458,17 +458,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Me siento relajado/a"
+				"phrase": "Me siento relajado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Te sientes relajado/a?"
+				"phrase": "¿Te sientes relajado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Enamorado/a",
+		"title": "Enamorado",
 		"slug": "inlove",
 		"parents": [
 			"feelings"
@@ -476,17 +476,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Me siento enamorado/a"
+				"phrase": "Me siento enamorado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Te sientes enamorado/a?"
+				"phrase": "¿Te sientes enamorado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Estresado/a",
+		"title": "Estresado",
 		"slug": "stressed",
 		"parents": [
 			"feelings"
@@ -494,17 +494,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Estoy estresado/a"
+				"phrase": "Estoy estresado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Estás estresado/a?"
+				"phrase": "¿Estás estresado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Agradecido/a",
+		"title": "Agradecido",
 		"slug": "thankful",
 		"parents": [
 			"feelings"
@@ -512,11 +512,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Estoy agradecido/a"
+				"phrase": "Estoy agradecido"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Estás agradecido/a?"
+				"phrase": "¿Estás agradecido?"
 			}
 		]
 	},
@@ -558,7 +558,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Enfadado/a",
+		"title": "Enfadado",
 		"slug": "angry",
 		"parents": [
 			"feelings"
@@ -566,11 +566,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Estoy enfadado/a"
+				"phrase": "Estoy enfadado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Estás enfadado/a?"
+				"phrase": "¿Estás enfadado?"
 			}
 		]
 	},
@@ -656,11 +656,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Me siente enfermo/a"
+				"phrase": "Me siente enfermo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Te siente enfermo/a?"
+				"phrase": "¿Te siente enfermo?"
 			}
 		]
 	},
@@ -674,11 +674,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Me siente frustrado/a"
+				"phrase": "Me siente frustrado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "¿Te siente frustrado/a?"
+				"phrase": "¿Te siente frustrado?"
 			}
 		]
 	},
@@ -2139,7 +2139,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Psicólogo/a",
+		"title": "Psicólogo",
 		"slug": "therapist",
 		"parents": [
 			"people"
@@ -2157,7 +2157,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Médico/a",
+		"title": "Médico",
 		"slug": "doctor",
 		"parents": [
 			"people"
@@ -2279,11 +2279,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Tengo que ser silencioso/a en la clase"
+				"phrase": "Tengo que ser silencioso en la clase"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Se debe ser silencioso/a en la clase"
+				"phrase": "Se debe ser silencioso en la clase"
 			}
 		]
 	},
