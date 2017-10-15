@@ -85,7 +85,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you prepare me food?"
+				"phrase": "Can you make me some food?"
 			}
 		]
 	},
@@ -108,7 +108,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me water?"
+				"phrase": "Can I have some water?"
 			},
 			{
 				"symbol": "hand",
@@ -130,7 +130,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me to toilet"
+				"phrase": "Can you take me to the toilet?"
 			},
 			{
 				"symbol": "hand",
@@ -174,7 +174,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Alright"
+				"phrase": "All right"
 			},
 			{
 				"symbol": "hand",
@@ -346,11 +346,11 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me clothes to wear?"
+				"phrase": "Can you give me some clothes to wear?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me wear clothes?"
+				"phrase": "Can you help me get dressed?"
 			}
 		]
 	},
@@ -386,7 +386,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need band aid"
+				"phrase": "I need a band aid"
 			},
 			{
 				"symbol": "hand",
@@ -408,7 +408,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel happy"
+				"phrase": "Do you feel happy?"
 			}
 		]
 	},
@@ -426,7 +426,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sad"
+				"phrase": "Do you feel sad?"
 			}
 		]
 	},
@@ -444,7 +444,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel exhausted"
+				"phrase": "Do you feel exhausted?"
 			}
 		]
 	},
@@ -462,7 +462,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel relaxed"
+				"phrase": "Do you feel relaxed?"
 			}
 		]
 	},
@@ -476,11 +476,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel in love"
+				"phrase": "I am in love"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel in love"
+				"phrase": "Are you in love?"
 			}
 		]
 	},
@@ -498,7 +498,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel stressed"
+				"phrase": "Do you feel stressed?"
 			}
 		]
 	},
@@ -516,7 +516,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel thankful"
+				"phrase": "Do you feel thankful?"
 			}
 		]
 	},
@@ -534,7 +534,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel confused"
+				"phrase": "Do you feel confused?"
 			}
 		]
 	},
@@ -552,7 +552,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel joyful"
+				"phrase": "Do you feel joyful?"
 			}
 		]
 	},
@@ -570,7 +570,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel angry"
+				"phrase": "Do you feel angry?"
 			}
 		]
 	},
@@ -588,7 +588,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel smart"
+				"phrase": "Do you feel smart?"
 			}
 		]
 	},
@@ -606,7 +606,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel afraid"
+				"phrase": "Do you feel afraid?"
 			}
 		]
 	},
@@ -624,7 +624,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel ashamed"
+				"phrase": "Do you feel ashamed?"
 			}
 		]
 	},
@@ -642,7 +642,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel shocked"
+				"phrase": "Do you feel shocked?"
 			}
 		]
 	},
@@ -660,7 +660,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sick"
+				"phrase": "Do you feel sick?"
 			}
 		]
 	},
@@ -678,7 +678,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel frustrated"
+				"phrase": "Do you feel frustrated?"
 			}
 		]
 	},
@@ -692,19 +692,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat apple"
+				"phrase": "I want to eat an apple"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat apple"
+				"phrase": "I don't want to eat an apple"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat apple"
+				"phrase": "Do you want to eat an apple?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating apple"
+				"phrase": "I like eating apples"
 			}
 		]
 	},
@@ -718,25 +718,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat orange"
+				"phrase": "I want to eat an orange"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat orange"
+				"phrase": "I don't want to eat an orange"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat orange"
+				"phrase": "Do you want to eat an orange?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating orange"
+				"phrase": "I like eating oranges"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Utensils",
+		"title": "Cutlery",
 		"slug": "utensils",
 		"parents": [
 			"foods"
@@ -744,11 +744,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me use my utensils"
+				"phrase": "Can you help me use my cutlery?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me utensils"
+				"phrase": "Can you give me some cutlery?"
 			}
 		]
 	},
@@ -762,7 +762,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink water"
+				"phrase": "I want to drink some water"
 			},
 			{
 				"symbol": "hand",
@@ -770,7 +770,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink water"
+				"phrase": "Do you want to drink some water?"
 			},
 			{
 				"symbol": "like",
@@ -788,19 +788,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat tomato"
+				"phrase": "I want to eat tomatoes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat tomato"
+				"phrase": "I don't want to eat tomatoes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat tomato"
+				"phrase": "Do you want to eat tomatoes?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating tomato"
+				"phrase": "I like eating tomatoes"
 			}
 		]
 	},
@@ -814,19 +814,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat potato"
+				"phrase": "I want to eat potatoes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat potato"
+				"phrase": "I don't want to eat potatoes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat potato"
+				"phrase": "Do you want to eat potatoes?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating potato"
+				"phrase": "I like eating potatoes"
 			}
 		]
 	},
@@ -848,7 +848,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat steak"
+				"phrase": "Do you want to eat steak?"
 			},
 			{
 				"symbol": "like",
@@ -874,7 +874,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pizza"
+				"phrase": "Do you want to eat pizza?"
 			},
 			{
 				"symbol": "like",
@@ -892,19 +892,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat hamburger"
+				"phrase": "I want to eat a hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat hamburger"
+				"phrase": "I don't want to eat a hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat hamburger"
+				"phrase": "Do you want to eat a hamburger?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating hamburger"
+				"phrase": "I like eating hamburgers"
 			}
 		]
 	},
@@ -926,7 +926,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fries"
+				"phrase": "Do you want to eat fries?"
 			},
 			{
 				"symbol": "like",
@@ -952,7 +952,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat ice cream"
+				"phrase": "Do you want to eat ice cream?"
 			},
 			{
 				"symbol": "like",
@@ -970,19 +970,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cookie"
+				"phrase": "I want to eat a cookie"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cookie"
+				"phrase": "I don't want to eat a cookie"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cookie"
+				"phrase": "Do you want to eat cookies?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cookie"
+				"phrase": "I like eating cookies"
 			}
 		]
 	},
@@ -1004,7 +1004,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cereal"
+				"phrase": "Do you want to eat cereal?"
 			},
 			{
 				"symbol": "like",
@@ -1022,19 +1022,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fried egg"
+				"phrase": "I want to eat a fried egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fried egg"
+				"phrase": "I don't want to eat a fried egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fried egg"
+				"phrase": "Do you want to eat a fried egg?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fried egg"
+				"phrase": "I like eating fried eggs"
 			}
 		]
 	},
@@ -1048,19 +1048,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat boiled egg"
+				"phrase": "I want to eat a boiled egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat boiled egg"
+				"phrase": "I don't want to eat a boiled egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat boiled egg"
+				"phrase": "Do you want to eat a boiled egg?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating boiled egg"
+				"phrase": "I like eating boiled eggs"
 			}
 		]
 	},
@@ -1082,7 +1082,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cheese"
+				"phrase": "Do you want to eat cheese?"
 			},
 			{
 				"symbol": "like",
@@ -1108,7 +1108,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chicken"
+				"phrase": "Do you want to eat chicken?"
 			},
 			{
 				"symbol": "like",
@@ -1126,19 +1126,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat sandwich"
+				"phrase": "I want to eat a sandwich"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat sandwich"
+				"phrase": "I don't want to eat a sandwich"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sandwich"
+				"phrase": "Do you want to eat a sandwich?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sandwich"
+				"phrase": "I like eating sandwiches"
 			}
 		]
 	},
@@ -1160,7 +1160,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat salad"
+				"phrase": "Do you want to eat salad?"
 			},
 			{
 				"symbol": "like",
@@ -1186,7 +1186,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat bread"
+				"phrase": "Do you want to eat bread?"
 			},
 			{
 				"symbol": "like",
@@ -1204,19 +1204,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat carrot"
+				"phrase": "I want to eat a carrot"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat carrot"
+				"phrase": "I don't want to eat a carrot"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat carrot"
+				"phrase": "Do you want to eat a carrot?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating carrot"
+				"phrase": "I like eating carrots"
 			}
 		]
 	},
@@ -1238,7 +1238,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat candy"
+				"phrase": "Do you want to eat candy?"
 			},
 			{
 				"symbol": "like",
@@ -1264,7 +1264,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cake"
+				"phrase": "Do you want to eat cake?"
 			},
 			{
 				"symbol": "like",
@@ -1290,7 +1290,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat broccoli"
+				"phrase": "Do you want to eat broccoli?"
 			},
 			{
 				"symbol": "like",
@@ -1316,7 +1316,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cherries"
+				"phrase": "Do you want to eat cherries?"
 			},
 			{
 				"symbol": "like",
@@ -1342,7 +1342,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat beans"
+				"phrase": "Do you want to eat beans?"
 			},
 			{
 				"symbol": "like",
@@ -1360,19 +1360,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat banana"
+				"phrase": "I want to eat a banana"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat banana"
+				"phrase": "I don't want to eat a banana"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat banana"
+				"phrase": "Do you want to eat a banana?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating banana"
+				"phrase": "I like eating bananas"
 			}
 		]
 	},
@@ -1394,7 +1394,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chocolate"
+				"phrase": "Do you want to eat chocolate?"
 			},
 			{
 				"symbol": "like",
@@ -1420,7 +1420,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink coke"
+				"phrase": "Do you want to drink coke?"
 			},
 			{
 				"symbol": "like",
@@ -1438,19 +1438,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cupcake"
+				"phrase": "I want to eat a cupcake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cupcake"
+				"phrase": "I don't want to eat a cupcake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cupcake"
+				"phrase": "Do you want to eat a cupcake?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cupcake"
+				"phrase": "I like eating cupcakes"
 			}
 		]
 	},
@@ -1464,19 +1464,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat doughnut"
+				"phrase": "I want to eat a doughnut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat doughnut"
+				"phrase": "I don't want to eat a doughnut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat doughnut"
+				"phrase": "Do you want to eat a doughnut?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating doughnut"
+				"phrase": "I like eating doughnuts"
 			}
 		]
 	},
@@ -1498,7 +1498,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fish"
+				"phrase": "Do you want to eat fish?"
 			},
 			{
 				"symbol": "like",
@@ -1524,7 +1524,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sushi"
+				"phrase": "Do you want to eat sushi?"
 			},
 			{
 				"symbol": "like",
@@ -1550,7 +1550,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat corn"
+				"phrase": "Do you want to eat corn?"
 			},
 			{
 				"symbol": "like",
@@ -1568,19 +1568,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat lemon"
+				"phrase": "I want to eat a lemon"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat lemon"
+				"phrase": "I don't want to eat a lemon"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat lemon"
+				"phrase": "Do you want to eat a lemon?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating lemon"
+				"phrase": "I like eating lemons"
 			}
 		]
 	},
@@ -1602,7 +1602,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want some mustard"
+				"phrase": "Do you want some mustard?"
 			},
 			{
 				"symbol": "like",
@@ -1620,19 +1620,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat peach"
+				"phrase": "I want to eat a peach"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat peach"
+				"phrase": "I don't want to eat a peach"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat peach"
+				"phrase": "Do you want to eat a peach?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating peach"
+				"phrase": "I like eating peaches"
 			}
 		]
 	},
@@ -1654,7 +1654,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pineapple"
+				"phrase": "Do you want to eat pineapple?"
 			},
 			{
 				"symbol": "like",
@@ -1664,7 +1664,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Raspberry",
+		"title": "Raspberries",
 		"slug": "raspberry",
 		"parents": [
 			"foods"
@@ -1672,25 +1672,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat raspberry"
+				"phrase": "I want to eat raspberries"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat raspberry"
+				"phrase": "I don't want to eat raspberries"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat raspberry"
+				"phrase": "Do you want to eat raspberries?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating raspberry"
+				"phrase": "I like eating raspberries"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Strawberry",
+		"title": "Strawberries",
 		"slug": "strawberry",
 		"parents": [
 			"foods"
@@ -1698,19 +1698,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat strawberry"
+				"phrase": "I want to eat strawberries"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat strawberry"
+				"phrase": "I don't want to eat strawberries"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat strawberry"
+				"phrase": "Do you want to eat strawberries?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating strawberry"
+				"phrase": "I like eating strawberries"
 			}
 		]
 	},
@@ -1732,7 +1732,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat watermelon"
+				"phrase": "Do you want to eat watermelon?"
 			},
 			{
 				"symbol": "like",
@@ -1758,7 +1758,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat grapes"
+				"phrase": "Do you want to eat grapes?"
 			},
 			{
 				"symbol": "like",
@@ -1776,15 +1776,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat avocado"
+				"phrase": "I want to eat an avocado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat avocado"
+				"phrase": "I don't want to eat an avocado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat avocado"
+				"phrase": "Do you want to eat an avocado?"
 			},
 			{
 				"symbol": "like",
@@ -1810,7 +1810,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat rice"
+				"phrase": "Do you want to eat rice?"
 			},
 			{
 				"symbol": "like",
@@ -1836,7 +1836,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat spaghetti"
+				"phrase": "Do you want to eat spaghetti?"
 			},
 			{
 				"symbol": "like",
@@ -1862,7 +1862,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink milk"
+				"phrase": "Do you want to drink milk?"
 			},
 			{
 				"symbol": "like",
@@ -1888,7 +1888,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink tea"
+				"phrase": "Do you want to drink tea?"
 			},
 			{
 				"symbol": "like",
@@ -1914,7 +1914,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat honey"
+				"phrase": "Do you want to eat honey?"
 			},
 			{
 				"symbol": "like",
@@ -1932,19 +1932,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat kebab"
+				"phrase": "I want to eat a kebab"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat kebab"
+				"phrase": "I don't want to eat a kebab"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat kebab"
+				"phrase": "Do you want to eat a kebab?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating kebab"
+				"phrase": "I like eating kebabs"
 			}
 		]
 	},
@@ -1958,19 +1958,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat taco"
+				"phrase": "I want to eat tacos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat taco"
+				"phrase": "I don't want to eat tacos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat taco"
+				"phrase": "Do you want to eat tacos?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating taco"
+				"phrase": "I like eating tacos"
 			}
 		]
 	},
@@ -2213,7 +2213,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my book"
+				"phrase": "Can you give me my book?"
 			}
 		]
 	},
@@ -2231,7 +2231,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my notebook"
+				"phrase": "Can you give me my notebook?"
 			}
 		]
 	},
@@ -2249,7 +2249,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my pencil"
+				"phrase": "Can you give me my pencil?"
 			}
 		]
 	},
@@ -2279,11 +2279,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to be quiet in lesson"
+				"phrase": "I need to be quiet in lessons"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "You need to be quiet in lesson"
+				"phrase": "You need to be quiet in lessons"
 			}
 		]
 	},
@@ -2337,7 +2337,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I ask a question"
+				"phrase": "Can I ask a question?"
 			}
 		]
 	},
@@ -2373,7 +2373,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help my homework"
+				"phrase": "Can you help me with my homework?"
 			}
 		]
 	},
@@ -2391,7 +2391,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go to walking?"
+				"phrase": "Can we go for a walk?"
 			}
 		]
 	},
@@ -2409,7 +2409,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go running"
+				"phrase": "Can we go running?"
 			}
 		]
 	},
@@ -2427,7 +2427,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we talk together?"
+				"phrase": "Can we talk?"
 			}
 		]
 	},
@@ -2445,7 +2445,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can help me read?"
+				"phrase": "Can you help me read?"
 			}
 		]
 	},
@@ -2499,7 +2499,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go to swimming"
+				"phrase": "Can we go swimming?"
 			}
 		]
 	},
@@ -2535,7 +2535,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we cycle bike together?"
+				"phrase": "Can we go cycling together?"
 			}
 		]
 	},
@@ -2571,7 +2571,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go sightseeing together"
+				"phrase": "Can we go sightseeing together?"
 			}
 		]
 	},
@@ -2607,7 +2607,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me tidy my room"
+				"phrase": "Can you help me tidy my room?"
 			}
 		]
 	},
@@ -2625,7 +2625,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play with my toys"
+				"phrase": "Do you want to play with my toys?"
 			}
 		]
 	},
@@ -2643,7 +2643,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to solve puzzle together?"
+				"phrase": "Do you want to solve a puzzle together?"
 			}
 		]
 	},
@@ -2829,7 +2829,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Hundred",
+		"title": "One hundred",
 		"slug": "hundred",
 		"parents": [
 			"numbers"
