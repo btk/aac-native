@@ -1,56 +1,56 @@
 [
 	{
 		"type": "group",
-		"title": "General",
+		"title": "Diverse",
 		"slug": "general",
 		"parents": [],
 		"color": "#93B4DB"
 	},
 	{
 		"type": "group",
-		"title": "People",
+		"title": "Folk",
 		"slug": "people",
 		"parents": [],
 		"color": "#8CC7D9"
 	},
 	{
 		"type": "group",
-		"title": "Foods",
+		"title": "Mat og drikke",
 		"slug": "foods",
 		"parents": [],
 		"color": "#9B8EC3"
 	},
 	{
 		"type": "group",
-		"title": "Feelings",
+		"title": "Følelser",
 		"slug": "feelings",
 		"parents": [],
 		"color": "#CC99C4"
 	},
 	{
 		"type": "group",
-		"title": "Activities",
+		"title": "Aktiviteter",
 		"slug": "activities",
 		"parents": [],
 		"color": "#99CCA1"
 	},
 	{
 		"type": "group",
-		"title": "School",
+		"title": "Skole",
 		"slug": "school",
 		"parents": [],
 		"color": "#99CBCC"
 	},
 	{
 		"type": "group",
-		"title": "Numbers",
+		"title": "Tall",
 		"slug": "numbers",
 		"parents": [],
 		"color": "#ccc899"
 	},
 	{
 		"type": "card",
-		"title": "Help Me",
+		"title": "Hjelpe",
 		"slug": "help",
 		"parents": [
 			"general"
@@ -58,17 +58,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me?"
+				"phrase": "Kan du hjelpe meg?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I help you?"
+				"phrase": "Kan jeg hjelpe deg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hungry",
+		"title": "Sulten",
 		"slug": "hungry",
 		"parents": [
 			"general",
@@ -77,21 +77,21 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm hungry!"
+				"phrase": "Jeg er sulten!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Are you hungry?"
+				"phrase": "Er du sulten?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you make me some food?"
+				"phrase": "Kan du lage litt mat til meg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Thirsty",
+		"title": "Tørst",
 		"slug": "thirsty",
 		"parents": [
 			"general",
@@ -100,25 +100,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm thirsty!"
+				"phrase": "Jeg er tørst!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Are you thirsty?"
+				"phrase": "Er du tørst?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I have some water?"
+				"phrase": "Kan jeg få litt vann?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want something to drink!"
+				"phrase": "Jeg vil ha noe å drikke!"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Toilet",
+		"title": "Doen",
 		"slug": "toilet",
 		"parents": [
 			"general"
@@ -126,25 +126,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to use the toilet!"
+				"phrase": "Jeg trenger å gå på do!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me to the toilet?"
+				"phrase": "Kan du vise meg hvor doen er?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need to poo"
+				"phrase": "Jeg må bæsje"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need to pee"
+				"phrase": "Jeg må tisse"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "What?",
+		"title": "Hæ?",
 		"slug": "what",
 		"parents": [
 			"general"
@@ -152,17 +152,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "What do you mean?"
+				"phrase": "Hva mener du?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "What does that mean?"
+				"phrase": "Hva betyr det?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Yes",
+		"title": "Ja",
 		"slug": "yes",
 		"parents": [
 			"general"
@@ -174,21 +174,21 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "All right"
+				"phrase": "Den er grei"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I agree!"
+				"phrase": "Enig!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Right"
+				"phrase": "Ja vel"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "No",
+		"title": "Nei",
 		"slug": "no",
 		"parents": [
 			"general"
@@ -196,25 +196,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Nope!"
+				"phrase": "Niks!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Negative"
+				"phrase": "Nei"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't agree!"
+				"phrase": "Jeg er uenig!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Wrong"
+				"phrase": "Feil"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hello",
+		"title": "Hei",
 		"slug": "hello",
 		"parents": [
 			"general"
@@ -222,7 +222,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sleep",
+		"title": "Søvn",
 		"slug": "sleep",
 		"parents": [
 			"general"
@@ -230,17 +230,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to sleep"
+				"phrase": "Jeg trenger å sove"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to sleep"
+				"phrase": "Jeg vil sove"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Bath",
+		"title": "Bade",
 		"slug": "bath",
 		"parents": [
 			"general"
@@ -248,17 +248,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to take a bath"
+				"phrase": "Jeg vil bade"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Help me take a shower"
+				"phrase": "Hjelp meg å dusje"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Morning",
+		"title": "Morgen",
 		"slug": "morning",
 		"parents": [
 			"general"
@@ -266,17 +266,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Good morning"
+				"phrase": "God morgen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "In the morning"
+				"phrase": "I morgen"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Night",
+		"title": "Natt",
 		"slug": "night",
 		"parents": [
 			"general"
@@ -284,17 +284,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Good night"
+				"phrase": "God natt"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "At night"
+				"phrase": "På natten"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Listen",
+		"title": "Hør",
 		"slug": "listen",
 		"parents": [
 			"general"
@@ -302,17 +302,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Listen to me"
+				"phrase": "Hør på meg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I'm listening to you"
+				"phrase": "Jeg hører på deg"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Outside",
+		"title": "Ute",
 		"slug": "outside",
 		"parents": [
 			"general"
@@ -320,17 +320,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go outside"
+				"phrase": "Jeg vil gå ut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me outside?"
+				"phrase": "Kan du ta meg med ut?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Clothes",
+		"title": "Klær",
 		"slug": "clothes",
 		"parents": [
 			"general"
@@ -338,25 +338,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Wearing clothes"
+				"phrase": "Har på klær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "My clothes are dirty"
+				"phrase": "Klærne mine er møkkete"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me some clothes to wear?"
+				"phrase": "Kan du gi meg noen klær å ha på?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me get dressed?"
+				"phrase": "Kan du hjelpe meg å kle på meg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Home",
+		"title": "Hjemme",
 		"slug": "home",
 		"parents": [
 			"general"
@@ -364,17 +364,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go home"
+				"phrase": "Jeg vil hjem"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I love my home"
+				"phrase": "Jeg elsker hjemmet mitt"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Hurt",
+		"title": "Vondt",
 		"slug": "hurt",
 		"parents": [
 			"general"
@@ -382,21 +382,21 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I hurt myself"
+				"phrase": "Jeg skadet meg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need a band aid"
+				"phrase": "Jeg trenger et plaster"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "It hurts"
+				"phrase": "Det gjør vondt"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Happy",
+		"title": "Glad",
 		"slug": "happy",
 		"parents": [
 			"feelings"
@@ -404,17 +404,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel happy"
+				"phrase": "Jeg er glad"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel happy?"
+				"phrase": "Er du glad?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sad",
+		"title": "Trist",
 		"slug": "sad",
 		"parents": [
 			"feelings"
@@ -422,17 +422,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sad"
+				"phrase": "Jeg er trist"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sad?"
+				"phrase": "Er du trist?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Exhausted",
+		"title": "Sliten",
 		"slug": "exhausted",
 		"parents": [
 			"feelings"
@@ -440,17 +440,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel exhausted"
+				"phrase": "Jeg er sliten"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel exhausted?"
+				"phrase": "Er du sliten?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Relaxed",
+		"title": "Avslappet",
 		"slug": "relaxed",
 		"parents": [
 			"feelings"
@@ -458,17 +458,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel relaxed"
+				"phrase": "Jeg kjenner meg avslappet"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel relaxed?"
+				"phrase": "Kjenner du deg avslappet?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "In Love",
+		"title": "Forelsket",
 		"slug": "inlove",
 		"parents": [
 			"feelings"
@@ -476,17 +476,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I am in love"
+				"phrase": "Jeg er forelsket!"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Are you in love?"
+				"phrase": "Er du forelsket?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Stressed",
+		"title": "Stresset",
 		"slug": "stressed",
 		"parents": [
 			"feelings"
@@ -494,17 +494,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel stressed"
+				"phrase": "Jeg er stresset"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel stressed?"
+				"phrase": "Er du stresset?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Thankful",
+		"title": "Takknemlig",
 		"slug": "thankful",
 		"parents": [
 			"feelings"
@@ -512,17 +512,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel thankful"
+				"phrase": "Jeg er takknemlig"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel thankful?"
+				"phrase": "Er du takknemlig?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Confused",
+		"title": "Forvirret",
 		"slug": "confused",
 		"parents": [
 			"feelings"
@@ -530,17 +530,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel confused"
+				"phrase": "Jeg er forvirret"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel confused?"
+				"phrase": "Er du forvirret?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Joyful",
+		"title": "Lykkelig",
 		"slug": "joyful",
 		"parents": [
 			"feelings"
@@ -548,17 +548,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel joyful"
+				"phrase": "Jeg er lykkelig"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel joyful?"
+				"phrase": "Er du lykkelig?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Angry",
+		"title": "Sint",
 		"slug": "angry",
 		"parents": [
 			"feelings"
@@ -566,11 +566,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel angry"
+				"phrase": "Jeg er sint"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel angry?"
+				"phrase": "Er du sint?"
 			}
 		]
 	},
@@ -584,17 +584,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel smart"
+				"phrase": "Jeg kjenner meg smart"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel smart?"
+				"phrase": "Kjenner du deg smart?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Afraid",
+		"title": "Redd",
 		"slug": "afraid",
 		"parents": [
 			"feelings"
@@ -602,17 +602,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel afraid"
+				"phrase": "Jeg er redd"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel afraid?"
+				"phrase": "Er du redd?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Ashamed",
+		"title": "Skam",
 		"slug": "ashamed",
 		"parents": [
 			"feelings"
@@ -620,17 +620,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel ashamed"
+				"phrase": "Jeg skammer meg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel ashamed?"
+				"phrase": "Skammer du deg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Shocked",
+		"title": "Sjokkert",
 		"slug": "shocked",
 		"parents": [
 			"feelings"
@@ -638,17 +638,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel shocked"
+				"phrase": "Jeg er sjokkert"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel shocked?"
+				"phrase": "Er du sjokkert?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sick",
+		"title": "Syk",
 		"slug": "sick",
 		"parents": [
 			"feelings"
@@ -656,17 +656,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sick"
+				"phrase": "Jeg føler meg syk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sick?"
+				"phrase": "Føler du deg syk?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Frustrated",
+		"title": "Frustrert",
 		"slug": "frustrated",
 		"parents": [
 			"feelings"
@@ -674,17 +674,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel frustrated"
+				"phrase": "Jeg kjenner meg frustrert"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel frustrated?"
+				"phrase": "Kjenner du deg frustrert?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Apple",
+		"title": "Eple",
 		"slug": "apple",
 		"parents": [
 			"foods"
@@ -692,25 +692,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat an apple"
+				"phrase": "Jeg vil ha et eple"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat an apple"
+				"phrase": "Jeg vil ikke ha et eple"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat an apple?"
+				"phrase": "Vil du ha et eple?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating apples"
+				"phrase": "Jeg liker å spise epler"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Orange",
+		"title": "Appelsin",
 		"slug": "orange",
 		"parents": [
 			"foods"
@@ -718,25 +718,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat an orange"
+				"phrase": "Jeg vil ha en appelsin"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat an orange"
+				"phrase": "Jeg vil ikke ha en appelsin"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat an orange?"
+				"phrase": "Vil du ha en appelsin?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating oranges"
+				"phrase": "Jeg liker å spise appelsiner"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cutlery",
+		"title": "Bestikk",
 		"slug": "utensils",
 		"parents": [
 			"foods"
@@ -744,17 +744,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me use my cutlery?"
+				"phrase": "Kan du hjelpe meg med bestikket?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me some cutlery?"
+				"phrase": "Kan du gi meg bestikk?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Water",
+		"title": "Vann",
 		"slug": "water",
 		"parents": [
 			"foods"
@@ -762,25 +762,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink some water"
+				"phrase": "Jeg vil ha vann"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink water"
+				"phrase": "Jeg vil ikke ha vann"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink some water?"
+				"phrase": "Vil du ha vann?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking water"
+				"phrase": "Jeg liker å drikke vann"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tomato",
+		"title": "Tomater",
 		"slug": "tomato",
 		"parents": [
 			"foods"
@@ -788,25 +788,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat tomatoes"
+				"phrase": "Jeg vil ha tomater"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat tomatoes"
+				"phrase": "Jeg vil ikke ha tomater"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat tomatoes?"
+				"phrase": "Vil du ha tomater?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating tomatoes"
+				"phrase": "Jeg liker tomater"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Potato",
+		"title": "Poteter",
 		"slug": "potato",
 		"parents": [
 			"foods"
@@ -814,25 +814,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat potatoes"
+				"phrase": "Jeg vil ha poteter"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat potatoes"
+				"phrase": "Jeg vil ikke ha poteter"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat potatoes?"
+				"phrase": "Vil du ha poteter?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating potatoes"
+				"phrase": "Jeg liker poteter"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Steak",
+		"title": "Biff",
 		"slug": "steak",
 		"parents": [
 			"foods"
@@ -840,19 +840,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat steak"
+				"phrase": "Jeg vil ha biff"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat steak"
+				"phrase": "Jeg vil ikke ha biff"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat steak?"
+				"phrase": "Vil du spise biff?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating steak"
+				"phrase": "Jeg liker biff"
 			}
 		]
 	},
@@ -866,19 +866,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pizza"
+				"phrase": "Jeg vil ha pizza"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pizza"
+				"phrase": "Jeg vil ikke ha pizza"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pizza?"
+				"phrase": "Vil du ha pizza?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pizza"
+				"phrase": "Jeg liker pizza"
 			}
 		]
 	},
@@ -892,25 +892,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a hamburger"
+				"phrase": "Jeg vil ha en hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a hamburger"
+				"phrase": "Jeg vil ikke ha en hamburger"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a hamburger?"
+				"phrase": "Vil du ha en hamburger?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating hamburgers"
+				"phrase": "Jeg liker hamburgere"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Fries",
+		"title": "Pommes Frittes",
 		"slug": "fries",
 		"parents": [
 			"foods"
@@ -918,25 +918,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fries"
+				"phrase": "Jeg vil ha pommes frittes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fries"
+				"phrase": "Jeg vil ikke ha pommes frittes"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fries?"
+				"phrase": "Vil du ha pommes frittes?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fries"
+				"phrase": "Jeg liker pommes frittes"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Ice Cream",
+		"title": "Iskrem",
 		"slug": "icecream",
 		"parents": [
 			"foods"
@@ -944,19 +944,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat ice cream"
+				"phrase": "Jeg vil ha iskrem"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat ice cream"
+				"phrase": "Jeg vil ikke ha iskrem"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat ice cream?"
+				"phrase": "Vil du ha iskrem?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating ice cream"
+				"phrase": "Jeg liker iskrem"
 			}
 		]
 	},
@@ -970,25 +970,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a cookie"
+				"phrase": "Jeg vil ha en cookie"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a cookie"
+				"phrase": "Jeg vil ikke ha en cookie"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cookies?"
+				"phrase": "Vil du ha cookies?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cookies"
+				"phrase": "Jeg liker cookies"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cereal",
+		"title": "Frokostblanding",
 		"slug": "cereal",
 		"parents": [
 			"foods"
@@ -996,25 +996,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cereal"
+				"phrase": "Jeg vil ha frokostblanding"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cereal"
+				"phrase": "Jeg vil ikke ha frokostblanding"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cereal?"
+				"phrase": "Vil du ha frokostblanding?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cereal"
+				"phrase": "Jeg liker frokostblanding"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Fried Egg",
+		"title": "Stekt Egg",
 		"slug": "friedegg",
 		"parents": [
 			"foods"
@@ -1022,25 +1022,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a fried egg"
+				"phrase": "Jeg vil ha stekt egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a fried egg"
+				"phrase": "Jeg vil ikke ha stekt egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a fried egg?"
+				"phrase": "Vil du ha stekt egg?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fried eggs"
+				"phrase": "Jeg liker stekt egg"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Boiled Egg",
+		"title": "Kokt Egg",
 		"slug": "boiledegg",
 		"parents": [
 			"foods"
@@ -1048,25 +1048,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a boiled egg"
+				"phrase": "Jeg vil ha kokt egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a boiled egg"
+				"phrase": "Jeg vil ikke ha kokt egg"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a boiled egg?"
+				"phrase": "Vil du ha kokt egg?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating boiled eggs"
+				"phrase": "Jeg liker kokt egg"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cheese",
+		"title": "Ost",
 		"slug": "cheese",
 		"parents": [
 			"foods"
@@ -1074,25 +1074,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cheese"
+				"phrase": "Jeg vil ha ost"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cheese"
+				"phrase": "Jeg vil ikke ha ost"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cheese?"
+				"phrase": "Vil du ha ost?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cheese"
+				"phrase": "Jeg liker ost"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Chicken",
+		"title": "Kylling",
 		"slug": "chicken",
 		"parents": [
 			"foods"
@@ -1100,25 +1100,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat chicken"
+				"phrase": "Jeg vil ha kylling"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat chicken"
+				"phrase": "Jeg vil ikke ha kylling"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chicken?"
+				"phrase": "Vil du ha kylling?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating chicken"
+				"phrase": "Jeg liker kylling"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sandwich",
+		"title": "Smørbrød",
 		"slug": "sandwich",
 		"parents": [
 			"foods"
@@ -1126,25 +1126,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a sandwich"
+				"phrase": "Jeg vil ha et smørbrød"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a sandwich"
+				"phrase": "Jeg vil ikke ha smørbrød"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a sandwich?"
+				"phrase": "Vil du ha et smørbrød?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sandwiches"
+				"phrase": "Jeg liker smørbrød"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Salad",
+		"title": "Salat",
 		"slug": "salad",
 		"parents": [
 			"foods"
@@ -1152,25 +1152,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat salad"
+				"phrase": "Jeg vil ha salat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat salad"
+				"phrase": "Jeg vil ikke ha salat"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat salad?"
+				"phrase": "Vil du ha salat?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating salad"
+				"phrase": "Jeg liker salat"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Bread",
+		"title": "Brød",
 		"slug": "bread",
 		"parents": [
 			"foods"
@@ -1178,25 +1178,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat bread"
+				"phrase": "Jeg vil ha brød"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat bread"
+				"phrase": "Jeg vil ikke ha brød"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat bread?"
+				"phrase": "Vil du ha brød?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating bread"
+				"phrase": "Jeg liker brød"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Carrot",
+		"title": "Gulrot",
 		"slug": "carrot",
 		"parents": [
 			"foods"
@@ -1204,25 +1204,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a carrot"
+				"phrase": "Jeg vil ha en gulrot"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a carrot"
+				"phrase": "Jeg vil ikke ha en gulrot"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a carrot?"
+				"phrase": "Vil du ha en gulrot?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating carrots"
+				"phrase": "Jeg liker gulrøtter"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Candy",
+		"title": "Godteri",
 		"slug": "candy",
 		"parents": [
 			"foods"
@@ -1230,25 +1230,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat candy"
+				"phrase": "Jeg vil ha godteri"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat candy"
+				"phrase": "Jeg vil ikke ha godteri"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat candy?"
+				"phrase": "Vil du ha godteri?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating candy"
+				"phrase": "Jeg liker godteri"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cake",
+		"title": "Kake",
 		"slug": "cake",
 		"parents": [
 			"foods"
@@ -1256,25 +1256,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cake"
+				"phrase": "Jeg vil ha kake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cake"
+				"phrase": "Jeg vil ikke ha kake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cake?"
+				"phrase": "Vil du ha kake?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cake"
+				"phrase": "Jeg liker kake"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Broccoli",
+		"title": "Brokkoli",
 		"slug": "broccoli",
 		"parents": [
 			"foods"
@@ -1282,25 +1282,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat broccoli"
+				"phrase": "Jeg vil ha brokkoli"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat broccoli"
+				"phrase": "Jeg vil ikke ha brokkoli"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat broccoli?"
+				"phrase": "Vil du ha brokkoli?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating broccoli"
+				"phrase": "Jeg liker brokkoli"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cherries",
+		"title": "Kirsebær",
 		"slug": "cherries",
 		"parents": [
 			"foods"
@@ -1308,25 +1308,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cherries"
+				"phrase": "Jeg vil ha kirsebær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cherries"
+				"phrase": "Jeg vil ikke ha kirsebær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cherries?"
+				"phrase": "Vil du ha kirsebær?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cherries"
+				"phrase": "Jeg liker kirsebær"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Beans",
+		"title": "Bønner",
 		"slug": "beans",
 		"parents": [
 			"foods"
@@ -1334,25 +1334,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat beans"
+				"phrase": "Jeg vil ha bønner"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat beans"
+				"phrase": "Jeg vil ikke ha bønner"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat beans?"
+				"phrase": "Vil du ha bønner?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating beans"
+				"phrase": "Jeg liker bønner"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Banana",
+		"title": "Bananer",
 		"slug": "banana",
 		"parents": [
 			"foods"
@@ -1360,25 +1360,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a banana"
+				"phrase": "Jeg vil ha en banan"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a banana"
+				"phrase": "Jeg vil ikke ha en banan"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a banana?"
+				"phrase": "Vil du ha en banan?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating bananas"
+				"phrase": "Jeg liker å spise bananer"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Chocolate",
+		"title": "Sjokolade",
 		"slug": "chocolate",
 		"parents": [
 			"foods"
@@ -1386,25 +1386,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat chocolate"
+				"phrase": "Jeg vil ha sjokolade"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat chocolate"
+				"phrase": "Jeg vil ikke ha sjokolade"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat chocolate?"
+				"phrase": "Vil du ha sjokolade?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating chocolate"
+				"phrase": "Jeg liker sjokolade"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Coke",
+		"title": "Cola",
 		"slug": "coke",
 		"parents": [
 			"foods"
@@ -1412,25 +1412,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink coke"
+				"phrase": "Jeg vil ha en cola"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink coke"
+				"phrase": "Jeg vil ikke ha cola"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink coke?"
+				"phrase": "Vil du ha en cola?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking coke"
+				"phrase": "Jeg liker cola"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cupcake",
+		"title": "Muffins",
 		"slug": "cupcake",
 		"parents": [
 			"foods"
@@ -1438,19 +1438,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a cupcake"
+				"phrase": "Jeg vil ha en muffins"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a cupcake"
+				"phrase": "Jeg vil ikke ha en muffins"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a cupcake?"
+				"phrase": "Vil du ha en muffins?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cupcakes"
+				"phrase": "Jeg liker muffins"
 			}
 		]
 	},
@@ -1464,25 +1464,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a doughnut"
+				"phrase": "Jeg vil ha en doughnut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a doughnut"
+				"phrase": "Jeg vil ikke ha en doughnut"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a doughnut?"
+				"phrase": "Vil du ha en doughnut?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating doughnuts"
+				"phrase": "Jeg liker doughnuts"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Fish",
+		"title": "Fisk",
 		"slug": "fish",
 		"parents": [
 			"foods"
@@ -1490,19 +1490,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat fish"
+				"phrase": "Jeg vil ha fisk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat fish"
+				"phrase": "Jeg vil ikke ha fisk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat fish?"
+				"phrase": "Vil du spise fisk?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating fish"
+				"phrase": "Jeg liker fisk"
 			}
 		]
 	},
@@ -1516,25 +1516,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat sushi"
+				"phrase": "Jeg vil spise sushi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat sushi"
+				"phrase": "Jeg vil ikke spise sushi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat sushi?"
+				"phrase": "Vil du spise sushi?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating sushi"
+				"phrase": "Jeg liker sushi"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Corn",
+		"title": "Mais",
 		"slug": "corn",
 		"parents": [
 			"foods"
@@ -1542,25 +1542,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat corn"
+				"phrase": "Jeg vil ha mais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat corn"
+				"phrase": "Jeg vil ikke ha mais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat corn?"
+				"phrase": "Vil du ha mais?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating corn"
+				"phrase": "Jeg liker mais"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Lemon",
+		"title": "Sitron",
 		"slug": "lemon",
 		"parents": [
 			"foods"
@@ -1568,25 +1568,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a lemon"
+				"phrase": "Jeg vil ha sitron"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a lemon"
+				"phrase": "Jeg vil ikke ha sitron"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a lemon?"
+				"phrase": "Vil du ha sitron?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating lemons"
+				"phrase": "Jeg liker sitron"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Mustard",
+		"title": "Sennep",
 		"slug": "mustard",
 		"parents": [
 			"foods"
@@ -1594,25 +1594,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want mustard with my food"
+				"phrase": "Jeg vil ha sennep til maten"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want mustard with my food"
+				"phrase": "Jeg vil ikke ha sennep til maten"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want some mustard?"
+				"phrase": "Vil du ha litt sennep?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like mustard with my food"
+				"phrase": "Jeg liker sennep til maten"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Peach",
+		"title": "Fersken",
 		"slug": "peach",
 		"parents": [
 			"foods"
@@ -1620,25 +1620,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a peach"
+				"phrase": "Jeg vil ha en fersken"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a peach"
+				"phrase": "Jeg vil ikke ha en fersken"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a peach?"
+				"phrase": "Vil du ha en fersken?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating peaches"
+				"phrase": "Jeg liker fersken"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Pineapple",
+		"title": "Ananas",
 		"slug": "pineapple",
 		"parents": [
 			"foods"
@@ -1646,25 +1646,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pineapple"
+				"phrase": "Jeg vil ha ananas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pineapple"
+				"phrase": "Jeg vil ikke ha ananas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pineapple?"
+				"phrase": "Vil du ha ananas?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pineapple"
+				"phrase": "Jeg liker ananas"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Raspberries",
+		"title": "Bringebær",
 		"slug": "raspberry",
 		"parents": [
 			"foods"
@@ -1672,25 +1672,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat raspberries"
+				"phrase": "Jeg vil ha bringebær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat raspberries"
+				"phrase": "Jeg vil ikke ha bringebær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat raspberries?"
+				"phrase": "Vil du ha bringebær?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating raspberries"
+				"phrase": "Jeg liker bringebær"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Strawberries",
+		"title": "Jordbær",
 		"slug": "strawberry",
 		"parents": [
 			"foods"
@@ -1698,25 +1698,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat strawberries"
+				"phrase": "Jeg vil ha jordbær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat strawberries"
+				"phrase": "Jeg vil ikke ha jordbær"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat strawberries?"
+				"phrase": "Vil du ha jordbær?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating strawberries"
+				"phrase": "Jeg liker jordbær"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Watermelon",
+		"title": "Vannmelon",
 		"slug": "watermelon",
 		"parents": [
 			"foods"
@@ -1724,25 +1724,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat watermelon"
+				"phrase": "Jeg vil ha vannmelon"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat watermelon"
+				"phrase": "Jeg vil ikke ha vannmelon"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat watermelon?"
+				"phrase": "Vil du ha vannmelon?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating watermelon"
+				"phrase": "Jeg liker vannmelon"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grapes",
+		"title": "Druer",
 		"slug": "grapes",
 		"parents": [
 			"foods"
@@ -1750,25 +1750,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat grapes"
+				"phrase": "Jeg vil ha druer"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat grapes"
+				"phrase": "Jeg vil ikke ha druer"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat grapes?"
+				"phrase": "Vil du ha druer?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating grapes"
+				"phrase": "Jeg liker druer"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Avocado",
+		"title": "Avokado",
 		"slug": "avocado",
 		"parents": [
 			"foods"
@@ -1776,25 +1776,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat an avocado"
+				"phrase": "Jeg vil ha en avokado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat an avocado"
+				"phrase": "Jeg vil ikke ha en avokado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat an avocado?"
+				"phrase": "Vil du ha en avokado?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating avocado"
+				"phrase": "Jeg liker avokado"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Rice",
+		"title": "Ris",
 		"slug": "rice",
 		"parents": [
 			"foods"
@@ -1802,19 +1802,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat rice"
+				"phrase": "Jeg vil ha ris"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat rice"
+				"phrase": "Jeg vil ikke ha ris"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat rice?"
+				"phrase": "Vil du ha ris?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating rice"
+				"phrase": "Jeg liker ris"
 			}
 		]
 	},
@@ -1828,25 +1828,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat spaghetti"
+				"phrase": "Jeg vil ha spaghetti"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat spaghetti"
+				"phrase": "Jeg vil ikke ha spaghetti"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat spaghetti?"
+				"phrase": "Vil du ha spaghetti?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating spaghetti"
+				"phrase": "Jeg liker spaghetti"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Milk",
+		"title": "Melk",
 		"slug": "milk",
 		"parents": [
 			"foods"
@@ -1854,25 +1854,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink milk"
+				"phrase": "Jeg vil drikke melk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink milk"
+				"phrase": "Jeg vil ikke drikke melk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink milk?"
+				"phrase": "Vil du drikke melk?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking milk"
+				"phrase": "Jeg liker å drikke melk"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tea",
+		"title": "Te",
 		"slug": "tea",
 		"parents": [
 			"foods"
@@ -1880,25 +1880,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink tea"
+				"phrase": "Jeg vil drikke te"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink tea"
+				"phrase": "Jeg vil ikke drikke te"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink tea?"
+				"phrase": "Vil du drikke te?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking tea"
+				"phrase": "Jeg liker å drikke te"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Honey",
+		"title": "Honning",
 		"slug": "honey",
 		"parents": [
 			"foods"
@@ -1906,19 +1906,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat honey"
+				"phrase": "Jeg vil ha honning"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat honey"
+				"phrase": "Jeg vil ikke ha honning"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat honey?"
+				"phrase": "Vil du ha honning?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating honey"
+				"phrase": "Jeg liker honning"
 			}
 		]
 	},
@@ -1932,19 +1932,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a kebab"
+				"phrase": "Jeg vil ha kebab"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a kebab"
+				"phrase": "Jeg vil ikke ha kebab"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat a kebab?"
+				"phrase": "Vil du spise kebab?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating kebabs"
+				"phrase": "Jeg liker kebab"
 			}
 		]
 	},
@@ -1958,25 +1958,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat tacos"
+				"phrase": "Jeg vil ha taco"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat tacos"
+				"phrase": "Jeg vil ikke ha taco"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat tacos?"
+				"phrase": "Vil du ha taco?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating tacos"
+				"phrase": "Jeg liker taco"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Mother",
+		"title": "Mamma",
 		"slug": "mother",
 		"parents": [
 			"people"
@@ -1984,17 +1984,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my mother"
+				"phrase": "Jeg elsker mammaen min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my mother"
+				"phrase": "Jeg vil til mamma"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Father",
+		"title": "Pappa",
 		"slug": "father",
 		"parents": [
 			"people"
@@ -2002,17 +2002,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my father"
+				"phrase": "Jeg elsker pappaen min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my father"
+				"phrase": "Jeg vil til pappa"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Parents",
+		"title": "Foreldre",
 		"slug": "parents",
 		"parents": [
 			"people"
@@ -2020,17 +2020,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my parents"
+				"phrase": "Jeg elsker foreldrene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my parents"
+				"phrase": "Jeg vil til foreldrene mine"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grandparents",
+		"title": "Besteforeldre",
 		"slug": "grandparents",
 		"parents": [
 			"people"
@@ -2038,17 +2038,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my grandparents"
+				"phrase": "Jeg elsker besteforeldrene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my grandparents"
+				"phrase": "Jeg til til besteforeldrene mine"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Brother",
+		"title": "Bror",
 		"slug": "brother",
 		"parents": [
 			"people"
@@ -2056,17 +2056,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my brother"
+				"phrase": "Jeg elsker broren min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my brother"
+				"phrase": "Jeg vil til broren min"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sister",
+		"title": "Søster",
 		"slug": "sister",
 		"parents": [
 			"people"
@@ -2074,17 +2074,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my sister"
+				"phrase": "Jeg elsker søstera mi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my sister"
+				"phrase": "Jeg vil til søstera mi"
 			}
 		]
 	},,
 	{
 		"type": "card",
-		"title": "Uncle",
+		"title": "Onkel",
 		"slug": "uncle",
 		"parents": [
 			"people"
@@ -2092,17 +2092,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my uncle"
+				"phrase": "Jeg elsker onkelen min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my uncle"
+				"phrase": "Jeg vil til onkelen min"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Aunt",
+		"title": "Tante",
 		"slug": "aunt",
 		"parents": [
 			"people"
@@ -2110,17 +2110,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my aunt"
+				"phrase": "Jeg elsker tanta mi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my aunt"
+				"phrase": "Jeg vil til tanta mi"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Teacher",
+		"title": "Lærer",
 		"slug": "teacher",
 		"parents": [
 			"people",
@@ -2129,17 +2129,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my teacher"
+				"phrase": "Jeg elsker læreren min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my teacher"
+				"phrase": "Jeg vil til læreren min"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Therapist",
+		"title": "Terapaut",
 		"slug": "therapist",
 		"parents": [
 			"people"
@@ -2147,17 +2147,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my therapist"
+				"phrase": "Jeg elsker terapauten min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my therapist"
+				"phrase": "Jeg vil til terapauten min"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Doctor",
+		"title": "Lege",
 		"slug": "doctor",
 		"parents": [
 			"people"
@@ -2165,17 +2165,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my doctor"
+				"phrase": "Jeg elsker legen min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my doctor"
+				"phrase": "Jeg vil til legen min"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Friends",
+		"title": "Venner",
 		"slug": "friends",
 		"parents": [
 			"people"
@@ -2183,25 +2183,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my friends"
+				"phrase": "Jeg elsker vennene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't like my friends"
+				"phrase": "Jeg liker ikke vennene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my friends"
+				"phrase": "Jeg vil til vennene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to talk to my friends"
+				"phrase": "Jeg vil snakke med vennene mine"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Book",
+		"title": "Bok",
 		"slug": "book",
 		"parents": [
 			"school"
@@ -2209,17 +2209,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm reading my book"
+				"phrase": "Jeg leser boka mi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my book?"
+				"phrase": "Kan du gi meg boka mi?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Notebook",
+		"title": "Notatbok",
 		"slug": "notebook",
 		"parents": [
 			"school"
@@ -2227,17 +2227,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm taking notes to my notebook"
+				"phrase": "Jeg skriver i notatboka mi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my notebook?"
+				"phrase": "Kan du gi meg notatboka mi?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Pencil",
+		"title": "Blyant",
 		"slug": "pencil",
 		"parents": [
 			"school"
@@ -2245,17 +2245,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm writing with my pencil"
+				"phrase": "Jeg skriver med blyanten min"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my pencil?"
+				"phrase": "Kan du gi meg blyanten min?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Blackboard",
+		"title": "Tavle",
 		"slug": "blackboard",
 		"parents": [
 			"school"
@@ -2263,7 +2263,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Lesson",
+		"title": "Leksjon",
 		"slug": "lesson",
 		"parents": [
 			"school"
@@ -2271,7 +2271,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Quiet",
+		"title": "Stille",
 		"slug": "quiet",
 		"parents": [
 			"school"
@@ -2279,17 +2279,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to be quiet in lessons"
+				"phrase": "Jeg må være stille i timen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "You need to be quiet in lessons"
+				"phrase": "Du må være stille i timen"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Mathematics",
+		"title": "Matematikk",
 		"slug": "mathematics",
 		"parents": [
 			"school"
@@ -2297,17 +2297,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like mathematics"
+				"phrase": "Jeg liker matematikk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to learn mathematics"
+				"phrase": "Jeg vil lære matematikk"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Literature",
+		"title": "Litteratur",
 		"slug": "literature",
 		"parents": [
 			"school"
@@ -2315,17 +2315,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like literature"
+				"phrase": "Jeg liker litteratur"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to learn literature"
+				"phrase": "Jeg vil lære om litteratur"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Question",
+		"title": "Spørsmål",
 		"slug": "question",
 		"parents": [
 			"school"
@@ -2333,17 +2333,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I have a question"
+				"phrase": "Jeg har et spørsmål"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I ask a question?"
+				"phrase": "Kan jeg stille et spørsmål?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Understand",
+		"title": "Forstå",
 		"slug": "understand",
 		"parents": [
 			"school"
@@ -2351,17 +2351,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I don't understand"
+				"phrase": "Jeg forstår ikke"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you explain it?"
+				"phrase": "Kan du forklare det?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Homework",
+		"title": "Hjemmelekser",
 		"slug": "homework",
 		"parents": [
 			"school"
@@ -2369,17 +2369,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I need to do my homework"
+				"phrase": "Jeg må gjøre hjemmeleksene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me with my homework?"
+				"phrase": "Kan du hjelpe meg med hjemmeleksene mine?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Walking",
+		"title": "Gå",
 		"slug": "walking",
 		"parents": [
 			"activities"
@@ -2387,17 +2387,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Let's walk around"
+				"phrase": "La oss gå litt"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go for a walk?"
+				"phrase": "Kan vi gå en tur?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Running",
+		"title": "Løpe",
 		"slug": "running",
 		"parents": [
 			"activities"
@@ -2405,17 +2405,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like running"
+				"phrase": "Jeg liker å løpe"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go running?"
+				"phrase": "Kan vi ta en løpetur?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Talking",
+		"title": "Snakke",
 		"slug": "talking",
 		"parents": [
 			"activities"
@@ -2423,17 +2423,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like talking"
+				"phrase": "Jeg liker å prate"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we talk?"
+				"phrase": "Kan vi snakke litt?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Reading",
+		"title": "Lese",
 		"slug": "reading",
 		"parents": [
 			"activities"
@@ -2441,17 +2441,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading."
+				"phrase": "Jeg liker å lese"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me read?"
+				"phrase": "Kan du hjelpe meg med å lese?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Football",
+		"title": "Fotball",
 		"slug": "football",
 		"parents": [
 			"activities"
@@ -2459,11 +2459,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing football"
+				"phrase": "Jeg liker å spille fotball"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Let's play football"
+				"phrase": "La oss spille fotball"
 			}
 		]
 	},
@@ -2477,17 +2477,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing basketball"
+				"phrase": "Jeg liker å spille basketball"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Let's play basketball"
+				"phrase": "La oss spille basketball"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Swimming",
+		"title": "Svømming",
 		"slug": "swimming",
 		"parents": [
 			"activities"
@@ -2495,11 +2495,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like swimming"
+				"phrase": "Jeg liker å svømme"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go swimming?"
+				"phrase": "Kan vi dra og svømme?"
 			}
 		]
 	},
@@ -2513,17 +2513,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing tennis"
+				"phrase": "Jeg liker å spille tennis"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we play tennis together?"
+				"phrase": "Kan vi spille tennis sammen?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cycling",
+		"title": "Sykling",
 		"slug": "cycling",
 		"parents": [
 			"activities"
@@ -2531,11 +2531,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like cycling"
+				"phrase": "Jeg liker å sykle"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go cycling together?"
+				"phrase": "Kan vi sykle sammen?"
 			}
 		]
 	},
@@ -2549,11 +2549,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like skating"
+				"phrase": "Jeg liker skating"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to skate with me?"
+				"phrase": "Vil du skate med meg?"
 			}
 		]
 	},
@@ -2567,17 +2567,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like sightseeing"
+				"phrase": "Jeg liker sightseeing"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can we go sightseeing together?"
+				"phrase": "Kan vi dra på sightseeing sammen?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Video Games",
+		"title": "Dataspill",
 		"slug": "videogames",
 		"parents": [
 			"activities"
@@ -2585,17 +2585,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing video games"
+				"phrase": "Jeg liker å spille dataspill"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can I play video games?"
+				"phrase": "Kan jeg spille dataspill?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Tidying",
+		"title": "Rydding",
 		"slug": "tidying",
 		"parents": [
 			"activities"
@@ -2603,17 +2603,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like tidying my room"
+				"phrase": "Jeg liker å rydde rommet mitt"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me tidy my room?"
+				"phrase": "Kan du hjelpe meg med å rydde rommet?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Toys",
+		"title": "Leker",
 		"slug": "toys",
 		"parents": [
 			"activities"
@@ -2621,17 +2621,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing with my toys"
+				"phrase": "Jeg liker å leke med lekene mine"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play with my toys?"
+				"phrase": "Vil du leke med lekene mine?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Puzzle",
+		"title": "Puslespill",
 		"slug": "puzzle",
 		"parents": [
 			"activities"
@@ -2639,17 +2639,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like solving puzzles"
+				"phrase": "Jeg liker å pusle puslespill"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to solve a puzzle together?"
+				"phrase": "Vil du pusle et puslespill med meg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Comics",
+		"title": "Tegneserier",
 		"slug": "comics",
 		"parents": [
 			"activities"
@@ -2657,17 +2657,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like reading comic books"
+				"phrase": "Jeg liker å lese tegneserier"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to read comics with me?"
+				"phrase": "Vil du lese tegneserier med meg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Chess",
+		"title": "Sjakk",
 		"slug": "chess",
 		"parents": [
 			"activities"
@@ -2675,17 +2675,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I like playing chess"
+				"phrase": "Jeg liker å spille sjakk"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to play chess with me?"
+				"phrase": "Vil du spille sjakk med meg?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "One",
+		"title": "Én",
 		"slug": "one",
 		"parents": [
 			"numbers"
@@ -2693,7 +2693,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Two",
+		"title": "To",
 		"slug": "two",
 		"parents": [
 			"numbers"
@@ -2701,7 +2701,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Three",
+		"title": "Tre",
 		"slug": "three",
 		"parents": [
 			"numbers"
@@ -2709,7 +2709,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Four",
+		"title": "Fire",
 		"slug": "four",
 		"parents": [
 			"numbers"
@@ -2717,7 +2717,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Five",
+		"title": "Fem",
 		"slug": "five",
 		"parents": [
 			"numbers"
@@ -2725,7 +2725,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Six",
+		"title": "Seks",
 		"slug": "six",
 		"parents": [
 			"numbers"
@@ -2733,7 +2733,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seven",
+		"title": "Sju",
 		"slug": "seven",
 		"parents": [
 			"numbers"
@@ -2741,7 +2741,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eight",
+		"title": "Åtte",
 		"slug": "eight",
 		"parents": [
 			"numbers"
@@ -2749,7 +2749,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Nine",
+		"title": "Ni",
 		"slug": "nine",
 		"parents": [
 			"numbers"
@@ -2757,7 +2757,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ten",
+		"title": "Ti",
 		"slug": "ten",
 		"parents": [
 			"numbers"
@@ -2765,7 +2765,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Twenty",
+		"title": "Tjue",
 		"slug": "twenty",
 		"parents": [
 			"numbers"
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Thirty",
+		"title": "Tretti",
 		"slug": "thirty",
 		"parents": [
 			"numbers"
@@ -2781,7 +2781,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Forty",
+		"title": "Førti",
 		"slug": "forty",
 		"parents": [
 			"numbers"
@@ -2789,7 +2789,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fifty",
+		"title": "Femti",
 		"slug": "fifty",
 		"parents": [
 			"numbers"
@@ -2797,7 +2797,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sixty",
+		"title": "Seksti",
 		"slug": "sixty",
 		"parents": [
 			"numbers"
@@ -2805,7 +2805,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seventy",
+		"title": "Søtti",
 		"slug": "seventy",
 		"parents": [
 			"numbers"
@@ -2813,7 +2813,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eighty",
+		"title": "Åtti",
 		"slug": "eighty",
 		"parents": [
 			"numbers"
@@ -2821,7 +2821,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ninety",
+		"title": "Nitti",
 		"slug": "ninety",
 		"parents": [
 			"numbers"
@@ -2829,7 +2829,7 @@
 	},
 	{
 		"type": "card",
-		"title": "One hundred",
+		"title": "Hundre",
 		"slug": "hundred",
 		"parents": [
 			"numbers"
@@ -2837,7 +2837,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Calculator",
+		"title": "Kalkulator",
 		"slug": "calculator",
 		"parents": [
 			"numbers"
