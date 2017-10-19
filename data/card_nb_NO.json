@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Diverse",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Folk",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Mat og drikke",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Følelser",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Aktiviteter",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Skole",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Tall",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Hjelpe",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kan du hjelpe meg?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan jeg hjelpe deg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sulten",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er sulten!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du sulten?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du lage litt mat til meg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tørst",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er tørst!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du tørst?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan jeg få litt vann?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha noe å drikke!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doen",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg trenger å gå på do!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du vise meg hvor doen er?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg må bæsje"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg må tisse"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hæ?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Hva mener du?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Hva betyr det?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ja",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "OK!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Den er grei"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Enig!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ja vel"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nei",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Niks!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nei"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er uenig!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Feil"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hei",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Søvn",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg trenger å sove"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil sove"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bade",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil bade"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Hjelp meg å dusje"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Morgen",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "God morgen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "I morgen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Natt",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "God natt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "På natten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hør",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Hør på meg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg hører på deg"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ute",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil gå ut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du ta meg med ut?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Klær",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Har på klær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Klærne mine er møkkete"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du gi meg noen klær å ha på?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du hjelpe meg å kle på meg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hjemme",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil hjem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker hjemmet mitt"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vondt",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg skadet meg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg trenger et plaster"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Det gjør vondt"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Glad",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er glad"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du glad?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trist",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er trist"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du trist?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sliten",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er sliten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du sliten?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Avslappet",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg kjenner meg avslappet"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kjenner du deg avslappet?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Forelsket",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er forelsket!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du forelsket?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stresset",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er stresset"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du stresset?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Takknemlig",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er takknemlig"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du takknemlig?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Forvirret",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er forvirret"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du forvirret?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lykkelig",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er lykkelig"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du lykkelig?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sint",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er sint"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du sint?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Smart",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg kjenner meg smart"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kjenner du deg smart?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Redd",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er redd"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du redd?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Skam",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg skammer meg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Skammer du deg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sjokkert",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg er sjokkert"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Er du sjokkert?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Syk",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg føler meg syk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Føler du deg syk?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frustrert",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg kjenner meg frustrert"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kjenner du deg frustrert?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Eple",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha et eple"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha et eple"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha et eple?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker å spise epler"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Appelsin",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en appelsin"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en appelsin"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en appelsin?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker å spise appelsiner"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bestikk",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Kan du hjelpe meg med bestikket?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du gi meg bestikk?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vann",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha vann"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha vann"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha vann?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker å drikke vann"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tomater",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha tomater"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha tomater"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha tomater?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker tomater"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Poteter",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha poteter"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha poteter"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha poteter?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker poteter"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Biff",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha biff"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha biff"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du spise biff?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker biff"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha pizza?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en hamburger?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker hamburgere"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pommes Frittes",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha pommes frittes"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha pommes frittes"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha pommes frittes?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker pommes frittes"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Iskrem",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha iskrem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha iskrem"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha iskrem?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker iskrem"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cookie",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en cookie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en cookie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha cookies?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker cookies"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frokostblanding",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha frokostblanding"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha frokostblanding"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha frokostblanding?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker frokostblanding"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stekt Egg",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha stekt egg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha stekt egg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha stekt egg?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker stekt egg"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kokt Egg",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha kokt egg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha kokt egg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha kokt egg?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker kokt egg"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ost",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha ost"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha ost"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha ost?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker ost"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kylling",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha kylling"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha kylling"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha kylling?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker kylling"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Smørbrød",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha et smørbrød"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha smørbrød"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha et smørbrød?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker smørbrød"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Salat",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha salat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha salat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha salat?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker salat"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brød",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha brød"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha brød"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha brød?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker brød"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gulrot",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en gulrot"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en gulrot"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en gulrot?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker gulrøtter"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Godteri",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha godteri"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha godteri"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha godteri?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker godteri"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kake",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha kake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha kake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha kake?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker kake"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brokkoli",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha brokkoli"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha brokkoli"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha brokkoli?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker brokkoli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kirsebær",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha kirsebær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha kirsebær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha kirsebær?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker kirsebær"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bønner",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha bønner"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha bønner"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha bønner?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker bønner"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bananer",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en banan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en banan"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en banan?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker å spise bananer"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sjokolade",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha sjokolade"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha sjokolade"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha sjokolade?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker sjokolade"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cola",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en cola"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha cola"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en cola?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker cola"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Muffins",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en muffins"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en muffins"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en muffins?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker muffins"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doughnut",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en doughnut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en doughnut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en doughnut?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker doughnuts"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fisk",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha fisk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha fisk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du spise fisk?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker fisk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil spise sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke spise sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du spise sushi?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mais",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha mais"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha mais"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha mais?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker mais"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sitron",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha sitron"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha sitron"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha sitron?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker sitron"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sennep",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha sennep til maten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha sennep til maten"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha litt sennep?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker sennep til maten"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fersken",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en fersken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en fersken"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en fersken?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker fersken"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ananas",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha ananas"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha ananas"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha ananas?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker ananas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bringebær",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha bringebær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha bringebær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha bringebær?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker bringebær"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jordbær",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha jordbær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha jordbær"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha jordbær?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker jordbær"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vannmelon",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha vannmelon"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha vannmelon"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha vannmelon?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker vannmelon"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Druer",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha druer"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha druer"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha druer?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker druer"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Avokado",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha en avokado"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha en avokado"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha en avokado?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker avokado"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ris",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha ris"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha ris"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha ris?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker ris"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spaghetti",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha spaghetti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha spaghetti"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha spaghetti?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker spaghetti"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Melk",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil drikke melk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke drikke melk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du drikke melk?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker å drikke melk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Te",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil drikke te"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke drikke te"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du drikke te?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker å drikke te"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Honning",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha honning"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha honning"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha honning?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker honning"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du spise kebab?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ha taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil ikke ha taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du ha taco?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Jeg liker taco"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mamma",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker mammaen min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til mamma"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pappa",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker pappaen min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til pappa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Foreldre",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker foreldrene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til foreldrene mine"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Besteforeldre",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker besteforeldrene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg til til besteforeldrene mine"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bror",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker broren min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til broren min"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Søster",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker søstera mi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til søstera mi"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "Onkel",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker onkelen min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til onkelen min"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tante",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker tanta mi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til tanta mi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lærer",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker læreren min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til læreren min"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Terapaut",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker terapauten min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til terapauten min"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lege",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker legen min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til legen min"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Venner",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg elsker vennene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker ikke vennene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil til vennene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil snakke med vennene mine"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bok",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg leser boka mi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du gi meg boka mi?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Notatbok",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg skriver i notatboka mi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du gi meg notatboka mi?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Blyant",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg skriver med blyanten min"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du gi meg blyanten min?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tavle",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Leksjon",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stille",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg må være stille i timen"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Du må være stille i timen"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Matematikk",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker matematikk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil lære matematikk"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Litteratur",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker litteratur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Jeg vil lære om litteratur"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spørsmål",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg har et spørsmål"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan jeg stille et spørsmål?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Forstå",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg forstår ikke"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du forklare det?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hjemmelekser",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg må gjøre hjemmeleksene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du hjelpe meg med hjemmeleksene mine?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gå",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "La oss gå litt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi gå en tur?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Løpe",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å løpe"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi ta en løpetur?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Snakke",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å prate"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi snakke litt?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lese",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å lese"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du hjelpe meg med å lese?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fotball",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å spille fotball"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "La oss spille fotball"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Basketball",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å spille basketball"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "La oss spille basketball"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Svømming",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å svømme"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi dra og svømme?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tennis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å spille tennis"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi spille tennis sammen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sykling",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å sykle"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi sykle sammen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Skating",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker skating"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du skate med meg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sightseeing",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker sightseeing"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan vi dra på sightseeing sammen?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dataspill",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å spille dataspill"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan jeg spille dataspill?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rydding",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å rydde rommet mitt"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Kan du hjelpe meg med å rydde rommet?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Leker",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å leke med lekene mine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du leke med lekene mine?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puslespill",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å pusle puslespill"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du pusle et puslespill med meg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tegneserier",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å lese tegneserier"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du lese tegneserier med meg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sjakk",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Jeg liker å spille sjakk"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vil du spille sjakk med meg?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Én",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "To",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tre",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fire",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fem",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Seks",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sju",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Åtte",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ni",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ti",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tjue",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tretti",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Førti",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Femti",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Seksti",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Søtti",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Åtti",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nitti",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hundre",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kalkulator",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
