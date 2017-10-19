@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "כללי",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "אנשים",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "מאכלים",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "רגשות",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "פעילויות",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "בית ספר",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "מספרים",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "עזרה",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לעזור לי?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני יכול לעזור לך?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "רעב",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רעב!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רעב?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל להכין לי אוכל?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "צמא",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה צמא?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני יכול לקבל מים?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לשתות!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שירותים",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך ללכת לשירותים!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה יכול לקחת אותי לשירותים?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך לעשות קקי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך להשתין"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מה?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "למה אתה מתכוון?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "מה זה אומר?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "כן",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "בסדר!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אין בעיה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני מסכים!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "בהחלט"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לא",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "לא!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "שלילי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא מסכים!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "טעות"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שלום",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שינה",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך לישון"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לישון"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מקלחת",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה להתקלח"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תעזור לי להתקלח"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "בוקר",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "בוקר טוב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "בבוקר"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לילה",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "לילה טוב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "בלילה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תקשיב",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "תקשיב לי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני מקשיב לך"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "בחוץ",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לצאת החוצה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לקחת אותי החוצה?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "בגדים",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "לובש בגדים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "הבגדים שלי מלוכלכים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל להביא לי בגדים ללבוש?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לעזור לי להתלבש?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "בית",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה ללכת הבייתה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את הבית שלי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "כאב",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "פגעתי בעצמי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך פלסתר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "זה כואב"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שמח",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש שמח"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש שמח?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עצוב",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש עצוב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש עצוב?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תשוש",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש תשוש"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש תשוש?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "רגוע",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש רגוע"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש רגוע?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מאוהב",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מאוהב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מאוהב?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לחוץ",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש לחוץ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש לחוץ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אסיר תודה",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אסיר תודה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש אסיר תודה?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מבולבל",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש מבולבל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש מבולבל?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עליז",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש עליז"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש עליז?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "כועס",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני כועס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה כועס?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "חכם",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מריג חכם"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש חכם?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מפחד",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מפחד"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מפוחד?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מבויש",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מריגש מבויש"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש מבויש?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מופתע",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מופתע"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מופתע?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "חולה",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מריגש חולה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מריגש חולה?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מתוסכל",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני מרגיש מתוסכל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה מרגיש מתוסכל?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תפוח",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול תפוח"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול תפוח"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול תפוח?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול תפוחים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תפוז",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול תפוז"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול תפוז"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול תפוז?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול תפוזים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סכו\"ם",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לעזור לי להשתמש בסכו\"ם?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל להביא לי סכו\"ם?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מים",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לשתות מים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לשתות מים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לשתות מים?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לשתות מים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עגבניה",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול עגבניה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול עגבניה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול עגבניה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול עגבניות"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תפוח אדמה",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול תפוחי אדמה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול תפוח אדמה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול תפוח אדמה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול תפוח אדמה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סטייק",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול סטייק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול סטייק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול סטייק?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול סטייק"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "פיצה",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול פיצה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול פיצה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול פיצה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול פיצה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "המבורגר",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול המבורגר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול המבורגר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול המבורגר?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול המבורגר"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "צ'יפס",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול צ'יפס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול צ'יפס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול צ'יפס?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול צ'יפס"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "גלידה",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול גלידה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול גלידה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול גלידה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול גלידה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עוגיה",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול עוגיה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול עוגיה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול עוגיה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול עוגיות"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "דגני בוקר",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול דגני בוקר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול דגני בוקר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול דגני בוקר?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול דגני בוקר"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "חביתה",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול חביתה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול חביתה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול חביתה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול חביתה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ביצה מבושלת",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול ביצה מבושלת"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול ביצה מבושלת"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול ביצה מבושלת?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול ביצה מבושלת"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "גבינה",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול גבינה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול גבינה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול גבינה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול גבינה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עוף",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול עוף"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול עוף"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול עוף?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול עוף"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "כריך",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול כריך"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול כריך"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול כריך?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול כריך"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סלט",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול סלט"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול סלט"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול סלט?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול סלט"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לחם",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול לחם"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול לחם"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול לחם?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול לחם"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "גזר",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול גזר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול גזר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול גזר?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול גזר"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ממתק",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול ממתק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול ממתק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול ממתק?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול ממתק"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עוגה",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול עוגה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול עוגה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול עוגה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול עוגה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ברוקולי",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול ברוקולי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול ברוקולי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול ברוקולי?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול ברוקולי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "דובדבן",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול דובדבנים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול דובדבנים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול דובדבנים?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול דובדבנים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שעועית",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול שעועית"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול שעועית"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול שעועית?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול שעועית"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "בננה",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול בננה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול בננה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול בננה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול בננה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שוקולד",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול שוקולד"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול שוקולד"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול שוקולד?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול שוקולד"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "קולה",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול קולה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול קולה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול קולה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול קולה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "קאפקייק",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול קאפקייק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול קאפקייק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול קאפקייק?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול קאפקייק"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סופגניה",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול סופגניה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול סופגניה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול סופגניה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול סופגניה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "דג",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול דג"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול דג"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול דג?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול דג"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סושי",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול סושי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול סושי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול סושי?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול סושי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תירס",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול תירס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול תירס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול תירס?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול תירס"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לימון",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול לימון"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול לימון"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול לימון?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול לימון"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "חרדל",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה חרדל עם האוכל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה חרדל באוכל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה חרדל?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב חרדל באוכל"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אפרסק",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול אפרסק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול אפרסק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול אפרסק?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול אפרסק"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אננס",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול אננס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול אננס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול אננס?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול אננס"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "פטל",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול פטל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול פטל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול פטל?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול פטל"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תותים",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול תותים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול תותים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול תותים?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול תותים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מלון",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול מלון"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול מלון"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול מלון?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול מלון"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ענבים",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול ענבים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול ענבים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול ענבים?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול ענבים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אבוקדו",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול אבוקדו"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול אבוקדו"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול אבוקדו?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול אבוקדו"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אורז",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול אורז"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול אורז"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול אורז?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול אורז"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ספגטי",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול ספגטי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול ספגטי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול ספגטי?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול ספגטי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "חלב",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לשתות חלב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לשתות חלב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לשתות חלב?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לשתות חלב"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "תה",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לשתות תה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לשתות תה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לשתות תה?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לשתות תה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "דבש",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול דבש"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול דבש"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול דבש?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול דבש"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "קבב",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול קבב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול קבב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול קבב?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול קבבים"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "טאקו",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לאכול טאקו"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא רוצה לאכול טאקו"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה לאכול טאקו?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "אני אוהב לאכול טאקו"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אמא",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את אמא שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את אמא"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אבא",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את אבא שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את אבא"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "הורים",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את ההורים שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את הורי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סבים",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את הסבים שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את סבי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אח",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את אחי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את אחי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אחות",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את אחותי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את אחותי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "דוד",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את דודי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את דודי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "דודה",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את דודתי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את דודתי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מורה",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את המורה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את המורה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מטפל",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את המטפל שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את המטפל"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "רופא",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את הרופא שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לראות את הרופא"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "חברים",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב את החברים שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני לא אוהב את החברים שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לפגוש את החברים שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה לדבר עם החברים שלי"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ספר",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני קורא את הספר שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה יכול להביא לי את הספר שלי?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מחברת",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני כותב במחברת"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה יכול להביא לי את המחברת שלי?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "עיפרון",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני כותב עם העיפרון שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה יכול להביא לי את העיפרון שלי?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לוח",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שיעור",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שקט",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך להיות בשקט בשיעור"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך להיות בשקט בשיעור"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מתמטיקה",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב מתמטיקה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה ללמוד מתמטיקה"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ספרות",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב ספרות"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני רוצה ללמוד ספרות"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שאלה",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "יש לי שאלה"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני יכול לשאול שאלה?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מבין",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני לא מבין"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל להסביר?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שיעורי בית",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני צריך לעשות את השיעורי בית"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לעזור לי עם השיעורי בית?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "הליכה",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "בוא נסתובב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אנחנו יכולים לצאת לטייל?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "רץ",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לרוץ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אנחנו יכולים לצאת לריצה?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "מדברים",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לדבר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אנחנו יכולים לדבר?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לקרוא",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לקרוא"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לעזור לי לקרוא"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "כדורגל",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחק כדורגל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "בוא נשחק כדורגל"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "כדורסל",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחק כדורסל"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "בוא נשחק כדורסל"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שחיה",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחות"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני יכול ללכת לשחות?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "טניס",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחק טניס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אנחנו יכולים לשחק טניס ביחד?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "רכיבה",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לרכב"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אנחנו יכולים לרכב ביחד?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "החלקה",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב להחליק"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "האם אתה רוצה להחליק איתי?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "סיור",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לסייר"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אנחנו יכולים ללכת לסיר ביחד?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "משחקי וידאו",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחק במשחקי וידאו"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אני יכול לשחק במשחקי וידאו?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "לסדר",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לסדר את החדר שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "תוכל לעזור לי לסדר את החדר?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "צעצועים",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחק בצעצועים שלי"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה רוצה לשחק בצעצועים שלי?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "פאזל",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לפתור פאזלים"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה רוצה שנפתור פאזל ביחד?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "קומיקס",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לקרוא ספרי קומיקס"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה רוצה לקרוא איתי קומיקס?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "שחמט",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "אני אוהב לשחק שחמט"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "אתה רוצה לשחק איתי שחמט?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "אחד",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שתיים",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שלוש",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ארבע",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "חמש",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שש",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שבע",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שמונה",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "תשע",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "עשר",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "עשרים",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שלושם",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ארבעים",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "חמישים",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שישים",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שבעים",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "שמונים",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "תשעים",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "מאה",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "מחשבון",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
