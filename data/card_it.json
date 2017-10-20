@@ -85,7 +85,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Me puoi preparare del cibo?"
+				"phrase": "Mi puoi preparare del cibo?"
 			}
 		]
 	},
@@ -771,7 +771,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi bere acqua"
+				"phrase": "Vuoi bere acqua?"
 			},
 			{
 				"symbol": "like",
@@ -1543,15 +1543,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare un mais"
+				"phrase": "Voglio mangiare del mais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare un mais"
+				"phrase": "Non voglio mangiare mais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare un Mmis?"
+				"phrase": "Vuoi mangiare del mais?"
 			},
 			{
 				"symbol": "like",
@@ -1603,7 +1603,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi un della mostarda?"
+				"phrase": "Vuoi della mostarda?"
 			},
 			{
 				"symbol": "like",
@@ -1629,7 +1629,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare una pesca.?"
+				"phrase": "Vuoi mangiare una pesca?"
 			},
 			{
 				"symbol": "like",
@@ -1647,15 +1647,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare ananas"
+				"phrase": "Voglio mangiare dell'ananas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare ananas"
+				"phrase": "Non voglio mangiare dell'ananas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare ananas?"
+				"phrase": "Vuoi mangiare dell'ananas?"
 			},
 			{
 				"symbol": "like",
@@ -1725,15 +1725,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare un anguria"
+				"phrase": "Voglio mangiare un'anguria"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare un anguria"
+				"phrase": "Non voglio mangiare un'anguria"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare un anguria?"
+				"phrase": "Vuoi mangiare un'anguria?"
 			},
 			{
 				"symbol": "like",
@@ -1751,7 +1751,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare uva"
+				"phrase": "Voglio mangiare l'uva"
 			},
 			{
 				"symbol": "hand",
@@ -1759,11 +1759,11 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare uva?"
+				"phrase": "Vuoi mangiare dell'uva?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare uva"
+				"phrase": "Mi piace mangiare l'uva"
 			}
 		]
 	},
@@ -1933,7 +1933,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare kebab"
+				"phrase": "Voglio mangiare un kebab"
 			},
 			{
 				"symbol": "hand",
@@ -1941,7 +1941,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare kebab?"
+				"phrase": "Vuoi mangiare un kebab?"
 			},
 			{
 				"symbol": "like",
@@ -2025,7 +2025,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Voglio veder i miei genitori"
+				"phrase": "Voglio vedere i miei genitori"
 			}
 		]
 	},
@@ -2097,7 +2097,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Voglio veder mio zio"
+				"phrase": "Voglio vedere mio zio"
 			}
 		]
 	},
@@ -2158,7 +2158,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Dottore",
+		"title": "Dottore/ssa",
 		"slug": "doctor",
 		"parents": [
 			"people"
@@ -2166,11 +2166,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Amo il mio dottore"
+				"phrase": "Amo il/la mio/a dottore/ssa"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Voglio vedere il mio dottore"
+				"phrase": "Voglio vedere il/la mio/a dottore/ssa"
 			}
 		]
 	},
@@ -2446,7 +2446,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Mi puoi aiutare a legger?"
+				"phrase": "Mi puoi aiutare a leggere?"
 			}
 		]
 	},
@@ -2465,12 +2465,16 @@
 			{
 				"symbol": "hand",
 				"phrase": "Giochiamo a calcio."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vuoi giocare a calcio?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Basketball",
+		"title": "Basket",
 		"slug": "basketball",
 		"parents": [
 			"activities"
@@ -2478,11 +2482,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Mi piace giocare a Basketball."
+				"phrase": "Mi piace giocare a Basket."
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Giochiamo a Basketball?"
+				"phrase": "Giochiamo a Basket?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vuoi giocare a Basket?"
 			}
 		]
 	},
@@ -2578,7 +2586,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Video Games",
+		"title": "Videogiochi",
 		"slug": "videogames",
 		"parents": [
 			"activities"
@@ -2586,11 +2594,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Mi giacare ai vieogames."
+				"phrase": "Mi giocare ai videogiochi."
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Posso giocare ai videogames?"
+				"phrase": "Posso giocare ai videogiochi?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vuoi giocare ai videogiochi?"
 			}
 		]
 	},
