@@ -163,7 +163,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Si",
+		"title": "Sì",
 		"slug": "yes",
 		"parents": [
 			"general"
@@ -807,7 +807,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Potate",
+		"title": "Patate",
 		"slug": "potato",
 		"parents": [
 			"foods"
@@ -911,7 +911,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Patatine Fritte",
+		"title": "Patatine fritte",
 		"slug": "fries",
 		"parents": [
 			"foods"
