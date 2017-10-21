@@ -108,7 +108,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Posso avere un pò d'acqua?"
+				"phrase": "Posso avere un po' d'acqua?"
 			},
 			{
 				"symbol": "hand",
@@ -285,7 +285,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Buona notta"
+				"phrase": "Buona notte"
 			},
 			{
 				"symbol": "hand",
@@ -325,7 +325,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Puoi portarmi all'apperto?"
+				"phrase": "Puoi portarmi all'aperto?"
 			}
 		]
 	},
@@ -731,7 +731,7 @@
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare arancie"
+				"phrase": "Mi piace mangiare arance"
 			}
 		]
 	},
@@ -853,7 +853,7 @@
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare la bisteccha"
+				"phrase": "Mi piace mangiare bistecche"
 			}
 		]
 	},
@@ -1101,15 +1101,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare pollo"
+				"phrase": "Voglio mangiare del pollo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare pollo"
+				"phrase": "Non voglio mangiare del pollo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare pollo?"
+				"phrase": "Vuoi mangiare del pollo?"
 			},
 			{
 				"symbol": "like",
@@ -1421,7 +1421,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi bere Coca Cola"
+				"phrase": "Vuoi bere Coca Cola?"
 			},
 			{
 				"symbol": "like",
@@ -1439,25 +1439,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare un Cupcake"
+				"phrase": "Voglio mangiare un cupcake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare un Cupcake"
+				"phrase": "Non voglio mangiare un cupcake"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare un Cupcake?"
+				"phrase": "Vuoi mangiare un cupcake?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare Cupcake"
+				"phrase": "Mi piace mangiare cupcake"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Doughnut",
+		"title": "Ciambelle",
 		"slug": "doughnut",
 		"parents": [
 			"foods"
@@ -1465,19 +1465,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare un Doughnut"
+				"phrase": "Voglio mangiare una ciambella"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare un Doughnut"
+				"phrase": "Non voglio mangiare una ciambella"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare un Doughnut?"
+				"phrase": "Vuoi mangiare una ciambella?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare Doughnut"
+				"phrase": "Mi piace mangiare ciambelle"
 			}
 		]
 	},
@@ -1517,19 +1517,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare il Sushi"
+				"phrase": "Voglio mangiare il sushi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare il Sushi"
+				"phrase": "Non voglio mangiare il sushi"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare il Sushi?"
+				"phrase": "Vuoi mangiare il sushi?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare Sushi"
+				"phrase": "Mi piace mangiare sushi"
 			}
 		]
 	},
@@ -1777,19 +1777,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio mangiare avacado"
+				"phrase": "Voglio mangiare avocado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio mangiare avacado"
+				"phrase": "Non voglio mangiare avocado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi mangiare avacado?"
+				"phrase": "Vuoi mangiare avocado?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace mangiare avacado"
+				"phrase": "Mi piace mangiare avocado"
 			}
 		]
 	},
@@ -1873,7 +1873,7 @@
 	},
 	{
 		"type": "card",
-		"title": "The",
+		"title": "Thè",
 		"slug": "tea",
 		"parents": [
 			"foods"
@@ -1881,19 +1881,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Voglio bere the"
+				"phrase": "Voglio bere thè"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Non voglio bere the"
+				"phrase": "Non voglio bere thè"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Vuoi del the?"
+				"phrase": "Vuoi del thè?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "Mi piace bere the"
+				"phrase": "Mi piace bere thè"
 			}
 		]
 	},
@@ -2152,7 +2152,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Voglio vedere il mio/a terapista"
+				"phrase": "Voglio vedere il/la mio/a terapista"
 			}
 		]
 	},
@@ -2280,7 +2280,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Deve essere silenzioso durante la lezione"
+				"phrase": "Devo essere silenzioso durante la lezione"
 			},
 			{
 				"symbol": "hand",
@@ -2370,7 +2370,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Deve fare i compiti"
+				"phrase": "Devo fare i compiti"
 			},
 			{
 				"symbol": "hand",
@@ -2380,7 +2380,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Caminare",
+		"title": "Camminare",
 		"slug": "walking",
 		"parents": [
 			"activities"
@@ -2388,7 +2388,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Faciamo un giro"
+				"phrase": "Facciamo un giro"
 			},
 			{
 				"symbol": "hand",
@@ -2460,11 +2460,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Mi piace giocare a calcio."
+				"phrase": "Mi piace giocare a calcio"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Giochiamo a calcio."
+				"phrase": "Giochiamo a calcio"
 			},
 			{
 				"symbol": "hand",
@@ -2482,11 +2482,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Mi piace giocare a Basket."
+				"phrase": "Mi piace giocare a basket"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Giochiamo a Basket?"
+				"phrase": "Giochiamo a basket?"
 			},
 			{
 				"symbol": "hand",
@@ -2722,7 +2722,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Quatro",
+		"title": "Quattro",
 		"slug": "four",
 		"parents": [
 			"numbers"
