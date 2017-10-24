@@ -630,7 +630,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Shocked",
+		"title": "Chocado",
 		"slug": "shocked",
 		"parents": [
 			"feelings"
@@ -638,17 +638,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel shocked"
+				"phrase": "Estou chocado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel shocked?"
+				"phrase": "Estás chocado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sick",
+		"title": "Doente",
 		"slug": "sick",
 		"parents": [
 			"feelings"
@@ -656,17 +656,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel sick"
+				"phrase": "Sinto-me doente"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel sick?"
+				"phrase": "Estás doente?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Frustrated",
+		"title": "Frustrado",
 		"slug": "frustrated",
 		"parents": [
 			"feelings"
@@ -674,11 +674,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel frustrated"
+				"phrase": "Estou frustrado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel frustrated?"
+				"phrase": "Estás frustrado?"
 			}
 		]
 	},
