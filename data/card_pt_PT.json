@@ -522,7 +522,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Confused",
+		"title": "Confuso",
 		"slug": "confused",
 		"parents": [
 			"feelings"
@@ -530,11 +530,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel confused"
+				"phrase": "Estou confuso"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel confused?"
+				"phrase": "Estás confuso?"
 			}
 		]
 	},
@@ -684,7 +684,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Apple",
+		"title": "Maça",
 		"slug": "apple",
 		"parents": [
 			"foods"
@@ -692,25 +692,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat an apple"
+				"phrase": "Quero comer uma maça"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat an apple"
+				"phrase": "Não quero comer uma maça"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat an apple?"
+				"phrase": "Queres comer uma maça?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating apples"
+				"phrase": "Gosto de comer maças"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Orange",
+		"title": "Laranjas",
 		"slug": "orange",
 		"parents": [
 			"foods"
@@ -718,19 +718,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat an orange"
+				"phrase": "Quero comer uma laranja"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat an orange"
+				"phrase": "Não quero comer uma laranja"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat an orange?"
+				"phrase": "Queres comer uma laranja?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating oranges"
+				"phrase": "Gosto de comer laranjas"
 			}
 		]
 	},
@@ -754,7 +754,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Water",
+		"title": "Água",
 		"slug": "water",
 		"parents": [
 			"foods"
@@ -762,19 +762,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to drink some water"
+				"phrase": "Quero beber alguma água"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to drink water"
+				"phrase": "Não quero beber água"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to drink some water?"
+				"phrase": "Queres beber água?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like drinking water"
+				"phrase": "Gosto de beber água"
 			}
 		]
 	},
@@ -806,7 +806,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Potato",
+		"title": "Batatas",
 		"slug": "potato",
 		"parents": [
 			"foods"
@@ -814,19 +814,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat potatoes"
+				"phrase": "Quero comer algumas batatas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat potatoes"
+				"phrase": "Não quero comer batatas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat potatoes?"
+				"phrase": "Queres comer batatas?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating potatoes"
+				"phrase": "Gosto de comer batatas"
 			}
 		]
 	},
@@ -866,19 +866,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat pizza"
+				"phrase": "Quero comer pizza"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat pizza"
+				"phrase": "Não quero comer pizza"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat pizza?"
+				"phrase": "Queres comer pizza"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating pizza"
+				"phrase": "Gosto de comer pizza"
 			}
 		]
 	},
@@ -936,7 +936,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ice Cream",
+		"title": "Gelado",
 		"slug": "icecream",
 		"parents": [
 			"foods"
@@ -944,25 +944,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat ice cream"
+				"phrase": "Quero comer gelado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat ice cream"
+				"phrase": "Não quero comer gelado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat ice cream?"
+				"phrase": "Queres comer gelado?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating ice cream"
+				"phrase": "Gosto de comer gelado"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cookie",
+		"title": "Bolachas",
 		"slug": "cookie",
 		"parents": [
 			"foods"
@@ -970,25 +970,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat a cookie"
+				"phrase": "Quero comer bolachas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat a cookie"
+				"phrase": "Não quer comer bolachas"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cookies?"
+				"phrase": "Queres comer bolachas?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cookies"
+				"phrase": "Gosto de comer bolachas"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Cereal",
+		"title": "Cereais",
 		"slug": "cereal",
 		"parents": [
 			"foods"
@@ -996,19 +996,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat cereal"
+				"phrase": "Quero comer cereais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat cereal"
+				"phrase": "Não quero comer cereais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat cereal?"
+				"phrase": "Queres comer cereais?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating cereal"
+				"phrase": "Gosto de comer cereais"
 			}
 		]
 	},
