@@ -1976,7 +1976,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Mother",
+		"title": "Mãe",
 		"slug": "mother",
 		"parents": [
 			"people"
@@ -1984,17 +1984,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my mother"
+				"phrase": "Adoro a minha mãe"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my mother"
+				"phrase": "Quero ver a minha mãe"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Father",
+		"title": "Pai",
 		"slug": "father",
 		"parents": [
 			"people"
@@ -2002,17 +2002,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my father"
+				"phrase": "Adoro a minha pai"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my father"
+				"phrase": "Quero ver a minha pai"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Parents",
+		"title": "Pais",
 		"slug": "parents",
 		"parents": [
 			"people"
@@ -2020,17 +2020,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my parents"
+				"phrase": "Adoro os meus pais"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my parents"
+				"phrase": "Quero ver os meus pais"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Grandparents",
+		"title": "Avós",
 		"slug": "grandparents",
 		"parents": [
 			"people"
@@ -2038,17 +2038,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my grandparents"
+				"phrase": "Adoro os meus avós"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my grandparents"
+				"phrase": "Quero ver os meus avós"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Brother",
+		"title": "Irmão",
 		"slug": "brother",
 		"parents": [
 			"people"
@@ -2056,17 +2056,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my brother"
+				"phrase": "Adoro o meu irmão"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my brother"
+				"phrase": "Quero ver o meu irmão"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Sister",
+		"title": "Irma",
 		"slug": "sister",
 		"parents": [
 			"people"
@@ -2074,17 +2074,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my sister"
+				"phrase": "Adoro a minha irma"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my sister"
+				"phrase": "Quero ver a minha irma"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Uncle",
+		"title": "Tio",
 		"slug": "uncle",
 		"parents": [
 			"people"
@@ -2092,17 +2092,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my uncle"
+				"phrase": "Adoro o meu tio"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my uncle"
+				"phrase": "Quero ir ver o meu tio"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Aunt",
+		"title": "Tia",
 		"slug": "aunt",
 		"parents": [
 			"people"
@@ -2110,17 +2110,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my aunt"
+				"phrase": "Adoro a minha tia"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my aunt"
+				"phrase": "Quero ir ver a minha tia"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Teacher",
+		"title": "Professor",
 		"slug": "teacher",
 		"parents": [
 			"people",
@@ -2129,17 +2129,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my teacher"
+				"phrase": "Adoro o meu professor"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my teacher"
+				"phrase": "Quero ir ver o meu professor"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Therapist",
+		"title": "Terapeuta",
 		"slug": "therapist",
 		"parents": [
 			"people"
@@ -2147,17 +2147,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my therapist"
+				"phrase": "Adoro o meu terapeuta"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my therapist"
+				"phrase": "Quero ir ver o meu terapeuta"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Doctor",
+		"title": "Medico",
 		"slug": "doctor",
 		"parents": [
 			"people"
@@ -2165,17 +2165,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my doctor"
+				"phrase": "Adoro o meu medico"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my doctor"
+				"phrase": "Quero ver o meu medico"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Friends",
+		"title": "Amigos",
 		"slug": "friends",
 		"parents": [
 			"people"
@@ -2183,25 +2183,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I love my friends"
+				"phrase": "Adoro os meus amigos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't like my friends"
+				"phrase": "Não gosto dos meus amigos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to see my friends"
+				"phrase": "Quero ver os meus amigos"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I want to talk to my friends"
+				"phrase": "Quero falar com os meus amigos"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Book",
+		"title": "Livro",
 		"slug": "book",
 		"parents": [
 			"school"
@@ -2209,11 +2209,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I'm reading my book"
+				"phrase": "Estou a ler um livro"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me my book?"
+				"phrase": "Podes dar-me um livro?"
 			}
 		]
 	},
@@ -2685,7 +2685,7 @@
 	},
 	{
 		"type": "card",
-		"title": "One",
+		"title": "Um",
 		"slug": "one",
 		"parents": [
 			"numbers"
@@ -2693,7 +2693,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Two",
+		"title": "Dois",
 		"slug": "two",
 		"parents": [
 			"numbers"
@@ -2701,7 +2701,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Three",
+		"title": "Tres",
 		"slug": "three",
 		"parents": [
 			"numbers"
@@ -2709,7 +2709,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Four",
+		"title": "Quatro",
 		"slug": "four",
 		"parents": [
 			"numbers"
@@ -2717,7 +2717,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Five",
+		"title": "Cinco",
 		"slug": "five",
 		"parents": [
 			"numbers"
@@ -2725,7 +2725,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Six",
+		"title": "Seis",
 		"slug": "six",
 		"parents": [
 			"numbers"
@@ -2733,7 +2733,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seven",
+		"title": "Sete",
 		"slug": "seven",
 		"parents": [
 			"numbers"
@@ -2741,7 +2741,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eight",
+		"title": "Oito",
 		"slug": "eight",
 		"parents": [
 			"numbers"
@@ -2749,7 +2749,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Nine",
+		"title": "Nove",
 		"slug": "nine",
 		"parents": [
 			"numbers"
@@ -2757,7 +2757,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ten",
+		"title": "Dez",
 		"slug": "ten",
 		"parents": [
 			"numbers"
@@ -2765,7 +2765,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Twenty",
+		"title": "Vinte",
 		"slug": "twenty",
 		"parents": [
 			"numbers"
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Thirty",
+		"title": "Trinta",
 		"slug": "thirty",
 		"parents": [
 			"numbers"
@@ -2781,7 +2781,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Forty",
+		"title": "Quarenta",
 		"slug": "forty",
 		"parents": [
 			"numbers"
@@ -2789,7 +2789,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Fifty",
+		"title": "Cinquenta",
 		"slug": "fifty",
 		"parents": [
 			"numbers"
@@ -2797,7 +2797,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sixty",
+		"title": "Sessenta",
 		"slug": "sixty",
 		"parents": [
 			"numbers"
@@ -2805,7 +2805,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Seventy",
+		"title": "Setenta",
 		"slug": "seventy",
 		"parents": [
 			"numbers"
@@ -2813,7 +2813,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Eighty",
+		"title": "Oitenta",
 		"slug": "eighty",
 		"parents": [
 			"numbers"
@@ -2821,7 +2821,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ninety",
+		"title": "Noventa",
 		"slug": "ninety",
 		"parents": [
 			"numbers"
@@ -2829,7 +2829,7 @@
 	},
 	{
 		"type": "card",
-		"title": "One hundred",
+		"title": "Cem",
 		"slug": "hundred",
 		"parents": [
 			"numbers"
@@ -2837,7 +2837,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Calculator",
+		"title": "Calculadora",
 		"slug": "calculator",
 		"parents": [
 			"numbers"
