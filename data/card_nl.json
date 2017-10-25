@@ -58,11 +58,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "kan je mij helpen?"
+				"phrase": "Kan je mij helpen?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kan ik jouw helpen?"
+				"phrase": "Kan ik jou helpen?"
 			}
 		]
 	},
@@ -126,7 +126,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik moet de gebruik maken van het toilet!"
+				"phrase": "Ik moet gebruik maken van het toilet!"
 			},
 			{
 				"symbol": "hand",
@@ -156,7 +156,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Wat betekend dat?"
+				"phrase": "Wat betekent dat?"
 			}
 		]
 	},
@@ -258,7 +258,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Morgen",
+		"title": "Ochtend",
 		"slug": "morning",
 		"parents": [
 			"general"
@@ -266,11 +266,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Goede morgen"
+				"phrase": "Goedemorgen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "In de ochtend"
+				"phrase": "'s Ochtends'"
 			}
 		]
 	},
@@ -284,11 +284,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Goede nacht"
+				"phrase": "Goedenacht"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "'s nachts"
+				"phrase": "'s Nachts"
 			}
 		]
 	},
@@ -306,7 +306,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Ik luister naar jouw"
+				"phrase": "Ik luister naar jou"
 			}
 		]
 	},
@@ -346,7 +346,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kan je mij kleding geven om te dragen?"
+				"phrase": "Kan je mij kleding geven om aan te doen?"
 			},
 			{
 				"symbol": "hand",
@@ -382,7 +382,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik mij verwond"
+				"phrase": "Ik heb mij verwond"
 			},
 			{
 				"symbol": "hand",
@@ -624,7 +624,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Voel je je schamen"
+				"phrase": "Voel je je beschaamd"
 			}
 		]
 	},
@@ -638,11 +638,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik ben geschroken"
+				"phrase": "Ik ben geschokt"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Ben je geschroken?"
+				"phrase": "Ben je geschokt?"
 			}
 		]
 	},
