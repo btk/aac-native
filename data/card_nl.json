@@ -58,11 +58,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "kan je mij helpen?"
+				"phrase": "Kan je mij helpen?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kan ik jouw helpen?"
+				"phrase": "Kan ik jou helpen?"
 			}
 		]
 	},
@@ -126,7 +126,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik moet de gebruik maken van het toilet!"
+				"phrase": "Ik moet gebruik maken van het toilet!"
 			},
 			{
 				"symbol": "hand",
@@ -156,7 +156,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Wat betekend dat?"
+				"phrase": "Wat betekent dat?"
 			}
 		]
 	},
@@ -258,7 +258,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Morgen",
+		"title": "Ochtend",
 		"slug": "morning",
 		"parents": [
 			"general"
@@ -266,11 +266,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Goede morgen"
+				"phrase": "Goedemorgen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "In de ochtend"
+				"phrase": "'s Ochtends'"
 			}
 		]
 	},
@@ -284,11 +284,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Goede nacht"
+				"phrase": "Goedenacht"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "'s nachts"
+				"phrase": "'s Nachts"
 			}
 		]
 	},
@@ -306,7 +306,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Ik luister naar jouw"
+				"phrase": "Ik luister naar jou"
 			}
 		]
 	},
@@ -346,7 +346,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kan je mij kleding geven om te dragen?"
+				"phrase": "Kan je mij kleding geven om aan te doen?"
 			},
 			{
 				"symbol": "hand",
@@ -382,7 +382,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik mij verwond"
+				"phrase": "Ik heb mij verwond"
 			},
 			{
 				"symbol": "hand",
@@ -624,7 +624,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Voel je je schamen"
+				"phrase": "Voel je je beschaamd"
 			}
 		]
 	},
@@ -638,11 +638,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik ben geschroken"
+				"phrase": "Ik ben geschokt"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Ben je geschroken?"
+				"phrase": "Ben je geschokt?"
 			}
 		]
 	},
@@ -2038,11 +2038,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik houd van mijn groot ouders"
+				"phrase": "Ik houd van mijn grootouders"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Ik wil mijn groot ouders zien"
+				"phrase": "Ik wil mijn grootouders zien"
 			}
 		]
 	},
@@ -2249,13 +2249,13 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kan je mijn potlood geven?"
+				"phrase": "Kan je me mijn potlood geven?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Blackbord",
+		"title": "Schoolbord",
 		"slug": "blackboard",
 		"parents": [
 			"school"
@@ -2355,7 +2355,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "kan je het uitleggen?"
+				"phrase": "Kan je het uitleggen?"
 			}
 		]
 	},
@@ -2379,7 +2379,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Lopen",
+		"title": "Wandelen",
 		"slug": "walking",
 		"parents": [
 			"activities"
@@ -2387,17 +2387,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Laten we een rondje gaan lopen"
+				"phrase": "Laten we een rondje gaan wandelen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kunnen we gaan lopen?"
+				"phrase": "Kunnen we gaan wandelen?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Rennen",
+		"title": "Lopen",
 		"slug": "running",
 		"parents": [
 			"activities"
@@ -2405,11 +2405,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik houd van rennen"
+				"phrase": "Ik houd van lopen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kunnen we gaan rennen?"
+				"phrase": "Kunnen we gaan lopen?"
 			}
 		]
 	},
@@ -2445,7 +2445,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kan je helpen met lezen?"
+				"phrase": "Kan je me helpen met lezen?"
 			}
 		]
 	},
@@ -2567,17 +2567,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik houd van bezienswaardigheden te bekijken"
+				"phrase": "Ik houd ervan bezienswaardigheden te bekijken"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Kunnen samen bezienswaardigheden bekijken?"
+				"phrase": "Kunnen we samen bezienswaardigheden gaan bekijken?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Computer spellen",
+		"title": "Computerspellen",
 		"slug": "videogames",
 		"parents": [
 			"activities"
@@ -2585,11 +2585,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I vind het leuk om computer spellen te spelen"
+				"phrase": "Ik vind het leuk om computerspellen te spelen"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Mag ik computer spellen spelen?"
+				"phrase": "Mag ik computerspellen spelen?"
 			}
 		]
 	},
@@ -2603,7 +2603,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Ik houd ervan om mijn kamer te schoonmaken"
+				"phrase": "Ik houd ervan om mijn kamer schoon te maken"
 			},
 			{
 				"symbol": "hand",
