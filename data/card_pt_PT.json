@@ -62,7 +62,7 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Posso te ajudar?"
+				"phrase": "Posso ajudar-te?"
 			}
 		]
 	},
@@ -134,17 +134,17 @@
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need to poo"
+				"phrase": "Preciso de fazer cocô"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need to pee"
+				"phrase": "Preciso de fazer xixi."
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "What?",
+		"title": "O que?",
 		"slug": "what",
 		"parents": [
 			"general"
@@ -152,11 +152,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "What do you mean?"
+				"phrase": "O que queres dizer?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "What does that mean?"
+				"phrase": "O que isso significa?"
 			}
 		]
 	},
@@ -214,7 +214,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ola",
+		"title": "Olá",
 		"slug": "hello",
 		"parents": [
 			"general"
@@ -312,7 +312,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Outside",
+		"title": "Lá fora",
 		"slug": "outside",
 		"parents": [
 			"general"
@@ -320,11 +320,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to go outside"
+				"phrase": "Quero ir lá para fora"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you take me outside?"
+				"phrase": "Podes levar-me lá para fora?"
 			}
 		]
 	},
@@ -374,7 +374,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Hurt",
+		"title": "Magoar",
 		"slug": "hurt",
 		"parents": [
 			"general"
@@ -382,15 +382,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I hurt myself"
+				"phrase": "Magoei-me"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I need a band aid"
+				"phrase": "Preciso de um curativo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "It hurts"
+				"phrase": "Isso doi"
 			}
 		]
 	},
@@ -432,7 +432,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Exhausted",
+		"title": "Exausto",
 		"slug": "exhausted",
 		"parents": [
 			"feelings"
@@ -440,17 +440,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel exhausted"
+				"phrase": "Estou exausto"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel exhausted?"
+				"phrase": "Sentes-te exausto?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Relaxed",
+		"title": "Relaxado",
 		"slug": "relaxed",
 		"parents": [
 			"feelings"
@@ -458,17 +458,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel relaxed"
+				"phrase": "Estou relaxado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel relaxed?"
+				"phrase": "Sentes-te relaxado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "In Love",
+		"title": "Apaixonado",
 		"slug": "inlove",
 		"parents": [
 			"feelings"
@@ -476,17 +476,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I am in love"
+				"phrase": "Estou apaixonado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Are you in love?"
+				"phrase": "Estás apaixonado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Stressed",
+		"title": "Estressado",
 		"slug": "stressed",
 		"parents": [
 			"feelings"
@@ -494,17 +494,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel stressed"
+				"phrase": "Estou estressado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel stressed?"
+				"phrase": "Estás estressado?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Thankful",
+		"title": "Agradecido",
 		"slug": "thankful",
 		"parents": [
 			"feelings"
@@ -512,11 +512,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel thankful"
+				"phrase": "Estou agradecido"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel thankful?"
+				"phrase": "Estás agradecido?"
 			}
 		]
 	},
@@ -540,7 +540,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Joyful",
+		"title": "Alegre",
 		"slug": "joyful",
 		"parents": [
 			"feelings"
@@ -548,17 +548,17 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel joyful"
+				"phrase": "Estou alegre"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel joyful?"
+				"phrase": "Estás alegre?"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Angry",
+		"title": "Zangado",
 		"slug": "angry",
 		"parents": [
 			"feelings"
@@ -566,11 +566,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel angry"
+				"phrase": "Estou zangado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel angry?"
+				"phrase": "Estás zangado?"
 			}
 		]
 	},
@@ -594,7 +594,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Afraid",
+		"title": "Medo",
 		"slug": "afraid",
 		"parents": [
 			"feelings"
@@ -602,11 +602,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel afraid"
+				"phrase": "Estou com medo"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel afraid?"
+				"phrase": "Estás com medo?"
 			}
 		]
 	},
