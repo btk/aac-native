@@ -284,7 +284,7 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Bom dia"
+				"phrase": "Bom Noite"
 			},
 			{
 				"symbol": "hand",
@@ -303,8 +303,8 @@
 			{
 				"symbol": "hand",
 				"phrase": "Ouve-me"
-			},
-			{
+			},			{
+
 				"symbol": "hand",
 				"phrase": "Estou a ouvir-te"
 			}
@@ -612,7 +612,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Ashamed",
+		"title": "Envergonhado",
 		"slug": "ashamed",
 		"parents": [
 			"feelings"
@@ -620,11 +620,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I feel ashamed"
+				"phrase": "Estou envergonhado"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you feel ashamed?"
+				"phrase": "Estás envergonhado?"
 			}
 		]
 	},
@@ -736,7 +736,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cutlery",
+		"title": "Talheres",
 		"slug": "utensils",
 		"parents": [
 			"foods"
@@ -744,11 +744,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "Can you help me use my cutlery?"
+				"phrase": "Podes ajudar-me a usar os talheres?"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Can you give me some cutlery?"
+				"phrase": "Podes dar-me talheres?"
 			}
 		]
 	},
@@ -832,7 +832,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Steak",
+		"title": "Bife",
 		"slug": "steak",
 		"parents": [
 			"foods"
@@ -840,19 +840,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "I want to eat steak"
+				"phrase": "Quero comer um bife"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "I don't want to eat steak"
+				"phrase": "Não quero comer um bife"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "Do you want to eat steak?"
+				"phrase": "Queres comer um bife?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "I like eating steak"
+				"phrase": "Gosto de comer bifes"
 			}
 		]
 	},
