@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
 
 import Layout from './layouts/app';
+import Setup from './layouts/setup';
 import Settings from './js/settings';
 
 const LANGUAGE_FLUSH = false;
@@ -48,7 +49,7 @@ export default class App extends React.Component {
       return (
         <View style={styles.generalContainer}>
           <StatusBar hidden={true}/>
-          <Layout language={this.state.currentLang}/>
+          <Setup/>
         </View>
       );
     } else {
