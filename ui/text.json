@@ -1,0 +1,74 @@
+{
+	"setupZeroHeading": {
+		"en": "Choose Your Language",
+		"de": "Wähle deine Sprache",
+		"tr": "Bir Dil Seçiniz",
+		"fr": "Choisissez Votre Langue"
+	},
+	"setupZeroContent": {
+		"en": "We detected your language using your phone's default language but you can change the language of Leeloo AAC if you like.",
+		"de": "Wir haben Ihre Sprache anhand der Standardsprache Ihres Telefons erkannt. Sie können jedoch die Sprache von Leeloo AAC ändern.",
+		"tr": "Telefonunuzun varsayılan dilini kullanarak dilinizi tespit ettik ancak isterseniz Leeloo AAC'nin dilini değiştirebilirsiniz.",
+		"fr": "Nous avons détecté votre langue en utilisant la langue par défaut de votre téléphone mais vous pouvez changer la langue de Leeloo AAC."
+	},
+	"setupZeroButton": {
+		"en": "Contuniue",
+		"de": "Fortsetzen",
+		"tr": "Devam Et",
+		"fr": "Continuer"
+	},
+	"setupOneHeading": {
+		"en": "Welcome!",
+		"de": "Willkommen!",
+		"tr": "Hoşgeldiniz!",
+		"fr": "Bienvenue!"
+	},
+	"setupOneContent1": {
+		"en": "Thank you so much for downloading. In order to personalize your experience, you need to setup this application.",
+		"de": "Vielen Dank für das Herunterladen. Um Ihre Erfahrung zu personalisieren, müssen Sie diese Anwendung einrichten.",
+		"tr": "İndirdiğiniz için çok teşekkürler. Hadi hemen, deneyiminizi kişiselleştirmek için bu uygulamayı kuralım.",
+		"fr": "Merci beaucoup pour le téléchargement. Afin de personnaliser votre expérience, vous devez configurer cette application."
+	},
+	"setupOneContent2": {
+		"en": "Follow this 2 steps and start using Leeloo AAC app right away.",
+		"de": "Befolgen Sie diese 2 Schritte und beginnen Sie sofort mit der Leeloo AAC App.",
+		"tr": "Bu 2 adımı izleyin ve hemen Leeloo AAC uygulamasını kullanmaya başlayın.",
+		"fr": "Suivez ces 2 étapes et commencez à utiliser l'application Leeloo AAC tout de suite."
+	},
+	"setupOneButton": {
+		"en": "Let's Start",
+		"de": "Lasst uns Beginnen",
+		"tr": "Hadi Başlayalım",
+		"fr": "Commençons"
+	},
+	"setupTwoHeading": {
+		"en": "Choose Your Avatar",
+		"de": "Wähle deinen Avatar",
+		"tr": "Avatarını Seç",
+		"fr": "Choisissez votre Avatar"
+	},
+	"setupTwoContent": {
+		"en": "From the following avatars, choose the avatar that best resembles the user of this AAC application.",
+		"de": "Wählen Sie aus den folgenden Avataren den Avatar aus, der dem Benutzer dieser AAC-Anwendung am ehesten entspricht.",
+		"tr": "Aşağıdaki avatarlardan, bu AAC uygulamasının kullanıcısına en çok benzeyen avatarı seçin.",
+		"fr": "Parmi les avatars suivants, choisissez l'avatar qui ressemble le mieux à l'utilisateur de cette application AAC."
+	},
+	"setupTwoButton": {
+		"en": "Choose an Avatar",
+		"de": "Wähle einen Avatar",
+		"tr": "Bir Avatar Seç",
+		"fr": "Choisissez un Avatar"
+	},
+	"setupThreeHeading": {
+		"en": "What is Your Name?",
+		"de": "Was ist Ihr Name?",
+		"tr": "Adın Nedir?",
+		"fr": "Comment vous appelez-vous?"
+	},
+	"setupThreeContent": {
+		"en": "What would you like me to call you when referring to you in the application?",
+		"de": "Was möchtest du, wenn ich dich anrufe, wenn ich dich in der Bewerbung anrufe?",
+		"tr": "Uygulama içinde senden bahsetmek için adına ne dememi istersin?",
+		"fr": "Qu'aimeriez-vous que je vous appelle lorsque je me réfère à vous dans la application?"
+	},
+}
