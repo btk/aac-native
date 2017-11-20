@@ -3,8 +3,8 @@
     "name": "Leeloo",
     "slug": "leeloo",
     "icon": "./assets/app-icon.png",
-    "version": "1.1.1",
-    "sdkVersion": "20.0.0",
+    "version": "1.2.0",
+    "sdkVersion": "23.0.0",
     "privacy": "public",
     "loading": {
       "icon": "assets/splash.png",
@@ -15,8 +15,8 @@
     },
     "android": {
       "package": "org.dreamoriented.leeloo",
-      "permissions": ["READ_EXTERNAL_STORAGE", "READ_INTERNAL_STORAGE", "WAKE_LOCK", "WRITE_EXTERNAL_STORAGE"],
-      "versionCode": 111
+      "permissions": ["WAKE_LOCK"],
+      "versionCode": 120
     }
   }
 }
