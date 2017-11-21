@@ -3,8 +3,8 @@ import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity
 import { LinearGradient, Svg } from 'expo';
 let { height, width } = Dimensions.get('window');
 
-import API from '../api';
-import Avatar from '../assets/avatar';
+import API from '../../api';
+import Avatar from '../../assets/avatar';
 
 export default class App extends React.Component {
   constructor(props){

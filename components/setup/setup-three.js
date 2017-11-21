@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity, TextInput, KeyboardAvoidingView } from 'react-native';
 import { LinearGradient, Svg } from 'expo';
 
-import API from '../api';
-import Avatar from '../assets/avatar';
+import API from '../../api';
+import Avatar from '../../assets/avatar';
 
 export default class App extends React.Component {
   constructor(props){

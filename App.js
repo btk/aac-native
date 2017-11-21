@@ -1,75 +1,35 @@
+// Differentiate between setup and layout components
+
 import React from 'react';
-import { StyleSheet, Text, View, StatusBar } from 'react-native';
+import { Text, View, StatusBar } from 'react-native';
 
 import Layout from './layouts/app';
 import Setup from './layouts/setup';
-import Settings from './js/settings';
 
-const LANGUAGE_FLUSH = false;
-// LANGUAGE_FLUSH is a constant variable for development tests
-// It flushes the localstorage saved language and locale data
-// if any exists
+import API from './api';
 
 export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      currentLang: "",
       setup: true
-    }
-
-    if(LANGUAGE_FLUSH && !(this.state.currentLang)){
-      Settings.setOption("language", "").then((flushed) => {
-        console.log("Timeout start");
-        setTimeout(() => {
-          console.log("Timeout end");
-          this.setLanguageAsState();
-        }, 10000);
-      });
-    }else{
-      this.setLanguageAsState();
     }
   }
 
-  setLanguageAsState(){
-    Settings.getOption("language").then(lang => {
-      if(lang){
-        console.log("App is loading in language: ", lang);
-        this.setState({currentLang: lang});
-      }else{
-        console.log("Language not yet set, will try in 1s");
-        setTimeout(() => {
-          this.setLanguageAsState();
-        }, 1000);
-      }
-    });
+  renderMainComponent(){
+    if(this.state.setup){
+      return(<Setup finished={() => { this.setState({setup: false}); }}/>);
+    }else{
+      return(<Layout language={this.state.currentLang}/>);
+    }
   }
 
   render() {
-    if(this.state.currentLang){
-      if(this.state.setup){
-        return (
-          <View style={styles.generalContainer}>
-            <StatusBar hidden={true}/>
-            <Setup finished={() => { this.setState({setup: false}); }}/>
-          </View>
-        );
-      }else{
-        return (
-          <View style={styles.generalContainer}>
-            <StatusBar hidden={true}/>
-            <Layout language={this.state.currentLang}/>
-          </View>
-        );
-      }
-    } else {
-      return null;
-    }
+    return (
+      <View style={{flex: 1}}>
+        <StatusBar hidden={true}/>
+        {this.renderMainComponent()}
+      </View>
+    );
   }
 }
-
-const styles = StyleSheet.create({
-  generalContainer: {
-    flex: 1
-  },
-});

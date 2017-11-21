@@ -3,7 +3,7 @@ import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity
 import { LinearGradient, Svg } from 'expo';
 let { height, width } = Dimensions.get('window');
 
-import API from '../api';
+import API from '../../api';
 
 export default class App extends React.Component {
   constructor(props){
@@ -42,23 +42,23 @@ export default class App extends React.Component {
 
         <View style={{flexDirection: "column", marginHorizontal: "10%"}}>
           <TouchableOpacity onPress={() => this.choose("en-us")} style={this.getStyle("en-us")}>
-            <Image source={require("../assets/flag/en-us.png")} style={styles.avatarImage}/>
+            <Image source={require("../../assets/flag/en-us.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>English (US)</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("en-gb")} style={this.getStyle("en-gb")}>
-            <Image source={require("../assets/flag/en-gb.png")} style={styles.avatarImage}/>
+            <Image source={require("../../assets/flag/en-gb.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>English (GB)</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("de-de")} style={this.getStyle("de-de")}>
-            <Image source={require("../assets/flag/de-de.png")} style={styles.avatarImage}/>
+            <Image source={require("../../assets/flag/de-de.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>Deutsche</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("tr-tr")} style={this.getStyle("tr-tr")}>
-            <Image source={require("../assets/flag/tr-tr.png")} style={styles.avatarImage}/>
+            <Image source={require("../../assets/flag/tr-tr.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>Türkçe</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("fr-fr")} style={this.getStyle("fr-fr")}>
-            <Image source={require("../assets/flag/fr-fr.png")} style={styles.avatarImage}/>
+            <Image source={require("../../assets/flag/fr-fr.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>Français</Text>
           </TouchableOpacity>
         </View>

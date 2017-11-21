@@ -4,12 +4,12 @@ import { LinearGradient, Svg } from 'expo';
 
 import API from '../api';
 
-import SetupZero from '../components/setup-zero';
-import SetupOne from '../components/setup-one';
-import SetupTwo from '../components/setup-two';
-import SetupThree from '../components/setup-three';
-import SetupFour from '../components/setup-four';
-import SetupFive from '../components/setup-five';
+import SetupZero from '../components/setup/setup-zero';
+import SetupOne from '../components/setup/setup-one';
+import SetupTwo from '../components/setup/setup-two';
+import SetupThree from '../components/setup/setup-three';
+import SetupFour from '../components/setup/setup-four';
+import SetupFive from '../components/setup/setup-five';
 
 export default class App extends React.Component {
   constructor(props){

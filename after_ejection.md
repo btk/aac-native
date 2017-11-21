@@ -1,2 +1,0 @@
-- Add tts
-- Add react-native-fullscreen

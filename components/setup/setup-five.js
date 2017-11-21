@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity } from 'react-native';
 import { LinearGradient, Svg } from 'expo';
 
-import API from '../api';
+import API from '../../api';
 
 export default class App extends React.Component {
   constructor(props){
@@ -22,7 +22,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.holder}>
-        <Image source={require("../assets/congrats.png")} style={{width: 140, height: 140, alignSelf: "center", margin: "10%"}}/>
+        <Image source={require("../../assets/congrats.png")} style={{width: 140, height: 140, alignSelf: "center", margin: "10%"}}/>
         <View>
           <Text style={styles.holderTitle}>{API.UIText("setupFiveHeading")}, {this.state.name}!</Text>
           <Text style={styles.holderContent}>{API.UIText("setupFiveContent")}</Text>

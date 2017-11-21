@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity, TextInput, KeyboardAvoidingView } from 'react-native';
 import { LinearGradient, Svg, Speech } from 'expo';
 
-import API from '../api';
-import Avatar from '../assets/avatar';
+import API from '../../api';
+import Avatar from '../../assets/avatar';
 
 export default class App extends React.Component {
   constructor(props){
@@ -50,30 +50,30 @@ export default class App extends React.Component {
     return (
       <View
         style={styles.holder}>
-        <Image source={require("../assets/sound.png")} style={{width: 150, height: 100, alignSelf: "center", resizeMode: "contain", margin: "10%"}}/>
+        <Image source={require("../../assets/sound.png")} style={{width: 150, height: 100, alignSelf: "center", resizeMode: "contain", margin: "10%"}}/>
         <View>
           <Text style={styles.holderTitle}>{API.UIText("setupFourHeading")}</Text>
           <Text style={styles.holderContent}>{API.UIText("setupFourContent")}</Text>
           <View style={{flexDirection: "row", justifyContent: "center"}}>
             <TouchableOpacity onPress={() => this.speak({pitch: 0.7})} style={this.getPitchStyle(0.7)}>
-              <Image source={require("../assets/sound/pitch1.png")} style={styles.soundImage}/>
+              <Image source={require("../../assets/sound/pitch1.png")} style={styles.soundImage}/>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => this.speak({pitch: 1.0})} style={this.getPitchStyle(1.0)}>
-              <Image source={require("../assets/sound/pitch2.png")} style={styles.soundImage}/>
+              <Image source={require("../../assets/sound/pitch2.png")} style={styles.soundImage}/>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => this.speak({pitch: 1.3})} style={this.getPitchStyle(1.3)}>
-              <Image source={require("../assets/sound/pitch3.png")} style={styles.soundImage}/>
+              <Image source={require("../../assets/sound/pitch3.png")} style={styles.soundImage}/>
             </TouchableOpacity>
           </View>
           <View style={{flexDirection: "row", justifyContent: "center"}}>
             <TouchableOpacity onPress={() => this.speak({rate: 0.7})} style={this.getRateStyle(0.7)}>
-              <Image source={require("../assets/sound/rate1.png")} style={styles.soundImage}/>
+              <Image source={require("../../assets/sound/rate1.png")} style={styles.soundImage}/>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => this.speak({rate: 1.0})} style={this.getRateStyle(1.0)}>
-              <Image source={require("../assets/sound/rate2.png")} style={styles.soundImage}/>
+              <Image source={require("../../assets/sound/rate2.png")} style={styles.soundImage}/>
             </TouchableOpacity>
             <TouchableOpacity onPress={() => this.speak({rate: 1.3})} style={this.getRateStyle(1.3)}>
-              <Image source={require("../assets/sound/rate3.png")} style={styles.soundImage}/>
+              <Image source={require("../../assets/sound/rate3.png")} style={styles.soundImage}/>
             </TouchableOpacity>
           </View>
         </View>

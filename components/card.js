@@ -1,10 +1,9 @@
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity } from 'react-native';
-import Event from "../js/event";
-
-import Assets from '../js/assets';
-import Settings from '../js/settings';
 import { Speech } from 'expo';
+
+import API from "../api";
+import Assets from '../js/assets';
 
 export default class App extends React.Component {
   constructor(props){
@@ -28,12 +27,10 @@ export default class App extends React.Component {
       if(this.props.size == "big"){
         this.data.phrases = this.data.phrases.filter(p => (p.phrase == this.data.title));
       }
-      let language = await Settings.getOption("language");
-      let country = await Settings.getOption("country");
-      let speechCode = language +"-"+ country;
+      let speechCode = API.currentLang;
       console.log("Talking in the speech code: ", speechCode);
       Speech.speak(this.data.title, {language: speechCode});
-      Event.emit("announce", this.data);
+      API.event.emit("announce", this.data);
     }
   }
 

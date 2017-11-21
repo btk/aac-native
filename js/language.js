@@ -1,7 +1,9 @@
 // import this file for static CARD JSON FILE MAP
   let Obj = {
-    default: require('../data/card_en.json'),
-    en: require('../data/card_en.json'),
-    tr: require('../data/card_tr.json')
+    default: require('../data/languages/card_en.json'),
+    en: require('../data/languages/card_en.json'),
+    de: require('../data/languages/card_de.json'),
+    tr: require('../data/languages/card_tr.json'),
+    fr: require('../data/languages/card_fr.json')
   }
   export default Obj;

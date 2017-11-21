@@ -4,9 +4,10 @@ import { AsyncStorage } from 'react-native';
 import { Segment, Util } from 'expo';
 Segment.initialize({androidWriteKey: "298WYn6hOXv4BddjlNOZRagGaGclM9lk", iosWriteKey: "oE7PqdqThY76XZ12iwRHzJTYEh5KtC3s"});
 
-import UIText from './ui/text.json';
+import UIText from './data/text.json';
 
 import makeid from './js/makeid';
+import Event from './js/event';
 
 const NETWORK_STATUS = true;
 const _FLUSH = false;
@@ -24,6 +25,7 @@ let storage = new Storage({
 class Api {
   constructor(){
     this.segment = Segment;
+		this.event = Event;
     console.log("API: Created instance");
     this.currentLang = _DEVLANG;
     this.initApiCurrents();
