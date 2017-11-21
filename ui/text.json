@@ -63,7 +63,13 @@
 		"en": "What is Your Name?",
 		"de": "Was ist Ihr Name?",
 		"tr": "Adın Nedir?",
-		"fr": "Comment vous appelez-vous?"
+		"fr": "Votre Nom?"
+	},
+	"setupThreeInput": {
+		"en": "Your name...",
+		"de": "Ihr name...",
+		"tr": "Adınızı girin...",
+		"fr": "Votre nom..."
 	},
 	"setupThreeContent": {
 		"en": "What would you like me to call you when referring to you in the application?",
@@ -71,4 +77,40 @@
 		"tr": "Uygulama içinde senden bahsetmek için adına ne dememi istersin?",
 		"fr": "Qu'aimeriez-vous que je vous appelle lorsque je me réfère à vous dans la application?"
 	},
+	"setupFourHeading": {
+		"en": "Speech Settings",
+		"de": "Spracheinstellungen",
+		"tr": "Konuşma Ayarları",
+		"fr": "Paramètres de la Parole"
+	},
+	"setupFourContent": {
+		"en": "Let's setup the speech voice settings when cards are pressed.",
+		"de": "Lassen Sie uns die Sprachstimmeinstellungen einstellen, wenn Karten gedrückt werden.",
+		"tr": "Kartlara basıldığında çıkacak konuşma sesinin ayarlarını yapalım.",
+		"fr": "Configurons les paramètres de la voix vocale lorsque les cartes sont pressées."
+	},
+	"demoSpeechText": {
+		"en": "Hello, this is a test speech!",
+		"de": "Hallo, das ist eine Testrede!",
+		"tr": "Merhaba, bu bir test konuşmasıdır!",
+		"fr": "Bonjour, ceci est un test de discours!"
+	},
+	"setupFiveHeading": {
+		"en": "Congrats",
+		"de": "Glückwunsch",
+		"tr": "Tebrikler",
+		"fr": "Félicitations"
+	},
+	"setupFiveContent": {
+		"en": "Setup is successfully completed. Now you can start using Leeloo AAC app. Don't forget to tell your friends about us!",
+		"de": "Das Setup wurde erfolgreich abgeschlossen. Jetzt können Sie die Leeloo AAC App verwenden. Vergiss nicht, deinen Freunden von uns zu erzählen!",
+		"tr": "Kurulum başarıyla tamamlandı. Artık Leeloo AAC uygulamasını kullanmaya başlayabilirsiniz. Arkadaşlarınıza bizi önermeyi unutmayın!",
+		"fr": "L'installation est terminée avec succès. Maintenant, vous pouvez commencer à utiliser l'application Leeloo AAC. N'oubliez pas de parler de nous à vos amis!"
+	},
+	"setupFiveButton": {
+		"en": "Start Using",
+		"de": "Starten Sie mit",
+		"tr": "Kullanmaya Başla",
+		"fr": "Commencer à Utiliser"
+	}
 }

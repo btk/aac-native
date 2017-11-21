@@ -14,7 +14,9 @@ export default class App extends React.Component {
   }
 
   componentDidMount(){
-
+    this.setState({
+      data: API.currentLang ? API.currentLang : "en-US"
+    })
   }
 
   choose(data){

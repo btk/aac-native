@@ -8,6 +8,8 @@ import SetupZero from '../components/setup-zero';
 import SetupOne from '../components/setup-one';
 import SetupTwo from '../components/setup-two';
 import SetupThree from '../components/setup-three';
+import SetupFour from '../components/setup-four';
+import SetupFive from '../components/setup-five';
 
 export default class App extends React.Component {
   constructor(props){
@@ -25,12 +27,16 @@ export default class App extends React.Component {
   buttonPress(data, component){
     console.log("Button Data: ", data);
     this.animate(1);
-    setTimeout(() => {
-      this.setState({step: component + 1});
-    }, 400);
-    setTimeout(() => {
-      this.animate(0);
-    }, 600);
+    if(data == "finish"){
+      this.props.finished();
+    }else{
+      setTimeout(() => {
+        this.setState({step: component + 1});
+      }, 400);
+      setTimeout(() => {
+        this.animate(0);
+      }, 600);
+    }
   }
 
   animate(toVal){
@@ -52,6 +58,10 @@ export default class App extends React.Component {
       return (<SetupTwo button={this.buttonPress.bind(this)}/>);
     }else if(step == 3){
       return (<SetupThree button={this.buttonPress.bind(this)}/>);
+    }else if(step == 4){
+      return (<SetupFour button={this.buttonPress.bind(this)}/>);
+    }else if(step == 5){
+      return (<SetupFive button={this.buttonPress.bind(this)}/>);
     }
   }
 

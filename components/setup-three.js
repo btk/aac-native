@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity, TextInput } from 'react-native';
+import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity, TextInput, KeyboardAvoidingView } from 'react-native';
 import { LinearGradient, Svg } from 'expo';
 
 import API from '../api';
@@ -9,30 +9,43 @@ export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      avatar: "boy1"
+      text: "",
     }
     API.getData("avatar").then(avatar => { this.setState({avatar}); });
   }
 
+  componentDidMount(){
+    setTimeout(() => {
+      this.refs.textInput.focus();
+    }, 500);
+  }
+
+  setName(){
+    if(this.state.text){
+      API.setData("name", this.state.text);
+    }
+  }
+
   render() {
     return (
-      <View style={styles.holder}>
-        <Image source={Avatar[this.state.avatar + "_png"]} style={{width: 150, height: 150, alignSelf: "center", margin: "10%"}}/>
+      <KeyboardAvoidingView
+        style={styles.holder} behavior="padding">
+        <Image source={Avatar[this.state.avatar + "_png"]} style={{width: 140, height: 140, alignSelf: "center", margin: "10%"}}/>
         <View>
           <Text style={styles.holderTitle}>{API.UIText("setupThreeHeading")}</Text>
           <Text style={styles.holderContent}>{API.UIText("setupThreeContent")}</Text>
           <TextInput
-            style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+            style={styles.input}
             onChangeText={(text) => this.setState({text})}
             value={this.state.text}
-            placeholder="Your name..."
+            placeholder={API.UIText("setupThreeInput")}
+            ref={'textInput'}
           />
         </View>
-        <TouchableOpacity onPress={() => this.props.button(true, 3)} style={styles.button}>
+        <TouchableOpacity onPress={() => { this.setName(); this.props.button(true, 3); }} style={styles.button}>
           <Text style={styles.buttonText}>{API.UIText("setupZeroButton")}</Text>
         </TouchableOpacity>
-        <Text style={styles.copy}>Dream Oriented Inc.</Text>
-      </View>
+      </KeyboardAvoidingView>
     );
   }
 }
@@ -71,6 +84,17 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     borderRadius: 25,
     margin: "10%"
+  },
+  input: {
+    width: "80%",
+    height: 40,
+    fontSize: 18,
+    backgroundColor: "#fff",
+    borderRadius: 25,
+    borderWidth: 1,
+    textAlign: "center",
+    borderColor: "#eee",
+    marginHorizontal: "10%",
   },
   buttonText: {
     color: "#fff",

@@ -14,7 +14,8 @@ export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      currentLang: ""
+      currentLang: "",
+      setup: true
     }
 
     if(LANGUAGE_FLUSH && !(this.state.currentLang)){
@@ -46,12 +47,21 @@ export default class App extends React.Component {
 
   render() {
     if(this.state.currentLang){
-      return (
-        <View style={styles.generalContainer}>
-          <StatusBar hidden={true}/>
-          <Setup/>
-        </View>
-      );
+      if(this.state.setup){
+        return (
+          <View style={styles.generalContainer}>
+            <StatusBar hidden={true}/>
+            <Setup finished={() => { this.setState({setup: false}); }}/>
+          </View>
+        );
+      }else{
+        return (
+          <View style={styles.generalContainer}>
+            <StatusBar hidden={true}/>
+            <Layout language={this.state.currentLang}/>
+          </View>
+        );
+      }
     } else {
       return null;
     }
