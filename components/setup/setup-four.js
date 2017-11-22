@@ -23,8 +23,18 @@ export default class App extends React.Component {
     let speechCode = API.currentLang;
     console.log("Talking in the speech code: ", speechCode);
 
-    if(setting.pitch){ this.setState({pitch: setting.pitch}); }
-    if(setting.rate){ this.setState({rate: setting.rate}); }
+    if(setting.pitch){
+      this.setState({pitch: setting.pitch});
+      API.setData("pitch", setting.pitch);
+      API.speakPitch = setting.pitch;
+      API.segment.trackWithProperties("setSpeakPitch", {pitch: setting.pitch});
+    }
+    if(setting.rate){
+      this.setState({rate: setting.rate});
+      API.setData("rate", setting.rate);
+      API.speakRate = setting.rate;
+      API.segment.trackWithProperties("setSpeakRate", {rate: setting.rate});
+    }
     setTimeout(() => {
       Speech.speak(API.UIText("demoSpeechText"), {language: speechCode, pitch: this.state.pitch, rate: this.state.rate});
     }, 100);

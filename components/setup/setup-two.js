@@ -17,6 +17,7 @@ export default class App extends React.Component {
   choose(avatar){
     this.setState({avatar});
     API.setData("avatar", avatar);
+    API.segment.trackWithProperties("chooseAvatar", {avatar: avatar});
   }
 
   getStyle(avatar){

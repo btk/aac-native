@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, ScrollView, Dimensions } from 'react-native';
 
 import Card from '../components/card';
 
+import API from '../api';
+
 export default class App extends React.Component {
   constructor(props){
     super(props);
@@ -21,6 +23,7 @@ export default class App extends React.Component {
         cardData: newProps.localizedCardData.filter(c => c.parents.includes(newProps.group)),
         loading: true
       });
+      API.segment.screenWithProperties(newProps.group, {grid: this.state.gridSize});
       setTimeout(() => {
         this.setState({loading: false});
       }, 1);

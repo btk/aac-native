@@ -1,10 +1,12 @@
 import React from 'react';
-import { StyleSheet, View, Dimensions, Image } from 'react-native';
+import { View, Dimensions } from 'react-native';
+
+import API from '../api';
+import CardArrayLanguage from '../js/language';
 
 import Cards from './cards';
 import Groups from './groups';
 import Announcer from '../components/announcer';
-import CardArrayLanguage from '../js/language';
 
 export default class App extends React.Component {
   constructor(props){
@@ -12,7 +14,7 @@ export default class App extends React.Component {
     this.state = {
       currentGroup: "general",
       gridSize: this.getGridSizeRelativeToDimension(),
-      localizedCardData: this.getLocalizedCardData(props.language)
+      localizedCardData: this.getLocalizedCardData(API.currentLang)
     };
     Dimensions.addEventListener("change", () => {
       this.setState({
@@ -21,10 +23,8 @@ export default class App extends React.Component {
     });
   }
 
-  componentWillReceiveProps(newProp){
-    this.setState({
-      localizedCardData: this.getLocalizedCardData(newProp.language)
-    });
+  componentWillUnmount(){
+    Dimensions.removeEventListener("change", () => {});
   }
 
   getLocalizedCardData(lang){
@@ -41,9 +41,13 @@ export default class App extends React.Component {
     this.setState({currentGroup: newGroupString});
   }
 
+  componentDidMount(){
+    API.segment.screen("start");
+  }
+
   render() {
     return (
-      <View style={styles.carrier}>
+      <View style={{flex: 1, flexDirection: 'row'}}>
         <Cards
           group={this.state.currentGroup}
           gridSize={this.state.gridSize}
@@ -57,10 +61,3 @@ export default class App extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-  carrier: {
-    flex: 1,
-    flexDirection: 'row'
-  }
-});

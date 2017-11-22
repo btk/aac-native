@@ -1,8 +1,8 @@
 import Storage from 'react-native-storage';
 import { AsyncStorage } from 'react-native';
 
-import { Segment, Util } from 'expo';
-Segment.initialize({androidWriteKey: "298WYn6hOXv4BddjlNOZRagGaGclM9lk", iosWriteKey: "oE7PqdqThY76XZ12iwRHzJTYEh5KtC3s"});
+import { Segment, Util, Speech } from 'expo';
+Segment.initialize({androidWriteKey: "9SJrc2x0DJOxu83Xjfi2b4OBi5Eaj4tJ", iosWriteKey: "6fPdx5AN1OyQzE5yJR15MbaN2AYFzDZc"});
 
 import UIText from './data/text.json';
 
@@ -28,6 +28,7 @@ class Api {
 		this.event = Event;
     console.log("API: Created instance");
     this.currentLang = _DEVLANG;
+
     this.initApiCurrents();
     if(_FLUSH){
 			this.flush();
@@ -37,6 +38,7 @@ class Api {
 	flush(){
 		// Flush to the begining state
 		this.setData("lang", "");
+		this.setData("setup", "start");
 		console.log("API: flushed");
 	}
 
@@ -51,6 +53,15 @@ class Api {
         this.segment.identify(uid);
         console.log("API: First time userId set");
 				console.log("Segment: User identified" + uid);
+      }
+    });
+
+    this.getData("setup").then(setupStatus => {
+        console.log("Setup status is: ", setupStatus);
+    }, err => {
+      if(err.name == "NotFoundError"){
+        this.setData("setup", "start");
+				console.log("Setup status set for the first time");
       }
     });
 
@@ -84,7 +95,38 @@ class Api {
         });
       }
     });
+
+		this.getData("pitch").then(pitch => {
+				this.speakPitch = pitch;
+				console.log
+		}, err => {
+			if(err.name == "NotFoundError"){
+				this.speakPitch = 1.0;
+			}
+		});
+
+		this.getData("rate").then(rate => {
+				this.speakRate = rate;
+		}, err => {
+			if(err.name == "NotFoundError"){
+				this.speakRate = 1.0;
+			}
+		});
+
   }
+
+	speak(speakText){
+		console.log("Speak With", {
+			language: this.currentLang,
+			pitch: this.speakPitch,
+			rate: this.speakRate
+		});
+		Speech.speak(speakText, {
+			language: this.currentLang,
+			pitch: this.speakPitch,
+			rate: this.speakRate
+		});
+	}
 
   UIText(identifier, forcedLang){
 		if(UIText[identifier]){

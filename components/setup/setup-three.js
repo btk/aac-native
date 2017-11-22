@@ -23,6 +23,7 @@ export default class App extends React.Component {
   setName(){
     if(this.state.text){
       API.setData("name", this.state.text);
+      API.segment.trackWithProperties("setName", {name: this.state.text});
     }
   }
 

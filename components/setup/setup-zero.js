@@ -22,6 +22,7 @@ export default class App extends React.Component {
   choose(data){
     this.setState({data});
     API.changeLang(data.split("-")[0]);
+    API.segment.trackWithProperties("chooseLanguage", {lang: data});
   }
 
   getStyle(data){

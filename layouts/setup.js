@@ -22,6 +22,7 @@ export default class App extends React.Component {
 
   componentDidMount(){
     this.animate(0);
+    API.segment.screen("setup");
   }
 
   buttonPress(data, component){

@@ -3,9 +3,15 @@ import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity, Animated }
 let { height, width } = Dimensions.get('window');
 import Assets from '../js/assets';
 
+import API from '../api'
+
 export default class App extends React.Component {
   constructor(props){
     super(props);
+  }
+
+  componentDidMount(){
+    API.segment.trackWithProperties("card", {slug: this.props.data.slug, title: this.props.data.title});
   }
 
   render() {
@@ -37,6 +43,8 @@ const styles = StyleSheet.create({
   },
   cardText: {
     fontSize: 25,
-    color: "#555"
+    color: "#555",
+    textAlign: "center",
+    marginHorizontal: "5%"
   }
 });

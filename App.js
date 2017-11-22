@@ -5,6 +5,7 @@ import { Text, View, StatusBar } from 'react-native';
 
 import Layout from './layouts/app';
 import Setup from './layouts/setup';
+import Setting from './layouts/setting';
 
 import API from './api';
 
@@ -12,15 +13,44 @@ export default class App extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      setup: true
+      setup: false,
+      setting: false
     }
   }
 
+  componentWillMount(){
+    API.getData("setup").then(setupStatus => {
+      if(setupStatus == "start"){
+        this.setState({setup: "start"});
+      }else{
+        this.setState({setup: "done"});
+      }
+    });
+  }
+
+  componentDidMount(){
+    API.event.addListener("setting", (setting) => {
+      //this.setState({setting});
+      this.setState({setup: "start"});
+    });
+  }
+
+  setupFinished(){
+    this.setState({setup: "done"});
+    API.setData("setup", "done");
+  }
+
   renderMainComponent(){
-    if(this.state.setup){
-      return(<Setup finished={() => { this.setState({setup: false}); }}/>);
+    if(this.state.setup == "start"){
+      return(<Setup finished={this.setupFinished.bind(this)}/>);
+    }else if(this.state.setup == "done"){
+      if(this.state.setting){
+        return(<Setting/>);
+      }else{
+        return(<Layout language={this.state.currentLang}/>);
+      }
     }else{
-      return(<Layout language={this.state.currentLang}/>);
+      return null;
     }
   }
 

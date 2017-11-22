@@ -1,7 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity, Animated } from 'react-native';
+
 let { height, width } = Dimensions.get('window');
+
 import Event from "../js/event";
+import API from "../api";
 
 import Child from './child';
 import AnnouncerButton from './announcerButton';
@@ -16,7 +19,8 @@ export default class App extends React.Component {
       animation: new Animated.Value(0),
       orientation: this.getOrientation()
     }
-    Event.addListener("announce", (data) => {
+
+    API.event.addListener("announce", (data) => {
       this.setState({data});
       this.animateAnnouncer(1);
     });
@@ -38,6 +42,13 @@ export default class App extends React.Component {
     setTimeout(() => {
       this.setState({data: null});
     }, 300);
+  }
+
+  setting(){
+    this.animateAnnouncer(0);
+    setTimeout(() => {
+      API.event.emit("setting", true);
+    }, 100);
   }
 
   animateAnnouncer(toVal){
@@ -109,14 +120,8 @@ export default class App extends React.Component {
           <Animated.View style={[styles.announcerInner, animationStyle, portraitStyle.inner]}>
             <View style={[styles.childCarrier, portraitStyle.childCarrier]}>
               <AnnouncerButton type="back" onPressFunc={this.back.bind(this)}/>
-              <Child width={((width<height)?width:height) * 0.4}
-                     height={((width<height)?width:height) * 0.4}
-                     tan="#FFE1B2"
-                     hair="#734A3E"
-                     eye="#623F33"
-                     shirt="#a94f4f"
-                     />
-               <AnnouncerButton type="settings" onPressFunc={this.back.bind(this)}/>
+              <Child width={((width < height)?width:height) * 0.4} height={((width < height)?width:height) * 0.4}/>
+              <AnnouncerButton type="settings" onPressFunc={this.setting.bind(this)}/>
             </View>
             <View style={[styles.speechCarrier, portraitStyle.speechCarrier]}>
               {this.renderInnerSpeech(this.state.data)}
