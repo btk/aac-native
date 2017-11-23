@@ -30,7 +30,7 @@ export default class App extends React.Component {
   render() {
     return (
       <KeyboardAvoidingView
-        style={styles.holder} behavior="padding">
+        style={styles.holder} behavior="height">
         <Image source={Avatar[this.state.avatar + "_png"]} style={{width: 140, height: 140, alignSelf: "center", margin: "10%"}}/>
         <View>
           <Text style={styles.holderTitle}>{API.UIText("setupThreeHeading")}</Text>

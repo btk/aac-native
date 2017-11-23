@@ -27,9 +27,9 @@ export default class App extends React.Component {
 
   getStyle(data){
     if(this.state.data == data){
-      return {flexDirection: "row", margin: 5, paddingHorizontal: 10, backgroundColor: "#C7CFE2", borderRadius: 5, overflow: "hidden"};
+      return {flexDirection: "row", alignItems: "center", margin: 5, paddingHorizontal: 10, backgroundColor: "#C7CFE2", borderRadius: 5, overflow: "hidden"};
     }else{
-      return {flexDirection: "row", margin: 5, paddingHorizontal: 10};
+      return {flexDirection: "row", alignItems: "center", margin: 5, paddingHorizontal: 10};
     }
   }
 
@@ -121,7 +121,6 @@ const styles = StyleSheet.create({
     height: 40
   },
   langText: {
-    lineHeight: 40,
     marginHorizontal: 10
   }
 });

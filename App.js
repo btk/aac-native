@@ -33,6 +33,22 @@ export default class App extends React.Component {
       //this.setState({setting});
       this.setState({setup: "start"});
     });
+    this.checkTimeout();
+  }
+
+  checkTimeout(){
+    setTimeout(() => {
+      if(!this.state.setup){
+        API.getData("setup").then(setupStatus => {
+          if(setupStatus == "start"){
+            this.setState({setup: "start"});
+          }else{
+            this.setState({setup: "done"});
+          }
+        });
+        this.checkTimeout();
+      }
+    }, 300);
   }
 
   setupFinished(){
