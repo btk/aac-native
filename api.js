@@ -2,7 +2,8 @@ import Storage from 'react-native-storage';
 import { AsyncStorage } from 'react-native';
 
 import { Segment, Util, Speech } from 'expo';
-Segment.initialize({androidWriteKey: "9SJrc2x0DJOxu83Xjfi2b4OBi5Eaj4tJ", iosWriteKey: "6fPdx5AN1OyQzE5yJR15MbaN2AYFzDZc"});
+// Check segment credentials
+Segment.initialize({androidWriteKey: "xxx", iosWriteKey: "xxx"});
 
 import UIText from './data/text.json';
 
