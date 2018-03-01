@@ -10,6 +10,7 @@ import UIText from './data/text.json';
 import makeid from './js/makeid';
 import Event from './js/event';
 
+// For test cases
 const NETWORK_STATUS = true;
 const _FLUSH = false;
 const _DEVLANG = false;
@@ -149,7 +150,7 @@ class Api {
 	}
 
   // These are like kinda private;
-  // But fuck it, use them in the general app, who cares.
+  // But xxx it, use them in the general app, who cares.
   setData(key, data){
     return storage.save({key, data});
   }
