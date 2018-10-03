@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "General",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Persoane",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Mâncare",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Sentimente",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Activități",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Școală",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Numere",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Ajutor",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mă poți ajuta?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Te pot ajuta?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Foame",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mi-e foame!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ți-e foame?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Îmi poți face ceva de mâncare?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sete",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Mi-e sete!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ți-e sete?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pot bea apă?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Doresc ceva de băut!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Toaletă",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Am nevoie la toaletă!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă duci la toaletă?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Am nevoie să fac caca"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Am nevoie să fac pipi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ce?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "La ce te referi?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ce înseamnă asta?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Da",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "OK!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "În regulă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Sunt de acord!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Corect"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nu",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nu!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Negativ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu sunt de acord!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Greșit"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bună",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Somn",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Am nevoie de somn"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să dorm"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Baie",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau sa fac baie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ajută-ma să fac duș"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Dimineață",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Bună dimineața"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Dimineața"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Noapte",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Noapte bună"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Noaptea"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ascultă",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ascultă-mă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Te ascult"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Afară",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să merg afară"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă duci afară?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Haine",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "A purta haine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Hainele mele sunt murdare"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să-mi împrumuți niște haine pentru a le purta?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă ajuți să mă îmbrac?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Casă",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să merg acasă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc casa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rănit",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "M-am rănit singur"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Am nevoie de un plasture"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Doare"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fericit",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt fericit"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești fericit?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trist",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt trist"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești trist?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Obosit",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt obosit"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești obosit?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Relaxat",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt relaxat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești relaxat?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Îndrăgostit",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt îndrăgostit"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești îndrăgostit?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Stresat",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt stresat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești stresat?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Recunoscător",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt recunoscător"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești recunoscător?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Confuz",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt confuz"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești confuz?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vesel",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt vesel"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești vesel?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nervos",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt nervos"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești nervos?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Deștept",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt deștept"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești deștept?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Temător",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt temător"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești temător?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Rușinat",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt rușinat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești rușinat?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Șocat",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt șocat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești șocat?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bolnav",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt bolnav"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești bolnav?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frustrat",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Sunt frustrat"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ești frustrat?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Măr",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un măr"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un măr"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un măr?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc mere"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Portocale",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o portocală"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o portocală"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci o portocală?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc portocale"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tacâmuri",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă ajuți să-mi folosesc tacâmurile?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să-mi dai niște tacâmuri?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Apă",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să beau apă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să beau apă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să bei apă?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "îmi place să beau apă"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Roșie",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc roșii"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc roșii"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci roșii?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc roșii"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cartof",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc cartofi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc cartofi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci cartofi?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc cartofi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Friptură",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc friptură"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc friptură"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci friptură?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc friptură"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pizza",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc pizza"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci pizza?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc pizza"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Hamburger",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un hamburger"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un hamburger?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc hamburgeri"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cartofi prăjiți",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc cartofi prăjiți"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc cartofi prăjiți"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci cartofi prăjiți?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc cartofi prăjiți"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Înghețată",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc înghețată"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc înghețată"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci înghețată?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc înghețată"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Prăjitură",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o prăjitură"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o prăjitură"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci prăjituri?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc prăjituri"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cereale",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc cereale"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc cereale"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci cereale?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc cereale"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ou prăjit",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un ou prăjit"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un ou prăjit"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un ou prăjit?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc ouă prăjite"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ou fiert",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un ou fiert"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un ou fiert"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un ou fiert?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc ouă fierte"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brânză",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc brânză"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc brânză"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci brânză?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc brânză"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pui",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc pui"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc pui"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci pui?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc pui"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sandwich",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un sandwich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un sandwich"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un sandwich?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc sandwichuri"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Salată",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc salată"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc salată"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci salată?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc salată"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pâine",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc pâine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc pâine"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci pâine?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc pâine"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Morcov",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un morcov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un morcov"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un morcov?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc morcovi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bomboane",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc bomboane"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc bomboane"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci bomboane?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc bomboane"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tort",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc tort"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc tort"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci tort?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc tort"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brocoli",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc brocoli"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc brocoli"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci brocoli?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc brocoli"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cireșe",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc cireșe"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc cireșe"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci cireșe?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc cireșe"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fasole",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc fasole"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc fasole"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci fasole?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc fasole"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Banană",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o banană"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o banană"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci o banană?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc banane"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ciocolată",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc ciocolată"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc ciocolată"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci ciocolată?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc ciocolată"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cola",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să beau cola"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să beau cola"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să bei cola?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să beau cola"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Brioșă",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o brioșă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o brioșă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci o brioșă?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc brioșe"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Gogoașă",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o gogoașă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o gogoașă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci o gogoașă?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc gogoși"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pește",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc pește"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc pește"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci pește?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc pește"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc sushi"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci sushi?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc sushi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Porumb",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc porumb"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc porumb"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci porumb?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc porumb"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lămâie",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o lămâie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o lămâie"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci o lămâie?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc lămâi"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Muștar",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau muștar în mâncare"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau muștar în mâncare"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei muștar?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place muștarul în mâncare"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Piersică",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc o piersică"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc o piersică"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci o piersică?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc piersici"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ananas",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc ananas"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc ananas"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci ananas?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc ananas"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zmeură",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc zmeură"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc zmeură"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci zmeură?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc zmeură"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Căpșuni",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc căpșuni"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc căpșuni"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci căpșuni?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc căpșuni"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Pepene",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc pepene"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc pepene"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci pepene?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc pepene"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Struguri",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc struguri"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc struguri"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci struguri?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc struguri"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Avocado",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un avocado"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un avocado"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci avocado?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc avocado"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Orez",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc orez"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc orez"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci orez?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc orez"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Spaghete",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc spaghete"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc spaghete"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci spaghete?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc spaghete"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lapte",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să beau lapte"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să beau lapte"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să bei lapte?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să beau lapte"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ceai",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să beau ceai"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să beau ceai"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să bei ceai?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să beau ceai"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Miere",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc miere"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc miere"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci miere?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc miere"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc un kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc un kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci un kebab?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc kebab"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să mănânc taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu vreau să mănânc taco"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mănânci taco?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Îmi place să mănânc taco"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mama",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc mama"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd mama"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tata",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc tatăl"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd tatăl"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Părinți",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc părinții"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd părinții"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Bunici",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc bunicii"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd bunicii"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Frate",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc fratele"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd fratele"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Soră",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc sora"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd sora"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Unchi",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc unchiul"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd unchiul"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mătușă",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc mătușa"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd mătușa"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Profesor",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc profesorul"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd profesorul"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Terapeut",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc terapeutul"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd terapeutul"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doctor",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc doctorul"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd doctorul"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Prieteni",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi iubesc prietenii"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Nu-mi plac prietenii mei"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să-mi văd prietenii"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să vorbesc cu prietenii mei"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Carte",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Î-mi citesc cartea"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să-mi dai cartea?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Caiet",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Î-mi iau notițe în caiet"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să-mi dai caietul?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Creion",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Scriu cu creionul meu"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să-mi dai creionul meu?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tablă",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Lecție",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Liniște",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Trebuie să fiu tăcut la lecții"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Trebuie să fii tăcut la lecții"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Matematică",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place matematica"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să învăț matematică"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Literatură",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place literatura"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vreau să învăț literatură"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Întrebări",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Am o întrebare"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Pot pune o întrebare?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Înțelegere",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nu înțeleg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să explici?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Temă pentru acasă",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Trebuie să-mi fac tema pentru acasă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă ajuți cu tema pentru acasă?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Mers",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Să ne plimbăm"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să ne plimbăm?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Alergare",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să alerg"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să alergăm?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Vorbă",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să vorbesc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să vorbim?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Citit",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să citesc"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă ajuți să citesc?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Fotbal",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să joc fotbal"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Haide să jucam fotbal"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Baschet",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să joc baschet"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Haide să jucam baschet"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Înot",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să înot"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să mergem să înotăm?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Tenis",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să joc tenis
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să jucam tenis?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ciclism",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să merg pe bicicletă"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să mergem pe bicicletă?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Skating",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place skating"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să mergem la skating?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Plimbare turistică",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi plac plimbările turistice"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem merge în plimbări turistice?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jocuri video",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să mă joc jocuri video"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Putem să ne jucăm jocuri video?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Curățenie",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să-mi fac curat în cameră"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Poți să mă ajuți să-mi fac curat în cameră?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Jucării",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să mă joc cu jucăriile"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să te joci cu jucăriile mele?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Puzzle",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să rezolv puzzle-uri"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să rezolvam un puzzle amândoi?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Benzi desenate",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să citesc benzi desenate"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să citim benzi desenate?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Șah",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Îmi place să joc șah"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Vrei să jucam șah?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Unu",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Doi",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Trei",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Patru",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cinci",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Șase",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Șapte",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Opt",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nouă",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Zece",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Douăzeci",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Treizeci",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Patruzeci",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cincizeci",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Șaizeci",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Șaptezeci",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Optzeci",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Nouăzeci",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "O sută,
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Calculator",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
