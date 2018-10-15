@@ -710,7 +710,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Orange",
+		"title": "ਸੰਤਰਾ",
 		"slug": "orange",
 		"parents": [
 			"foods"
@@ -832,7 +832,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Steak",
+		"title": "ਸਟੀਕ",
 		"slug": "steak",
 		"parents": [
 			"foods"
@@ -1222,7 +1222,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Candy",
+		"title": "ਕੈਂਡੀ",
 		"slug": "candy",
 		"parents": [
 			"foods"
@@ -1300,7 +1300,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Cherries",
+		"title": "ਚੈਰੀਜ਼",
 		"slug": "cherries",
 		"parents": [
 			"foods"
@@ -1308,15 +1308,15 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, cherries"
+				"phrase": "ਮੈਂ ਚੈਰੀ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹਾਂ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰੋ, ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, cherries"
+				"phrase": "ਮੈਂ ਚੈਰੀ ਖਾਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, cherries?"
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚੈਰੀ ਖਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 			},
 			{
 				"symbol": "like",
@@ -1456,7 +1456,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Donut",
+		"title": "ਡੋਨਟ",
 		"slug": "doughnut",
 		"parents": [
 			"foods"
@@ -1464,19 +1464,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ donut"
+				"phrase": "ਮੈਂ ਇੱਕ ਡਨਿਟ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹਾਂ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ donut"
+				"phrase": "ਮੈਂ ਇੱਕ ਡੋਨਟ ਨਹੀਂ ਖਾਣਾ ਚਾਹੁੰਦਾ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ donut?"
+				"phrase": "ਕੀ ਤੁਸੀਂ ਇੱਕ ਡਨਟ ਨੂੰ ਖਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ doughnuts"
+				"phrase": "ਮੈਨੂੰ ਡੋਨੱਟ ਖਾਣਾ ਪਸੰਦ ਹੈ"
 			}
 		]
 	},
@@ -1508,7 +1508,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Sushi",
+		"title": "ਸੁਸ਼ੀ",
 		"slug": "sushi",
 		"parents": [
 			"foods"
@@ -1516,19 +1516,19 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, sushi ਨੂੰ ਖਾਣ ਲਈ"
+				"phrase": "ਮੈਂ ਸੁਸ਼ੀ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹਾਂ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, sushi ਨੂੰ ਖਾਣ ਲਈ"
+				"phrase": "ਮੈਂ ਸੁਸ਼ੀ ਨਹੀਂ ਖਾਣਾ ਚਾਹੁੰਦਾ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ sushi ਨੂੰ ਖਾਣ ਲਈ?"
+				"phrase": "ਕੀ ਤੁਸੀਂ ਸੁਸ਼ੀ ਖਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, sushi ਖਾਣ"
+				"phrase": "ਮੈਨੂੰ ਸੁਸ਼ੀ ਖਾਣਾ ਪਸੰਦ ਹੈ"
 			}
 		]
 	},
@@ -1924,7 +1924,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Kebab",
+		"title": "ਕੇਬਾਬ",
 		"slug": "kebab",
 		"parents": [
 			"foods"
@@ -1932,25 +1932,25 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ kebab"
+				"phrase": "ਮੈਂ ਇੱਕ ਕਬਰ ਖਾਣਾ ਚਾਹੁੰਦਾ ਹਾਂ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ kebab"
+				"phrase": "ਮੈਂ ਕਬਰ ਨੂੰ ਖਾਣਾ ਨਹੀਂ ਚਾਹੁੰਦਾ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ kebab?"
+				"phrase": "ਕੀ ਤੁਸੀਂ ਕਬਰ ਨੂੰ ਖਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?"
 			},
 			{
 				"symbol": "like",
-				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ kebabs"
+				"phrase": "ਮੈਨੂੰ ਕਬਰ ਖਾਣਾ ਪਸੰਦ ਹੈ"
 			}
 		]
 	},
 	{
 		"type": "card",
-		"title": "Taco",
+		"title": "ਟੇਕੋ",
 		"slug": "taco",
 		"parents": [
 			"foods"
@@ -2139,7 +2139,7 @@
 	},
 	{
 		"type": "card",
-		"title": "Therapist",
+		"title": "ਚਿਕਿਤਸਕ",
 		"slug": "therapist",
 		"parents": [
 			"people"
@@ -2147,11 +2147,11 @@
 		"phrases": [
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ therapist"
+				"phrase": "ਮੈਂ ਆਪਣੇ ਥੈਰੇਪਿਸਟ ਨੂੰ ਪਿਆਰ ਕਰਦਾ ਹਾਂ"
 			},
 			{
 				"symbol": "hand",
-				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ therapist"
+				"phrase": "ਮੈਂ ਆਪਣੇ ਥੈਰੇਪਿਸਟ ਨੂੰ ਵੇਖਣਾ ਚਾਹੁੰਦਾ ਹਾਂ"
 			}
 		]
 	},
