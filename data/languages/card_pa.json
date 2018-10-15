@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "ਜਨਰਲ",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "ਲੋਕ",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "ਭੋਜਨ",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "ਦਿਲ",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "ਕੰਮ",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "ਸਕੂਲ",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "ਨੰਬਰ",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "ਮੈਨੂੰ ਮਦਦ ਕਰ",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਡੀ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ ਮੈਨੂੰ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਤੁਹਾਨੂੰ ਮਦਦ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਭੁੱਖੇ",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਭੁੱਖਾ ਰਿਹਾ ਹੈ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਭੁੱਖੇ ਹੋ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਕੁਝ ਭੋਜਨ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪਿਆਸਾ",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਸਾ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਪਿਆਸਾ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਕੁਝ ਪਾਣੀ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਕੁਝ ਪੀਣ ਲਈ!"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਟਾਇਲਟ",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਤਣ ਦੀ ਲੋੜ ਹੈ ਟਾਇਲਟ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਮੈਨੂੰ ਲੈ, ਟਾਇਲਟ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ poo"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ ਪ੍ਸ਼ਾਪ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕੀ?",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਕੀ ਮਤਲਬ ਹੈ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਜੋ ਕਿ ਕੀ ਮਤਲਬ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਜੀ",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਠੀਕ ਹੈ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਸਾਰੇ ਹੱਕ ਹੈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਇਸ ਗੱਲ ਨਾਲ ਸਹਿਮਤ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਸੱਜੇ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕੋਈ",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Nope!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਨਕਾਰਾਤਮਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸਹਿਮਤ ਨਾ ਕਰੋ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਗਲਤ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਹੈਲੋ",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਲੀਪ",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸੌਣ ਕਰਨ ਦੀ ਲੋੜ ਹੈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸੌਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਇਸ਼ਨਾਨ",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਇਸ਼ਨਾਨ ਲੈਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮਦਦ ਕਰ, ਇੱਕ ਸ਼ਾਵਰ ਲੈ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਵੇਰ ਨੂੰ",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਚੰਗਾ ਸਵੇਰ ਨੂੰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਸਵੇਰ ਦੇ ਵਿੱਚ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਰਾਤ ਨੂੰ",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਚੰਗਾ ਰਾਤ ਨੂੰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਰਾਤ ਨੂੰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸੁਣੋ",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੇਰੀ ਗੱਲ ਸੁਣੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਤੁਹਾਡੇ ਲਈ ਸੁਣਨ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬਾਹਰ",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਬਾਹਰ ਜਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਲੈ ਦੇ ਬਾਹਰ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕੱਪੜੇ",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਕੱਪੜੇ ਪਹਿਨਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੇਰੇ ਕੱਪੜੇ ਗੰਦੇ ਹਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਨੂੰ ਦੇਣ, ਮੈਨੂੰ ਕੁਝ ਕੱਪੜੇ ਪਹਿਨਣ ਲਈ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਪਹਿਨੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਘਰ",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਘਰ ਜਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮੇਰੇ ਘਰ ਨੂੰ ਪਿਆਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨੂੰ ਠੇਸ",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਆਪਣੇ ਆਪ ਨੂੰ ਠੇਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਇੱਕ ਦੀ ਲੋੜ ਹੈ ਡ ਸਹਾਇਤਾ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਇਸ ਨੂੰ ਦੁੱਖ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਧੰਨ",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਧੰਨ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਖੁਸ਼ੀ ਦਾ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸ਼੍ਰੋਮਣੀ ਅਕਾਲੀ ਦਲ",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਅਕਾਲੀ ਦਲ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਸ਼੍ਰੋਮਣੀ ਅਕਾਲੀ ਦਲ ਨੂੰ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਥੱਕ",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਥੱਕੇ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਥੱਕੇ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨਿਸਚਿੰਤ",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਿਸਚਿੰਤ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਨਿਸਚਿੰਤ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪਿਆਰ ਵਿੱਚ",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਵਿੱਚ am"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਪਿਆਰ ਵਿੱਚ ਹਨ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਜ਼ੋਰ",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਜ਼ੋਰ ਦਿੱਤਾ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਲੱਗਦਾ ਹੈ ਜ਼ੋਰ ਦਿੱਤਾ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸ਼ੁਕਰਗੁਜ਼ਾਰ",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮਹਿਸੂਸ ਸ਼ੁਕਰਗੁਜ਼ਾਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਮਹਿਸੂਸ ਸ਼ੁਕਰਗੁਜ਼ਾਰ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਉਲਝਣ",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਉਲਝਣ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਉਲਝਣ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਖ਼ੁਸ਼ੀ",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖ਼ੁਸ਼ੀ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖ਼ੁਸ਼ੀ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਗੁੱਸੇ",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਗੁੱਸੇ ਨੂੰ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਗੁੱਸੇ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਮਾਰਟ",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਕਿ ਸਮਾਰਟ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਮਹਿਸੂਸ ਸਮਾਰਟ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਡਰ",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਲੱਗਦਾ ਹੈ ਡਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਡਰ ਲੱਗਦਾ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸ਼ਰਮ",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸ਼ਰਮ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਸ਼ਰਮ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਹੈਰਾਨ",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਹੈਰਾਨ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਹੈਰਾਨ ਮਹਿਸੂਸ ਕਰਦੇ ਹਨ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬਿਮਾਰ",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਬਿਮਾਰ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਬਿਮਾਰ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਮਾਯੂਸ",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਿਰਾਸ਼ ਮਹਿਸੂਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਨਿਰਾਸ਼ ਮਹਿਸੂਸ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਐਪਲ",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਐਪਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਇੱਕ ਸੇਬ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਸੇਬ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਸੇਬ ਖਾਣ ਵਰਗਾ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Orange",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਸੰਤਰੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਇੱਕ ਸੰਤਰੀ ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਸੰਤਰੀ ਨੂੰ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਸੰਤਰੇ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕਟਲਰੀ",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਮਦਦ ਨੂੰ ਵਰਤਣ ਮੇਰੇ ਕਟਲਰੀ?"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਨੂੰ ਦੇਣ, ਮੈਨੂੰ ਕੁਝ ਕਟਲਰੀ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪਾਣੀ",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪੀਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਕੁਝ ਪਾਣੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਪੀਣ ਲਈ ਪਾਣੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਕੁਝ ਪਾਣੀ ਪੀਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਪੀਣ ਵਾਲੇ ਪਾਣੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਟਮਾਟਰ",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਟਮਾਟਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਟਮਾਟਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਟਮਾਟਰ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਟਮਾਟਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਆਲੂ",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਆਲੂ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਆਲੂ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਆਲੂ ਨੂੰ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਆਲੂ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Steak",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, steak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ steak"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, steak?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ steak"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪੀਜ਼ਾ",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਪੀਜ਼ਾ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਪੀਜ਼ਾ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਪੀਜ਼ਾ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਪੀਜ਼ਾ ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਹੈਮਬਰਗਰ",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ ਹੈਮਬਰਗਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਹੈਮਬਰਗਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਹੈਮਬਰਗਰ ਹੈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਹੈਮਬਰਗਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਫ੍ਰਾਈਜ਼",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਫ੍ਰਾਈਜ਼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਫ੍ਰਾਈਜ਼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਫ੍ਰਾਈਜ਼?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਫ੍ਰਾਈਜ਼"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਆਈਸ ਕਰੀਮ",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਆਈਸ ਕਰੀਮ ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਆਈਸ ਕਰੀਮ ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਆਈਸ ਕਰੀਮ ਨੂੰ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਆਈਸ ਕਰੀਮ ਖਾਣ ਨੂੰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕੂਕੀ",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ ਕੂਕੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਕੂਕੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਕੂਕੀਜ਼ ਨੂੰ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਕੂਕੀਜ਼ ਨੂੰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸੀਰੀਅਲ",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸੀਰੀਅਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਨੂੰ ਖਾਣ ਸੀਰੀਅਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਸੀਰੀਅਲ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਸੀਰੀਅਲ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਤਲੇ ਅੰਡੇ",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਤਲੇ ਅੰਡੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਤਲੇ ਅੰਡੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਤਲੇ ਅੰਡੇ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਵਰਗੇ ਤਲੇ ਅੰਡੇ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਉਬਾਲੇ ਅੰਡੇ",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਉਬਾਲੇ ਅੰਡੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਉਬਾਲੇ ਅੰਡੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਉਬਾਲੇ ਅੰਡੇ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਉਬਾਲੇ ਅੰਡੇ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪਨੀਰ",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਪਨੀਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਨੂੰ ਖਾਣ ਨੂੰ ਪਨੀਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਪਨੀਰ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਨੂੰ ਪਨੀਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਿਕਨ",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਚਿਕਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਨੂੰ ਖਾਣ ਚਿਕਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਚਿਕਨ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਚਿਕਨ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਵਕਤ ਦੇ",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ ਵਕਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਵਕਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਵਕਤ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਵਾਲਾ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਲਾਦ",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਸਲਾਦ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਸਲਾਦ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਸਲਾਦ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਸਲਾਦ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਰੋਟੀ",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਰੋਟੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਰੋਟੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਰੋਟੀ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਨੂੰ ਰੋਟੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਗਾਜਰ",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਗਾਜਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਗਾਜਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਗਾਜਰ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਗਾਜਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Candy",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ candy ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, candy ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ candy ਨੂੰ ਖਾਣ ਲਈ ਹੈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ candy"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕੇਕ",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਕੇਕ ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਕੇਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਕੇਕ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਵਰਗੇ ਕੇਕ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬਰੌਕਲੀ",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਬਰੌਕਲੀ ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਬਰੌਕਲੀ ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਬਰੌਕਲੀ ਨੂੰ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਬਰਾਕਲੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cherries",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, cherries"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰੋ, ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, cherries"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, cherries?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਚੈਰੀ ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬੀਨਜ਼",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਬੀਨਜ਼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਬੀਨਜ਼ ਨੂੰ ਖਾਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਬੀਨਜ਼ ਨੂੰ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਬੀਨਜ਼"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Banana",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਇੱਕ ਕੇਲਾ ਖਾਣ ਦੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਇੱਕ ਕੇਲਾ ਖਾਣ ਦੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਕੇਲਾ ਖਾਣ ਦੀ ਹੈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਕੇਲੇ ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਾਕਲੇਟ",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ ਚਾਕਲੇਟ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਚਾਕਲੇਟ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਚਾਕਲੇਟ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਚਾਕਲੇਟ ਖਾਣ ਨੂੰ ਪਸੰਦ ਹੈ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਰਮ",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪੀਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਰਮ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਰਮ ਪੀਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਰਮ ਪੀਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪੀਣ ਨੂੰ ਪਸੰਦ ਰਮ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cupcake",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ cupcake?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ cupcakes"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Donut",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ donut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ donut"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ donut?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ doughnuts"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਮੱਛੀ",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਮੱਛੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਮੱਛੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਮੱਛੀ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਮੱਛੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Sushi",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, sushi ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, sushi ਨੂੰ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ sushi ਨੂੰ ਖਾਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, sushi ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਮੱਕੀ",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੱਕੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਨੂੰ ਖਾਣ ਮੱਕੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਮੱਕੀ ਹੈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਮੱਕੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨਿੰਬੂ",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਨਿੰਬੂ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ ਨਿੰਬੂ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਨਿੰਬੂ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ lemons"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਰਾਈ",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਰਾਈ ਮੇਰੇ ਨਾਲ ਭੋਜਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਰਾਈ ਮੇਰੇ ਨਾਲ ਭੋਜਨ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ ਕੁਝ ਰਾਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਰਾਈ ਮੇਰੇ ਨਾਲ ਭੋਜਨ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਆੜੂ",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਇੱਕ ਆੜੂ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਆੜੂ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਆੜੂ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ, ਪੀਚ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਅਨਾਨਾਸ",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਅਨਾਨਾਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰੋ, ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਅਨਾਨਾਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਅਨਾਨਾਸ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਅਨਾਨਾਸ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਰਸਬੇਰੀ",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਰਸਬੇਰੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰੋ, ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਰਸਬੇਰੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਰਸਬੇਰੀ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਰਸਬੇਰੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਟ੍ਰਾਬੇਰੀ",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸਟ੍ਰਾਬੇਰੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਨੂੰ ਖਾਣ ਸਟ੍ਰਾਬੇਰੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸਟ੍ਰਾਬੇਰੀ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਖਾਣ ਸਟ੍ਰਾਬੇਰੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਤਰਬੂਜ",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਤਰਬੂਜ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰੋ, ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਤਰਬੂਜ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਤਰਬੂਜ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਤਰਬੂਜ ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਅੰਗੂਰ",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਅੰਗੂਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਨਾ ਚਾਹੁੰਦੇ, ਅੰਗੂਰ ਖਾਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਅੰਗੂਰ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਅੰਗੂਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਆਵਾਕੈਡੋ",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ ਆਵਾਕੈਡੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਆਵਾਕੈਡੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ ਆਵਾਕੈਡੋ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਆਵਾਕੈਡੋ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਾਵਲ",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਵਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਵਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਵਲ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਚਾਵਲ ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਪੈਗੇਟੀ",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸਪੈਗੇਟੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਸਪੈਗੇਟੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਸਪੈਗੇਟੀ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਸਪੈਗੇਟੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਦੁੱਧ",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਪੀਣ ਲਈ ਦੁੱਧ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਪੀਣ ਲਈ ਦੁੱਧ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਦੁੱਧ ਪੀਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਪੀਣ ਦੁੱਧ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਾਹ",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹ ਪੀਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਚਾਹ ਪੀਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਚਾਹ ਪੀਣ ਲਈ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਪੀਣ ਚਾਹ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸ਼ਹਿਦ",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸ਼ਹਿਦ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਸ਼ਹਿਦ ਖਾਣ ਲਈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸ਼ਹਿਦ ਖਾਣ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਸ਼ਹਿਦ ਖਾਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Kebab",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਇੱਕ kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ kebab"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਖਾਣ ਲਈ ਇੱਕ kebab?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ kebabs"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Taco",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਟਾਕੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾ ਕਰਦੇ, ਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ ਟਾਕੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਖਾਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਟਾਕੋ?"
+			},
+			{
+				"symbol": "like",
+				"phrase": "ਮੈਨੂੰ ਖਾਣਾ ਪਸੰਦ ਟਾਕੋ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਮਾਤਾ",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮੇਰੇ ਮਾਤਾ ਨੂੰ ਪਿਆਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਮਾਤਾ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪਿਤਾ",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮੇਰੇ ਪਿਤਾ ਨੂੰ ਪਿਆਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚਾਹੁੰਦੇ ਹੋ ਨੂੰ ਦੇਖਣ ਲਈ ਮੇਰੇ ਪਿਤਾ ਨੂੰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਮਾਪੇ",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ ਮਾਪੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਮਾਪੇ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਦਾਦਾ",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਮੇਰੇ ਦਾਦਾ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਦਾਦਾ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਭਰਾ",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮੇਰੇ ਭਰਾ ਨੂੰ ਪਿਆਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਭਰਾ ਨੂੰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਭੈਣ",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੀ ਭੈਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੀ ਭੈਣ ਨੂੰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਾਚਾ",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ ਚਾਚਾ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਚਾਚਾ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਭੂਆ",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ ਮਾਸੀ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਮਾਸੀ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਅਧਿਆਪਕ",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ ਅਧਿਆਪਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਅਧਿਆਪਕ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Therapist",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ therapist"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ therapist"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਡਾਕਟਰ",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਿਆਰ ਮੇਰੇ ਡਾਕਟਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਡਾਕਟਰ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਦੋਸਤ",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਮੇਰੇ ਦੋਸਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਨਾ ਕਰਦੇ, ਮੇਰੇ ਦੋਸਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵੇਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਦੋਸਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾਲ ਗੱਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਮੇਰੇ ਦੋਸਤ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕਿਤਾਬ",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਮੇਰੇ ਕਿਤਾਬ ਨੂੰ ਪੜ੍ਹ ਰਿਹਾ ਹੈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਦੇ ਦੇਵੋ, ਮੇਰੀ ਕਿਤਾਬ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨੋਟਬੁੱਕ",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਰਿਹਾ ਹੈ, ਸੂਚਨਾ ਨੂੰ ਲੈ ਕੇ ਕਰਨ ਲਈ, ਮੇਰੇ ਨੋਟਬੁੱਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਮੇਰੇ ਨੋਟਬੁੱਕ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪੈਨਸਿਲ",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਲਿਖ ਰਿਹਾ ਹੈ, ਮੇਰੇ ਨਾਲ ਪੈਨਸਿਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਮੇਰੇ ਪੈਨਸਿਲ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬਲੈਕ ਬੋਰਡ",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਬਕ",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚੁੱਪ",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਹੋਣ ਦੀ ਲੋੜ ਹੈ, ਚੁੱਪ ਵਿਚ ਸਬਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਕਰਨ ਦੀ ਲੋੜ ਹੈ, ਚੁੱਪ ਵਿਚ ਸਬਕ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਗਣਿਤ",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਗਣਿਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸਿੱਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਗਣਿਤ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਾਹਿਤ",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਸਾਹਿਤ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸਿੱਖਣ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸਾਹਿਤ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਵਾਲ",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਇੱਕ ਸਵਾਲ ਦਾ ਹੈ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਮੈਨੂੰ ਇੱਕ ਸਵਾਲ ਪੁੱਛਣ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨੂੰ ਸਮਝਣ",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਸਮਝ ਨਾ ਕਰਦੇ,"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਤੁਹਾਨੂੰ ਇਸ ਨੂੰ ਸਮਝਾਉਣ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਹੋਮਵਰਕ",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਕੀ ਕਰਨ ਦੀ ਲੋੜ ਹੈ ਮੇਰੇ ਹੋਮਵਰਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਦੀ ਮਦਦ ਨਾਲ ਮੈਨੂੰ ਮੇਰੇ ਹੋਮਵਰਕ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਤੁਰਨ",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਚਾਹੀਦਾ ਹੈ ਦੇ ਆਲੇ-ਦੁਆਲੇ ਚੱਲੋ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਸਾਨੂੰ ਸੈਰ ਲਈ ਜਾਣ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚੱਲ",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਚੱਲ ਵਰਗੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਸਾਨੂੰ ਕਰ ਸਕਦੇ ਹੋ ਚੱਲ ਜਾਣ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਗੱਲ",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਗੱਲ ਵਰਗੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਸਾਨੂੰ ਗੱਲ ਹੈ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪੜ੍ਹਨ",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪੜ੍ਹਨ ਵਰਗਾ."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਮਦਦ ਪੜ੍ਹਨ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਫੁੱਟਬਾਲ",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਫੁੱਟਬਾਲ ਖੇਡਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰੀਏ ਫੁੱਟਬਾਲ ਖੇਡਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬਾਸਕਟਬਾਲ",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਬਾਸਕਟਬਾਲ ਖੇਡਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰੀਏ ਬਾਸਕਟਬਾਲ ਖੇਡਣ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਤੈਰਾਕੀ",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਤਰਣਤਾਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਸਾਨੂੰ ਕਰ ਸਕਦੇ ਹੋ, ਤੈਰਾਕੀ ਜਾਣ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਟੈਨਿਸ",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖੇਡਣ ਵਰਗੇ ਟੈਨਿਸ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਸਾਨੂੰ ਟੈਨਿਸ ਖੇਡਣ ਇਕੱਠੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਾਈਕਲਿੰਗ",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਸਾਈਕਲਿੰਗ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਸਾਨੂੰ ਜਾਣ ਸਾਈਕਲ ਇਕੱਠੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸਕੇਟਿੰਗ",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਸਕੇਟਿੰਗ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਕਰਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਸਕੇਟ ਮੇਰੇ ਨਾਲ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬਾਰ",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਬਾਰ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਸਾਨੂੰ ਜਾਣ ਦੀ ਬਾਰ ਇਕੱਠੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਵੀਡੀਓ ਗੇਮਸ",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, ਵੀਡੀਓ ਗੇਮਜ਼ ਖੇਡਣ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕਰ ਸਕਦਾ ਹੈ, ਮੈਨੂੰ ਵੀਡੀਓ ਗੇਮਜ਼ ਖੇਡਣ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਇਥੇਸਹੀ",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਵਰਗੇ ਇਥੇਸਹੀ ਮੇਰੇ ਕਮਰੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਤੁਹਾਨੂੰ ਹੋ ਸਕਦਾ ਹੈ ਮੈਨੂੰ ਮਦਦ ਸੁਥਰਾ ਮੇਰੇ ਕਮਰੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਖਿਡੌਣੇ",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਨਾਲ ਖੇਡਣ ਵਰਗਾ ਮੇਰੇ ਖਿਡੌਣੇ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਖੇਡਣ ਲਈ ਮੇਰੇ ਨਾਲ ਖਿਡੌਣੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਬੁਝਾਰਤ",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪਸੰਦ ਹੈ, puzzles ਹੱਲ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਹਾਨੂੰ ਚਾਹੁੰਦੇ ਹੋ, ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਇੱਕ ਬੁਝਾਰਤ ਇਕੱਠੇ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕਾਮਿਕਸ",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਪੜ੍ਹਨ ਨੂੰ ਪਸੰਦ ਕਾਮਿਕ ਬੁੱਕ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਜੇਕਰ ਤੁਹਾਨੂੰ ਪੜ੍ਹਨ ਲਈ ਚਾਹੁੰਦੇ ਹੋ, ਕਾਮਿਕਸ ਮੇਰੇ ਨਾਲ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸ਼ਤਰੰਜ",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "ਮੈਨੂੰ ਖੇਡਣ ਵਰਗੇ ਸ਼ਤਰੰਜ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "ਕੀ ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ ਸ਼ਤਰੰਜ ਖੇਡਣ ਲਈ ਮੇਰੇ ਨਾਲ?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਇੱਕ",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਦੋ",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਤਿੰਨ",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਾਰ",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪੰਜ",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਛੇ",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸੱਤ",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਅੱਠ",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨੌ",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਦਸ",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਵੀਹ",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਤੀਹ",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਚਾਲੀ",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਪੰਜਾਹ",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸੱਠ",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਸੱਤਰ",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਅੱਸੀ",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਨੱਬੇ",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਇੱਕ ਸੌ",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "ਕੈਲਕੂਲੇਟਰ",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
