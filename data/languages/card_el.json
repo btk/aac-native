@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "Γενικά",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "Οι άνθρωποι",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "Τρόφιμα",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "Τα συναισθήματα",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "Δραστηριότητες",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "Το σχολείο",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "Αριθμοί",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "Να Με Βοηθήσει",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείτε να με βοηθήσετε;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορώ να σας βοηθήσω;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πεινασμένοι",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Πεινάω!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Πεινάς;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να μου κάνεις λίγο φαγητό;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Διψασμένος",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Διψάω!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Διψάς;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορώ να έχω λίγο νερό;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πιω κάτι."
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τουαλέτα",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θα πρέπει να χρησιμοποιήσετε την τουαλέτα!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να με πας στην τουαλέτα;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κάνω κακά"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κατουρήσω"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τι;",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Τι εννοείς;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Τι σημαίνει αυτό;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ναι",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "OK!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Εντάξει"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Συμφωνώ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Σωστά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Όχι",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Όχι!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Αρνητική"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν συμφωνώ!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Λάθος"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Γεια σας",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ύπνο",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κοιμηθώ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κοιμηθώ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μπάνιο",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κάνω ένα μπάνιο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Να με βοηθήσει να πάρετε ένα ντους"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το πρωί",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Καλημέρα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Το πρωί"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το βράδυ",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Καλό βράδυ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Το βράδυ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ακούστε",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Άκουσέ με"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Σε ακούω"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Έξω",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πάω έξω"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να με πας έξω;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ρούχα",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Φορώντας ρούχα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Τα ρούχα μου είναι βρώμικα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να μου δώσεις μερικά ρούχα να φορέσω;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείτε να με βοηθήσετε να ντυθείς;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το σπίτι",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πάω σπίτι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ το σπίτι μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κακό",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κάνω κακό στον εαυτό μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θα χρειαστείτε μια ενίσχυση μπάντα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Πονάει"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ευτυχισμένη",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω ευτυχισμένη"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις ευτυχισμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Λυπημένος",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω λυπημένος"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις λυπημένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εξαντληθεί",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω εξαντλημένη"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις εξαντλημένη;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Χαλαρή",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω χαλαρή"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις χαλαρός;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Στην Αγάπη",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Είμαι στην αγάπη"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Είσαι ερωτευμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τόνισε",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω τόνισε"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις αγχωμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ευγνώμων",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω ευγνώμων"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις ευγνώμων;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μπερδεμένος",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω μπερδεμένη"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις μπερδεμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Χαρούμενη",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω χαρούμενη"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις χαρούμενος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Θυμωμένος",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω θυμωμένος"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις θυμωμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εξυπνος",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω έξυπνος"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις έξυπνος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Φοβάμαι",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Φοβάμαι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις φοβισμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ντροπή",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ντρέπομαι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Αισθάνεσαι ντροπή;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σοκαρισμένος",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Είμαι σοκαρισμένος"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις σοκαρισμένος;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Άρρωστος",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω άρρωστος"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθεις άρρωστη;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Απογοητευμένοι",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Νιώθω απογοητευμένος"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Αισθάνεστε απογοητευμένοι;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Apple",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα μήλο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα μήλο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα μήλο;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μήλα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πορτοκαλί",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα πορτοκάλι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα πορτοκάλι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα πορτοκάλι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω πορτοκάλια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μαχαιροπήρουνα",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να με βοηθήσεις να μου μαχαιροπήρουνα;"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείτε να μου δώσετε κάποιες μαχαιροπήρουνα;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το νερό",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πιω λίγο νερό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να πιω νερό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλεις να πιεις λίγο νερό;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να πίνω νερό"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ντομάτα",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ντομάτες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ντομάτες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας ντομάτες;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω ντομάτες"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πατάτα",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω πατάτες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω πατάτες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε πατάτες;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω πατάτες"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μπριζόλα",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω μπριζόλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω μπριζόλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας μπριζόλα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μπριζόλα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πίτσα",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω πίτσα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω πίτσα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φάμε πίτσα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω πίτσα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Χάμπουργκερ",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα χάμπουργκερ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα χάμπουργκερ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα χάμπουργκερ;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω χάμπουργκερ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πατάτες",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω πατάτες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω πατάτες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε πατάτες;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω πατάτες"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Παγωτό",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω παγωτό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω παγωτό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας παγωτό;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω παγωτό"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cookie",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα μπισκότο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα μπισκότο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας τα cookies;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μπισκότα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Δημητριακά",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω τα δημητριακά"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω δημητριακά"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε δημητριακά;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω δημητριακά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τηγανητό Αυγό",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα τηγανητό αυγό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω τηγανητό αυγό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα τηγανητό αυγό;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω τηγανητά αυγά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Βραστό Αυγό",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα βραστό αυγό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλετε να φάτε ένα βραστό αυγό"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα βραστό αυγό;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω βραστά αυγά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τυρί",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώω τυρί"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να τρώω τυρί"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας τυρί;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω τυρί"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κοτόπουλο",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω κοτόπουλο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω κοτόπουλο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας κοτόπουλο;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω κοτόπουλο"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σάντουιτς",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα σάντουιτς"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάει ένα σάντουιτς"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα σάντουιτς;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σάντουιτς"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σαλάτα",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω σαλάτα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω σαλάτα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας σαλάτα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σαλάτα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ψωμί",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ψωμί"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάει ψωμί"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας ψωμί;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω ψωμί"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Καρότο",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα καρότο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλετε να φάτε ένα καρότο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα καρότο;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω καρότα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Καραμέλα",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάει την καραμέλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάει την καραμέλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να τρώτε γλυκά;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω γλυκά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κέικ",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω τούρτα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλει να τρώνε κέικ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας την τούρτα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω κέικ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το μπρόκολο",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω μπρόκολο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω μπρόκολο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε μπρόκολο;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μπρόκολο"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κεράσια",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώνε τα κεράσια,"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να τρώνε τα κεράσια,"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φάμε κεράσια;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώνε τα κεράσια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Φασόλια",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω φασόλια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω φασόλια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας φασόλια;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω φασόλια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μπανάνα",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω μια μπανάνα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω μια μπανάνα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε μια μπανάνα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μπανάνες"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σοκολάτα",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω σοκολάτα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω σοκολάτα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας σοκολάτα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σοκολάτα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κόκα κόλα",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πίνω κόκα κόλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να πίνω κόκα κόλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να πιείτε κόκα κόλα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να πίνω κόκα-κόλα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Cupcake",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα cupcake"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα γλυκάκι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω cupcakes"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ντόνατ",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώω ένα ντόνατ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλετε να φάτε ένα ντόνατ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα ντόνατ;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω ντόνατς"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ψάρια",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώνε τα ψάρια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να τρώνε τα ψάρια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας ψάρι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω ψάρια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σούσι",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω σούσι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω σούσι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας σούσι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σούσι"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Καλαμπόκι",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώνε καλαμπόκι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να τρώνε καλαμπόκι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε καλαμπόκι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω καλαμπόκι"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Λεμόνι",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα λεμόνι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάει ένα λεμόνι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας ένα λεμόνι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω λεμόνια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μουστάρδα",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω μουστάρδα με το φαγητό μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω μουστάρδα με το φαγητό μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλεις λίγη μουστάρδα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει η μουστάρδα με το φαγητό μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ροδάκινο",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα ροδάκινο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα ροδάκινο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ένα ροδάκινο;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω τα ροδάκινα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ανανά",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώτε ανανά"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάει ανανά"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να τρώτε ανανά;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω ανανά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σμέουρα",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω τα σμέουρα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω σμέουρα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας μούρα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σμέουρα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Φράουλες",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω φράουλες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω φράουλες"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε φράουλες;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω φράουλες"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Καρπούζι",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω καρπούζι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω καρπούζι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας καρπούζι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω καρπούζι"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σταφύλια",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώω σταφύλια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάει σταφύλια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας τα σταφύλια;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σταφύλια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Αβοκάντο",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να τρώω ένα αβοκάντο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να τρώω ένα αβοκάντο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε αβοκάντο;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώνε αβοκάντο"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ρύζι",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ρύζι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ρύζι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να φάτε ρύζι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω ρύζι"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σπαγγέτι",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω μακαρόνια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω μακαρόνια"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας μακαρόνια;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μακαρόνια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Γάλα",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πιω γάλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να πιω γάλα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να πιεις γάλα;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να πίνω γάλα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τσάι",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να πιω το τσάι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να πίνουν τσάι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλεις να πιείς τσάι;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να πίνω τσάι"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Γλυκιά μου",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω μέλι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω μέλι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας γλυκιά μου;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω μέλι"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κεμπάπ",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω ένα σουβλάκι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλω να φάω ένα σουβλάκι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φάμε κεμπάπ;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω σουβλάκια"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τάκο",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να φάω tacos"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν θέλουν να φάνε tacos"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θες να φας τα τάκος;"
+			},
+			{
+				"symbol": "like",
+				"phrase": "Μου αρέσει να τρώω τάκος"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μητέρα",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τη μητέρα μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τη μητέρα μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ο πατέρας",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τον πατέρα μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τον πατέρα μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Οι γονείς",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τους γονείς μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τους γονείς μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Οι παππούδες",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τους παππούδες μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τους παππούδες μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Αδερφέ",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τον αδελφό μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τον αδερφό μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Αδελφή",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ την αδελφή μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω την αδερφή μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ο θείος",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τον θείο μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τον θείο μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Η θεία",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τη θεία μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τη θεία μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Δάσκαλος",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπάω τη δασκάλα μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τον δάσκαλο μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ψυχολόγος",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τον θεραπευτή"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τον ψυχολόγο μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Γιατρός",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Λατρεύω το γιατρό μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω το γιατρό μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Φίλοι",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Αγαπώ τους φίλους μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Δεν μου αρέσει οι φίλοι μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να δω τους φίλους μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να μιλήσω στους φίλους μου"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το βιβλίο",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Διαβάζω το βιβλίο μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να μου δώσεις το βιβλίο μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σημειωματάριο",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Παίρνω σημειώσεις για το σημειωματάριο μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να μου δώσεις το σημειωματάριό μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μολύβι",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Γράφω με το μολύβι μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς δώσε μου το μολύβι μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μαυροπίνακας",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μάθημα",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ήσυχη",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θα πρέπει να είναι ήσυχο και σε μαθήματα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θα πρέπει να είναι ήσυχο και σε μαθήματα"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μαθηματικά",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσουν τα μαθηματικά"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να μάθουν μαθηματικά"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Βιβλιογραφία",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει η λογοτεχνία"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να μάθω λογοτεχνία"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ερώτηση",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Έχω μια ερώτηση"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Να κάνω μια ερώτηση;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Καταλαβαίνω",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Δεν καταλαβαίνω"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να το εξηγήσεις;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εργασία",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Θέλω να κάνω τα μαθήματά μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείτε να με βοηθήσετε με τα μαθήματά μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το περπάτημα",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Ας με τα πόδια γύρω από"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να πάμε μια βόλτα;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το τρέξιμο",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει το τρέξιμο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να πάμε για τρέξιμο;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μιλάμε",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να μιλάω"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να μιλήσουμε;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ανάγνωση",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να διαβάζω."
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορείς να με βοηθήσεις να διαβάσει;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το ποδόσφαιρο",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να παίζω ποδόσφαιρο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ας παίξουμε το ποδόσφαιρο"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Μπάσκετ",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να παίζω μπάσκετ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Ας παίξουμε μπάσκετ"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Το κολύμπι",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει το κολύμπι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να πάμε για κολύμπι;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τένις",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να παίζω τένις"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να παίξουμε τένις μαζί;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ποδηλασία",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να κάνω ποδήλατο"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να πάμε ποδηλασία μαζί;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πατινάζ",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει το πατινάζ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλεις να το κάνεις μαζί μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Στα αξιοθέατα",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει περιήγηση στα αξιοθέατα"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορούμε να δούμε τα αξιοθέατα μαζί;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Βίντεο Παιχνίδια",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να παίζω video games"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορώ να παίξω video games;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τακτοποίηση",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει που συγυρίζει το δωμάτιό μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Μπορεί να σας βοηθήσει με τακτοποιημένο το δωμάτιό μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Παιχνίδια",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να παίζω με τα παιχνίδια μου"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να παίξετε με τα παιχνίδια μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Παζλ",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει η επίλυση παζλ"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να λύσει ένα παζλ μαζί;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Κόμικς",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να διαβάζω κόμικς"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλετε να διαβάσετε τα κόμικς μαζί μου;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σκάκι",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "Μου αρέσει να παίζω σκάκι"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "Θέλεις να παίξουμε;"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ένα",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Δύο",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τρεις",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τέσσερις",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πέντε",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Έξι",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Επτά",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Οκτώ",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εννέα",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Δέκα",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Είκοσι",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Τριάντα",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Σαράντα",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Πενήντα",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εξήντα",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εβδομήντα",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ογδόντα",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Ενενήντα",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Εκατό",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "Αριθμομηχανή",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
