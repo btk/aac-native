@@ -75,6 +75,8 @@ class Api {
 					this.currentLang = "de";
 				}else if(lang.includes("fr")){
 					this.currentLang = "fr";
+				}else if(lang.includes("es")){
+					this.currentLang = "es";
 				}else{
 					this.currentLang = "en";
 				}
