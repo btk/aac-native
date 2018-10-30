@@ -52,7 +52,7 @@ export default class App extends React.Component {
           </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("de-de")} style={this.getStyle("de-de")}>
             <Image source={require("../../assets/flag/de-de.png")} style={styles.avatarImage}/>
-            <Text style={styles.langText}>Deutsche</Text>
+            <Text style={styles.langText}>Deutsch</Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => this.choose("tr-tr")} style={this.getStyle("tr-tr")}>
             <Image source={require("../../assets/flag/tr-tr.png")} style={styles.avatarImage}/>
@@ -61,6 +61,10 @@ export default class App extends React.Component {
           <TouchableOpacity onPress={() => this.choose("fr-fr")} style={this.getStyle("fr-fr")}>
             <Image source={require("../../assets/flag/fr-fr.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>Français</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => this.choose("es-mx")} style={this.getStyle("es-mx")}>
+            <Image source={require("../../assets/flag/es-mx.png")} style={styles.avatarImage}/>
+            <Text style={styles.langText}>Español (MX)</Text>
           </TouchableOpacity>
         </View>
         <TouchableOpacity onPress={() => this.props.button(this.state.data, 0)} style={styles.button}>
