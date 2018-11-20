@@ -3,20 +3,29 @@
     "name": "Leeloo AAC",
     "slug": "leeloo",
     "icon": "./assets/app-icon.png",
-    "version": "1.2.0",
-    "sdkVersion": "23.0.0",
-    "privacy": "public",
+    "version": "1.3.0",
+    "sdkVersion": "25.0.0",
     "loading": {
       "icon": "assets/splash.png",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "bundleIdentifier": "org.dreamoriented.leeloo"
+      "bundleIdentifier": "org.dreamoriented.leeloo",
+      "icon": "./assets/app-icon-ios.png",
+      "buildNumber": "1.3.0",
+      "supportsTablet": true,
+      "isRemoteJSEnabled": false,
+      "loadJSInBackgroundExperimental": true
     },
     "android": {
       "package": "org.dreamoriented.leeloo",
       "permissions": ["WAKE_LOCK"],
-      "versionCode": 120
-    }
+      "versionCode": 130
+    },
+    "assetBundlePatterns": [
+      "assets/*",
+      "data/images/*"
+    ],
+    "privacy": "public",
   }
 }

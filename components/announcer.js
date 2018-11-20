@@ -44,11 +44,8 @@ export default class App extends React.Component {
     }, 300);
   }
 
-  setting(){
-    this.animateAnnouncer(0);
-    setTimeout(() => {
-      API.event.emit("setting", true);
-    }, 100);
+  repeat(){
+    API.speak(this.state.data.title);
   }
 
   animateAnnouncer(toVal){
@@ -121,7 +118,7 @@ export default class App extends React.Component {
             <View style={[styles.childCarrier, portraitStyle.childCarrier]}>
               <AnnouncerButton type="back" onPressFunc={this.back.bind(this)}/>
               <Child width={((width < height)?width:height) * 0.4} height={((width < height)?width:height) * 0.4}/>
-              <AnnouncerButton type="settings" onPressFunc={this.setting.bind(this)}/>
+              <AnnouncerButton type="repeat" onPressFunc={this.repeat.bind(this)}/>
             </View>
             <View style={[styles.speechCarrier, portraitStyle.speechCarrier]}>
               {this.renderInnerSpeech(this.state.data)}

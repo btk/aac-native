@@ -115,6 +115,14 @@ class Api {
 			}
 		});
 
+		this.getData("gridSize").then(gs => {
+				this.gridSize = gs;
+		}, err => {
+			if(err.name == "NotFoundError"){
+				this.gridSize = [3, 5];
+			}
+		});
+
   }
 
 	speak(speakText){

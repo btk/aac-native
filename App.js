@@ -14,7 +14,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       setup: false,
-      setting: false
+      setting: true
     }
   }
 
@@ -30,8 +30,8 @@ export default class App extends React.Component {
 
   componentDidMount(){
     API.event.addListener("setting", (setting) => {
-      //this.setState({setting});
-      this.setState({setup: "start"});
+      this.setState({setting});
+      //this.setState({setup: "start"});
     });
     this.checkTimeout();
   }

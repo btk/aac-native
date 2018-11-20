@@ -8,7 +8,7 @@ let anchor = (height > width)?width:height;
 
 const iconMap = {
   back: "arrow-back",
-  settings: "settings"
+  repeat: "autorenew"
 }
 
 export default class App extends React.Component {

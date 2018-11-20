@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Dimensions } from 'react-native';
+let { height, width } = Dimensions.get('window');
 
 import API from '../api';
 import CardArrayLanguage from '../js/language';
@@ -13,12 +14,12 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       currentGroup: "general",
-      gridSize: this.getGridSizeRelativeToDimension(),
+      gridSize: (height > width)?API.gridSize[0]:API.gridSize[1],
       localizedCardData: this.getLocalizedCardData(API.currentLang)
     };
     Dimensions.addEventListener("change", () => {
       this.setState({
-        gridSize: this.getGridSizeRelativeToDimension()
+        gridSize: (height > width)?API.gridSize[0]:API.gridSize[1]
       });
     });
   }
@@ -29,11 +30,6 @@ export default class App extends React.Component {
 
   getLocalizedCardData(lang){
     return CardArrayLanguage[lang];
-  }
-
-  getGridSizeRelativeToDimension(){
-    let { height, width } = Dimensions.get('window');
-    return (height > width)?3:5;
   }
 
   onGroupChanged(newGroupString){
@@ -47,15 +43,17 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View style={{flex: 1, flexDirection: 'row'}}>
-        <Cards
-          group={this.state.currentGroup}
-          gridSize={this.state.gridSize}
-          localizedCardData={this.state.localizedCardData}/>
-        <Groups
-          changeGroup={this.onGroupChanged.bind(this)}
-          gridSize={this.state.gridSize}
-          localizedCardData={this.state.localizedCardData}/>
+      <View style={{flex: 1, flexDirection: "column"}}>
+        <View style={{flex: 1, flexDirection: 'column', height: "100%"}}>
+          <Cards
+            group={this.state.currentGroup}
+            gridSize={this.state.gridSize}
+            localizedCardData={this.state.localizedCardData}/>
+          <Groups
+            changeGroup={this.onGroupChanged.bind(this)}
+            gridSize={this.state.gridSize}
+            localizedCardData={this.state.localizedCardData}/>
+        </View>
         <Announcer/>
       </View>
     );

@@ -42,10 +42,10 @@ export default class App extends React.Component {
 
   render() {
     let { height, width } = Dimensions.get('window');
-    let gridSize = (height > width)?3:5;
+    let gridSize = (height > width)?API.gridSize[0]:API.gridSize[1];
 
     return (
-      <View style={[styles.cardsCarrier, {width: width / gridSize * (gridSize - 1)}]}>
+      <View style={styles.cardsCarrier}>
         { this.state.loading &&
           <View style={styles.loadingPanel}>
             <Text>Loading</Text>
@@ -67,7 +67,7 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   cardsCarrier: {
-    height: "100%",
+    flex: 1,
     backgroundColor: "#fafafa"
   },
   loadingPanel: {

@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity } from 'rea
 
 import API from "../api";
 import Assets from '../js/assets';
+import TouchableScale from './touchable-scale';
 
 export default class App extends React.Component {
   constructor(props){
@@ -35,23 +36,31 @@ export default class App extends React.Component {
     if(this.data){
       let { height, width } = Dimensions.get('window');
       let wideDimention = (height > width)?height:width;
-      let gridSize = (height > width)?3:5;
+      let gridSize = (height > width)?API.gridSize[0]:API.gridSize[1];
       let cardFontSize = wideDimention * 0.022;
 
       let ordinaryStyle = { width: width / gridSize, height: width / (gridSize + 1) };
+      let smallStyle = { width: width / gridSize, height: width / (gridSize + 1) / 2};
       let bigStyle = { width: "50%", height: "50%"};
       let xxlStyle = { width: "100%", height: "100%"};
       let innerStyle = {};
       let innerStyleText = { fontSize: cardFontSize };
+      let innerStyleImageCarrier = {};
       if(this.data.color){
         innerStyle = { backgroundColor: this.data.color, borderWidth: 0 };
         innerStyleText = { fontSize: cardFontSize, color: "#fff", fontWeight: "bold" };
       }
+      if(this.props.size == "small"){
+        innerStyle.flexDirection = "row";
+        innerStyleImageCarrier.width = "30%";
+        innerStyleImageCarrier.marginRight = "5%";
+      }
+
       return (
-        <View style={(this.props.size == "big")?bigStyle:(this.props.size == "xxl")?xxlStyle:ordinaryStyle}>
-          <TouchableOpacity style={styles.toStyle} onPress={this.cardPressed.bind(this)}>
+        <View style={(this.props.size == "big")?bigStyle:(this.props.size == "xxl")?xxlStyle:(this.props.size == "small")?smallStyle:ordinaryStyle}>
+          <TouchableScale style={styles.toStyle} onPress={this.cardPressed.bind(this)}>
             <View style={[styles.cardInner, innerStyle]}>
-              <View style={styles.cardImageCarrier}>
+              <View style={[styles.cardImageCarrier, innerStyleImageCarrier]}>
                 { !this.state.loading &&
                   <Image source={Assets[this.data.slug]} style={styles.cardImage}/>
                 }
@@ -60,7 +69,7 @@ export default class App extends React.Component {
                 <Text style={[styles.cardText, innerStyleText]}>{this.data.title}</Text>
               </View>
             </View>
-          </TouchableOpacity>
+          </TouchableScale>
         </View>
       );
     }else{
