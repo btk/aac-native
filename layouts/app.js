@@ -12,6 +12,7 @@ import Announcer from '../components/announcer';
 export default class App extends React.Component {
   constructor(props){
     super(props);
+    API.gridSize = [3, 5];
     this.state = {
       currentGroup: "general",
       gridSize: (height > width)?API.gridSize[0]:API.gridSize[1],
@@ -29,7 +30,7 @@ export default class App extends React.Component {
   }
 
   getLocalizedCardData(lang){
-    return CardArrayLanguage[lang];
+    return CardArrayLanguage[lang.split("-")[0]];
   }
 
   onGroupChanged(newGroupString){

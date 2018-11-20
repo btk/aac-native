@@ -14,12 +14,13 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       setup: false,
-      setting: true
+      setting: false
     }
   }
 
   componentWillMount(){
     API.getData("setup").then(setupStatus => {
+      console.log(setupStatus);
       if(setupStatus == "start"){
         this.setState({setup: "start"});
       }else{

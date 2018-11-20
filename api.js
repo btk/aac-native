@@ -3,7 +3,6 @@ import { AsyncStorage } from 'react-native';
 
 import { Segment, Util, Speech } from 'expo';
 // Check segment credentials
-Segment.initialize({androidWriteKey: "xxx", iosWriteKey: "xxx"});
 
 import UIText from './data/text.json';
 
@@ -13,7 +12,24 @@ import Event from './js/event';
 // For test cases
 const NETWORK_STATUS = true;
 const _FLUSH = false;
-const _DEVLANG = false;
+const _DEVELOPMENT = true;
+const _DEVLANG = "en";
+
+
+if(!_DEVELOPMENT){
+	Segment.initialize({androidWriteKey: "xxx", iosWriteKey: "xxx"});
+
+	let storage = new Storage({
+		size: 1000,
+		storageBackend: AsyncStorage,
+		defaultExpires: null,
+		enableCache: true,
+		sync: {}
+	});
+
+}else{
+	storage = window.localStorage;
+}
 
 let storage = new Storage({
 	size: 1000,
@@ -26,13 +42,20 @@ let storage = new Storage({
 
 class Api {
   constructor(){
-    this.segment = Segment;
+		if(!_DEVELOPMENT){
+			this.segment = Segment;
+		}else{
+			this.segment = {screen: () => {}, trackWithProperties: () => {}, screenWithProperties: () => {}}
+		}
 		this.event = Event;
     console.log("API: Created instance");
     this.currentLang = _DEVLANG;
 
     this.initApiCurrents();
     if(_FLUSH){
+			if(_DEVELOPMENT){
+				localStorage.clear();
+			}
 			this.flush();
 		}
   }
@@ -46,20 +69,31 @@ class Api {
 
   initApiCurrents(){
     this.getData("userId").then(uid => {
-        this.segment.identify(uid);
-        console.log("Segment: User identified" + uid);
+				if(!_DEVELOPMENT){
+					this.segment.identify(uid);
+				}
+				if(_FLUSH || uid == "" || uid == null){
+	        let uid = makeid(8);
+	        this.setData("userId", uid);
+				}
+				console.log("Segment: User identified" + uid);
     }, err => {
       if(err.name == "NotFoundError"){
         let uid = makeid(8);
         this.setData("userId", uid);
-        this.segment.identify(uid);
-        console.log("API: First time userId set");
+				if(!_DEVELOPMENT){
+					this.segment.identify(uid);
+				}
+				console.log("API: First time userId set");
 				console.log("Segment: User identified" + uid);
       }
     });
 
     this.getData("setup").then(setupStatus => {
         console.log("Setup status is: ", setupStatus);
+				if(_FLUSH || setupStatus == "" || setupStatus == null){
+					this.setData("setup", "start");
+				}
     }, err => {
       if(err.name == "NotFoundError"){
         this.setData("setup", "start");
@@ -102,7 +136,9 @@ class Api {
 
 		this.getData("pitch").then(pitch => {
 				this.speakPitch = pitch;
-				console.log
+				if(_FLUSH || pitch == "" || pitch == null){
+					this.setData("pitch", 1.0);
+				}
 		}, err => {
 			if(err.name == "NotFoundError"){
 				this.speakPitch = 1.0;
@@ -111,6 +147,9 @@ class Api {
 
 		this.getData("rate").then(rate => {
 				this.speakRate = rate;
+				if(_FLUSH || rate == "" || rate == null){
+					this.setData("rate", 1.0);
+				}
 		}, err => {
 			if(err.name == "NotFoundError"){
 				this.speakRate = 1.0;
@@ -119,6 +158,9 @@ class Api {
 
 		this.getData("gridSize").then(gs => {
 				this.gridSize = gs;
+				if(_FLUSH || gs == "" || gs == null){
+					this.setData("gridSize", [3, 5]);
+				}
 		}, err => {
 			if(err.name == "NotFoundError"){
 				this.gridSize = [3, 5];
@@ -133,11 +175,13 @@ class Api {
 			pitch: this.speakPitch,
 			rate: this.speakRate
 		});
-		Speech.speak(speakText, {
-			language: this.currentLang,
-			pitch: this.speakPitch,
-			rate: this.speakRate
-		});
+		if(!_DEVELOPMENT){
+			Speech.speak(speakText, {
+				language: this.currentLang,
+				pitch: this.speakPitch,
+				rate: this.speakRate
+			});
+		}
 	}
 
   UIText(identifier, forcedLang){
@@ -159,15 +203,34 @@ class Api {
 		this.currentLang = toLang;
 	}
 
-  // These are like kinda private;
+	// These are like kinda private;
   // But xxx it, use them in the general app, who cares.
   setData(key, data){
-    return storage.save({key, data});
+		// returns promise, might be useful, no need to listen tho.
+		if(_DEVELOPMENT){
+			return new Promise((resolve, reject) => {
+				setTimeout(() => {
+					resolve(storage.setItem(key, data));
+				}, 10);
+			});
+		}else{
+			return storage.save({key, data});
+		}
   }
 
   getData(key){
     // returns promise
-    return storage.load({key});
+		if(_DEVELOPMENT){
+			return new Promise((resolve, reject) => {
+				setTimeout(() => {
+					console.log(storage.getItem(key));
+					resolve(storage.getItem(key));
+				}, 10);
+			});
+
+		}else{
+			return storage.load({key});
+		}
   }
 }
 

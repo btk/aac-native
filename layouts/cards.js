@@ -8,9 +8,10 @@ import API from '../api';
 export default class App extends React.Component {
   constructor(props){
     super(props);
+    console.log("card data", this.props.localizedCardData);
     this.state = {
       group: this.props.group,
-      cardData: props.localizedCardData.filter(c => c.parents.includes(this.props.group)),
+      cardData: this.props.localizedCardData.filter(c => c.parents.includes(this.props.group)),
       gridSize: this.props.gridSize,
       loading: true,
     }
