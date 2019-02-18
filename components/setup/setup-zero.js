@@ -27,9 +27,9 @@ export default class App extends React.Component {
 
   getStyle(data){
     if(this.state.data == data){
-      return {flexDirection: "row", alignItems: "center", margin: 5, paddingHorizontal: 10, backgroundColor: "#C7CFE2", borderRadius: 5, overflow: "hidden"};
+      return {flexDirection: "row", alignItems: "center", margin: 5, paddingHorizontal: 10, backgroundColor: "#C7CFE2", borderRadius: 5, overflow: "hidden", width: width > height ? "30%" : "100%"};
     }else{
-      return {flexDirection: "row", alignItems: "center", margin: 5, paddingHorizontal: 10};
+      return {flexDirection: "row", alignItems: "center", margin: 5, paddingHorizontal: 10, width: width > height ? "30%" : "100%"};
     }
   }
 
@@ -41,7 +41,7 @@ export default class App extends React.Component {
           <Text style={styles.holderContent}>{API.UIText("setupZeroContent", this.state.data.split('-')[0])}</Text>
         </View>
 
-        <View style={{flexDirection: "column", marginHorizontal: "10%"}}>
+        <View style={{flexDirection: width > height ? "row" : "column", marginHorizontal: "10%", flexWrap: "wrap"}}>
           <TouchableOpacity onPress={() => this.choose("en-us")} style={this.getStyle("en-us")}>
             <Image source={require("../../assets/flag/en-us.png")} style={styles.avatarImage}/>
             <Text style={styles.langText}>English (US)</Text>
@@ -78,8 +78,8 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   holder: {
-    width: "100%",
-    height: "100%",
+    width: width,
+    height: height,
     backgroundColor: "#fff",
     overflow: "hidden",
     justifyContent: "space-around"
@@ -88,9 +88,8 @@ const styles = StyleSheet.create({
     width: "80%",
     color: "#00b2d6",
     fontSize: 24,
-    margin: "10%",
-    marginTop: "7%",
-    marginBottom: "5%",
+    marginHorizontal: "10%",
+    marginBottom: 10,
     fontWeight: "700",
     textAlign: "center"
   },
@@ -99,7 +98,6 @@ const styles = StyleSheet.create({
     color: "#687782",
     fontSize: 18,
     marginHorizontal: "10%",
-    marginBottom: "5%",
     textAlign: "center"
   },
   button: {
@@ -109,7 +107,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 25,
-    margin: "10%"
+    marginHorizontal: "10%",
   },
   buttonText: {
     color: "#fff",

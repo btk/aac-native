@@ -44,8 +44,8 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View style={{flex: 1, flexDirection: "column"}}>
-        <View style={{flex: 1, flexDirection: 'column', height: "100%"}}>
+      <View style={{flex: 1, flexDirection: "column", height: height}}>
+        <View style={{flex: 1, flexDirection: 'column', height: height}}>
           <Cards
             group={this.state.currentGroup}
             gridSize={this.state.gridSize}

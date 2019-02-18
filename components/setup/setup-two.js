@@ -78,19 +78,18 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   holder: {
-    width: "100%",
-    height: "100%",
+    width: width,
+    height: height,
     backgroundColor: "#fff",
     overflow: "hidden",
-    justifyContent: "space-around"
+    justifyContent: "space-around",
   },
   holderTitle: {
     width: "80%",
     color: "#00b2d6",
     fontSize: 24,
-    margin: "10%",
-    marginTop: "7%",
-    marginBottom: "5%",
+    marginHorizontal: "10%",
+    marginBottom: 10,
     fontWeight: "700",
     textAlign: "center"
   },
@@ -99,7 +98,6 @@ const styles = StyleSheet.create({
     color: "#687782",
     fontSize: 18,
     marginHorizontal: "10%",
-    marginBottom: "5%",
     textAlign: "center"
   },
   button: {
@@ -109,8 +107,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     borderRadius: 25,
-    margin: "10%",
-    marginBottom: "5%"
+    marginHorizontal: "10%",
   },
   buttonText: {
     color: "#fff",
@@ -122,10 +119,10 @@ const styles = StyleSheet.create({
     textAlign: "center"
   },
   avatarImage: {
-    width: width * 0.18,
-    height: width * 0.18,
-    marginHorizontal: width * 0.035,
-    marginVertical: width * 0.015,
+    width: width > height ? (width - 30 * 8) * 0.125 : width * 0.18,
+    height: width > height ? (width - 30 * 8) * 0.125 : width * 0.18,
+    marginHorizontal: width > height ? 15 : width * 0.035,
+    marginVertical: width > height ? 15 : width * 0.015,
     alignSelf: "center"
   }
 });

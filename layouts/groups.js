@@ -12,7 +12,7 @@ export default class App extends React.Component {
     this.state = {
       gridSize: this.props.gridSize,
       size: (height > width)?"normal":"small",
-      categoryHeight: (height > width)?width / (this.props.gridSize + 1) + 14:width / 2 / (this.props.gridSize + 1) + 14
+      categoryHeight: (height > width)?width / (this.props.gridSize + 1):width / 2 / (this.props.gridSize + 1)
     };
   }
 
@@ -22,7 +22,7 @@ export default class App extends React.Component {
       let gridSize = this.state.gridSize;
       this.setState({
         size: (height > width)?"normal":"small",
-        categoryHeight: (height > width)?width / (gridSize + 1) + 14:height / 2 / (gridSize + 1) + 14
+        categoryHeight: (height > width)?width / (gridSize + 1):height / 2 / (gridSize + 1)
       });
     });
   }
@@ -58,13 +58,11 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   groupCarrier: {
-    backgroundColor: "#fff",
-    marginVertical: 7,
-    shadowOpacity: 0.75,
-    shadowRadius: 16,
-    shadowColor: 'rgba(0,0,0,0.1)',
-    shadowOffset: { height: -2, width: 0 },
-    zIndex: 9999
+    backgroundColor: "#fafafa",
+    paddingVertical: 0,
+    zIndex: 9999,
+    borderTopWidth: 1,
+    borderTopColor: "#eee"
   },
   groupScrollView: {
     flex: 1

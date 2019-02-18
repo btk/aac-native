@@ -19,7 +19,7 @@ export default class App extends React.Component {
   render() {
     return (
       <TouchableOpacity onPress={this.props.onPressFunc} style={styles.buttonCarrier}>
-        <MaterialIcons name={iconMap[this.props.type]} size={anchor * 0.13} color="#555"/>
+        {false && <MaterialIcons name={iconMap[this.props.type]} size={anchor * 0.13} color="#555"/>}
       </TouchableOpacity>
     );
   }

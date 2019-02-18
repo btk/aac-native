@@ -12,14 +12,14 @@ import Event from './js/event';
 // For test cases
 const NETWORK_STATUS = true;
 const _FLUSH = false;
-const _DEVELOPMENT = true;
+const _DEVELOPMENT = process.browser;
 const _DEVLANG = "en";
 
-
+let storage;
 if(!_DEVELOPMENT){
 	Segment.initialize({androidWriteKey: "xxx", iosWriteKey: "xxx"});
 
-	let storage = new Storage({
+	storage = new Storage({
 		size: 1000,
 		storageBackend: AsyncStorage,
 		defaultExpires: null,
@@ -30,14 +30,6 @@ if(!_DEVELOPMENT){
 }else{
 	storage = window.localStorage;
 }
-
-let storage = new Storage({
-	size: 1000,
-	storageBackend: AsyncStorage,
-	defaultExpires: null,
-	enableCache: true,
-	sync: {}
-});
 
 
 class Api {
