@@ -6,6 +6,7 @@ import { Text, View, StatusBar } from 'react-native';
 import Layout from './layouts/app';
 import Setup from './layouts/setup';
 import Setting from './layouts/setting';
+import { Font } from 'expo';
 
 import API from './api';
 
@@ -14,7 +15,8 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       setup: false,
-      setting: false
+      setting: true,
+      font: false
     }
   }
 
@@ -30,6 +32,13 @@ export default class App extends React.Component {
   }
 
   componentDidMount(){
+    Font.loadAsync({
+      'rubik': require('./fonts/Rubik-Regular.ttf'),
+      'rubik-bold': require('./fonts/Rubik-Bold.ttf')
+    }).then(() => {
+      this.setState({font: true});
+    });
+
     API.event.addListener("setting", (setting) => {
       this.setState({setting});
       //this.setState({setup: "start"});
@@ -72,11 +81,15 @@ export default class App extends React.Component {
   }
 
   render() {
-    return (
-      <View style={{flex: 1}}>
-        <StatusBar hidden={true}/>
-        {this.renderMainComponent()}
-      </View>
-    );
+    if(this.state.font){
+      return (
+        <View style={{flex: 1}}>
+          <StatusBar hidden={true}/>
+          {this.renderMainComponent()}
+        </View>
+      );
+    }else{
+      return null;
+    }
   }
 }
