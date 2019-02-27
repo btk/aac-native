@@ -6,7 +6,7 @@ import Assets from '../js/assets';
 import TouchableScale from './touchable-scale';
 
 export default class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       loading: true
@@ -14,17 +14,17 @@ export default class App extends React.Component {
     this.data = this.props.data;
   }
 
-  componentDidMount(){
+  componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false });
     }, 100);
   }
 
-  async cardPressed(){
-    if(this.props.onPressFunc){
+  async cardPressed() {
+    if (this.props.onPressFunc) {
       this.props.onPressFunc(this.data.slug);
-    }else{
-      if(this.props.size == "big"){
+    } else {
+      if (this.props.size == "big") {
         this.data.phrases = this.data.phrases.filter(p => (p.phrase == this.data.title));
       }
       API.speak(this.data.title);
@@ -33,36 +33,36 @@ export default class App extends React.Component {
   }
 
   render() {
-    if(this.data){
+    if (this.data) {
       let { height, width } = Dimensions.get('window');
-      let wideDimention = (height > width)?height:width;
-      let gridSize = (height > width)?API.gridSize[0]:API.gridSize[1];
+      let wideDimention = (height > width) ? height : width;
+      let gridSize = (height > width) ? API.gridSize[0] : API.gridSize[1];
       let cardFontSize = wideDimention * 0.022;
 
       let ordinaryStyle = { width: width / gridSize, height: width / (gridSize + 1) };
-      let smallStyle = { width: width / gridSize, height: width / (gridSize + 1) / 2};
-      let bigStyle = { width: "50%", height: "50%"};
-      let xxlStyle = { width: "100%", height: "100%"};
+      let smallStyle = { width: width / gridSize, height: width / (gridSize + 1) / 2 };
+      let bigStyle = { width: "50%", height: "50%" };
+      let xxlStyle = { width: "100%", height: "100%" };
       let innerStyle = {};
       let innerStyleText = { fontSize: cardFontSize };
       let innerStyleImageCarrier = {};
-      if(this.data.color){
+      if (this.data.color) {
         innerStyle = { backgroundColor: this.data.color, borderWidth: 0 };
         innerStyleText = { fontSize: cardFontSize, color: "#fff", fontWeight: "bold" };
       }
-      if(this.props.size == "small"){
+      if (this.props.size == "small") {
         innerStyle.flexDirection = "row";
         innerStyleImageCarrier.width = "30%";
         innerStyleImageCarrier.marginRight = "5%";
       }
 
       return (
-        <View style={(this.props.size == "big")?bigStyle:(this.props.size == "xxl")?xxlStyle:(this.props.size == "small")?smallStyle:ordinaryStyle}>
+        <View style={(this.props.size == "big") ? bigStyle : (this.props.size == "xxl") ? xxlStyle : (this.props.size == "small") ? smallStyle : ordinaryStyle}>
           <TouchableScale style={styles.toStyle} onPress={this.cardPressed.bind(this)}>
             <View style={[styles.cardInner, innerStyle]}>
               <View style={[styles.cardImageCarrier, innerStyleImageCarrier]}>
-                { !this.state.loading &&
-                  <Image source={Assets[this.data.slug]} style={styles.cardImage}/>
+                {!this.state.loading &&
+                  <Image source={Assets[this.data.slug]} style={styles.cardImage} />
                 }
               </View>
               <View style={styles.cardTextCarrier}>
@@ -72,7 +72,7 @@ export default class App extends React.Component {
           </TouchableScale>
         </View>
       );
-    }else{
+    } else {
       return null;
     }
   }
