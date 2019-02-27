@@ -10,52 +10,52 @@ import Groups from './groups';
 import Announcer from '../components/announcer';
 
 export default class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     API.gridSize = [3, 5];
     this.state = {
       currentGroup: "general",
-      gridSize: (height > width)?API.gridSize[0]:API.gridSize[1],
+      gridSize: (height > width) ? API.gridSize[0] : API.gridSize[1],
       localizedCardData: this.getLocalizedCardData(API.currentLang)
     };
     Dimensions.addEventListener("change", () => {
       this.setState({
-        gridSize: (height > width)?API.gridSize[0]:API.gridSize[1]
+        gridSize: (height > width) ? API.gridSize[0] : API.gridSize[1]
       });
     });
   }
 
-  componentWillUnmount(){
-    Dimensions.removeEventListener("change", () => {});
+  componentWillUnmount() {
+    Dimensions.removeEventListener("change", () => { });
   }
 
-  getLocalizedCardData(lang){
-    return CardArrayLanguage[lang.split("-")[0]];
+  getLocalizedCardData(lang) {
+    return CardArrayLanguage[lang];
   }
 
-  onGroupChanged(newGroupString){
+  onGroupChanged(newGroupString) {
     console.log(newGroupString);
-    this.setState({currentGroup: newGroupString});
+    this.setState({ currentGroup: newGroupString });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     API.segment.screen("start");
   }
 
   render() {
     return (
-      <View style={{flex: 1, flexDirection: "column", height: height}}>
-        <View style={{flex: 1, flexDirection: 'column', height: height}}>
+      <View style={{ flex: 1, flexDirection: "column", height: height }}>
+        <View style={{ flex: 1, flexDirection: 'column', height: height }}>
           <Cards
             group={this.state.currentGroup}
             gridSize={this.state.gridSize}
-            localizedCardData={this.state.localizedCardData}/>
+            localizedCardData={this.state.localizedCardData} />
           <Groups
             changeGroup={this.onGroupChanged.bind(this)}
             gridSize={this.state.gridSize}
-            localizedCardData={this.state.localizedCardData}/>
+            localizedCardData={this.state.localizedCardData} />
         </View>
-        <Announcer/>
+        <Announcer />
       </View>
     );
   }

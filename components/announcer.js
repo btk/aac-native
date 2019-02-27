@@ -12,7 +12,7 @@ import Speaking from './speaking';
 import Card from './card';
 
 export default class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       data: null,
@@ -21,7 +21,7 @@ export default class App extends React.Component {
     }
 
     API.event.addListener("announce", (data) => {
-      this.setState({data});
+      this.setState({ data });
       this.animateAnnouncer(1);
     });
 
@@ -32,23 +32,23 @@ export default class App extends React.Component {
     });
   }
 
-  getOrientation(){
+  getOrientation() {
     let { height, width } = Dimensions.get('window');
-    return (height > width)?"portrait":"landscape";
+    return (height > width) ? "portrait" : "landscape";
   }
 
-  back(){
+  back() {
     this.animateAnnouncer(0);
     setTimeout(() => {
-      this.setState({data: null});
+      this.setState({ data: null });
     }, 300);
   }
 
-  repeat(){
+  repeat() {
     API.speak(this.state.data.title);
   }
 
-  animateAnnouncer(toVal){
+  animateAnnouncer(toVal) {
     Animated.spring(
       this.state.animation,
       {
@@ -60,20 +60,20 @@ export default class App extends React.Component {
     ).start();
   }
 
-  renderInnerSpeech(data){
-    if(!data.phrases){
+  renderInnerSpeech(data) {
+    if (!data.phrases) {
       data.phrases = [];
     }
-    if(data.phrases.length > 1){
+    if (data.phrases.length > 1) {
       let altArray = [];
       let altData = JSON.parse(JSON.stringify(data));
       data.phrases.forEach((p, i) => {
         altData.title = p.phrase;
-        altArray.push(<Card data={JSON.parse(JSON.stringify(altData))} key={i + altData.title + "big"} size="big"/>);
+        altArray.push(<Card data={JSON.parse(JSON.stringify(altData))} key={i + altData.title + "big"} size="big" />);
       });
       return (
         <View style={styles.speechInner}>
-          <Text style={styles.speechInnerText}>Choose One!</Text>
+          <Text style={styles.speechInnerText}>{API.UIText("chooseOne")}</Text>
           <View style={styles.speechInnerInner}>
             {altArray}
           </View>
@@ -81,12 +81,12 @@ export default class App extends React.Component {
       );
     } else {
       let altData = JSON.parse(JSON.stringify(data));
-      if(altData.phrases[0]){
+      if (altData.phrases[0]) {
         altData.title = altData.phrases[0].phrase;
       }
       return (
         <View style={styles.speechInner}>
-          <Speaking data={altData} key={altData.slug}/>
+          <Speaking data={altData} key={altData.slug} />
         </View>
       )
     }
@@ -103,22 +103,22 @@ export default class App extends React.Component {
     };
 
     let portraitStyle = {};
-    if(this.state.orientation == "portrait"){
+    if (this.state.orientation == "portrait") {
       portraitStyle = {
         inner: { flexDirection: "column-reverse" },
-        childCarrier: { width: "100%", height: "30%", flexDirection: "row"},
-        speechCarrier: { width: "100%", height: "70%"}
+        childCarrier: { width: "100%", height: "30%", flexDirection: "row" },
+        speechCarrier: { width: "100%", height: "70%" }
       };
     }
 
-    if(this.state.data){
+    if (this.state.data) {
       return (
-        <Animated.View style={[styles.announcer, {opacity: this.state.animation}]}>
+        <Animated.View style={[styles.announcer, { opacity: this.state.animation }]}>
           <Animated.View style={[styles.announcerInner, animationStyle, portraitStyle.inner]}>
             <View style={[styles.childCarrier, portraitStyle.childCarrier]}>
-              <AnnouncerButton type="back" onPressFunc={this.back.bind(this)}/>
-              <Child width={((width < height)?width:height) * 0.4} height={((width < height)?width:height) * 0.4}/>
-              <AnnouncerButton type="repeat" onPressFunc={this.repeat.bind(this)}/>
+              <AnnouncerButton type="back" onPressFunc={this.back.bind(this)} />
+              <Child width={((width < height) ? width : height) * 0.4} height={((width < height) ? width : height) * 0.4} />
+              <AnnouncerButton type="repeat" onPressFunc={this.repeat.bind(this)} />
             </View>
             <View style={[styles.speechCarrier, portraitStyle.speechCarrier]}>
               {this.renderInnerSpeech(this.state.data)}
@@ -126,7 +126,7 @@ export default class App extends React.Component {
           </Animated.View>
         </Animated.View>
       );
-    }else{
+    } else {
       return null;
     }
   }
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fafafa"
   },
   speechInnerText: {
-    margin:10,
+    margin: 10,
     textAlign: "center",
     fontSize: 25,
     color: "#666"
