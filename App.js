@@ -3,7 +3,7 @@
 import React from 'react';
 import { Text, View, StatusBar } from 'react-native';
 
-import Layout from './layouts/app';
+import Layout from './layouts/layout';
 import Setup from './layouts/setup';
 import Setting from './layouts/setting';
 import { Font } from 'expo';
@@ -15,7 +15,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       setup: false,
-      setting: true,
+      setting: false,
       font: false
     }
   }
@@ -83,7 +83,7 @@ export default class App extends React.Component {
   render() {
     if(this.state.font){
       return (
-        <View style={{flex: 1}}>
+        <View style={{flex: 1, position: "relative"}}>
           <StatusBar hidden={true}/>
           {this.renderMainComponent()}
         </View>

@@ -1,6 +1,9 @@
 import React from 'react';
 import { View, Dimensions } from 'react-native';
 let { height, width } = Dimensions.get('window');
+import SwipeUpDown from '../components/swipeable-bottom';
+
+import Search from './search';
 
 import API from '../api';
 import CardArrayLanguage from '../js/language';
@@ -55,6 +58,26 @@ export default class App extends React.Component {
             gridSize={this.state.gridSize}
             localizedCardData={this.state.localizedCardData}/>
         </View>
+        <SwipeUpDown
+          item={<Search/>} // Pass props component when collapsed
+          onShowMini={() => console.log('mini')}
+          onShowFull={() => console.log('full')}
+          onMoveDown={() => console.log('down')}
+          onMoveUp={() => console.log('up')}
+          animation={"spring"}
+          swipeHeight={80}
+          disablePressToShow={false} // Press item mini to show full
+          style={{
+            backgroundColor: '#fff', shadowOpacity: 0.3,
+            shadowRadius: 3,
+            shadowOffset: {
+                height: 0,
+                width: 0
+            },
+            //android
+            elevation: 1
+          }} // style for swipe
+          />
         <Announcer/>
       </View>
     );
