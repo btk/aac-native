@@ -7,7 +7,8 @@ import {
   PanResponder,
   Dimensions,
   LayoutAnimation,
-  TouchableOpacity
+  TouchableOpacity,
+  TouchableWithoutFeedback
 } from 'react-native';
 
 import SwipeIcon from './components/SwipeIcon';
@@ -53,6 +54,10 @@ export default class SwipeUpDown extends Component<Props> {
 
     Event.on("showFull", () => {
       this.showFull();
+    });
+
+    Event.on("showMini", () => {
+      this.showMini();
     });
   }
 
@@ -110,7 +115,7 @@ export default class SwipeUpDown extends Component<Props> {
       });
       !this.state.collapsed && this.setState({ collapsed: true });
       this.updateNativeProps();
-    } else if (this.checkCollapsed && gestureState.dy < -60) {
+    } else if (this.checkCollapsed && gestureState.dy < -80) {
       // SWIPE UP
       this.top = 0;
       this.customStyle.style.top = DEVICE_HEIGHT + gestureState.dy;
@@ -147,6 +152,7 @@ export default class SwipeUpDown extends Component<Props> {
     this.state.collapsed && this.setState({ collapsed: false });
     this.checkCollapsed = false;
     onShowFull && onShowFull();
+    Event.emit("showKeyboard");
   }
 
   showMini() {
@@ -158,6 +164,7 @@ export default class SwipeUpDown extends Component<Props> {
     !this.state.collapsed && this.setState({ collapsed: true });
     this.checkCollapsed = true;
     onShowMini && onShowMini();
+    Event.emit("dismissKeyboard");
   }
 
   render() {
@@ -181,6 +188,11 @@ export default class SwipeUpDown extends Component<Props> {
           onClose={() => this.showMini()}
           hasRef={ref => (this.swipeIconRef = ref)}
         />
+        {collapsed &&
+          <TouchableWithoutFeedback onPress={() => this.showFull()}>
+            <View style={{height: this.SWIPE_HEIGHT, width: "100%", position: "absolute", top: 0, left: 10, zIndex: 99}}></View>
+          </TouchableWithoutFeedback>
+        }
         {collapsed ? (
           item ? item : null
         ) : (

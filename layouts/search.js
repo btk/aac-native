@@ -9,6 +9,16 @@ export default class Setting extends React.Component {
     this.state = { text: '' };
   }
 
+  componentDidMount(){
+    Event.on("showKeyboard", () => {
+      this.textInput.focus();
+    });
+
+    Event.on("dismissKeyboard", () => {
+      this.textInput.blur();
+    });
+  }
+
   render() {
     return (
       <TextInput
@@ -22,10 +32,17 @@ export default class Setting extends React.Component {
           fontSize: 15,
           fontFamily: "rubik"
         }}
+        ref={(input) => { this.textInput = input; }}
         onChangeText={(text) => this.setState({text})}
         value={this.state.text}
         placeholderTextColor={"#8E8E93"}
+        autoCorrect={false}
+        blurOnSubmit={true}
+        autoCorrect={false}
+        autoCapitalize={"none"}
+        autoComplete={false}
         placeholder={"Just start typing..."}
+        onBlur={() => Event.emit("showMini")}
         onFocus={() => Event.emit("showFull")}
       />
     );
