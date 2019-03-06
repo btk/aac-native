@@ -48,7 +48,7 @@ export default class App extends React.Component {
       let innerStyleImageCarrier = {};
       if(this.data.color){
         innerStyle = { backgroundColor: this.data.color, borderWidth: 0 };
-        innerStyleText = { fontSize: cardFontSize, color: "#fff", fontWeight: "bold" };
+        innerStyleText = { fontSize: cardFontSize, color: "#fff", fontWeight: "bold", fontFamily: "rubik-bold" };
       }
       if(this.props.size == "small"){
         innerStyle.flexDirection = "row";
@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   cardText: {
+    fontFamily: "rubik",
     textAlign: "center",
     color: "#555"
   },

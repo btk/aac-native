@@ -18,7 +18,7 @@ import Event from '../../js/event';
 
 const MARGIN_TOP = Platform.OS === 'ios' ? 50 : 30;
 const DEVICE_HEIGHT = Dimensions.get('window').height - MARGIN_TOP;
-const REAL_DEVICE_HEIGHT = Dimensions.get('window').height;
+
 type Props = {
   hasRef?: () => void,
   swipeHeight?: number,
@@ -41,8 +41,8 @@ export default class SwipeUpDown extends Component<Props> {
     this.disablePressToShow = props.disablePressToShow;
     this.SWIPE_HEIGHT = props.swipeHeight || 60;
     this._panResponder = null;
-    this.top = DEVICE_HEIGHT - this.SWIPE_HEIGHT;
-    this.height = REAL_DEVICE_HEIGHT;
+    this.top = Dimensions.get('window').height - MARGIN_TOP - this.SWIPE_HEIGHT;
+    this.height = Dimensions.get('window').height;
     this.customStyle = {
       style: {
         top: this.top,
@@ -71,6 +71,13 @@ export default class SwipeUpDown extends Component<Props> {
 
   componentDidMount() {
     this.props.hasRef && this.props.hasRef(this);
+  }
+
+  componentWillReceiveProps(newProps){
+    if(newProps.layout != this.props.layout){
+      console.log("Layout Changed");
+      this.forceUpdate();
+    }
   }
 
   updateNativeProps() {
@@ -105,6 +112,7 @@ export default class SwipeUpDown extends Component<Props> {
   }
 
   _onPanResponderMove(event, gestureState) {
+    let DEVICE_HEIGHT = Dimensions.get('window').height - MARGIN_TOP;
     if (gestureState.dy > 0 && !this.checkCollapsed) {
       // SWIPE DOWN
 
@@ -145,7 +153,6 @@ export default class SwipeUpDown extends Component<Props> {
   showFull() {
     const { onShowFull } = this.props;
     this.customStyle.style.top = 0;
-    //this.customStyle.style.height = DEVICE_HEIGHT;
     this.swipeIconRef &&
       this.swipeIconRef.setState({ icon: images.arrow_down, showIcon: true });
     this.updateNativeProps();
@@ -157,8 +164,7 @@ export default class SwipeUpDown extends Component<Props> {
 
   showMini() {
     const { onShowMini, item } = this.props;
-    this.customStyle.style.top = DEVICE_HEIGHT - this.SWIPE_HEIGHT;
-    //this.customStyle.style.height = item ? this.SWIPE_HEIGHT : 0;
+    this.customStyle.style.top = Dimensions.get('window').height - MARGIN_TOP - this.SWIPE_HEIGHT;
     this.swipeIconRef && this.swipeIconRef.setState({ showIcon: false });
     this.updateNativeProps();
     !this.state.collapsed && this.setState({ collapsed: true });
@@ -177,7 +183,8 @@ export default class SwipeUpDown extends Component<Props> {
         style={[
           styles.wrapSwipe,
           {
-            height: DEVICE_HEIGHT,
+            top: Dimensions.get('window').height - MARGIN_TOP - 80,
+            height: Dimensions.get('window').height - MARGIN_TOP,
             marginTop: MARGIN_TOP
           },
           !item && collapsed && { marginBottom: -200 },
@@ -210,8 +217,8 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
     position: 'absolute',
-    top: DEVICE_HEIGHT - 80,
     left: 0,
-    right: 0
+    right: 0,
+    zIndex: 2
   }
 });

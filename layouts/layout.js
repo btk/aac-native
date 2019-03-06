@@ -18,13 +18,15 @@ export default class App extends React.Component {
     API.gridSize = [3, 5];
     this.state = {
       currentGroup: "general",
-      gridSize: (height > width)?API.gridSize[0]:API.gridSize[1],
+      layout: (height > width)?"portrait":"landscape",
       localizedCardData: this.getLocalizedCardData(API.currentLang)
     };
     Dimensions.addEventListener("change", () => {
+      let { height, width } = Dimensions.get('window');
       this.setState({
-        gridSize: (height > width)?API.gridSize[0]:API.gridSize[1]
+        layout: (height > width)?"portrait":"landscape"
       });
+      console.log(this.state.layout);
     });
   }
 
@@ -47,17 +49,15 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View style={{flex: 1, flexDirection: "column", height: height}}>
-        <View style={{flex: 1, flexDirection: 'column', height: height}}>
-          <Cards
-            group={this.state.currentGroup}
-            gridSize={this.state.gridSize}
-            localizedCardData={this.state.localizedCardData}/>
-          <Groups
-            changeGroup={this.onGroupChanged.bind(this)}
-            gridSize={this.state.gridSize}
-            localizedCardData={this.state.localizedCardData}/>
-        </View>
+      <View style={{flex: 1}}>
+        <Groups
+          changeGroup={this.onGroupChanged.bind(this)}
+          layout={this.state.layout}
+          localizedCardData={this.state.localizedCardData}/>
+        <Cards
+          group={this.state.currentGroup}
+          layout={this.state.layout}
+          localizedCardData={this.state.localizedCardData}/>
         <SwipeUpDown
           item={<Search/>} // Pass props component when collapsed
           onShowMini={() => console.log('mini')}
@@ -66,6 +66,7 @@ export default class App extends React.Component {
           onMoveUp={() => console.log('up')}
           animation={"spring"}
           swipeHeight={80}
+          layout={this.state.layout}
           disablePressToShow={false} // Press item mini to show full
           style={{
             backgroundColor: '#fff', shadowOpacity: 0.3,

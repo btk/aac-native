@@ -5,7 +5,7 @@ import { Text, View, StatusBar } from 'react-native';
 
 import Layout from './layouts/layout';
 import Setup from './layouts/setup';
-import Setting from './layouts/setting';
+
 import { Font } from 'expo';
 
 import API from './api';
@@ -38,11 +38,6 @@ export default class App extends React.Component {
     }).then(() => {
       this.setState({font: true});
     });
-
-    API.event.addListener("setting", (setting) => {
-      this.setState({setting});
-      //this.setState({setup: "start"});
-    });
     this.checkTimeout();
   }
 
@@ -70,11 +65,7 @@ export default class App extends React.Component {
     if(this.state.setup == "start"){
       return(<Setup finished={this.setupFinished.bind(this)}/>);
     }else if(this.state.setup == "done"){
-      if(this.state.setting){
-        return(<Setting/>);
-      }else{
-        return(<Layout language={this.state.currentLang}/>);
-      }
+      return(<Layout language={this.state.currentLang}/>);
     }else{
       return null;
     }

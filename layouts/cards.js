@@ -8,11 +8,9 @@ import API from '../api';
 export default class App extends React.Component {
   constructor(props){
     super(props);
-    console.log("card data", this.props.localizedCardData);
     this.state = {
       group: this.props.group,
       cardData: this.props.localizedCardData.filter(c => c.parents.includes(this.props.group)),
-      gridSize: this.props.gridSize,
       loading: true,
     }
   }
@@ -24,17 +22,12 @@ export default class App extends React.Component {
         cardData: newProps.localizedCardData.filter(c => c.parents.includes(newProps.group)),
         loading: true
       });
-      API.segment.screenWithProperties(newProps.group, {grid: this.state.gridSize});
+      API.segment.screenWithProperties(newProps.group, {layout: this.props.layout});
       setTimeout(() => {
         this.setState({loading: false});
       }, 1);
     }
     //&#10084;
-    if(this.state.gridSize != newProps.gridSize){
-      this.setState({
-        gridSize: newProps.gridSize
-      });
-    }
   }
 
   componentDidMount(){
@@ -42,9 +35,6 @@ export default class App extends React.Component {
   }
 
   render() {
-    let { height, width } = Dimensions.get('window');
-    let gridSize = (height > width)?API.gridSize[0]:API.gridSize[1];
-
     return (
       <View style={styles.cardsCarrier}>
         { this.state.loading &&
@@ -69,7 +59,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   cardsCarrier: {
     flex: 1,
-    backgroundColor: "#fafafa"
+    backgroundColor: "#fafafa",
   },
   loadingPanel: {
     position: "absolute",
@@ -90,6 +80,7 @@ const styles = StyleSheet.create({
   cardsScrollViewInner: {
     flex: 1,
     flexDirection: 'row',
-    flexWrap: "wrap"
+    flexWrap: "wrap",
+    paddingBottom: 200
   }
 });

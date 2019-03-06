@@ -137,6 +137,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 0,
     left: 0,
+    zIndex: 3,
     height: "100%",
     width: "100%",
     backgroundColor: "rgba(108,189,200,0.75)",
@@ -167,7 +168,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fafafa"
   },
   speechInnerText: {
-    margin:10,
+    margin: 10,
     textAlign: "center",
     fontSize: 25,
     color: "#666"
