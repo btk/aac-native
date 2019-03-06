@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Dimensions, Image, Text, ScrollView, Animated, TouchableOpacity } from 'react-native';
+import { StyleSheet, View, Dimensions, Image, Text, ScrollView, Animated, TouchableOpacity, SafeAreaView } from 'react-native';
 import { LinearGradient, Svg } from 'expo';
 
 import API from '../api';
@@ -77,19 +77,13 @@ export default class App extends React.Component {
     })};
 
     return (
-      <View style={styles.carrier}>
+      <SafeAreaView style={{flex: 1, backgroundColor: '#fff'}}>
         <Animated.View style={animationStyle}>
           {this.getStep(this.state.step)}
         </Animated.View>
-      </View>
+      </SafeAreaView>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  carrier: {
-    flex: 1,
-    backgroundColor: "#fff",
-    height: "100%"
-  }
-});
+const styles = StyleSheet.create({});
