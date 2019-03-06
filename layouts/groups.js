@@ -20,11 +20,11 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View style={[styles.groupCarrier, {height: 110}]}>
+      <View style={[styles.groupCarrier, {height: (this.props.layout == "portrait") ? 110 : 70}]}>
         <ScrollView style={{flex: 1}} horizontal={true}>
           {
             this.groupCards.map((card, i) => (
-              <Card data={card} key={i} onPressFunc={this.changeGroup.bind(this)}/>
+              <Card data={card} key={i} size={this.props.layout == "portrait" ? "normal":"small"} onPressFunc={this.changeGroup.bind(this)}/>
             ))
           }
         </ScrollView>

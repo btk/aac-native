@@ -20,6 +20,15 @@ export default class App extends React.Component {
     }
   }
 
+  componentWillMount(){
+    Dimensions.addEventListener("change", () => {
+      let { height, width } = Dimensions.get('window');
+      this.setState({
+        layout: (height > width)?"portrait":"landscape"
+      });
+    });
+  }
+
   componentDidMount(){
     this.animate(0);
     API.segment.screen("setup");
@@ -52,17 +61,17 @@ export default class App extends React.Component {
 
   getStep(step){
     if(step == 0){
-      return (<SetupZero button={this.buttonPress.bind(this)}/>);
+      return (<SetupZero button={this.buttonPress.bind(this)} />);
     }else if(step == 1){
-      return (<SetupOne button={this.buttonPress.bind(this)}/>);
+      return (<SetupOne button={this.buttonPress.bind(this)} />);
     }else if(step == 2){
-      return (<SetupTwo button={this.buttonPress.bind(this)}/>);
+      return (<SetupTwo button={this.buttonPress.bind(this)} />);
     }else if(step == 3){
-      return (<SetupThree button={this.buttonPress.bind(this)}/>);
+      return (<SetupThree button={this.buttonPress.bind(this)} />);
     }else if(step == 4){
-      return (<SetupFour button={this.buttonPress.bind(this)}/>);
+      return (<SetupFour button={this.buttonPress.bind(this)} />);
     }else if(step == 5){
-      return (<SetupFive button={this.buttonPress.bind(this)}/>);
+      return (<SetupFive button={this.buttonPress.bind(this)} />);
     }
   }
 

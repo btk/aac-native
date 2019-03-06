@@ -42,7 +42,7 @@ export default class SwipeUpDown extends Component<Props> {
     this.SWIPE_HEIGHT = props.swipeHeight || 60;
     this._panResponder = null;
     this.top = Dimensions.get('window').height - MARGIN_TOP - this.SWIPE_HEIGHT;
-    this.height = Dimensions.get('window').height;
+    this.height = Dimensions.get('window').height * 2;
     this.customStyle = {
       style: {
         top: this.top,
@@ -184,7 +184,6 @@ export default class SwipeUpDown extends Component<Props> {
           styles.wrapSwipe,
           {
             top: Dimensions.get('window').height - MARGIN_TOP - 80,
-            height: Dimensions.get('window').height - MARGIN_TOP,
             marginTop: MARGIN_TOP
           },
           !item && collapsed && { marginBottom: -200 },
