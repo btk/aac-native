@@ -40,7 +40,7 @@ export default class App extends React.Component {
       let cardFontSize = wideDimention * 0.022;
 
       let ordinaryStyle = { width: width / gridSize, height: width / (gridSize + 1) };
-      let smallStyle = { width: width / gridSize, height: width / (gridSize + 1) / 2};
+      let smallStyle = { width: width / gridSize, height: width / (gridSize + 1) / 2.3};
       let bigStyle = { width: "50%", height: "50%"};
       let xxlStyle = { width: "100%", height: "100%"};
       let innerStyle = {};
@@ -65,7 +65,7 @@ export default class App extends React.Component {
                   <Image source={Assets[this.data.slug]} style={styles.cardImage}/>
                 }
               </View>
-              <View style={styles.cardTextCarrier}>
+              <View style={[styles.cardTextCarrier, {height: this.props.size == "small" ? "100%": "30%"}]}>
                 <Text style={[styles.cardText, innerStyleText]}>{this.data.title}</Text>
               </View>
             </View>
@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
     width: "95%",
     backgroundColor: "#fff",
     borderRadius: 5,
+    borderWidth: 1, borderColor: "#eee",
     alignItems: "center",
     justifyContent: "center",
   },

@@ -117,7 +117,6 @@ export default class SwipeUpDown extends Component<Props> {
       // SWIPE DOWN
 
       this.customStyle.style.top = this.top + gestureState.dy;
-      //this.customStyle.style.height = DEVICE_HEIGHT - gestureState.dy;
       this.swipeIconRef && this.swipeIconRef.setState({
         icon: images.minus
       });
@@ -127,7 +126,6 @@ export default class SwipeUpDown extends Component<Props> {
       // SWIPE UP
       this.top = 0;
       this.customStyle.style.top = DEVICE_HEIGHT + gestureState.dy;
-      //this.customStyle.style.height = -gestureState.dy + this.SWIPE_HEIGHT;
       this.swipeIconRef &&
         this.swipeIconRef.setState({ icon: images.minus, showIcon: true });
       if (this.customStyle.style.top <= DEVICE_HEIGHT / 2) {
@@ -184,7 +182,8 @@ export default class SwipeUpDown extends Component<Props> {
           styles.wrapSwipe,
           {
             top: Dimensions.get('window').height - MARGIN_TOP - 80,
-            marginTop: MARGIN_TOP
+            marginTop: MARGIN_TOP,
+            height: Dimensions.get('window').height * 2
           },
           !item && collapsed && { marginBottom: -200 },
           style

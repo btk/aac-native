@@ -59,7 +59,7 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   cardsCarrier: {
     flex: 1,
-    backgroundColor: "#fafafa",
+    backgroundColor: "#f8f8f8",
   },
   loadingPanel: {
     position: "absolute",

@@ -18,15 +18,29 @@ export default class App extends React.Component {
     this.props.changeGroup(toSlugString);
   }
 
+  openCardManager(){
+    console.log("Open Card Manager");
+  }
+
   render() {
+    let { height, width } = Dimensions.get('window');
+    let gridSize = (height > width)?API.gridSize[0]:API.gridSize[1];
+
     return (
-      <View style={[styles.groupCarrier, {height: (this.props.layout == "portrait") ? 110 : 70}]}>
+      <View style={[styles.groupCarrier, {height: (this.props.layout == "portrait") ? width / (gridSize + 1) + 15 : width / (gridSize + 1) / 2.3 + 15}]}>
         <ScrollView style={{flex: 1}} horizontal={true}>
           {
             this.groupCards.map((card, i) => (
               <Card data={card} key={i} size={this.props.layout == "portrait" ? "normal":"small"} onPressFunc={this.changeGroup.bind(this)}/>
             ))
           }
+          <Card data={{
+        		"type": "group",
+        		"title": "Add More",
+        		"slug": "add",
+        		"parents": [],
+        		"color": "#00CDFF"
+        	}} key={"add"} size={this.props.layout == "portrait" ? "normal":"small"} onPressFunc={this.openCardManager.bind(this)}/>
         </ScrollView>
       </View>
     );
@@ -35,7 +49,7 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   groupCarrier: {
-    backgroundColor: "#fafafa",
+    backgroundColor: "#f5f5f5",
     paddingVertical: 0,
     position: "absolute",
     bottom: 76,
