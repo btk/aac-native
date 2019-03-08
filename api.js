@@ -11,7 +11,7 @@ import Event from './js/event';
 
 // For test cases
 const NETWORK_STATUS = true;
-const _FLUSH = false;
+const _FLUSH = true;
 const _DEVELOPMENT = process.browser;
 const _DEVLANG = "en";
 

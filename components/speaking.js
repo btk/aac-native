@@ -33,7 +33,9 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "column",
     justifyContent: "space-around",
-    alignItems: "center"
+    alignItems: "center",
+    backgroundColor: "#fff",
+    borderRadius: 10
   },
   cardImage: {
     width: "70%",
@@ -44,6 +46,7 @@ const styles = StyleSheet.create({
   cardText: {
     fontSize: 25,
     color: "#555",
+    fontFamily: "rubik",
     textAlign: "center",
     marginHorizontal: "5%"
   }

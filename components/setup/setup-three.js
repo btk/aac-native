@@ -70,14 +70,16 @@ const styles = StyleSheet.create({
     marginHorizontal: "10%",
     marginBottom: 10,
     fontWeight: "700",
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "rubik-bold"
   },
   holderContent: {
     width: "80%",
     color: "#687782",
     fontSize: 18,
     marginHorizontal: "10%",
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "rubik"
   },
   button: {
     width: "80%",
@@ -98,15 +100,18 @@ const styles = StyleSheet.create({
     textAlign: "center",
     borderColor: "#eee",
     marginHorizontal: "10%",
-    marginVertical: 10
+    marginVertical: 10,
+    fontFamily: "rubik"
   },
   buttonText: {
     color: "#fff",
     fontSize: 18,
     fontWeight: "700",
+    fontFamily: "rubik-bold"
   },
   copy: {
     color: "#bbb",
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "rubik"
   }
 });

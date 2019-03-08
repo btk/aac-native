@@ -19,7 +19,7 @@ export default class App extends React.Component {
   render() {
     return (
       <TouchableOpacity onPress={this.props.onPressFunc} style={styles.buttonCarrier}>
-        {false && <MaterialIcons name={iconMap[this.props.type]} size={anchor * 0.13} color="#555"/>}
+        <MaterialIcons name={iconMap[this.props.type]} size={anchor * 0.13} color="rgba(98, 152, 218,1)"/>
       </TouchableOpacity>
     );
   }
@@ -32,6 +32,13 @@ const styles = StyleSheet.create({
     height: anchor * 0.2,
     backgroundColor: "#ffffff",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center", shadowOpacity: 0.3,
+    shadowRadius: 3,
+    shadowOffset: {
+        height: 0,
+        width: 0
+    },
+    //android
+    elevation: 1
   }
 });

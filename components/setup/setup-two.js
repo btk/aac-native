@@ -91,14 +91,16 @@ const styles = StyleSheet.create({
     marginHorizontal: "10%",
     marginBottom: 10,
     fontWeight: "700",
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "rubik-bold"
   },
   holderContent: {
     width: "80%",
     color: "#687782",
     fontSize: 18,
     marginHorizontal: "10%",
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "rubik"
   },
   button: {
     width: "80%",
@@ -113,10 +115,12 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 18,
     fontWeight: "700",
+    fontFamily: "rubik-bold"
   },
   copy: {
     color: "#bbb",
-    textAlign: "center"
+    textAlign: "center",
+    fontFamily: "rubik"
   },
   avatarImage: {
     width: width > height ? (width - 30 * 8) * 0.125 : width * 0.18,

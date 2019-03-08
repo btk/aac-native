@@ -73,7 +73,6 @@ export default class App extends React.Component {
       });
       return (
         <View style={styles.speechInner}>
-          <Text style={styles.speechInnerText}>Choose One!</Text>
           <View style={styles.speechInnerInner}>
             {altArray}
           </View>
@@ -165,11 +164,19 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: "90%",
     height: "90%",
-    backgroundColor: "#fafafa"
+    backgroundColor: '#f8f8f8', shadowOpacity: 0.3,
+    shadowRadius: 3,
+    shadowOffset: {
+        height: 0,
+        width: 0
+    },
+    //android
+    elevation: 1
   },
   speechInnerText: {
     margin: 10,
     textAlign: "center",
+    fontFamily: "rubik",
     fontSize: 25,
     color: "#666"
   },
