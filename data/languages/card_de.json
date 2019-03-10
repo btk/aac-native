@@ -1,49 +1,49 @@
 [
 	{
 		"type": "group",
-		"title": "General",
+		"title": "Täglich",
 		"slug": "general",
 		"parents": [],
 		"color": "#93B4DB"
 	},
 	{
 		"type": "group",
-		"title": "People",
+		"title": "Leute",
 		"slug": "people",
 		"parents": [],
 		"color": "#8CC7D9"
 	},
 	{
 		"type": "group",
-		"title": "Foods",
+		"title": "Lebensmittel",
 		"slug": "foods",
 		"parents": [],
 		"color": "#9B8EC3"
 	},
 	{
 		"type": "group",
-		"title": "Feelings",
+		"title": "Gefühle",
 		"slug": "feelings",
 		"parents": [],
 		"color": "#CC99C4"
 	},
 	{
 		"type": "group",
-		"title": "Activities",
+		"title": "Aktivitäten",
 		"slug": "activities",
 		"parents": [],
 		"color": "#99CCA1"
 	},
 	{
 		"type": "group",
-		"title": "School",
+		"title": "Schule",
 		"slug": "school",
 		"parents": [],
 		"color": "#99CBCC"
 	},
 	{
 		"type": "group",
-		"title": "Numbers",
+		"title": "Zahlen",
 		"slug": "numbers",
 		"parents": [],
 		"color": "#ccc899"

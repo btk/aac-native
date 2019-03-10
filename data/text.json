@@ -131,5 +131,12 @@
 		"tr": "Kullanmaya Başla",
 		"fr": "Commencer à Utiliser",
 		"es": "Comenzar a usar"
+	},
+	"justStartTyping": {
+		"en": "Just start typing...",
+		"de": "Beginne zu tippen...",
+		"tr": "Yazmaya başla...",
+		"fr": "Commencer à écrire...",
+		"es": "Empezar a escribir"
 	}
 }

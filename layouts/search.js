@@ -3,6 +3,7 @@ import { StyleSheet, View, Dimensions, Image, Text, ScrollView, Animated, Toucha
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import Event from '../js/event';
+import API from '../api';
 
 export default class Setting extends React.Component {
   constructor(props) {
@@ -44,7 +45,7 @@ export default class Setting extends React.Component {
           autoCorrect={false}
           autoCapitalize={"none"}
           autoComplete={false}
-          placeholder={"Just start typing..."}
+          placeholder={API.UIText("justStartTyping")}
           onBlur={() => Event.emit("showMini")}
           onFocus={() => Event.emit("showFull")}
         />
