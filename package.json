@@ -25,7 +25,8 @@
     "asset": "node staticAssetRequire.js",
     "test": "jest",
     "web": "webpack-dev-server -d --config ./webpack.config.js  --inline --hot --colors --content-base public/",
-    "build": "NODE_ENV=production webpack -p --config ./webpack.config.js"
+    "build": "NODE_ENV=production webpack -p --config ./webpack.config.js",
+    "emulator": "/Users/burak/Library/Android/sdk/emulator/emulator -avd Nexus_5X_API_21 -netdelay none -netspeed full"
   },
   "jest": {
     "preset": "jest-expo"

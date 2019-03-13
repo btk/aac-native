@@ -49,13 +49,14 @@ export default class App extends React.Component {
 
   render() {
     return (
+      <>
       <View style={{flex: 1}}>
-        <Groups
-          changeGroup={this.onGroupChanged.bind(this)}
-          layout={this.state.layout}
-          localizedCardData={this.state.localizedCardData}/>
         <Cards
           group={this.state.currentGroup}
+          layout={this.state.layout}
+          localizedCardData={this.state.localizedCardData}/>
+        <Groups
+          changeGroup={this.onGroupChanged.bind(this)}
           layout={this.state.layout}
           localizedCardData={this.state.localizedCardData}/>
         <SwipeUpDown
@@ -79,8 +80,9 @@ export default class App extends React.Component {
             elevation: 1
           }} // style for swipe
           />
-        <Announcer/>
       </View>
+      <Announcer/>
+      </>
     );
   }
 }

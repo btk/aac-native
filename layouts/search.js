@@ -44,6 +44,7 @@ export default class Setting extends React.Component {
           blurOnSubmit={true}
           autoCorrect={false}
           autoCapitalize={"none"}
+          disableFullscreenUI={true}
           autoComplete={false}
           placeholder={API.UIText("justStartTyping")}
           onBlur={() => Event.emit("showMini")}

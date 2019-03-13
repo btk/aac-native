@@ -136,10 +136,11 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 0,
     left: 0,
-    zIndex: 3,
+    zIndex: 9,
     height: "100%",
     width: "100%",
     backgroundColor: "rgba(108,189,200,0.75)",
+    elevation: 1
   },
   announcerInner: {
     flex: 1,
