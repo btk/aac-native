@@ -1,0 +1,2846 @@
+[
+	{
+		"type": "group",
+		"title": "普遍",
+		"slug": "general",
+		"parents": [],
+		"color": "#93B4DB"
+	},
+	{
+		"type": "group",
+		"title": "人民",
+		"slug": "people",
+		"parents": [],
+		"color": "#8CC7D9"
+	},
+	{
+		"type": "group",
+		"title": "食物",
+		"slug": "foods",
+		"parents": [],
+		"color": "#9B8EC3"
+	},
+	{
+		"type": "group",
+		"title": "感情",
+		"slug": "feelings",
+		"parents": [],
+		"color": "#CC99C4"
+	},
+	{
+		"type": "group",
+		"title": "活动",
+		"slug": "activities",
+		"parents": [],
+		"color": "#99CCA1"
+	},
+	{
+		"type": "group",
+		"title": "学校",
+		"slug": "school",
+		"parents": [],
+		"color": "#99CBCC"
+	},
+	{
+		"type": "group",
+		"title": "数字",
+		"slug": "numbers",
+		"parents": [],
+		"color": "#ccc899"
+	},
+	{
+		"type": "card",
+		"title": "帮助",
+		"slug": "help",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "您可以帮助我吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我可以帮你吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "饿",
+		"slug": "hungry",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我饿了！"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你饿吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能给我准备一些食物吗?"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "口渴",
+		"slug": "thirsty",
+		"parents": [
+			"general",
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我口渴了！"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你口渴吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能给我水喝吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想喝点东西！"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "厕所",
+		"slug": "toilet",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我需要用厕所!"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能不能带我去厕所吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我需要大便"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我需要小便"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "什么？",
+		"slug": "what",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "你什么意思？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "这意味着什么？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "是",
+		"slug": "yes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "好！"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "可以"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我同意！"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "对"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "不",
+		"slug": "no",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "不！"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "不可以"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不同意！"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "不对"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "你好",
+		"slug": "hello",
+		"parents": [
+			"general"
+		]
+	},
+	{
+		"type": "card",
+		"title": "睡",
+		"slug": "sleep",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我需要睡"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我要睡觉"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "洗澡",
+		"slug": "bath",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我要洗澡"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "帮我洗澡"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "早上",
+		"slug": "morning",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "早安"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "在早上"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "晚上",
+		"slug": "night",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "晚安"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "在晚上"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "听",
+		"slug": "listen",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "听我说"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我正在听你的"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "出去",
+		"slug": "outside",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想出去"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能带我出去吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "衣服",
+		"slug": "clothes",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "穿衣服"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我的衣服很脏"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能给我衣服穿吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能帮我穿衣服吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "家",
+		"slug": "home",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我要回家"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的家"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "受伤",
+		"slug": "hurt",
+		"parents": [
+			"general"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我伤了我自己"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我需要创可贴"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "好痛"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "快乐",
+		"slug": "happy",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很快乐"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到快乐吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "难过",
+		"slug": "sad",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很难过"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到难过吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "累",
+		"slug": "exhausted",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很累"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到累过吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "轻松",
+		"slug": "relaxed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很轻松"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到轻松吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "恋爱",
+		"slug": "inlove",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我恋爱了"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到恋爱吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "压力",
+		"slug": "stressed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我感到压力"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到压力吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "感谢",
+		"slug": "thankful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我感到很感激"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感恩了吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "困惑",
+		"slug": "confused",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很困惑"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到困惑吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "高兴",
+		"slug": "joyful",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很高兴"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到快乐吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "愤怒",
+		"slug": "angry",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很愤怒"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到愤怒吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "聪明",
+		"slug": "smart",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我觉得很聪明"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你觉得聪明吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "害怕",
+		"slug": "afraid",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很害怕"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你害怕吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "羞愧",
+		"slug": "ashamed",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很羞愧"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你羞愧吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "吃惊",
+		"slug": "shocked",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很吃惊"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你吃惊吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "生病",
+		"slug": "sick",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我感觉不舒服"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你觉得不舒服吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "受挫",
+		"slug": "frustrated",
+		"parents": [
+			"feelings"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我很受挫"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你感到受挫吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "苹果",
+		"slug": "apple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃苹果"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃苹果"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃苹果？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃苹果"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "橙子",
+		"slug": "orange",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃橙子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃橙子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃橙子？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃橙子"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "餐具",
+		"slug": "utensils",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "你能帮我用餐具吗？"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能给我餐具吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "水",
+		"slug": "water",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我要喝水"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不要喝水"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要喝水？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢喝水"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "番茄",
+		"slug": "tomato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃番茄"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃番茄"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃番茄？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃番茄"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "马铃薯",
+		"slug": "potato",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃马铃薯"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃马铃薯"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃马铃薯？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃马铃薯"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "牛扒",
+		"slug": "steak",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃牛扒"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃牛扒"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃牛扒？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃牛扒"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "比萨",
+		"slug": "pizza",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃比萨"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃比萨"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃比萨？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃比萨"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "汉堡包",
+		"slug": "hamburger",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃汉堡包"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃汉堡包"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃汉堡包？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃汉堡包"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "薯条",
+		"slug": "fries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃薯条"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃薯条"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃薯条？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃薯条"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "雪糕",
+		"slug": "icecream",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃雪糕"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃雪糕"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃雪糕？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃雪糕"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "曲奇饼",
+		"slug": "cookie",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃曲奇饼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃曲奇饼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃曲奇饼？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃曲奇饼"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "谷类",
+		"slug": "cereal",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃谷类"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃谷类"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃谷类？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃谷类"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "煎鸡蛋",
+		"slug": "friedegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃煎鸡蛋"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃煎鸡蛋"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃煎鸡蛋？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃煎鸡蛋"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "煮鸡蛋",
+		"slug": "boiledegg",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃煮鸡蛋"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃煮鸡蛋"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃煮鸡蛋？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃煮鸡蛋"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "起司",
+		"slug": "cheese",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃起司"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃起司"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃起司？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃起司"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "鸡",
+		"slug": "chicken",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃鸡肉"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃鸡肉"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃鸡肉？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃鸡肉"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "三明治",
+		"slug": "sandwich",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃三明治"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃三明治"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃三明治？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃三明治"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "沙拉",
+		"slug": "salad",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃沙拉"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃沙拉"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃沙拉？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃沙拉"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "面包",
+		"slug": "bread",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃面包"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃面包"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃面包？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃面包"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "胡萝卜",
+		"slug": "carrot",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃胡萝卜"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃胡萝卜"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃胡萝卜？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃胡萝卜"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "糖果",
+		"slug": "candy",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃糖果"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃糖果"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃糖果？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃糖果"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "蛋糕",
+		"slug": "cake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃蛋糕"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃蛋糕"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃蛋糕？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃蛋糕"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "西兰花",
+		"slug": "broccoli",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃西兰花"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃西兰花"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃西兰花？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃西兰花"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "樱桃",
+		"slug": "cherries",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃樱桃"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃樱桃"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃樱桃？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃樱桃"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "豆",
+		"slug": "beans",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃豆子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃豆子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃豆子？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃豆子"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "香蕉",
+		"slug": "banana",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃香蕉"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃香蕉"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃香蕉？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃香蕉"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "巧克力",
+		"slug": "chocolate",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃巧克力"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃巧克力"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃巧克力？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃巧克力"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "可乐",
+		"slug": "coke",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想喝可乐"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想喝可乐"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要喝可乐？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢喝可乐"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "杯形饼",
+		"slug": "cupcake",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃杯形饼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃杯形饼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃杯形饼？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃杯形饼"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "甜甜圈",
+		"slug": "doughnut",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃甜甜圈"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃甜甜圈"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃甜甜圈？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃甜甜圈"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "鱼",
+		"slug": "fish",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃鱼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃鱼"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃鱼？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃鱼"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "寿司",
+		"slug": "sushi",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃寿司"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃寿司"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃寿司？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃寿司"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "玉米",
+		"slug": "corn",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃玉米"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃玉米"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃玉米？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃玉米"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "柠檬",
+		"slug": "lemon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃柠檬"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃柠檬"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃柠檬？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃柠檬"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "芥末",
+		"slug": "mustard",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我用食物要芥末"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想要芥末与我的食物"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你想要一些芥末吗？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢芥末和我的食物"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "桃子",
+		"slug": "peach",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃桃子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃桃子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃桃子？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃桃子"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "菠萝",
+		"slug": "pineapple",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃菠萝"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃菠萝"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃菠萝？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃菠萝"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "覆盆子",
+		"slug": "raspberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃覆盆子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃覆盆子"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃覆盆子？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃覆盆子"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "草莓",
+		"slug": "strawberry",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃草莓"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃草莓"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃草莓？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃草莓"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "西瓜",
+		"slug": "watermelon",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃西瓜"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃西瓜"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃西瓜？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃西瓜"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "葡萄",
+		"slug": "grapes",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃葡萄"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃葡萄"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃葡萄？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃葡萄"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "鳄梨",
+		"slug": "avocado",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃鳄梨"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃鳄梨"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃鳄梨？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃鳄梨"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "饭",
+		"slug": "rice",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃饭"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃饭"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃饭？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃饭"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "意大利面",
+		"slug": "spaghetti",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃意大利面"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃意大利面"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃意大利面？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃意大利面"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "牛奶",
+		"slug": "milk",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想喝牛奶"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想喝牛奶"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要喝牛奶？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢喝牛奶"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "茶",
+		"slug": "tea",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想喝茶"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想喝茶"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要喝茶？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢喝茶"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "蜜糖",
+		"slug": "honey",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃蜜糖"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃蜜糖"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃蜜糖？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃蜜糖"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "羊肉串",
+		"slug": "kebab",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃羊肉串"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃羊肉串"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃羊肉串？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃羊肉串"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "塔克",
+		"slug": "taco",
+		"parents": [
+			"foods"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我想吃塔克"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不想吃塔克"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要不要吃塔克？"
+			},
+			{
+				"symbol": "like",
+				"phrase": "我喜欢吃塔克"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "母亲",
+		"slug": "mother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的母亲"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的母亲"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "父亲",
+		"slug": "father",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的父亲"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的父亲"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "父母",
+		"slug": "parents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的父母"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的父母"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "祖父母",
+		"slug": "grandparents",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的祖父母"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的祖父母"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "哥哥",
+		"slug": "brother",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的哥哥"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的哥哥"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "姐姐",
+		"slug": "sister",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的姐姐"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的姐姐"
+			}
+		]
+	},,
+	{
+		"type": "card",
+		"title": "叔叔",
+		"slug": "uncle",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的叔叔"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的叔叔"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "姑妈",
+		"slug": "aunt",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的姑妈"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的姑妈"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "老师",
+		"slug": "teacher",
+		"parents": [
+			"people",
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的老师"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的老师"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "治疗师",
+		"slug": "therapist",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的治疗师"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的治疗师"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "医生",
+		"slug": "doctor",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的医生"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的医生"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "朋友",
+		"slug": "friends",
+		"parents": [
+			"people"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我爱我的朋友"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我不喜欢我的朋友"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想看看我的朋友"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想跟朋友聊天"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "书",
+		"slug": "book",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我正在读书"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能给我我的书吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "笔记本",
+		"slug": "notebook",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我在笔记本上记笔记"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能给我我的笔记本吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "铅笔",
+		"slug": "pencil",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我用铅笔写着"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你可以给我的铅笔吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "黑板",
+		"slug": "blackboard",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "课",
+		"slug": "lesson",
+		"parents": [
+			"school"
+		]
+	},
+	{
+		"type": "card",
+		"title": "安静",
+		"slug": "quiet",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我需要安静的上课"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你需要安静的上课"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "数学",
+		"slug": "mathematics",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢数学"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想学习数学"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "文学",
+		"slug": "literature",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢文学"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我想学习文学"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "问题",
+		"slug": "question",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我有个问题"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我能问个问题吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "了解",
+		"slug": "understand",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我不了解"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你可以解释一下吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "功课",
+		"slug": "homework",
+		"parents": [
+			"school"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我需要做功课"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你可以帮我做功课吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "走路",
+		"slug": "walking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我们走一走吧"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以走一走吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "跑步",
+		"slug": "running",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢跑步"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以跑步吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "说话",
+		"slug": "talking",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢聊聊天"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以一起聊天吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "读",
+		"slug": "reading",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢读书"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "可以帮我看吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "足球",
+		"slug": "football",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢踢足球"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们来踢足球"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "篮球",
+		"slug": "basketball",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢打篮球"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们来打篮球"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "游泳",
+		"slug": "swimming",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢游泳"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以去游泳吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "网球",
+		"slug": "tennis",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢打网球"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以一起打网球吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "骑自行车",
+		"slug": "cycling",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢骑自行车"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以一起骑自行车吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "溜冰",
+		"slug": "skating",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢溜冰"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你想和我一起滑冰吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "观光",
+		"slug": "sightseeing",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢观光"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我们可以一起去观光吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "视频游戏",
+		"slug": "videogames",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢视频游戏"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "我可以玩视频游戏吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "整理",
+		"slug": "tidying",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢整理我的房间"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你能帮我整理我的房间吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "玩具",
+		"slug": "toys",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢玩我的玩具"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你想玩我的玩具吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "益智玩具",
+		"slug": "puzzle",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢解决益智玩具"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你要一起解决益智玩具吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "漫画",
+		"slug": "comics",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢看漫画书"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你想和我一起漫画吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "棋",
+		"slug": "chess",
+		"parents": [
+			"activities"
+		],
+		"phrases": [
+			{
+				"symbol": "hand",
+				"phrase": "我喜欢下象棋"
+			},
+			{
+				"symbol": "hand",
+				"phrase": "你想和我一起下棋吗？"
+			}
+		]
+	},
+	{
+		"type": "card",
+		"title": "一",
+		"slug": "one",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "二",
+		"slug": "two",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "三",
+		"slug": "three",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "四",
+		"slug": "four",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "五",
+		"slug": "five",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "六",
+		"slug": "six",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "七",
+		"slug": "seven",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "八",
+		"slug": "eight",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "九",
+		"slug": "nine",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "十",
+		"slug": "ten",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "二十",
+		"slug": "twenty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "三十",
+		"slug": "thirty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "四十",
+		"slug": "forty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "五十",
+		"slug": "fifty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "六十",
+		"slug": "sixty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "七十",
+		"slug": "seventy",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "八十",
+		"slug": "eighty",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "九十",
+		"slug": "ninety",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "一百",
+		"slug": "hundred",
+		"parents": [
+			"numbers"
+		]
+	},
+	{
+		"type": "card",
+		"title": "计算器",
+		"slug": "calculator",
+		"parents": [
+			"numbers"
+		]
+	}
+]
