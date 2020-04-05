@@ -6,7 +6,7 @@ import { Text, View, StatusBar } from 'react-native';
 import Layout from './layouts/layout';
 import Setup from './layouts/setup';
 
-import { Font } from 'expo';
+import * as Font from 'expo-font';
 
 import API from './api';
 

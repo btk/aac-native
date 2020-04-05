@@ -1,17 +1,25 @@
 Arguments: 
-  /Users/burak/.nvm/versions/node/v8.10.0/bin/node /usr/local/bin/yarn start
+  C:\Program Files\nodejs\node.exe C:\Users\ileti\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js upgrade
 
 PATH: 
-  /Users/burak/.cargo/bin:/usr/local/opt/opencv@2/bin:/Users/burak/.nvm/versions/node/v8.10.0/bin:/Users/burak/go/workspace/bin:/Users/burak/go/workspace/bin:/bin:/usr/local/opt/gettext/bin:/usr/local/opt/gettext/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Program Files\Git\cmd;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\PuTTY\;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\ComposerSetup\bin;C:\Users\ileti\AppData\Local\Microsoft\WindowsApps;C:\Users\ileti\AppData\Local\GitHubDesktop\bin;C:\Users\ileti\AppData\Roaming\npm;C:\Users\ileti\AppData\Local\atom\bin;C:\Users\ileti\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\ileti\AppData\Local\Microsoft\WindowsApps;C:\Users\ileti\AppData\Roaming\Composer\vendor\bin
 
 Yarn version: 
-  1.5.1
+  1.16.0
 
 Node version: 
-  8.10.0
+  10.16.0
 
 Platform: 
-  darwin x64
+  win32 x64
+
+Trace: 
+  Error: https://github.com/expo/react-native-maps: socket hang up
+      at createHangUpError (_http_client.js:323:15)
+      at TLSSocket.socketOnEnd (_http_client.js:426:23)
+      at TLSSocket.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
 
 npm manifest: 
   {
@@ -38,9 +46,11 @@ npm manifest:
       "eject": "expo eject",
       "android": "expo start --android",
       "ios": "expo start --ios",
+      "asset": "node staticAssetRequire.js",
       "test": "jest",
       "web": "webpack-dev-server -d --config ./webpack.config.js  --inline --hot --colors --content-base public/",
-      "build": "NODE_ENV=production webpack -p --config ./webpack.config.js"
+      "build": "NODE_ENV=production webpack -p --config ./webpack.config.js",
+      "emulator": "/Users/burak/Library/Android/sdk/emulator/emulator -avd Nexus_5X_API_21 -netdelay none -netspeed full"
     },
     "jest": {
       "preset": "jest-expo"
@@ -11372,19 +11382,3 @@ Lockfile:
   yesno@^0.0.1:
     version "0.0.1"
     resolved "https://registry.yarnpkg.com/yesno/-/yesno-0.0.1.tgz#ffbc04ff3d6f99dad24f7463134e9b92ae41bef6"
-
-Trace: 
-  Error: Command failed.
-  Exit code: 1
-  Command: sh
-  Arguments: -c expo start
-  Directory: /Users/burak/Development/aac-native
-  Output:
-  
-      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
-      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
-      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
-      at emitTwo (events.js:126:13)
-      at ChildProcess.emit (events.js:214:7)
-      at maybeClose (internal/child_process.js:925:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)

@@ -1,7 +1,10 @@
 import Storage from 'react-native-storage';
+
 import { AsyncStorage } from 'react-native';
 
-import { Segment, Util, Speech } from 'expo';
+import * as Speech from 'expo-speech';
+
+import * as Localization from 'expo-localization';
 // Check segment credentials
 
 import UIText from './data/text.json';
@@ -11,31 +14,24 @@ import Event from './js/event';
 
 // For test cases
 const NETWORK_STATUS = true;
-const _FLUSH = false;
-const _DEVELOPMENT = process.browser;
+const _FLUSH = true;
+const _DEVELOPMENT = true;
 const _DEVLANG = "";
 
 let storage;
-if(!_DEVELOPMENT){
-	Segment.initialize({androidWriteKey: "xxx", iosWriteKey: "xxx"});
 
-	storage = new Storage({
-		size: 1000,
-		storageBackend: AsyncStorage,
-		defaultExpires: null,
-		enableCache: true,
-		sync: {}
-	});
-
-}else{
-	storage = window.localStorage;
-}
+storage = new Storage({
+	size: 1000,
+	storageBackend: AsyncStorage,
+	defaultExpires: null,
+	enableCache: true,
+	sync: {}
+});
 
 
 class Api {
   constructor(){
 		if(!_DEVELOPMENT){
-			this.segment = Segment;
 		}else{
 			this.segment = {screen: () => {}, trackWithProperties: () => {}, screenWithProperties: () => {}}
 		}
@@ -45,9 +41,6 @@ class Api {
 
     this.initApiCurrents();
     if(_FLUSH){
-			if(_DEVELOPMENT){
-				localStorage.clear();
-			}
 			this.flush();
 		}
   }
@@ -109,7 +102,7 @@ class Api {
 				if(_DEVLANG){ this.currentLang = _DEVLANG; }
     }, err => {
       if(err.name == "NotFoundError"){
-        Util.getCurrentLocaleAsync().then(lang => {
+					lang = Localization.locale;
           this.setData("lang", lang);
           console.log("API: first time lang init", lang);
 					if(lang.includes("tr")){
@@ -122,7 +115,6 @@ class Api {
 						this.currentLang = "en";
 					}
 					if(_DEVLANG){ this.currentLang = _DEVLANG; }
-        });
       }
     });
 
@@ -167,13 +159,11 @@ class Api {
 			pitch: this.speakPitch,
 			rate: this.speakRate
 		});
-		if(!_DEVELOPMENT){
-			Speech.speak(speakText, {
-				language: this.currentLang,
-				pitch: this.speakPitch,
-				rate: this.speakRate
-			});
-		}
+		Speech.speak(speakText, {
+			language: this.currentLang,
+			pitch: this.speakPitch,
+			rate: this.speakRate
+		});
 	}
 
   UIText(identifier, forcedLang){
@@ -198,31 +188,12 @@ class Api {
 	// These are like kinda private;
   // But xxx it, use them in the general app, who cares.
   setData(key, data){
-		// returns promise, might be useful, no need to listen tho.
-		if(_DEVELOPMENT){
-			return new Promise((resolve, reject) => {
-				setTimeout(() => {
-					resolve(storage.setItem(key, data));
-				}, 10);
-			});
-		}else{
-			return storage.save({key, data});
-		}
+		return storage.save({key, data});
   }
 
   getData(key){
     // returns promise
-		if(_DEVELOPMENT){
-			return new Promise((resolve, reject) => {
-				setTimeout(() => {
-					console.log(storage.getItem(key));
-					resolve(storage.getItem(key));
-				}, 10);
-			});
-
-		}else{
-			return storage.load({key});
-		}
+		return storage.load({key});
   }
 }
 

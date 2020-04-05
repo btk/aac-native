@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Dimensions, Image, Text, ScrollView, TouchableOpacity, TextInput, KeyboardAvoidingView } from 'react-native';
-import { LinearGradient, Svg, Speech } from 'expo';
+import * as Speech from 'expo-speech';
 let { height, width } = Dimensions.get('window');
 
 import API from '../../api';
