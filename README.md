@@ -2,8 +2,6 @@
 
 Multilangual react native AAC application for autism or non-verbal spectrum. AAC (Augmentative Alternative Communication) apps help people with autism, special needs or non-verbals. This app is created with picture exchange communication system (PECS) theory.
 
-![](https://raw.githubusercontent.com/btk/aac-native/master/screenshots/IMG_0155.PNG)
-
 The Picture Exchange Communication System, or PECS, allows people with little or no communication abilities to communicate using pictures. People using PECS are taught to approach another person and give them a picture of a desired item in exchange for that item.
 
 See the published [Android app here](https://play.google.com/store/apps/details?id=org.dreamoriented.leeloo).
